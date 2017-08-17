@@ -64,7 +64,13 @@ public class RecommenderSystemDriverTest
 		genericRecommendedFilter.setItemIdList(userIDList);
 		recommendedItemList = genericRecommendedFilter.filter(recommendedItemList);
 		
-		
+		//Printing the Recommender System Recommended Results (Filtered)
+		for(RecommendedItem recommendedItem : recommendedItemList)
+		{
+			System.out.println("User: " + recommendedItem.getUserId() + " " +
+								"Item: " + recommendedItem.getItemId() + " " +
+								"Value: " + recommendedItem.getValue());
+		}
 		
 	}
 }
