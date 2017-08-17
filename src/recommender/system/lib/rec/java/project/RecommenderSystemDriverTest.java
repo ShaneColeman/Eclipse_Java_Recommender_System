@@ -1,5 +1,8 @@
 package recommender.system.lib.rec.java.project;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import net.librec.conf.Configuration;
 import net.librec.data.model.TextDataModel;
 import net.librec.eval.RecommenderEvaluator;
@@ -45,6 +48,14 @@ public class RecommenderSystemDriverTest
 		//Evaluating the Recommender System Model (Algorithm) Results
 		RecommenderEvaluator recommenderEvaluator = new RMSEEvaluator();
 		System.out.println("Root Mean Square Error: " + recommender.evaluate(recommenderEvaluator));
+		
+		//Set ID List (User and Item) of Filter
+		List<String> userIDList = new ArrayList<>();
+		List<String> itemIDList = new ArrayList<>();
+		userIDList.add("1");
+		itemIDList.add("5");
+		
+		
 		
 	}
 }
