@@ -3,6 +3,8 @@ package recommender.system.lib.rec.java.project;
 import net.librec.conf.Configuration;
 import net.librec.data.model.TextDataModel;
 import net.librec.recommender.RecommenderContext;
+import net.librec.similarity.PCCSimilarity;
+import net.librec.similarity.RecommenderSimilarity;
 
 public class RecommenderSystemDriverTest 
 {
@@ -21,5 +23,11 @@ public class RecommenderSystemDriverTest
 		
 		//Building the Recommender System Context (Framework)
 		RecommenderContext recommenderContext = new RecommenderContext(configuration, textDataModel);
+		
+		//Building the Recommender System Similarity 
+		configuration.set("rec.recommender.similarity.key", "item");
+		RecommenderSimilarity recommenderSimilarity = new PCCSimilarity();
+		recommenderSimilarity.buildSimilarityMatrix(textDataModel);
+		recommenderContext.setSimilarity(recommenderSimilarity);
 	}
 }
