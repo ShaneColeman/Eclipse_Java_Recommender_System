@@ -7,9 +7,11 @@ import net.librec.conf.Configuration;
 import net.librec.data.model.TextDataModel;
 import net.librec.eval.RecommenderEvaluator;
 import net.librec.eval.rating.RMSEEvaluator;
+import net.librec.filter.GenericRecommendedFilter;
 import net.librec.recommender.Recommender;
 import net.librec.recommender.RecommenderContext;
 import net.librec.recommender.cf.ItemKNNRecommender;
+import net.librec.recommender.item.RecommendedItem;
 import net.librec.similarity.PCCSimilarity;
 import net.librec.similarity.RecommenderSimilarity;
 
@@ -54,6 +56,13 @@ public class RecommenderSystemDriverTest
 		List<String> itemIDList = new ArrayList<>();
 		userIDList.add("1");
 		itemIDList.add("5");
+		
+		//Filtering the Recommender System Recommended Results
+		List<RecommendedItem> recommendedItemList = recommender.getRecommendedList();
+		GenericRecommendedFilter genericRecommendedFilter = new GenericRecommendedFilter();
+		genericRecommendedFilter.setUserIdList(userIDList);
+		genericRecommendedFilter.setItemIdList(userIDList);
+		recommendedItemList = genericRecommendedFilter.filter(recommendedItemList);
 		
 		
 		
