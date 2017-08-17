@@ -2,7 +2,9 @@ package recommender.system.lib.rec.java.project;
 
 import net.librec.conf.Configuration;
 import net.librec.data.model.TextDataModel;
+import net.librec.recommender.Recommender;
 import net.librec.recommender.RecommenderContext;
+import net.librec.recommender.cf.ItemKNNRecommender;
 import net.librec.similarity.PCCSimilarity;
 import net.librec.similarity.RecommenderSimilarity;
 
@@ -29,5 +31,14 @@ public class RecommenderSystemDriverTest
 		RecommenderSimilarity recommenderSimilarity = new PCCSimilarity();
 		recommenderSimilarity.buildSimilarityMatrix(textDataModel);
 		recommenderContext.setSimilarity(recommenderSimilarity);
+		
+		//Building the Recommender System Model
+		configuration.set("rec.neighbours.knn.number", "5");
+		Recommender recommender = new ItemKNNRecommender();
+		recommender.setContext(recommenderContext);
+		
+		//Executing (running) the Recommender System Model (Algorithm)
+		recommender.recommend(recommenderContext);
+		
 	}
 }
