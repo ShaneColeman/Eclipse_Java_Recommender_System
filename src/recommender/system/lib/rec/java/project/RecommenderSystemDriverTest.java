@@ -2,6 +2,8 @@ package recommender.system.lib.rec.java.project;
 
 import net.librec.conf.Configuration;
 import net.librec.data.model.TextDataModel;
+import net.librec.eval.RecommenderEvaluator;
+import net.librec.eval.rating.RMSEEvaluator;
 import net.librec.recommender.Recommender;
 import net.librec.recommender.RecommenderContext;
 import net.librec.recommender.cf.ItemKNNRecommender;
@@ -39,6 +41,10 @@ public class RecommenderSystemDriverTest
 		
 		//Executing (running) the Recommender System Model (Algorithm)
 		recommender.recommend(recommenderContext);
+		
+		//Evaluating the Recommender System Model (Algorithm) Results
+		RecommenderEvaluator recommenderEvaluator = new RMSEEvaluator();
+		System.out.println("Root Mean Square Error: " + recommender.evaluate(recommenderEvaluator));
 		
 	}
 }
