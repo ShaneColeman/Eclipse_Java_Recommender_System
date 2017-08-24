@@ -25,7 +25,7 @@ import net.librec.recommender.item.RecommendedItem;
 import net.librec.similarity.PCCSimilarity;
 import net.librec.similarity.RecommenderSimilarity;
 
-public class RecommenderSystemDriverTest 
+public class RecommenderSystemDriver 
 {
 	public static String CONFIGURATION_FILE = "conf/librec.properties";
 	
