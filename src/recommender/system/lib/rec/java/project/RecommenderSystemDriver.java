@@ -14,20 +14,27 @@ import net.librec.filter.GenericRecommendedFilter;
 import net.librec.recommender.Recommender;
 import net.librec.recommender.RecommenderContext;
 import net.librec.recommender.baseline.ItemClusterRecommender;
-//import net.librec.recommender.cf.ItemKNNRecommender;
-//import net.librec.recommender.cf.UserKNNRecommender;
+import net.librec.recommender.baseline.MostPopularRecommender;
+import net.librec.recommender.baseline.UserClusterRecommender;
+import net.librec.recommender.cf.ItemKNNRecommender;
+import net.librec.recommender.cf.UserKNNRecommender;
 //import net.librec.recommender.cf.ranking.EALSRecommender;
 import net.librec.recommender.item.RecommendedItem;
 //import net.librec.recommender.item.RecommendedList;
 //import net.librec.similarity.BinaryCosineSimilarity;
 //import net.librec.similarity.CosineSimilarity;
-//import net.librec.similarity.JaccardSimilarity;
+import net.librec.similarity.JaccardSimilarity;
 import net.librec.similarity.PCCSimilarity;
 import net.librec.similarity.RecommenderSimilarity;
 
 public class RecommenderSystemDriver 
 {
-	public static String CONFIGURATION_FILE = "conf/librec.properties";
+	//public static String CONFIGURATION_FILE = "conf/librec.properties";
+	
+	//public static String CONFIGURATION_FILE = "conf/userclusterrecommender.properties";
+	public static String CONFIGURATION_FILE = "conf/itemclusterrecommender.properties";
+	//public static String CONFIGURATION_FILE = "conf/userknnrecommender.properties";
+	//public static String CONFIGURATION_FILE = "conf/itemknnrecommender.properties";
 	
 	public static void main(String[] args) throws Exception
 	{
@@ -64,7 +71,9 @@ public class RecommenderSystemDriver
 		
 		//Building the Recommender System Model
 		//configuration.set("rec.neighbours.knn.number", "5");
+		//Recommender recommender = new UserClusterRecommender();
 		Recommender recommender = new ItemClusterRecommender();
+		//Recommender recommender = new UserKNNRecommender();
 		//Recommender recommender = new ItemKNNRecommender();
 		recommender.setContext(recommenderContext);
 		
