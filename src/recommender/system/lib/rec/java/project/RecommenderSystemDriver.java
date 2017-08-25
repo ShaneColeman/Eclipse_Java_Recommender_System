@@ -32,9 +32,9 @@ public class RecommenderSystemDriver
 	//public static String CONFIGURATION_FILE = "conf/librec.properties";
 	
 	//public static String CONFIGURATION_FILE = "conf/userclusterrecommender.properties";
-	public static String CONFIGURATION_FILE = "conf/itemclusterrecommender.properties";
+	//public static String CONFIGURATION_FILE = "conf/itemclusterrecommender.properties";
 	//public static String CONFIGURATION_FILE = "conf/userknnrecommender.properties";
-	//public static String CONFIGURATION_FILE = "conf/itemknnrecommender.properties";
+	public static String CONFIGURATION_FILE = "conf/itemknnrecommender.properties";
 	
 	public static void main(String[] args) throws Exception
 	{
@@ -72,9 +72,9 @@ public class RecommenderSystemDriver
 		//Building the Recommender System Model
 		//configuration.set("rec.neighbours.knn.number", "5");
 		//Recommender recommender = new UserClusterRecommender();
-		Recommender recommender = new ItemClusterRecommender();
+		//Recommender recommender = new ItemClusterRecommender();
 		//Recommender recommender = new UserKNNRecommender();
-		//Recommender recommender = new ItemKNNRecommender();
+		Recommender recommender = new ItemKNNRecommender();
 		recommender.setContext(recommenderContext);
 		
 		//Executing (running) the Recommender System Model (Algorithm)
