@@ -6,6 +6,8 @@ import java.util.List;
 import java.util.Properties;
 
 import net.librec.conf.Configuration;
+import net.librec.data.convertor.ArffDataConvertor;
+import net.librec.data.model.ArffDataModel;
 import net.librec.data.model.TextDataModel;
 import net.librec.eval.RecommenderEvaluator;
 //import net.librec.eval.ranking.RecallEvaluator;
@@ -55,6 +57,9 @@ public class RecommenderSystemDriver
 		TextDataModel textDataModel = new TextDataModel(configuration);
 		textDataModel.buildDataModel();
 		
+		//ArffDataModel arffDataModel = new ArffDataModel(configuration);
+		//arffDataModel.buildDataModel();
+		
 		/*
 		 * To fix log4j:WARN error
 		 * https://stackoverflow.com/questions/12532339/no-appenders-could-be-found-for-loggerlog4j
@@ -62,11 +67,13 @@ public class RecommenderSystemDriver
 		
 		//Building the Recommender System Context (Framework)
 		RecommenderContext recommenderContext = new RecommenderContext(configuration, textDataModel);
+		//RecommenderContext recommenderContext = new RecommenderContext(configuration, arffDataModel);
 
 		//Building the Recommender System Similarity 
 		//configuration.set("rec.recommender.similarity.key", "item");
 		RecommenderSimilarity recommenderSimilarity = new PCCSimilarity();
 		recommenderSimilarity.buildSimilarityMatrix(textDataModel);
+		//recommenderSimilarity.buildSimilarityMatrix(arffDataModel);
 		recommenderContext.setSimilarity(recommenderSimilarity);
 		
 		//Building the Recommender System Model
