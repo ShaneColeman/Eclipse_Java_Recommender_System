@@ -1,19 +1,16 @@
 package recommender.system.lib.rec.java.project;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
 import java.util.Properties;
 
 import net.librec.conf.Configuration;
 import net.librec.job.RecommenderJob;
 import net.librec.math.algorithm.Randoms;
-import net.librec.recommender.Recommender;
-import net.librec.recommender.cf.ItemKNNRecommender;
 
-public class ItemKNN 
+public class UserItemKNN 
 {
 	public static String CONFIGURATION_FILE = "conf/item_knn.properties";
+	//public static String CONFIGURATION_FILE = "conf/user_knn.properties";
 	
 	public static void main(String[] args) throws Exception
 	{
@@ -22,7 +19,14 @@ public class ItemKNN
 		 * https://stackoverflow.com/questions/12532339/no-appenders-could-be-found-for-loggerlog4j
 		 */
 		
-		System.out.print("ItemKNN.java\n\n");
+		if(CONFIGURATION_FILE == "conf/item_knn.properties")
+		{
+			System.out.println("Item KNN Recommender\n");
+		}
+		else if(CONFIGURATION_FILE == "conf/user_knn.properties")
+		{
+			System.out.println("User KNN Recommender\n");
+		}
 		
 		Configuration configuration = new Configuration();
 		String configurationFilePath = CONFIGURATION_FILE;
@@ -37,6 +41,11 @@ public class ItemKNN
 		RecommenderJob job = new RecommenderJob(configuration);
 		job.runJob();
 
-		System.out.print("Finished");
+		System.out.println("Data Model Class: " + job.getDataModelClass());
+		System.out.println("Recommender Class: " + job.getRecommenderClass());
+		System.out.println("Similarity Class: " + job.getSimilarityClass());
+		System.out.println("Filter Class: " + job.getFilterClass());
+		
+		System.out.println("Finished Recommendation Process");
 	}
 }

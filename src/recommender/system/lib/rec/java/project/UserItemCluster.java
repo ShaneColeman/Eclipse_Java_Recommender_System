@@ -7,9 +7,10 @@ import net.librec.conf.Configuration;
 import net.librec.job.RecommenderJob;
 import net.librec.math.algorithm.Randoms;
 
-public class UserKNN 
+public class UserItemCluster 
 {
-	public static String CONFIGURATION_FILE = "conf/user_knn.properties";
+	public static String CONFIGURATION_FILE = "conf/item_cluster.properties";
+	//public static String CONFIGURATION_FILE = "conf/user_cluster.properties";
 	
 	public static void main(String[] args) throws Exception
 	{
@@ -18,8 +19,14 @@ public class UserKNN
 		 * https://stackoverflow.com/questions/12532339/no-appenders-could-be-found-for-loggerlog4j
 		 */
 		
-		
-		System.out.print("UserKNN.java\n\n");
+		if(CONFIGURATION_FILE == "conf/item_cluster.properties")
+		{
+			System.out.print("Item Cluster Recommender\n\n");
+		}
+		else if(CONFIGURATION_FILE == "conf/user_cluster.properties")
+		{
+			System.out.print("User Cluster Recommender\n\n");
+		}
 		
 		Configuration configuration = new Configuration();
 		String configurationFilePath = CONFIGURATION_FILE;
@@ -34,7 +41,11 @@ public class UserKNN
 		RecommenderJob job = new RecommenderJob(configuration);
 		job.runJob();
 
-		System.out.print("Finished");
+		System.out.println("Data Model Class: " + job.getDataModelClass());
+		System.out.println("Recommender Class: " + job.getRecommenderClass());
+		System.out.println("Similarity Class: " + job.getSimilarityClass());
+		System.out.println("Filter Class: " + job.getFilterClass());
 		
+		System.out.print("Finished Recommendation Process");
 	}
 }
