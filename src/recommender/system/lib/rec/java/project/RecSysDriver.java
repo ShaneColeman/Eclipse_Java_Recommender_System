@@ -33,7 +33,7 @@ public class RecSysDriver
 			
 			while(input.equals("") || !input.equals("a") && !input.equals("b") && !input.equals("c") && !input.equals("d"))
 			{
-				System.out.println("No recommender system classification type selected!\n" + recommenderText);
+				System.out.println("\nNo recommender system classification type selected!\n" + recommenderText);
 				input =  scanner.nextLine();
 			}
 			
@@ -45,26 +45,6 @@ public class RecSysDriver
 				CONFIGURATION_FILE = "conf/user_cluster.properties";
 			else if(input.equals("d"))
 				CONFIGURATION_FILE = "conf/item_cluster.properties";
-			//scanner.close();
-			
-			/*
-			if(CONFIGURATION_FILE.equals("conf/user_knn.properties"))
-			{
-				System.out.println("\n#----------User KNN Recommender----------#");
-			}
-			else if(CONFIGURATION_FILE.equals("conf/item_knn.properties"))
-			{
-				System.out.println("\n#----------Item KNN Recommender----------#");
-			}
-			else if(CONFIGURATION_FILE.equals("conf/user_cluster.properties"))
-			{
-				System.out.println("\n#----------User Cluster Recommender----------#");
-			}
-			else if(CONFIGURATION_FILE.equals("conf/item_cluster.properties"))
-			{
-				System.out.println("\n#----------Item Cluster Recommender----------#");
-			}
-			*/
 			
 			Configuration configuration = new Configuration();
 			
@@ -74,7 +54,7 @@ public class RecSysDriver
 			
 			while(input.equals("") || !input.equals("a") && !input.equals("b"))
 			{
-				System.out.println("No data source selected!" + dataText);
+				System.out.println("\nNo data source selected!" + dataText);
 				input =  scanner.nextLine();
 			}
 			
@@ -90,8 +70,6 @@ public class RecSysDriver
 			}
 			scanner.close();
 			
-			String configurationFilePath = CONFIGURATION_FILE;
-			
 			if(CONFIGURATION_FILE.equals("conf/user_knn.properties"))
 			{
 				System.out.println("\n#----------User KNN Recommender----------#");
@@ -108,6 +86,8 @@ public class RecSysDriver
 			{
 				System.out.println("\n#----------Item Cluster Recommender----------#");
 			}
+			
+			String configurationFilePath = CONFIGURATION_FILE;
 			
 			Properties properties = new Properties();
 			properties.load(new FileInputStream(configurationFilePath));
