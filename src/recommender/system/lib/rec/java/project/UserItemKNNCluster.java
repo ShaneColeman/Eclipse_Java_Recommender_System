@@ -7,10 +7,13 @@ import net.librec.conf.Configuration;
 import net.librec.job.RecommenderJob;
 import net.librec.math.algorithm.Randoms;
 
-public class UserItemCluster 
+public class UserItemKNNCluster 
 {
-	public static String CONFIGURATION_FILE = "conf/item_cluster.properties";
+	//public static String CONFIGURATION_FILE = "conf/user_knn.properties";
+	public static String CONFIGURATION_FILE = "conf/item_knn.properties";
+	
 	//public static String CONFIGURATION_FILE = "conf/user_cluster.properties";
+	//public static String CONFIGURATION_FILE = "conf/item_cluster.properties";
 	
 	public static void main(String[] args) throws Exception
 	{
@@ -19,13 +22,21 @@ public class UserItemCluster
 		 * https://stackoverflow.com/questions/12532339/no-appenders-could-be-found-for-loggerlog4j
 		 */
 		
-		if(CONFIGURATION_FILE == "conf/item_cluster.properties")
+		if(CONFIGURATION_FILE == "conf/user_knn.properties")
 		{
-			System.out.print("Item Cluster Recommender\n\n");
+			System.out.println("User KNN Recommender\n");
+		}
+		else if(CONFIGURATION_FILE == "conf/item_knn.properties")
+		{
+			System.out.println("Item KNN Recommender\n");
 		}
 		else if(CONFIGURATION_FILE == "conf/user_cluster.properties")
 		{
-			System.out.print("User Cluster Recommender\n\n");
+			System.out.println("User Cluster Recommender\n");
+		}
+		else if(CONFIGURATION_FILE == "conf/item_cluster.properties")
+		{
+			System.out.println("Item Cluster Recommender\n");
 		}
 		
 		Configuration configuration = new Configuration();
