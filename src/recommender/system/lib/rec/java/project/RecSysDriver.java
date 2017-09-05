@@ -80,7 +80,7 @@ public class RecSysDriver
 			
 			if(input.equals("a"))
 			{
-				data = "filmtrust/rating";
+				data = "filmtrust";
 				configuration.set("data.input.path", data);
 			}
 			else if(input.equals("b"))
