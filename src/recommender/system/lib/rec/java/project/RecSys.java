@@ -16,7 +16,8 @@ public class RecSys
 	private String input = "";
 	private String data = "";
 	private String similarity = "";
-	private String CONFIGURATION_FILE = "";
+	private String configurationFile = "";
+	
 	private Configuration configuration;
 	private Properties properties;
 	private RecommenderJob recommenderJob;
@@ -69,19 +70,19 @@ public class RecSys
 				
 		while(input.equals("") || !input.equals("a") && !input.equals("b") && !input.equals("c") && !input.equals("d"))
 		{
-			System.err.println("\nNo recommender system classification type selected!");
-			System.out.println(recommenderText);
+			//System.err.println("\nNo recommender system classification type selected!");
+			System.out.println("\nNo recommender system classification type selected!\n" + recommenderText);
 			input =  scanner.nextLine();
 		}
 				
 		if(input.equals("a"))
-			CONFIGURATION_FILE = "conf/user_knn.properties";
+			configurationFile = "conf/user_knn.properties";
 		else if(input.equals("b"))
-			CONFIGURATION_FILE = "conf/item_knn.properties";
+			configurationFile = "conf/item_knn.properties";
 		else if(input.equals("c"))
-			CONFIGURATION_FILE = "conf/user_cluster.properties";
+			configurationFile = "conf/user_cluster.properties";
 		else if(input.equals("d"))
-			CONFIGURATION_FILE = "conf/item_cluster.properties";
+			configurationFile = "conf/item_cluster.properties";
 	}
 	
 	private void dataTXT()
@@ -92,8 +93,8 @@ public class RecSys
 		
 		while(input.equals("") || !input.equals("a") && !input.equals("b"))
 		{
-			System.err.println("\nNo data source selected!");
-			System.out.println(dataText);
+			//System.err.println("\nNo data source selected!");
+			System.out.println("\nNo data source selected!\n" + dataText);
 			input =  scanner.nextLine();
 		}
 		
@@ -111,23 +112,23 @@ public class RecSys
 	
 	private void configurationFile()
 	{
-		if(CONFIGURATION_FILE.equals("conf/user_knn.properties"))
+		if(configurationFile.equals("conf/user_knn.properties"))
 		{
 			similarity();
 			
 			System.out.println("\n#----------User KNN Recommender----------#");
 		}
-		else if(CONFIGURATION_FILE.equals("conf/item_knn.properties"))
+		else if(configurationFile.equals("conf/item_knn.properties"))
 		{
 			similarity();
 			
 			System.out.println("\n#----------Item KNN Recommender----------#");
 		}
-		else if(CONFIGURATION_FILE.equals("conf/user_cluster.properties"))
+		else if(configurationFile.equals("conf/user_cluster.properties"))
 		{
 			System.out.println("\n#----------User Cluster Recommender----------#");
 		}
-		else if(CONFIGURATION_FILE.equals("conf/item_cluster.properties"))
+		else if(configurationFile.equals("conf/item_cluster.properties"))
 		{
 			System.out.println("\n#----------Item Cluster Recommender----------#");
 		}
@@ -135,7 +136,7 @@ public class RecSys
 	
 	private void configurationSetup() throws FileNotFoundException, IOException
 	{
-		String configurationFilePath = CONFIGURATION_FILE;
+		String configurationFilePath = configurationFile;
 		
 		properties = new Properties();
 		properties.load(new FileInputStream(configurationFilePath));
@@ -157,8 +158,8 @@ public class RecSys
 		
 		while(input.equals("") || !input.equals("a") && !input.equals("b"))
 		{
-			System.err.println("\nNo similarity class selected!");
-			System.out.println(similarityText);
+			//System.err.println("\nNo similarity class selected!");
+			System.out.println("\nNo similarity class selected!\n" + similarityText);
 			input =  scanner.nextLine();
 		}
 		
