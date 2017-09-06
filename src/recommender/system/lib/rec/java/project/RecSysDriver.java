@@ -12,6 +12,7 @@ public class RecSysDriver
 {
 	public static String input = "";
 	public static String data = "";
+	public static String similarity = "";
 	public static String CONFIGURATION_FILE = "";
 	
 	public static void main(String[] args) throws Exception
@@ -68,14 +69,58 @@ public class RecSysDriver
 				data = "nvd/txt";
 				configuration.set("data.input.path", data);
 			}
-			scanner.close();
+			//scanner.close();
+			
+			String similarityText = "\nPlease select similarity class type (a or b):" + 
+									"\na. Pearson Correlation Coefficient (PCC)" +
+									"\nb. Jaccard";
 			
 			if(CONFIGURATION_FILE.equals("conf/user_knn.properties"))
 			{
+				System.out.println(similarityText);
+				input = scanner.nextLine();
+				
+				while(input.equals("") || !input.equals("a") && !input.equals("b"))
+				{
+					System.out.println("\nNo similarity class selected!" + similarityText);
+					input =  scanner.nextLine();
+				}
+				
+				if(input.equals("a"))
+				{
+					similarity = "pcc";
+					configuration.set("rec.similarity.class",similarity);
+				}
+				else if(input.equals("b"))
+				{
+					similarity = "jaccard";
+					configuration.set("rec.similarity.class",similarity);
+				}
+				
 				System.out.println("\n#----------User KNN Recommender----------#");
 			}
 			else if(CONFIGURATION_FILE.equals("conf/item_knn.properties"))
 			{
+				System.out.println(similarityText);
+				input = scanner.nextLine();
+				
+				while(input.equals("") || !input.equals("a") && !input.equals("b"))
+				{
+					System.out.println("\nNo similarity class selected!" + similarityText);
+					input =  scanner.nextLine();
+				}
+				
+				if(input.equals("a"))
+				{
+					similarity = "pcc";
+					configuration.set("rec.similarity.class",similarity);
+				}
+				else if(input.equals("b"))
+				{
+					similarity = "jaccard";
+					configuration.set("rec.similarity.class",similarity);
+				}
+				
 				System.out.println("\n#----------Item KNN Recommender----------#");
 			}
 			else if(CONFIGURATION_FILE.equals("conf/user_cluster.properties"))
@@ -86,6 +131,7 @@ public class RecSysDriver
 			{
 				System.out.println("\n#----------Item Cluster Recommender----------#");
 			}
+			scanner.close();
 			
 			String configurationFilePath = CONFIGURATION_FILE;
 			
