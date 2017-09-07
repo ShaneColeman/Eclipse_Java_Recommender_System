@@ -35,7 +35,7 @@ public class RecSys
 			
 			configuration = new Configuration();
 			
-			recommender();
+			recommenderSelector();
 			
 			//configuration = new Configuration();
 			
@@ -59,31 +59,31 @@ public class RecSys
 		}
 	}
 	
-	private void recommender()
+	private void recommenderSelector()
 	{
 		String recommenderText = "Please select recommender system technique:\n" + 
-				 "a. 'User KNN Recommender'\nb. 'Item KNN Recommender'\n" + 
-						"c. 'User Cluster Recommender'\nd. 'Item Cluster Recommender'"; 
-				
-		//scanner = new Scanner(System.in);
+				"\tBaseline Recommendation Algorithms:\n" +
+					"\t\ta. User Cluster Recommender\n\t\tb. Item Cluster Recommender\n" + 
+					"\tCollaborative Filtering Recommendation Algorithms:\n" +
+						"\t\tc. User KNN Recommender\n\t\td. Item KNN Recommender"; 
+
 		System.out.println(recommenderText);
 		input =  scanner.nextLine();
 				
 		while(input.equals("") || !input.equals("a") && !input.equals("b") && !input.equals("c") && !input.equals("d"))
 		{
-			//System.err.println("\nNo recommender system classification type selected!");
 			System.out.println("\nNo recommender system technique selected!\n" + recommenderText);
 			input =  scanner.nextLine();
 		}
 				
 		if(input.equals("a"))
-			configurationFile = "conf/user_knn.properties";
-		else if(input.equals("b"))
-			configurationFile = "conf/item_knn.properties";
-		else if(input.equals("c"))
 			configurationFile = "conf/user_cluster.properties";
-		else if(input.equals("d"))
+		else if(input.equals("b"))
 			configurationFile = "conf/item_cluster.properties";
+		else if(input.equals("c"))
+			configurationFile = "conf/user_knn.properties";
+		else if(input.equals("d"))
+			configurationFile = "conf/item_knn.properties";
 	}
 	
 	private void dataTXT()
@@ -94,7 +94,6 @@ public class RecSys
 		
 		while(input.equals("") || !input.equals("a") && !input.equals("b"))
 		{
-			//System.err.println("\nNo data source selected!");
 			System.out.println("\nNo data source selected!\n" + dataText);
 			input =  scanner.nextLine();
 		}
@@ -113,7 +112,16 @@ public class RecSys
 	
 	private void configurationFile()
 	{
-		if(configurationFile.equals("conf/user_knn.properties"))
+		
+		if(configurationFile.equals("conf/user_cluster.properties"))
+		{
+			System.out.println("\n#----------User Cluster Recommender----------#");
+		}
+		else if(configurationFile.equals("conf/item_cluster.properties"))
+		{
+			System.out.println("\n#----------Item Cluster Recommender----------#");
+		}
+		else if(configurationFile.equals("conf/user_knn.properties"))
 		{
 			similarity();
 			
@@ -128,14 +136,6 @@ public class RecSys
 			setKNNNeighboursNumber();
 			
 			System.out.println("\n#----------Item KNN Recommender----------#");
-		}
-		else if(configurationFile.equals("conf/user_cluster.properties"))
-		{
-			System.out.println("\n#----------User Cluster Recommender----------#");
-		}
-		else if(configurationFile.equals("conf/item_cluster.properties"))
-		{
-			System.out.println("\n#----------Item Cluster Recommender----------#");
 		}
 	}
 	
@@ -163,7 +163,6 @@ public class RecSys
 		
 		while(input.equals("") || !input.equals("a") && !input.equals("b"))
 		{
-			//System.err.println("\nNo similarity class selected!");
 			System.out.println("\nNo similarity class selected!\n" + similarityText);
 			input =  scanner.nextLine();
 		}
