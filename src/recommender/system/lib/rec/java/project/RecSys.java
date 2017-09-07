@@ -16,6 +16,7 @@ public class RecSys
 	private String input = "";
 	private String data = "";
 	private String similarity = "";
+	private String knnNeighboursNumber = "";
 	private String configurationFile = "";
 	
 	private Configuration configuration;
@@ -60,7 +61,7 @@ public class RecSys
 	
 	private void recommender()
 	{
-		String recommenderText = "Please enter recommender system classification type (a, b, c or d):\n" + 
+		String recommenderText = "Please select recommender system technique:\n" + 
 				 "a. 'User KNN Recommender'\nb. 'Item KNN Recommender'\n" + 
 						"c. 'User Cluster Recommender'\nd. 'Item Cluster Recommender'"; 
 				
@@ -71,7 +72,7 @@ public class RecSys
 		while(input.equals("") || !input.equals("a") && !input.equals("b") && !input.equals("c") && !input.equals("d"))
 		{
 			//System.err.println("\nNo recommender system classification type selected!");
-			System.out.println("\nNo recommender system classification type selected!\n" + recommenderText);
+			System.out.println("\nNo recommender system technique selected!\n" + recommenderText);
 			input =  scanner.nextLine();
 		}
 				
@@ -87,7 +88,7 @@ public class RecSys
 	
 	private void dataTXT()
 	{
-		String dataText = "Please select data source (a or b):\na. Filmtrust\nb. NVD";
+		String dataText = "Please select data source:\na. Filmtrust\nb. NVD";
 		System.out.println("\n" + dataText);
 		input =  scanner.nextLine();
 		
@@ -116,11 +117,15 @@ public class RecSys
 		{
 			similarity();
 			
+			setKNNNeighboursNumber();
+			
 			System.out.println("\n#----------User KNN Recommender----------#");
 		}
 		else if(configurationFile.equals("conf/item_knn.properties"))
 		{
 			similarity();
+
+			setKNNNeighboursNumber();
 			
 			System.out.println("\n#----------Item KNN Recommender----------#");
 		}
@@ -149,7 +154,7 @@ public class RecSys
 	
 	private void similarity()
 	{
-		String similarityText = "Please select similarity class type (a or b):" + 
+		String similarityText = "Please select similarity class type:" + 
 				"\na. Pearson Correlation Coefficient (PCC)" +
 				"\nb. Jaccard";
 		
@@ -175,14 +180,63 @@ public class RecSys
 		}
 	}
 	
+	private void setKNNNeighboursNumber()
+	{
+		String knnText = "Please enter the number of KNN neighbours: ";
+		//String knnNeighboursNumberDefault = "50";
+		int knn = 0;
+		int inputInt;
+		
+		System.out.println("\n" + knnText);
+		input = scanner.nextLine();
+		
+		while(input.equals(""))
+		{
+			System.out.println("\nNo number of KNN neighbours entered, please re-enter:");
+			input = scanner.nextLine();
+		}
+		
+		knnNeighboursNumber = input;
+		
+		//Test
+		knn = Integer.parseInt(knnNeighboursNumber);
+		
+		while(knn <= 0)
+		{
+			System.out.println("\nNumber of KNN neighbours cannot be zero or less, please re-enter:");
+			inputInt = scanner.nextInt();
+			knn = inputInt;
+			
+			/*
+			System.out.println("Setting default KNN neighbours from " + knn + " to " + knnNeighboursNumberDefault );
+			knn = Integer.parseInt(knnNeighboursNumberDefault);
+			*/
+		}
+		
+		//knn = Integer.parseInt(knnNeighboursNumberDefault);
+		
+		knnNeighboursNumber = Integer.toString(knn);
+		
+		configuration.set("rec.neighbors.knn.number", knnNeighboursNumber);
+	}
+	
+	private String getKNNNeighboursNumber()
+	{
+		return configuration.get("rec.neighbors.knn.number");
+	}
+	
 	private void recommenderJob() throws ClassNotFoundException, LibrecException, IOException
 	{
 		recommenderJob = new RecommenderJob(configuration);
 		recommenderJob.runJob();
 		
-		System.out.println("\nData Model Class: " + recommenderJob.getDataModelClass() +
+		System.out.println("\n#----------Summary Information----------#");
+		System.out.println("Data Model Class: " + recommenderJob.getDataModelClass() +
 				"\nRecommender Class: " + recommenderJob.getRecommenderClass() +
 				"\nSimilarity Class: " + recommenderJob.getSimilarityClass() +
 				"\nFilter Class: " + recommenderJob.getFilterClass());
+		
+		if(configurationFile.equals("conf/user_knn.properties") || configurationFile.equals("conf/item_knn.properties"))
+			System.out.println("KNN Neighbours Number: " + getKNNNeighboursNumber());
 	}
 }
