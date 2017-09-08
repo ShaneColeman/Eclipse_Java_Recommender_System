@@ -39,7 +39,9 @@ public class RecSys
 			
 			//configuration = new Configuration();
 			
-			dataTXT();
+			dataSelector();
+			
+			//dataTXT();
 			
 			configurationFile();
 			
@@ -69,12 +71,12 @@ public class RecSys
 
 		System.out.println(recommenderText);
 		input =  scanner.nextLine();
-				
+			
 		while(input.equals("") || !input.equals("a") && !input.equals("b") && !input.equals("c") && !input.equals("d"))
 		{
 			System.out.println("\nNo recommender system technique selected!\n" + recommenderText);
 			input =  scanner.nextLine();
-		}
+		}	
 				
 		if(input.equals("a"))
 			configurationFile = "conf/user_cluster.properties";
@@ -86,9 +88,31 @@ public class RecSys
 			configurationFile = "conf/item_knn.properties";
 	}
 	
+	private void dataSelector()
+	{
+		String dataSelectorText = "Please select data format:\na. TXT (Text File Format)" + 
+									"\nb. ARFF (Attribute-Relation File Format)";
+		System.out.println("\n" + dataSelectorText);
+		input = scanner.nextLine();
+		
+		while(input.equals("") || !input.equals("a") && !input.equals("b"))
+		{
+			System.out.println("\nNo data format selected!\n" + dataSelectorText);
+			input = scanner.nextLine();
+		}
+		
+		if(input.equals("a"))
+			dataTXT();
+		else if(input.equals("b"))
+			dataARFF();
+	}
+	
 	private void dataTXT()
 	{
-		String dataText = "Please select data source:\na. Filmtrust\nb. NVD";
+		configuration.set("data.model.format", "text");
+		
+		String dataText = "Please select data source:\na. Filmtrust (Pre-Defined Test Dataset (LibRec))" + 
+							"\nb. National Vulnerability Database (NVD)";
 		System.out.println("\n" + dataText);
 		input =  scanner.nextLine();
 		
@@ -110,9 +134,14 @@ public class RecSys
 		}
 	}
 	
+	private void dataARFF()
+	{
+		System.out.println("\nARFF not initially set up... now terminating application!");
+		System.exit(0);
+	}
+	
 	private void configurationFile()
 	{
-		
 		if(configurationFile.equals("conf/user_cluster.properties"))
 		{
 			System.out.println("\n#----------User Cluster Recommender----------#");
@@ -155,8 +184,8 @@ public class RecSys
 	private void similarity()
 	{
 		String similarityText = "Please select similarity class type:" + 
-				"\na. Pearson Correlation Coefficient (PCC)" +
-				"\nb. Jaccard";
+									"\na. Pearson Correlation Coefficient (PCC)" +
+										"\nb. Jaccard";
 		
 		System.out.println("\n" + similarityText);
 		input = scanner.nextLine();
@@ -231,9 +260,9 @@ public class RecSys
 		
 		System.out.println("\n#----------Summary Information----------#");
 		System.out.println("Data Model Class: " + recommenderJob.getDataModelClass() +
-				"\nRecommender Class: " + recommenderJob.getRecommenderClass() +
-				"\nSimilarity Class: " + recommenderJob.getSimilarityClass() +
-				"\nFilter Class: " + recommenderJob.getFilterClass());
+							"\nRecommender Class: " + recommenderJob.getRecommenderClass() +
+								"\nSimilarity Class: " + recommenderJob.getSimilarityClass() +
+									"\nFilter Class: " + recommenderJob.getFilterClass());
 		
 		if(configurationFile.equals("conf/user_knn.properties") || configurationFile.equals("conf/item_knn.properties"))
 			System.out.println("KNN Neighbours Number: " + getKNNNeighboursNumber());
