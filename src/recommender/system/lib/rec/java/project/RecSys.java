@@ -136,8 +136,14 @@ public class RecSys
 	
 	private void dataARFF()
 	{
+		//configuration.set("data.model.format", "arff");
+		
+		//String dataARFF = "";
+		
+		/*
 		System.out.println("\nARFF not initially set up... now terminating application!");
 		System.exit(0); 
+		*/
 	}
 	
 	private void configurationFile()
