@@ -137,7 +137,7 @@ public class RecSys
 	private void dataARFF()
 	{
 		System.out.println("\nARFF not initially set up... now terminating application!");
-		System.exit(0);
+		System.exit(0); 
 	}
 	
 	private void configurationFile()
