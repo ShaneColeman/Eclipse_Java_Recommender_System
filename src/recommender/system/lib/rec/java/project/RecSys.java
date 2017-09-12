@@ -3,13 +3,18 @@ package recommender.system.lib.rec.java.project;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Properties;
 import java.util.Scanner;
 
 import net.librec.common.LibrecException;
 import net.librec.conf.Configuration;
+import net.librec.data.convertor.ArffDataConvertor;
+import net.librec.data.model.ArffDataModel;
+import net.librec.data.model.ArffInstance;
 import net.librec.job.RecommenderJob;
 import net.librec.math.algorithm.Randoms;
+import net.librec.math.structure.SparseTensor;
 
 public class RecSys 
 {
@@ -33,10 +38,15 @@ public class RecSys
 			
 			scanner = new Scanner(System.in);
 			
-			configuration = new Configuration();
+			//Configuration Instantiation Test Location 1 - (Can remove as not required at this code location)
+			//configuration = new Configuration();
 			
 			recommenderSelector();
 			
+			//Configuration Setup Test Location 1 - (Can remove as not required at this code location)
+			//configurationSetup();
+			
+			//Configuration Instantiation Test Location 2 - (Can remove as not required at this code location)
 			//configuration = new Configuration();
 			
 			dataSelector();
@@ -47,7 +57,8 @@ public class RecSys
 			
 			scanner.close();
 			
-			configurationSetup();
+			//Configuration Setup Test Location 2 - (Can remove as not required at this code location)
+			//configurationSetup();
 			
 			Randoms.seed(2017); 
 			
@@ -57,11 +68,11 @@ public class RecSys
 		}
 		catch(Exception e)
 		{
-			System.err.println("Exception" + e.getMessage());
+			System.err.println("Exception: " + e.getMessage());
 		}
 	}
 	
-	private void recommenderSelector()
+	private void recommenderSelector() throws FileNotFoundException, IOException
 	{
 		String recommenderText = "Please select recommender system technique:\n" + 
 				"\tBaseline Recommendation Algorithms:\n" +
@@ -86,9 +97,24 @@ public class RecSys
 			configurationFile = "conf/user_knn.properties";
 		else if(input.equals("d"))
 			configurationFile = "conf/item_knn.properties";
+		
+		configurationSetup();
 	}
 	
-	private void dataSelector()
+	private void configurationSetup() throws FileNotFoundException, IOException
+	{
+		String configurationFilePath = configurationFile;
+		configuration = new Configuration();
+		properties = new Properties();
+		properties.load(new FileInputStream(configurationFilePath));
+		
+		for(String name: properties.stringPropertyNames())
+		{
+			configuration.set(name, properties.getProperty(name));
+		}
+	}
+	
+	private void dataSelector() throws IOException, LibrecException
 	{
 		String dataSelectorText = "Please select data format:\na. TXT (Text File Format)" + 
 									"\nb. ARFF (Attribute-Relation File Format)";
@@ -134,15 +160,32 @@ public class RecSys
 		}
 	}
 	
-	private void dataARFF()
+	private void dataARFF() throws IOException, LibrecException
 	{
-		//configuration.set("data.model.format", "arff");
+		
+		configuration.set("data.model.format", "arff");
+		
+		configuration.set("data.input.path", "arfftest/data.arff");
+		ArffDataConvertor arffDataConvertor = new ArffDataConvertor(configuration.get("data.input.path"));
+		arffDataConvertor.readData();
+		
+		//SparseTensor sparseTensor = arffDataConvertor.getSparseTensor();
+		//ArrayList<ArffInstance> instances = arffDataConvertor.getInstances();
+		//String s1 = arffDataConvertor.getRelationName();
+		//String s2 = arffDataConvertor.getAttributes().get(0).getName();
+		
+		/*
+		configuration.set("data.model.format", "arff");
+		
+		data = "arfftest/data.arff";
+		configuration.set("data.input.path", data);
+		*/
 		
 		//String dataARFF = "";
 		
 		/*
 		System.out.println("\nARFF not initially set up... now terminating application!");
-		System.exit(0); 
+		System.exit(0);
 		*/
 	}
 	
@@ -171,19 +214,6 @@ public class RecSys
 			setKNNNeighboursNumber();
 			
 			System.out.println("\n#----------Item KNN Recommender----------#");
-		}
-	}
-	
-	private void configurationSetup() throws FileNotFoundException, IOException
-	{
-		String configurationFilePath = configurationFile;
-		
-		properties = new Properties();
-		properties.load(new FileInputStream(configurationFilePath));
-		
-		for(String name: properties.stringPropertyNames())
-		{
-			configuration.set(name, properties.getProperty(name));
 		}
 	}
 	
