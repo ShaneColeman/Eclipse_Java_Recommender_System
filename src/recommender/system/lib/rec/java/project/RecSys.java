@@ -3,18 +3,19 @@ package recommender.system.lib.rec.java.project;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.util.ArrayList;
+//import java.util.ArrayList;
+//import java.util.List;
 import java.util.Properties;
 import java.util.Scanner;
 
 import net.librec.common.LibrecException;
 import net.librec.conf.Configuration;
 import net.librec.data.convertor.ArffDataConvertor;
-import net.librec.data.model.ArffDataModel;
-import net.librec.data.model.ArffInstance;
+//import net.librec.data.model.ArffDataModel;
+//import net.librec.data.model.ArffInstance;
 import net.librec.job.RecommenderJob;
 import net.librec.math.algorithm.Randoms;
-import net.librec.math.structure.SparseTensor;
+//import net.librec.math.structure.SparseTensor;
 
 public class RecSys 
 {
@@ -68,7 +69,8 @@ public class RecSys
 		}
 		catch(Exception e)
 		{
-			System.err.println("Exception: " + e.getMessage());
+			System.err.println("\nException: " + e.getMessage());
+			e.printStackTrace();
 		}
 	}
 	
@@ -138,11 +140,12 @@ public class RecSys
 		configuration.set("data.model.format", "text");
 		
 		String dataText = "Please select data source:\na. Filmtrust (Pre-Defined Test Dataset (LibRec))" + 
-							"\nb. National Vulnerability Database (NVD)";
+							"\nb. National Vulnerability Database (NVD)" + 
+							"\nc. MovieLens";
 		System.out.println("\n" + dataText);
 		input =  scanner.nextLine();
 		
-		while(input.equals("") || !input.equals("a") && !input.equals("b"))
+		while(input.equals("") || !input.equals("a") && !input.equals("b") && !input.equals("c")) 
 		{
 			System.out.println("\nNo data source selected!\n" + dataText);
 			input =  scanner.nextLine();
@@ -158,6 +161,11 @@ public class RecSys
 			data = "nvd/txt";
 			configuration.set("data.input.path", data);
 		}
+		else if(input.equals("c"))
+		{
+			data = "movielens";
+			configuration.set("data.input.path", data);
+		}
 	}
 	
 	private void dataARFF() throws IOException, LibrecException
@@ -165,7 +173,7 @@ public class RecSys
 		
 		configuration.set("data.model.format", "arff");
 		
-		configuration.set("data.input.path", "arfftest/data.arff");
+		configuration.set("data.input.path", "arfftest");
 		ArffDataConvertor arffDataConvertor = new ArffDataConvertor(configuration.get("data.input.path"));
 		arffDataConvertor.readData();
 		
@@ -303,4 +311,18 @@ public class RecSys
 		if(configurationFile.equals("conf/user_knn.properties") || configurationFile.equals("conf/item_knn.properties"))
 			System.out.println("KNN Neighbours Number: " + getKNNNeighboursNumber());
 	}
+	
+	/*
+	//Test Filtering Method
+	private void filter()
+	{
+		List<String> userIDList = new ArrayList<String>();
+		List<String> itemIDList = new ArrayList<String>();
+		
+		userIDList.add("");
+		itemIDList.add("");
+		
+		List<RecommendedItem> recommendedItemList = recommenderJob;
+	}
+	*/
 }
