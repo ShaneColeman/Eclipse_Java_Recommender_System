@@ -94,9 +94,13 @@ public class RecommenderSystemDriver
 		//Set ID List (User and Item) of Filter
 		List<String> userIDList = new ArrayList<>();
 		List<String> itemIDList = new ArrayList<>();
-		userIDList.add("CVE");
+		//FilmTrust Dataset
+		userIDList.add("1");
+		itemIDList.add("70");
+		//NVD Dataset
+		//userIDList.add("CVE");
 		//userIDList.add("CVE-2017-0001");
-		itemIDList.add("CWE-264");
+		//itemIDList.add("CWE-264");
 		
 		//Filtering the Recommender System Recommended Results
 		List<RecommendedItem> recommendedItemList = recommender.getRecommendedList();
@@ -108,9 +112,9 @@ public class RecommenderSystemDriver
 		//Printing the Recommender System Recommended Results (Filtered)
 		for(RecommendedItem recommendedItem : recommendedItemList)
 		{
-			System.out.println("User (CVE ID): " + recommendedItem.getUserId() + " - " +
-								"Item (CWE): " + recommendedItem.getItemId() + " - " +
-								"Value: " + recommendedItem.getValue());
+			System.out.println("User: " + recommendedItem.getUserId() +
+								"\tItem: " + recommendedItem.getItemId() +
+								"\tValue: " + recommendedItem.getValue());
 		}
 
 	}
