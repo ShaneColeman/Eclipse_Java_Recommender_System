@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 import net.librec.common.LibrecException;
 import net.librec.conf.Configuration;
-import net.librec.data.convertor.ArffDataConvertor;
+//import net.librec.data.convertor.ArffDataConvertor;
 //import net.librec.data.model.ArffDataModel;
 //import net.librec.data.model.ArffInstance;
 import net.librec.job.RecommenderJob;
@@ -173,9 +173,12 @@ public class RecSys
 		
 		configuration.set("data.model.format", "arff");
 		
-		configuration.set("data.input.path", "arfftest");
-		ArffDataConvertor arffDataConvertor = new ArffDataConvertor(configuration.get("data.input.path"));
-		arffDataConvertor.readData();
+		configuration.set("data.input.path", "arfftest/data.arff");
+		//ArffDataConvertor arffDataConvertor = new ArffDataConvertor(configuration.get("data.input.path"));
+		//arffDataConvertor.readData();
+		
+		//ArffDataModel arffDataModel = new ArffDataModel(configuration);
+		//arffDataModel.buildDataModel();
 		
 		//SparseTensor sparseTensor = arffDataConvertor.getSparseTensor();
 		//ArrayList<ArffInstance> instances = arffDataConvertor.getInstances();
@@ -201,10 +204,14 @@ public class RecSys
 	{
 		if(configurationFile.equals("conf/user_cluster.properties"))
 		{
+			similarity();
+			
 			System.out.println("\n#----------User Cluster Recommender----------#");
 		}
 		else if(configurationFile.equals("conf/item_cluster.properties"))
 		{
+			similarity();
+			
 			System.out.println("\n#----------Item Cluster Recommender----------#");
 		}
 		else if(configurationFile.equals("conf/user_knn.properties"))
@@ -229,12 +236,14 @@ public class RecSys
 	{
 		String similarityText = "Please select similarity class type:" + 
 									"\na. Pearson Correlation Coefficient (PCC)" +
-										"\nb. Jaccard";
+										"\nb. Jaccard" +
+											"\nc. ExJaccard" +
+												"\nd. Cosine";
 		
 		System.out.println("\n" + similarityText);
 		input = scanner.nextLine();
 		
-		while(input.equals("") || !input.equals("a") && !input.equals("b"))
+		while(input.equals("") || !input.equals("a") && !input.equals("b") && !input.equals("c") && !input.equals("d"))
 		{
 			System.out.println("\nNo similarity class selected!\n" + similarityText);
 			input =  scanner.nextLine();
@@ -248,6 +257,16 @@ public class RecSys
 		else if(input.equals("b"))
 		{
 			similarity = "jaccard";
+			configuration.set("rec.similarity.class",similarity);
+		}
+		else if(input.equals("c"))
+		{
+			similarity = "exjaccard";
+			configuration.set("rec.similarity.class",similarity);
+		}
+		else if(input.equals("d"))
+		{
+			similarity = "cos";
 			configuration.set("rec.similarity.class",similarity);
 		}
 	}
