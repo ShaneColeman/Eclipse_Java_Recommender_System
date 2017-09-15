@@ -105,6 +105,8 @@ public class RecSys
 	
 	private void configurationSetup() throws FileNotFoundException, IOException
 	{
+		//https://www.youtube.com/watch?v=Zoaoc12wms8
+		
 		String configurationFilePath = configurationFile;
 		configuration = new Configuration();
 		properties = new Properties();
@@ -318,6 +320,8 @@ public class RecSys
 	
 	private void recommenderJob() throws ClassNotFoundException, LibrecException, IOException
 	{
+		//https://www.youtube.com/watch?v=Zoaoc12wms8
+		
 		recommenderJob = new RecommenderJob(configuration);
 		recommenderJob.runJob();
 		
