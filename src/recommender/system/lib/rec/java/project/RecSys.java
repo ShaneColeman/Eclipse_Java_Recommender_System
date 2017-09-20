@@ -3,10 +3,15 @@ package recommender.system.lib.rec.java.project;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
 //import java.util.ArrayList;
 //import java.util.List;
 import java.util.Properties;
 import java.util.Scanner;
+
+import org.apache.log4j.lf5.util.Resource;
 
 import net.librec.common.LibrecException;
 import net.librec.conf.Configuration;
@@ -15,6 +20,7 @@ import net.librec.conf.Configuration;
 //import net.librec.data.model.ArffInstance;
 import net.librec.job.RecommenderJob;
 import net.librec.math.algorithm.Randoms;
+import net.librec.recommender.item.RecommendedItem;
 //import net.librec.math.structure.SparseTensor;
 
 public class RecSys 
@@ -30,7 +36,7 @@ public class RecSys
 	private RecommenderJob recommenderJob;
 	private Scanner scanner;
 	
-	public RecSys()
+	public RecSys(String[] args)
 	{
 		try
 		{
@@ -61,11 +67,11 @@ public class RecSys
 			//Configuration Setup Test Location 2 - (Can remove as not required at this code location)
 			//configurationSetup();
 			
-			Randoms.seed(2017); 
+			//Randoms.seed(2017); 
 			
 			recommenderJob();
 			
-			System.out.println("\nFinished Recommendation Process");
+			//System.out.println("\nFinished Recommendation Process");
 		}
 		catch(Exception e)
 		{
@@ -116,6 +122,8 @@ public class RecSys
 		{
 			configuration.set(name, properties.getProperty(name));
 		}
+		
+		System.out.println("\nConfiguration File Path: " + configurationFilePath);
 	}
 	
 	private void dataSelector() throws IOException, LibrecException
@@ -139,7 +147,11 @@ public class RecSys
 	
 	private void dataTXT()
 	{
+		//configuration.set("dfs.data.dir", "data");
+		System.out.println("\nData Directory: " + configuration.get("dfs.data.dir"));
+		
 		configuration.set("data.model.format", "text");
+		System.out.println("\nData Model Format: " + configuration.get("data.model.format"));
 		
 		String dataText = "Please select data source:\na. Filmtrust (Pre-Defined Test Dataset (LibRec))" + 
 							"\nb. National Vulnerability Database (NVD)" + 
@@ -155,18 +167,21 @@ public class RecSys
 		
 		if(input.equals("a"))
 		{
-			data = "filmtrust";
+			data = "filmtrust/rating";
 			configuration.set("data.input.path", data);
+			System.out.println("\nData Input Path: " + configuration.get("data.input.path"));
 		}
 		else if(input.equals("b"))
 		{
 			data = "nvd/txt";
 			configuration.set("data.input.path", data);
+			System.out.println("\nData Input Path: " + configuration.get("data.input.path"));
 		}
 		else if(input.equals("c"))
 		{
 			data = "movielens";
 			configuration.set("data.input.path", data);
+			System.out.println("\nData Input Path: " + configuration.get("data.input.path"));
 		}
 	}
 	
@@ -237,15 +252,23 @@ public class RecSys
 	private void similarity()
 	{
 		String similarityText = "Please select similarity class type:" + 
-									"\na. Pearson Correlation Coefficient (PCC)" +
-										"\nb. Jaccard" +
-											"\nc. ExJaccard" +
-												"\nd. Cosine";
+									"\na. Binary Cosine" +
+										"\nb. Cosine" +
+											"\nc. Constrained Pearson Correlation (CPC)" +
+												"\nd. Mean Square Error (MSE)" +
+													"\ne. Mean Square Difference (MSD)" +
+														"\nf. Pearson Correlation Coefficient (PCC)" +
+															"\ng. Kendall Rank Correlation Coefficient (KRCC)" +
+																"\nh. Dice Coefficient" +
+																	"\ni. Jaccard" +
+																		"\nj. ExJaccard";
 		
 		System.out.println("\n" + similarityText);
 		input = scanner.nextLine();
 		
-		while(input.equals("") || !input.equals("a") && !input.equals("b") && !input.equals("c") && !input.equals("d"))
+		while(input.equals("") || !input.equals("a") && !input.equals("b") && !input.equals("c") && !input.equals("d") &&
+				!input.equals("e") && !input.equals("f") && !input.equals("g") && !input.equals("h") && !input.equals("i") &&
+				!input.equals("j"))
 		{
 			System.out.println("\nNo similarity class selected!\n" + similarityText);
 			input =  scanner.nextLine();
@@ -253,23 +276,63 @@ public class RecSys
 		
 		if(input.equals("a"))
 		{
-			similarity = "pcc";
+			similarity = "bcos";
 			configuration.set("rec.similarity.class",similarity);
+			System.out.println("\nRecommender Similarity Class: " + configuration.get("rec.similarity.class"));
 		}
 		else if(input.equals("b"))
 		{
-			similarity = "jaccard";
+			similarity = "cos";
 			configuration.set("rec.similarity.class",similarity);
+			System.out.println("\nRecommender Similarity Class: " + configuration.get("rec.similarity.class"));
 		}
 		else if(input.equals("c"))
 		{
-			similarity = "exjaccard";
+			similarity = "cpc";
 			configuration.set("rec.similarity.class",similarity);
+			System.out.println("\nRecommender Similarity Class: " + configuration.get("rec.similarity.class"));
 		}
 		else if(input.equals("d"))
 		{
-			similarity = "cos";
+			similarity = "msesim";
 			configuration.set("rec.similarity.class",similarity);
+			System.out.println("\nRecommender Similarity Class: " + configuration.get("rec.similarity.class"));
+		}
+		else if(input.equals("e"))
+		{
+			similarity = "msd";
+			configuration.set("rec.similarity.class",similarity);
+			System.out.println("\nRecommender Similarity Class: " + configuration.get("rec.similarity.class"));
+		}
+		else if(input.equals("f"))
+		{
+			similarity = "pcc";
+			configuration.set("rec.similarity.class",similarity);
+			System.out.println("\nRecommender Similarity Class: " + configuration.get("rec.similarity.class"));
+		}
+		else if(input.equals("g"))
+		{
+			similarity = "krcc";
+			configuration.set("rec.similarity.class",similarity);
+			System.out.println("\nRecommender Similarity Class: " + configuration.get("rec.similarity.class"));
+		}
+		else if(input.equals("h"))
+		{
+			similarity = "dice";
+			configuration.set("rec.similarity.class",similarity);
+			System.out.println("\nRecommender Similarity Class: " + configuration.get("rec.similarity.class"));
+		}
+		else if(input.equals("i"))
+		{
+			similarity = "jaccard";
+			configuration.set("rec.similarity.class",similarity);
+			System.out.println("\nRecommender Similarity Class: " + configuration.get("rec.similarity.class"));
+		}
+		else if(input.equals("j"))
+		{
+			similarity = "exjaccard";
+			configuration.set("rec.similarity.class",similarity);
+			System.out.println("\nRecommender Similarity Class: " + configuration.get("rec.similarity.class"));
 		}
 	}
 	
@@ -311,6 +374,8 @@ public class RecSys
 		knnNeighboursNumber = Integer.toString(knn);
 		
 		configuration.set("rec.neighbors.knn.number", knnNeighboursNumber);
+		
+		System.out.println("\nNumber of KNN Neighbours: " + getKNNNeighboursNumber());
 	}
 	
 	private String getKNNNeighboursNumber()
@@ -322,8 +387,15 @@ public class RecSys
 	{
 		//https://www.youtube.com/watch?v=Zoaoc12wms8
 		
+		//Test Code - Can remove if it does not work
+		//Configuration.Resource resource = new Configuration.Resource("rec/cf/itemknn-test.properties");
+		//configuration.addResource(resource);
+		//configuration.set("rec.recommender.verbose", "true");
+		
+		Randoms.seed(201709); 
 		recommenderJob = new RecommenderJob(configuration);
 		recommenderJob.runJob();
+		System.out.println("\nFinished Recommendation Process");
 		
 		System.out.println("\n#----------Summary Information----------#");
 		System.out.println("Data Model Class: " + recommenderJob.getDataModelClass() +
@@ -333,10 +405,28 @@ public class RecSys
 		
 		if(configurationFile.equals("conf/user_knn.properties") || configurationFile.equals("conf/item_knn.properties"))
 			System.out.println("KNN Neighbours Number: " + getKNNNeighboursNumber());
+		
+		//saveRecommenderResults();
 	}
 	
 	/*
-	//Test Filtering Method
+	//Test saveRecommenderResults() Method
+	public void saveRecommenderResults() throws ClassNotFoundException, LibrecException, IOException
+	{
+		List<RecommendedItem> recommendedItemList = new ArrayList<RecommendedItem>();
+		recommenderJob.saveResult(recommendedItemList);
+		System.out.println("Size: " + recommendedItemList.size());
+		
+		Iterator<RecommendedItem> iterator = recommendedItemList.iterator();
+		while(iterator.hasNext())
+		{
+			System.out.println("\nRecommended List: " + iterator.next());
+		}
+	}
+	*/
+	
+	/*
+	//Test filter() Method
 	private void filter()
 	{
 		List<String> userIDList = new ArrayList<String>();
