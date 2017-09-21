@@ -221,19 +221,19 @@ public class RecSys
 	{
 		if(configurationFile.equals("conf/user_cluster.properties"))
 		{
-			similarity();
+			similaritySelector();
 			
 			System.out.println("\n#----------User Cluster Recommender----------#");
 		}
 		else if(configurationFile.equals("conf/item_cluster.properties"))
 		{
-			similarity();
+			similaritySelector();
 			
 			System.out.println("\n#----------Item Cluster Recommender----------#");
 		}
 		else if(configurationFile.equals("conf/user_knn.properties"))
 		{
-			similarity();
+			similaritySelector();
 			
 			setKNNNeighboursNumber();
 			
@@ -241,15 +241,17 @@ public class RecSys
 		}
 		else if(configurationFile.equals("conf/item_knn.properties"))
 		{
-			similarity();
+			similaritySelector();
 
 			setKNNNeighboursNumber();
+			
+			evaluator();
 			
 			System.out.println("\n#----------Item KNN Recommender----------#");
 		}
 	}
 	
-	private void similarity()
+	private void similaritySelector()
 	{
 		String similarityText = "Please select similarity class type:" + 
 									"\na. Binary Cosine" +
@@ -381,6 +383,71 @@ public class RecSys
 	private String getKNNNeighboursNumber()
 	{
 		return configuration.get("rec.neighbors.knn.number");
+	}
+	
+	private void evaluator()
+	{
+		String ratingRankingSelectorText = "Please select recommender evaluator type: " +
+												"\na. Rating" +
+													"\nb. Ranking";
+		System.out.println("\n" + ratingRankingSelectorText);
+		input = scanner.nextLine();
+		
+		while(input.equals("") || !input.equals("a") && !input.equals("b"))
+		{
+			System.out.println("\nNo recommender evaluator type selected!\n" + ratingRankingSelectorText);
+			input = scanner.nextLine();
+		}
+		
+		if(input.equals("a"))
+		{
+			configuration.set("rec.eval.enable", "true");
+			configuration.set("rec.recommender.isranking","false");
+			
+			String ratingEvaluatorSelectorText = "Please select rating evaluator: " +
+													"\na. All Rating Evaluators" +
+														"\nb. MAE" +
+															"\nc. MPE" +
+																"\nd. MSE" + 
+																	"\ne. RSME";
+			System.out.println("\n" + ratingEvaluatorSelectorText);
+			input = scanner.nextLine();
+			
+			while(input.equals("") || !input.equals("a") && !input.equals("b") && !input.equals("c") && !input.equals("d")
+					&& !input.equals("e"))
+			{
+				System.out.println("\nNo rating evaluator selected!\n" + ratingEvaluatorSelectorText);
+				input = scanner.nextLine();
+			}
+			
+			if(input.equals("a"))
+			{
+				configuration.set("rec.eval.classes", "");
+			}	
+			else if(input.equals("b"))
+			{
+				configuration.set("rec.eval.classes", "mae");
+			}	
+			else if(input.equals("c"))
+			{
+				configuration.set("rec.eval.classes", "mpe");
+			}	
+			else if(input.equals("d"))
+			{
+				configuration.set("rec.eval.classes", "mse");
+			}	
+			else if(input.equals("e"))
+			{
+				configuration.set("rec.eval.classes", "rmse");
+			}	
+		}
+		else if(input.equals("b"))
+		{
+			configuration.set("rec.eval.enable", "true");
+			configuration.set("rec.recommender.isranking","true");
+			configuration.set("rec.eval.classes", "");
+			configuration.set("rec.recommender.ranking.topn", "10");
+		}
 	}
 	
 	private void recommenderJob() throws ClassNotFoundException, LibrecException, IOException
