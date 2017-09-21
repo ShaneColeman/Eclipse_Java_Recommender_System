@@ -1619,3 +1619,135 @@ Evaluator value:MPE is 0.9647191645498165
 Evaluator value:RMSE is 0.8267939987718822
 Evaluator value:MSE is 0.6835883164051991
 Result path is result/filmtrust/rating-itemknn-output/itemknn
+Dataset: data/filmtrust/rating
+All dataset files [data\filmtrust\rating\ratings_0.txt, data\filmtrust\rating\ratings_1.txt, data\filmtrust\rating\ratings_2.txt, data\filmtrust\rating\ratings_3.txt]
+All dataset files size 411942
+Now loading dataset file ratings_0
+Now loading dataset file ratings_1
+Now loading dataset file ratings_2
+Now loading dataset file ratings_3
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 28408
+Data size of testing is 7086
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator value:MAE is 0.6334701522114954
+Evaluator value:MPE is 0.967682754727632
+Evaluator value:RMSE is 0.835333365926983
+Evaluator value:MSE is 0.697781832230903
+Result path is result/filmtrust/rating-itemknn-output/itemknn
+Dataset: data/filmtrust/rating
+All dataset files [data\filmtrust\rating\ratings_0.txt, data\filmtrust\rating\ratings_1.txt, data\filmtrust\rating\ratings_2.txt, data\filmtrust\rating\ratings_3.txt]
+All dataset files size 411942
+Now loading dataset file ratings_0
+Now loading dataset file ratings_1
+Now loading dataset file ratings_2
+Now loading dataset file ratings_3
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 28408
+Data size of testing is 7086
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:AUCEvaluator is 0.7857158342219543
+Result path is result/filmtrust/rating-itemknn-output/itemknn
+Dataset: data/filmtrust/rating
+All dataset files [data\filmtrust\rating\ratings_0.txt, data\filmtrust\rating\ratings_1.txt, data\filmtrust\rating\ratings_2.txt, data\filmtrust\rating\ratings_3.txt]
+All dataset files size 411942
+Now loading dataset file ratings_0
+Now loading dataset file ratings_1
+Now loading dataset file ratings_2
+Now loading dataset file ratings_3
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 28408
+Data size of testing is 7086
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:AUCEvaluator is 0.9996681036397682
+Result path is result/filmtrust/rating-itemknn-output/itemknn
+Dataset: data/filmtrust/rating
+All dataset files [data\filmtrust\rating\ratings_0.txt, data\filmtrust\rating\ratings_1.txt, data\filmtrust\rating\ratings_2.txt, data\filmtrust\rating\ratings_3.txt]
+All dataset files size 411942
+Now loading dataset file ratings_0
+Now loading dataset file ratings_1
+Now loading dataset file ratings_2
+Now loading dataset file ratings_3
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 28408
+Data size of testing is 7086
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:RecallEvaluator is 0.5537714500135
+Result path is result/filmtrust/rating-itemknn-output/itemknn
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.txt]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80019
+Data size of testing is 19981
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:PrecisionEvaluator is 0.27104984093319096
+Result path is result/movielens-itemknn-output/itemknn
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.txt]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80019
+Data size of testing is 19981
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:PrecisionEvaluator is 0.26373276776245874
+Result path is result/movielens-itemknn-output/itemknn
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.txt]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80019
+Data size of testing is 19981
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:PrecisionEvaluator is 0.8374337221633077
+Result path is result/movielens-itemknn-output/itemknn
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.txt]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80019
+Data size of testing is 19981
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:MAEEvaluator is 0.7828531824003033
+Result path is result/movielens-itemknn-output/itemknn
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.txt]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80019
+Data size of testing is 19981
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:RMSEEvaluator is 0.9185269512645862
+Result path is result/movielens-itemknn-output/itemknn
