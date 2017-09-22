@@ -27,13 +27,13 @@ public class RecSys
 {
 	private String input = "";
 	private String data = "";
-	private String similarity = "";
-	private String knnNeighboursNumber = "";
+	//private String similarity = "";
+	//private String knnNeighboursNumber = "";
 	private String configurationFile = "";
 	
 	private Configuration configuration;
-	private Properties properties;
-	private RecommenderJob recommenderJob;
+	//private Properties properties;
+	//private RecommenderJob recommenderJob;
 	private Scanner scanner;
 	
 	public RecSys(String[] args)
@@ -113,9 +113,10 @@ public class RecSys
 	{
 		//https://www.youtube.com/watch?v=Zoaoc12wms8
 		
-		String configurationFilePath = configurationFile;
 		configuration = new Configuration();
-		properties = new Properties();
+		
+		String configurationFilePath = configurationFile;
+		Properties properties = new Properties();
 		properties.load(new FileInputStream(configurationFilePath));
 		
 		for(String name: properties.stringPropertyNames())
@@ -151,7 +152,7 @@ public class RecSys
 		System.out.println("\nData Directory: " + configuration.get("dfs.data.dir"));
 		
 		configuration.set("data.model.format", "text");
-		System.out.println("\nData Model Format: " + configuration.get("data.model.format"));
+		System.out.println("Data Model Format: " + configuration.get("data.model.format"));
 		
 		String dataText = "Please select data source:\na. Filmtrust (Pre-Defined Test Dataset (LibRec))" + 
 							"\nb. National Vulnerability Database (NVD)" + 
@@ -223,11 +224,15 @@ public class RecSys
 		{
 			similaritySelector();
 			
+			//evaluator();
+			
 			System.out.println("\n#----------User Cluster Recommender----------#");
 		}
 		else if(configurationFile.equals("conf/item_cluster.properties"))
 		{
 			similaritySelector();
+			
+			//evaluator();
 			
 			System.out.println("\n#----------Item Cluster Recommender----------#");
 		}
@@ -235,7 +240,9 @@ public class RecSys
 		{
 			similaritySelector();
 			
-			setKNNNeighboursNumber();
+			//setKNNNeighboursNumber();
+			
+			evaluator();
 			
 			System.out.println("\n#----------User KNN Recommender----------#");
 		}
@@ -243,7 +250,7 @@ public class RecSys
 		{
 			similaritySelector();
 
-			setKNNNeighboursNumber();
+			//setKNNNeighboursNumber();
 			
 			evaluator();
 			
@@ -253,17 +260,18 @@ public class RecSys
 	
 	private void similaritySelector()
 	{
+		String similarity = "";
 		String similarityText = "Please select similarity class type:" + 
-									"\na. Binary Cosine" +
-										"\nb. Cosine" +
-											"\nc. Constrained Pearson Correlation (CPC)" +
-												"\nd. Mean Square Error (MSE)" +
-													"\ne. Mean Square Difference (MSD)" +
-														"\nf. Pearson Correlation Coefficient (PCC)" +
-															"\ng. Kendall Rank Correlation Coefficient (KRCC)" +
-																"\nh. Dice Coefficient" +
-																	"\ni. Jaccard" +
-																		"\nj. ExJaccard";
+									"\na. Binary Cosine (bcos)" +
+										"\nb. Cosine (cos)" +
+											"\nc. Constrained Pearson Correlation (cpc)" +
+												"\nd. Mean Square Error (msesim)" +
+													"\ne. Mean Square Difference (msd)" +
+														"\nf. Pearson Correlation Coefficient (pcc)" +
+															"\ng. Kendall Rank Correlation Coefficient (krcc)" +
+																"\nh. Dice Coefficient (dice)" +
+																	"\ni. Jaccard (jaccard)" +
+																		"\nj. ExJaccard (exjaccard)";
 		
 		System.out.println("\n" + similarityText);
 		input = scanner.nextLine();
@@ -340,11 +348,11 @@ public class RecSys
 	
 	private void setKNNNeighboursNumber()
 	{
-		String knnText = "Please enter the number of KNN neighbours: ";
-		//String knnNeighboursNumberDefault = "50";
+		String knnNeighboursNumber = "";
 		int knn = 0;
-		int inputInt;
+		int inputInt = 0;
 		
+		String knnText = "Please enter the number of KNN neighbours: ";
 		System.out.println("\n" + knnText);
 		input = scanner.nextLine();
 		
@@ -354,6 +362,8 @@ public class RecSys
 			input = scanner.nextLine();
 		}
 		
+		if(!input.equals(""))
+		{
 		knnNeighboursNumber = input;
 		
 		//Test
@@ -364,20 +374,14 @@ public class RecSys
 			System.out.println("\nNumber of KNN neighbours cannot be zero or less, please re-enter:");
 			inputInt = scanner.nextInt();
 			knn = inputInt;
-			
-			/*
-			System.out.println("Setting default KNN neighbours from " + knn + " to " + knnNeighboursNumberDefault );
-			knn = Integer.parseInt(knnNeighboursNumberDefault);
-			*/
 		}
-		
-		//knn = Integer.parseInt(knnNeighboursNumberDefault);
 		
 		knnNeighboursNumber = Integer.toString(knn);
 		
 		configuration.set("rec.neighbors.knn.number", knnNeighboursNumber);
 		
 		System.out.println("\nNumber of KNN Neighbours: " + getKNNNeighboursNumber());
+		}
 	}
 	
 	private String getKNNNeighboursNumber()
@@ -404,6 +408,9 @@ public class RecSys
 			configuration.set("rec.eval.enable", "true");
 			configuration.set("rec.recommender.isranking","false");
 			
+			System.out.println("\nRecommender Evaluation Enabled: " + configuration.get("rec.eval.enable"));
+			System.out.println("Recommender (Is Ranking?): " + configuration.get("rec.recommender.isranking"));
+			
 			String ratingEvaluatorSelectorText = "Please select rating evaluator: " +
 													"\na. All Rating Evaluators" +
 														"\nb. MAE" +
@@ -423,30 +430,113 @@ public class RecSys
 			if(input.equals("a"))
 			{
 				configuration.set("rec.eval.classes", "");
+				System.out.println("\nRecommender Evaluation Class: " + configuration.get("rec.eval.classes"));
 			}	
 			else if(input.equals("b"))
 			{
 				configuration.set("rec.eval.classes", "mae");
+				System.out.println("\nRecommender Evaluation Class: " + configuration.get("rec.eval.classes"));
 			}	
 			else if(input.equals("c"))
 			{
 				configuration.set("rec.eval.classes", "mpe");
+				System.out.println("\nRecommender Evaluation Class: " + configuration.get("rec.eval.classes"));
 			}	
 			else if(input.equals("d"))
 			{
 				configuration.set("rec.eval.classes", "mse");
+				System.out.println("\nRecommender Evaluation Class: " + configuration.get("rec.eval.classes"));
 			}	
 			else if(input.equals("e"))
 			{
 				configuration.set("rec.eval.classes", "rmse");
+				System.out.println("\nRecommender Evaluation Class: " + configuration.get("rec.eval.classes"));
 			}	
 		}
 		else if(input.equals("b"))
 		{
+			String topN = "3";
+			
 			configuration.set("rec.eval.enable", "true");
 			configuration.set("rec.recommender.isranking","true");
-			configuration.set("rec.eval.classes", "");
-			configuration.set("rec.recommender.ranking.topn", "10");
+			
+			System.out.println("\nRecommender Evaluation Enabled: " + configuration.get("rec.eval.enable"));
+			System.out.println("Recommender (Is Ranking?): " + configuration.get("rec.recommender.isranking"));
+			
+			String rankingEvaluatorSelectorText = "Please select rating evaluator: " +
+													"\na. All Ranking Evaluators" + 
+														"\nb. AUC" +
+															"\nc. AP" +
+																"\nd. NDCG" +
+																	"\ne. PRECISION" +
+																		"\nf. RECALL" +
+																			"\ng. RR";
+			System.out.println("\n" + rankingEvaluatorSelectorText);
+			input = scanner.nextLine();
+			
+			while(input.equals("") || !input.equals("a") && !input.equals("b") && !input.equals("c") && !input.equals("d") 
+					&& !input.equals("e") && !input.equals("f") && !input.equals("g"))
+			{
+				System.out.println("\nNo rating evaluator selected!\n" + rankingEvaluatorSelectorText);
+				input = scanner.nextLine();
+			}
+			
+			if(input.equals("a"))
+			{
+				configuration.set("rec.eval.classes", "");
+				configuration.set("rec.recommender.ranking.topn", topN);
+				
+				System.out.println("\nRecommender Evaluation Class: " + configuration.get("rec.eval.classes"));
+				System.out.println("Recommender Ranking Top N: " + configuration.get("rec.recommender.ranking.topn"));
+			}
+			else if(input.equals("b"))
+			{
+				configuration.set("rec.eval.classes", "auc");
+				configuration.set("rec.recommender.ranking.topn", topN);
+				
+				System.out.println("\nRecommender Evaluation Class: " + configuration.get("rec.eval.classes"));
+				System.out.println("Recommender Ranking Top N: " + configuration.get("rec.recommender.ranking.topn"));
+			}
+			else if(input.equals("c"))
+			{
+				configuration.set("rec.eval.classes", "ap");
+				configuration.set("rec.recommender.ranking.topn", topN);
+				
+				System.out.println("\nRecommender Evaluation Class: " + configuration.get("rec.eval.classes"));
+				System.out.println("Recommender Ranking Top N: " + configuration.get("rec.recommender.ranking.topn"));
+			}
+			else if(input.equals("d"))
+			{
+				configuration.set("rec.eval.classes", "ndcg");
+				configuration.set("rec.recommender.ranking.topn", topN);
+				
+				System.out.println("\nRecommender Evaluation Class: " + configuration.get("rec.eval.classes"));
+				System.out.println("Recommender Ranking Top N: " + configuration.get("rec.recommender.ranking.topn"));
+			}
+			else if(input.equals("e"))
+			{
+				configuration.set("rec.eval.classes", "precision");
+				configuration.set("rec.recommender.ranking.topn", topN);
+				
+				System.out.println("\nRecommender Evaluation Class: " + configuration.get("rec.eval.classes"));
+				System.out.println("Recommender Ranking Top N: " + configuration.get("rec.recommender.ranking.topn"));
+			}
+			else if(input.equals("f"))
+			{
+				configuration.set("rec.eval.classes", "recall");
+				configuration.set("rec.recommender.ranking.topn", topN);
+				
+				System.out.println("\nRecommender Evaluation Class: " + configuration.get("rec.eval.classes"));
+				System.out.println("Recommender Ranking Top N: " + configuration.get("rec.recommender.ranking.topn"));
+			}
+			else if(input.equals("g"))
+			{
+				configuration.set("rec.eval.classes", "rr");
+				configuration.set("rec.recommender.ranking.topn", topN);
+				
+				System.out.println("\nRecommender Evaluation Class: " + configuration.get("rec.eval.classes"));
+				System.out.println("Recommender Ranking Top N: " + configuration.get("rec.recommender.ranking.topn"));
+			}
 		}
 	}
 	
@@ -460,7 +550,7 @@ public class RecSys
 		//configuration.set("rec.recommender.verbose", "true");
 		
 		Randoms.seed(201709); 
-		recommenderJob = new RecommenderJob(configuration);
+		RecommenderJob recommenderJob = new RecommenderJob(configuration);
 		recommenderJob.runJob();
 		System.out.println("\nFinished Recommendation Process");
 		
@@ -471,7 +561,10 @@ public class RecSys
 									"\nFilter Class: " + recommenderJob.getFilterClass());
 		
 		if(configurationFile.equals("conf/user_knn.properties") || configurationFile.equals("conf/item_knn.properties"))
-			System.out.println("KNN Neighbours Number: " + getKNNNeighboursNumber());
+		{
+			//System.out.println("KNN Neighbours Number: " + getKNNNeighboursNumber());
+			System.out.println("KNN Neighbours Number: " + configuration.get("rec.neighbors.knn.number"));
+		}
 		
 		//saveRecommenderResults();
 	}
