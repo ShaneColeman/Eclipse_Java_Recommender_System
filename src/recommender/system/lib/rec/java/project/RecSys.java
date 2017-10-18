@@ -463,7 +463,7 @@ public class RecSys
 			System.out.println("\nRecommender Evaluation Enabled: " + configuration.get("rec.eval.enable"));
 			System.out.println("Recommender (Is Ranking?): " + configuration.get("rec.recommender.isranking"));
 			
-			String rankingEvaluatorSelectorText = "Please select rating evaluator: " +
+			String rankingEvaluatorSelectorText = "Please select ranking evaluator: " +
 													"\na. All Ranking Evaluators" + 
 														"\nb. AUC" +
 															"\nc. AP" +
@@ -477,7 +477,7 @@ public class RecSys
 			while(input.equals("") || !input.equals("a") && !input.equals("b") && !input.equals("c") && !input.equals("d") 
 					&& !input.equals("e") && !input.equals("f") && !input.equals("g"))
 			{
-				System.out.println("\nNo rating evaluator selected!\n" + rankingEvaluatorSelectorText);
+				System.out.println("\nNo ranking evaluator selected!\n" + rankingEvaluatorSelectorText);
 				input = scanner.nextLine();
 			}
 			
