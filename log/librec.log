@@ -3847,3 +3847,110 @@ Job Train completed.
 Job End.
 Evaluator info:ReciprocalRankEvaluator is 0.5544753320204004
 Result path is result/movielens-itemknn-output/itemknn
+Splitter info: the index of loocv splitter times is 1
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.txt]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 99057
+Data size of testing is 943
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:HitRateEvaluator is 0.053022269353128315
+Result path is result/movielens-itemknn-output/itemknn-1
+Splitter info: the index of loocv splitter times is 2
+Split data to train Set and test Set successfully!
+Data size of training is 99057
+Data size of testing is 943
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:HitRateEvaluator is 0.04984093319194061
+Result path is result/movielens-itemknn-output/itemknn-2
+Splitter info: the index of loocv splitter times is 3
+Split data to train Set and test Set successfully!
+Data size of training is 99057
+Data size of testing is 943
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:HitRateEvaluator is 0.04772004241781548
+Result path is result/movielens-itemknn-output/itemknn-3
+Splitter info: the index of loocv splitter times is 4
+Split data to train Set and test Set successfully!
+Data size of training is 99057
+Data size of testing is 943
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:HitRateEvaluator is 0.05408271474019088
+Result path is result/movielens-itemknn-output/itemknn-4
+Splitter info: the index of loocv splitter times is 5
+Split data to train Set and test Set successfully!
+Data size of training is 99057
+Data size of testing is 943
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:HitRateEvaluator is 0.05514316012725345
+Result path is result/movielens-itemknn-output/itemknn-5
+Average Evaluation Result of Cross Validation:
+Evaluator value:HitRateEvaluator is 0.051961823966065745
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.txt]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80019
+Data size of testing is 19981
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:AverageReciprocalHitRankEvaluator is 0.09578809607971858
+Result path is result/movielens-itemknn-output/itemknn
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.txt]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80019
+Data size of testing is 19981
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:ReciprocalRankEvaluator is 0.5705570704775367
+Result path is result/movielens-itemknn-output/itemknn
+Dataset: data/filmtrust/rating
+All dataset files [data\filmtrust\rating\ratings_0.txt, data\filmtrust\rating\ratings_1.txt, data\filmtrust\rating\ratings_2.txt, data\filmtrust\rating\ratings_3.txt]
+All dataset files size 411942
+Now loading dataset file ratings_0
+Now loading dataset file ratings_1
+Now loading dataset file ratings_2
+Now loading dataset file ratings_3
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 28408
+Data size of testing is 7086
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:AUCEvaluator is 0.9133683297839056
+Result path is result/filmtrust/rating-itemknn-output/itemknn
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.txt]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80019
+Data size of testing is 19981
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:NormalizedDCGEvaluator is 0.29821663330503134
+Result path is result/movielens-itemknn-output/itemknn
