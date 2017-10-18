@@ -416,7 +416,7 @@ public class RecSys
 														"\nb. MAE" +
 															"\nc. MPE" +
 																"\nd. MSE" + 
-																	"\ne. RSME";
+																	"\ne. RMSE";
 			System.out.println("\n" + ratingEvaluatorSelectorText);
 			input = scanner.nextLine();
 			
@@ -455,7 +455,7 @@ public class RecSys
 		}
 		else if(input.equals("b"))
 		{
-			String topN = "3";
+			String topN = "10";
 			
 			configuration.set("rec.eval.enable", "true");
 			configuration.set("rec.recommender.isranking","true");
