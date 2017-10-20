@@ -549,7 +549,7 @@ public class RecSys
 		//configuration.addResource(resource);
 		//configuration.set("rec.recommender.verbose", "true");
 		
-		Randoms.seed(201709); 
+		Randoms.seed(201709);
 		RecommenderJob recommenderJob = new RecommenderJob(configuration);
 		recommenderJob.runJob();
 		System.out.println("\nFinished Recommendation Process");
