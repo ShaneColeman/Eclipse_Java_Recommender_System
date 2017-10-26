@@ -56,6 +56,5 @@ public class RecSysConfigDriver
 			if(configuration.get("rec.recommender.isranking").equals("true"))
 				System.out.println("Number of Top-Ns (Ranking): " + configuration.get("rec.recommender.ranking.topn"));
 		}
-		
 	}
 }
