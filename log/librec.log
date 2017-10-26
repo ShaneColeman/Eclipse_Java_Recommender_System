@@ -5998,3 +5998,385 @@ Job Train completed.
 Job End.
 Evaluator info:MAEEvaluator is 0.6185456920036843
 Result path is result/filmtrust/rating-itemknn-output/itemknn
+Dataset: data/filmtrust/rating
+All dataset files [data\filmtrust\rating\ratings_0.txt, data\filmtrust\rating\ratings_1.txt, data\filmtrust\rating\ratings_2.txt, data\filmtrust\rating\ratings_3.txt]
+All dataset files size 411942
+Now loading dataset file ratings_0
+Now loading dataset file ratings_1
+Now loading dataset file ratings_2
+Now loading dataset file ratings_3
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 28408
+Data size of testing is 7086
+Job Setup completed.
+AoBPRRecommender iter 1: loss = 104298.75741094207, delta_loss = -104298.76
+AoBPRRecommender iter 2: loss = 75972.52498956394, delta_loss = 28326.232
+AoBPRRecommender iter 3: loss = 45467.127815665976, delta_loss = 30505.396
+AoBPRRecommender iter 4: loss = 41080.317396388375, delta_loss = 4386.8105
+AoBPRRecommender iter 5: loss = 38398.86141637848, delta_loss = 2681.456
+AoBPRRecommender iter 6: loss = 36228.47413980922, delta_loss = 2170.3872
+AoBPRRecommender iter 7: loss = 34694.95022699046, delta_loss = 1533.5239
+AoBPRRecommender iter 8: loss = 32956.876395520085, delta_loss = 1738.0739
+AoBPRRecommender iter 9: loss = 32147.02803531405, delta_loss = 809.8484
+AoBPRRecommender iter 10: loss = 31035.83259253007, delta_loss = 1111.1954
+AoBPRRecommender iter 11: loss = 30113.128157967516, delta_loss = 922.7044
+AoBPRRecommender iter 12: loss = 29213.13202123056, delta_loss = 899.99615
+AoBPRRecommender iter 13: loss = 28690.896490353185, delta_loss = 522.23553
+AoBPRRecommender iter 14: loss = 28029.189281178442, delta_loss = 661.7072
+AoBPRRecommender iter 15: loss = 27400.296608408436, delta_loss = 628.8927
+AoBPRRecommender iter 16: loss = 26916.71068771414, delta_loss = 483.5859
+AoBPRRecommender iter 17: loss = 26509.24747378269, delta_loss = 407.46323
+AoBPRRecommender iter 18: loss = 26129.841459518422, delta_loss = 379.406
+AoBPRRecommender iter 19: loss = 25697.34499088915, delta_loss = 432.49646
+AoBPRRecommender iter 20: loss = 25391.94368542926, delta_loss = 305.4013
+AoBPRRecommender iter 21: loss = 25269.07427647015, delta_loss = 122.86941
+AoBPRRecommender iter 22: loss = 24996.643799937738, delta_loss = 272.43048
+AoBPRRecommender iter 23: loss = 24697.96536965992, delta_loss = 298.67844
+AoBPRRecommender iter 24: loss = 24456.1044082524, delta_loss = 241.86096
+AoBPRRecommender iter 25: loss = 24175.579499773132, delta_loss = 280.5249
+AoBPRRecommender iter 26: loss = 23990.354765707838, delta_loss = 185.22473
+AoBPRRecommender iter 27: loss = 23752.82220243874, delta_loss = 237.53256
+AoBPRRecommender iter 28: loss = 23627.407469923026, delta_loss = 125.414734
+AoBPRRecommender iter 29: loss = 23426.37556650071, delta_loss = 201.0319
+AoBPRRecommender iter 30: loss = 23299.18977796139, delta_loss = 127.18579
+AoBPRRecommender iter 31: loss = 23149.219805214256, delta_loss = 149.96997
+AoBPRRecommender iter 32: loss = 23100.597171589263, delta_loss = 48.622635
+AoBPRRecommender iter 33: loss = 22946.812883660234, delta_loss = 153.78429
+AoBPRRecommender iter 34: loss = 22850.274114474683, delta_loss = 96.53877
+AoBPRRecommender iter 35: loss = 22791.24220890855, delta_loss = 59.031906
+AoBPRRecommender iter 36: loss = 22794.843697959604, delta_loss = -3.601489
+AoBPRRecommender iter 37: loss = 22576.187401314877, delta_loss = 218.6563
+AoBPRRecommender iter 38: loss = 22461.168105883302, delta_loss = 115.019295
+AoBPRRecommender iter 39: loss = 22448.3926222372, delta_loss = 12.775484
+AoBPRRecommender iter 40: loss = 22347.365311552545, delta_loss = 101.02731
+AoBPRRecommender iter 41: loss = 22205.247544911566, delta_loss = 142.11777
+AoBPRRecommender iter 42: loss = 22275.53134545482, delta_loss = -70.2838
+AoBPRRecommender iter 43: loss = 22192.24420830351, delta_loss = 83.28714
+AoBPRRecommender iter 44: loss = 22249.142771885294, delta_loss = -56.898563
+AoBPRRecommender iter 45: loss = 22019.747365532603, delta_loss = 229.3954
+AoBPRRecommender iter 46: loss = 22003.352892552706, delta_loss = 16.394472
+AoBPRRecommender iter 47: loss = 22029.69222236909, delta_loss = -26.33933
+AoBPRRecommender iter 48: loss = 22020.48394852196, delta_loss = 9.208274
+AoBPRRecommender iter 49: loss = 21952.03527405249, delta_loss = 68.44868
+AoBPRRecommender iter 50: loss = 21886.19506933805, delta_loss = 65.8402
+AoBPRRecommender iter 51: loss = 21754.706566892393, delta_loss = 131.4885
+AoBPRRecommender iter 52: loss = 21758.970211056767, delta_loss = -4.263644
+AoBPRRecommender iter 53: loss = 21775.01530053789, delta_loss = -16.04509
+AoBPRRecommender iter 54: loss = 21709.30799113434, delta_loss = 65.707306
+AoBPRRecommender iter 55: loss = 21652.468379769616, delta_loss = 56.83961
+AoBPRRecommender iter 56: loss = 21693.019909492723, delta_loss = -40.55153
+AoBPRRecommender iter 57: loss = 21653.30013809529, delta_loss = 39.719772
+AoBPRRecommender iter 58: loss = 21646.374121675653, delta_loss = 6.9260163
+AoBPRRecommender iter 59: loss = 21656.810386824818, delta_loss = -10.436265
+AoBPRRecommender iter 60: loss = 21636.51094131255, delta_loss = 20.299446
+AoBPRRecommender iter 61: loss = 21561.43006703154, delta_loss = 75.08087
+AoBPRRecommender iter 62: loss = 21556.05717146939, delta_loss = 5.3728957
+AoBPRRecommender iter 63: loss = 21575.17550664396, delta_loss = -19.118336
+AoBPRRecommender iter 64: loss = 21506.270727522457, delta_loss = 68.90478
+AoBPRRecommender iter 65: loss = 21495.261139460363, delta_loss = 11.009588
+AoBPRRecommender iter 66: loss = 21404.734059015485, delta_loss = 90.52708
+AoBPRRecommender iter 67: loss = 21448.03418330934, delta_loss = -43.300125
+AoBPRRecommender iter 68: loss = 21382.243377930583, delta_loss = 65.7908
+AoBPRRecommender iter 69: loss = 21428.904113910943, delta_loss = -46.660736
+AoBPRRecommender iter 70: loss = 21458.999519160694, delta_loss = -30.095406
+AoBPRRecommender iter 71: loss = 21405.158200314807, delta_loss = 53.84132
+AoBPRRecommender iter 72: loss = 21403.771354743043, delta_loss = 1.3868456
+AoBPRRecommender iter 73: loss = 21358.48634200332, delta_loss = 45.28501
+AoBPRRecommender iter 74: loss = 21365.689886161537, delta_loss = -7.203544
+AoBPRRecommender iter 75: loss = 21317.56435463378, delta_loss = 48.12553
+AoBPRRecommender iter 76: loss = 21306.32073549316, delta_loss = 11.243619
+AoBPRRecommender iter 77: loss = 21244.679855126138, delta_loss = 61.64088
+AoBPRRecommender iter 78: loss = 21313.981486092638, delta_loss = -69.30163
+AoBPRRecommender iter 79: loss = 21288.593243421292, delta_loss = 25.388243
+AoBPRRecommender iter 80: loss = 21300.2013420373, delta_loss = -11.608099
+AoBPRRecommender iter 81: loss = 21231.512762921524, delta_loss = 68.688576
+AoBPRRecommender iter 82: loss = 21264.15275351642, delta_loss = -32.63999
+AoBPRRecommender iter 83: loss = 21315.16829478042, delta_loss = -51.01554
+AoBPRRecommender iter 84: loss = 21179.907258207135, delta_loss = 135.26103
+AoBPRRecommender iter 85: loss = 21383.126382478866, delta_loss = -203.21913
+AoBPRRecommender iter 86: loss = 21198.733221420895, delta_loss = 184.39316
+AoBPRRecommender iter 87: loss = 21162.63699733342, delta_loss = 36.096226
+AoBPRRecommender iter 88: loss = 21153.711823835773, delta_loss = 8.925174
+AoBPRRecommender iter 89: loss = 21272.254413732993, delta_loss = -118.54259
+AoBPRRecommender iter 90: loss = 21231.96164498064, delta_loss = 40.29277
+AoBPRRecommender iter 91: loss = 21104.153938127463, delta_loss = 127.80771
+AoBPRRecommender iter 92: loss = 21253.376007407864, delta_loss = -149.22208
+AoBPRRecommender iter 93: loss = 21179.91930610592, delta_loss = 73.4567
+AoBPRRecommender iter 94: loss = 21164.406936172923, delta_loss = 15.51237
+AoBPRRecommender iter 95: loss = 21305.506401468487, delta_loss = -141.09947
+AoBPRRecommender iter 96: loss = 21158.4008334988, delta_loss = 147.10558
+AoBPRRecommender iter 97: loss = 21139.21833829176, delta_loss = 19.182495
+AoBPRRecommender iter 98: loss = 21174.08069128462, delta_loss = -34.862354
+AoBPRRecommender iter 99: loss = 21209.255227053785, delta_loss = -35.174538
+AoBPRRecommender iter 100: loss = 21170.21531790039, delta_loss = 39.03991
+Job Train completed.
+Job End.
+Evaluator value:PRECISION top 10 is 0.33575374901341914
+Evaluator value:RECALL top 10 is 0.5955937644037759
+Evaluator value:NDCG top 10 is 0.525076455747296
+Evaluator value:AP top 10 is 0.4319446736278773
+Evaluator value:AUC top 10 is 0.9064347156127498
+Evaluator value:RR top 10 is 0.5783593916387925
+Result path is result/filmtrust/rating-aobpr-output/aobpr
+Dataset: data/filmtrust/rating
+All dataset files [data\filmtrust\rating\ratings_0.txt, data\filmtrust\rating\ratings_1.txt, data\filmtrust\rating\ratings_2.txt, data\filmtrust\rating\ratings_3.txt]
+All dataset files size 411942
+Now loading dataset file ratings_0
+Now loading dataset file ratings_1
+Now loading dataset file ratings_2
+Now loading dataset file ratings_3
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 28408
+Data size of testing is 7086
+Job Setup completed.
+AoBPRRecommender iter 1: loss = 104298.75741094207, delta_loss = -104298.76
+AoBPRRecommender iter 2: loss = 75972.52498956394, delta_loss = 28326.232
+AoBPRRecommender iter 3: loss = 45467.127815665976, delta_loss = 30505.396
+AoBPRRecommender iter 4: loss = 41080.317396388375, delta_loss = 4386.8105
+AoBPRRecommender iter 5: loss = 38398.86141637848, delta_loss = 2681.456
+AoBPRRecommender iter 6: loss = 36228.47413980922, delta_loss = 2170.3872
+AoBPRRecommender iter 7: loss = 34694.95022699046, delta_loss = 1533.5239
+AoBPRRecommender iter 8: loss = 32956.876395520085, delta_loss = 1738.0739
+AoBPRRecommender iter 9: loss = 32147.02803531405, delta_loss = 809.8484
+AoBPRRecommender iter 10: loss = 31035.83259253007, delta_loss = 1111.1954
+Job Train completed.
+Job End.
+Evaluator info:AverageReciprocalHitRankEvaluator is 0.2714504954836444
+Result path is result/filmtrust/rating-aobpr-output/aobpr
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.txt]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80019
+Data size of testing is 19981
+Job Setup completed.
+AoBPRRecommender iter 1: loss = 65632.62471826152, delta_loss = -65632.625
+AoBPRRecommender iter 2: loss = 65568.74866663115, delta_loss = 63.876053
+AoBPRRecommender iter 3: loss = 65454.56160842087, delta_loss = 114.18706
+AoBPRRecommender iter 4: loss = 65151.51324245412, delta_loss = 303.04837
+AoBPRRecommender iter 5: loss = 64187.78020886665, delta_loss = 963.73303
+AoBPRRecommender iter 6: loss = 61265.057574487975, delta_loss = 2922.7227
+AoBPRRecommender iter 7: loss = 55266.70234339404, delta_loss = 5998.3555
+AoBPRRecommender iter 8: loss = 48578.66643444206, delta_loss = 6688.036
+AoBPRRecommender iter 9: loss = 43857.18016481673, delta_loss = 4721.4863
+AoBPRRecommender iter 10: loss = 41183.1577830813, delta_loss = 2674.0225
+AoBPRRecommender iter 11: loss = 39670.159847740164, delta_loss = 1512.9979
+AoBPRRecommender iter 12: loss = 38214.80819643015, delta_loss = 1455.3517
+AoBPRRecommender iter 13: loss = 37436.695629297465, delta_loss = 778.11255
+AoBPRRecommender iter 14: loss = 36622.802893620974, delta_loss = 813.89276
+AoBPRRecommender iter 15: loss = 36011.11086062055, delta_loss = 611.692
+AoBPRRecommender iter 16: loss = 35682.142331828334, delta_loss = 328.96854
+AoBPRRecommender iter 17: loss = 35128.6886467598, delta_loss = 553.4537
+AoBPRRecommender iter 18: loss = 34642.05100157232, delta_loss = 486.63763
+AoBPRRecommender iter 19: loss = 34260.11241972829, delta_loss = 381.93857
+AoBPRRecommender iter 20: loss = 33626.55362874381, delta_loss = 633.5588
+Job Train completed.
+Job End.
+Evaluator info:AverageReciprocalHitRankEvaluator is 0.081748556616001
+Result path is result/movielens-aobpr-output/aobpr
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.txt]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80019
+Data size of testing is 19981
+Job Setup completed.
+AoBPRRecommender iter 1: loss = 65632.62471826152, delta_loss = -65632.625
+AoBPRRecommender iter 2: loss = 65568.74866663115, delta_loss = 63.876053
+AoBPRRecommender iter 3: loss = 65454.56160842087, delta_loss = 114.18706
+AoBPRRecommender iter 4: loss = 65151.51324245412, delta_loss = 303.04837
+AoBPRRecommender iter 5: loss = 64187.78020886665, delta_loss = 963.73303
+AoBPRRecommender iter 6: loss = 61265.057574487975, delta_loss = 2922.7227
+AoBPRRecommender iter 7: loss = 55266.70234339404, delta_loss = 5998.3555
+AoBPRRecommender iter 8: loss = 48578.66643444206, delta_loss = 6688.036
+AoBPRRecommender iter 9: loss = 43857.18016481673, delta_loss = 4721.4863
+AoBPRRecommender iter 10: loss = 41183.1577830813, delta_loss = 2674.0225
+AoBPRRecommender iter 11: loss = 39670.159847740164, delta_loss = 1512.9979
+AoBPRRecommender iter 12: loss = 38214.80819643015, delta_loss = 1455.3517
+AoBPRRecommender iter 13: loss = 37436.695629297465, delta_loss = 778.11255
+AoBPRRecommender iter 14: loss = 36622.802893620974, delta_loss = 813.89276
+AoBPRRecommender iter 15: loss = 36011.11086062055, delta_loss = 611.692
+AoBPRRecommender iter 16: loss = 35682.142331828334, delta_loss = 328.96854
+AoBPRRecommender iter 17: loss = 35128.6886467598, delta_loss = 553.4537
+AoBPRRecommender iter 18: loss = 34642.05100157232, delta_loss = 486.63763
+AoBPRRecommender iter 19: loss = 34260.11241972829, delta_loss = 381.93857
+AoBPRRecommender iter 20: loss = 33626.55362874381, delta_loss = 633.5588
+AoBPRRecommender iter 21: loss = 33228.72430000921, delta_loss = 397.8293
+AoBPRRecommender iter 22: loss = 33024.036511882834, delta_loss = 204.68779
+AoBPRRecommender iter 23: loss = 32738.58385061949, delta_loss = 285.45267
+AoBPRRecommender iter 24: loss = 32126.871675021306, delta_loss = 611.71216
+AoBPRRecommender iter 25: loss = 31904.043765502247, delta_loss = 222.82791
+AoBPRRecommender iter 26: loss = 31562.479109944048, delta_loss = 341.56467
+AoBPRRecommender iter 27: loss = 31333.176213030358, delta_loss = 229.3029
+AoBPRRecommender iter 28: loss = 31410.110745985712, delta_loss = -76.93453
+AoBPRRecommender iter 29: loss = 31080.327023467336, delta_loss = 329.78372
+AoBPRRecommender iter 30: loss = 30690.22803102621, delta_loss = 390.099
+AoBPRRecommender iter 31: loss = 30636.88113910979, delta_loss = 53.346893
+AoBPRRecommender iter 32: loss = 30486.14819618602, delta_loss = 150.73294
+AoBPRRecommender iter 33: loss = 30244.22150861049, delta_loss = 241.92668
+AoBPRRecommender iter 34: loss = 29813.838428462597, delta_loss = 430.3831
+AoBPRRecommender iter 35: loss = 30052.058222430966, delta_loss = -238.21979
+AoBPRRecommender iter 36: loss = 29750.159763449807, delta_loss = 301.89847
+AoBPRRecommender iter 37: loss = 29809.701591694906, delta_loss = -59.54183
+AoBPRRecommender iter 38: loss = 29369.205234376124, delta_loss = 440.49637
+AoBPRRecommender iter 39: loss = 29313.34054509835, delta_loss = 55.86469
+AoBPRRecommender iter 40: loss = 29178.27344953577, delta_loss = 135.0671
+AoBPRRecommender iter 41: loss = 29291.131981311366, delta_loss = -112.85853
+AoBPRRecommender iter 42: loss = 29121.781273542554, delta_loss = 169.35071
+AoBPRRecommender iter 43: loss = 29202.566410839027, delta_loss = -80.78514
+AoBPRRecommender iter 44: loss = 29038.264009659815, delta_loss = 164.3024
+AoBPRRecommender iter 45: loss = 29050.967261915455, delta_loss = -12.703252
+AoBPRRecommender iter 46: loss = 29176.496072964568, delta_loss = -125.52881
+AoBPRRecommender iter 47: loss = 29155.911446672682, delta_loss = 20.584627
+AoBPRRecommender iter 48: loss = 28679.064411069583, delta_loss = 476.84705
+AoBPRRecommender iter 49: loss = 28878.48450993389, delta_loss = -199.4201
+AoBPRRecommender iter 50: loss = 28824.079736437863, delta_loss = 54.404774
+Job Train completed.
+Job End.
+Evaluator info:AUCEvaluator is 0.9389146266255254
+Result path is result/movielens-aobpr-output/aobpr
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.txt]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80019
+Data size of testing is 19981
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:AUCEvaluator is 0.9156022554717592
+Result path is result/movielens-itemknn-output/itemknn
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.txt]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80019
+Data size of testing is 19981
+Job Setup completed.
+AoBPRRecommender iter 1: loss = 65632.62471826152, delta_loss = -65632.625
+AoBPRRecommender iter 2: loss = 65568.74866663115, delta_loss = 63.876053
+AoBPRRecommender iter 3: loss = 65454.56160842087, delta_loss = 114.18706
+AoBPRRecommender iter 4: loss = 65151.51324245412, delta_loss = 303.04837
+AoBPRRecommender iter 5: loss = 64187.78020886665, delta_loss = 963.73303
+AoBPRRecommender iter 6: loss = 61265.057574487975, delta_loss = 2922.7227
+AoBPRRecommender iter 7: loss = 55266.70234339404, delta_loss = 5998.3555
+AoBPRRecommender iter 8: loss = 48578.66643444206, delta_loss = 6688.036
+AoBPRRecommender iter 9: loss = 43857.18016481673, delta_loss = 4721.4863
+AoBPRRecommender iter 10: loss = 41183.1577830813, delta_loss = 2674.0225
+AoBPRRecommender iter 11: loss = 39670.159847740164, delta_loss = 1512.9979
+AoBPRRecommender iter 12: loss = 38214.80819643015, delta_loss = 1455.3517
+AoBPRRecommender iter 13: loss = 37436.695629297465, delta_loss = 778.11255
+AoBPRRecommender iter 14: loss = 36622.802893620974, delta_loss = 813.89276
+AoBPRRecommender iter 15: loss = 36011.11086062055, delta_loss = 611.692
+AoBPRRecommender iter 16: loss = 35682.142331828334, delta_loss = 328.96854
+AoBPRRecommender iter 17: loss = 35128.6886467598, delta_loss = 553.4537
+AoBPRRecommender iter 18: loss = 34642.05100157232, delta_loss = 486.63763
+AoBPRRecommender iter 19: loss = 34260.11241972829, delta_loss = 381.93857
+AoBPRRecommender iter 20: loss = 33626.55362874381, delta_loss = 633.5588
+AoBPRRecommender iter 21: loss = 33228.72430000921, delta_loss = 397.8293
+AoBPRRecommender iter 22: loss = 33024.036511882834, delta_loss = 204.68779
+AoBPRRecommender iter 23: loss = 32738.58385061949, delta_loss = 285.45267
+AoBPRRecommender iter 24: loss = 32126.871675021306, delta_loss = 611.71216
+AoBPRRecommender iter 25: loss = 31904.043765502247, delta_loss = 222.82791
+AoBPRRecommender iter 26: loss = 31562.479109944048, delta_loss = 341.56467
+AoBPRRecommender iter 27: loss = 31333.176213030358, delta_loss = 229.3029
+AoBPRRecommender iter 28: loss = 31410.110745985712, delta_loss = -76.93453
+AoBPRRecommender iter 29: loss = 31080.327023467336, delta_loss = 329.78372
+AoBPRRecommender iter 30: loss = 30690.22803102621, delta_loss = 390.099
+AoBPRRecommender iter 31: loss = 30636.88113910979, delta_loss = 53.346893
+AoBPRRecommender iter 32: loss = 30486.14819618602, delta_loss = 150.73294
+AoBPRRecommender iter 33: loss = 30244.22150861049, delta_loss = 241.92668
+AoBPRRecommender iter 34: loss = 29813.838428462597, delta_loss = 430.3831
+AoBPRRecommender iter 35: loss = 30052.058222430966, delta_loss = -238.21979
+AoBPRRecommender iter 36: loss = 29750.159763449807, delta_loss = 301.89847
+AoBPRRecommender iter 37: loss = 29809.701591694906, delta_loss = -59.54183
+AoBPRRecommender iter 38: loss = 29369.205234376124, delta_loss = 440.49637
+AoBPRRecommender iter 39: loss = 29313.34054509835, delta_loss = 55.86469
+AoBPRRecommender iter 40: loss = 29178.27344953577, delta_loss = 135.0671
+AoBPRRecommender iter 41: loss = 29291.131981311366, delta_loss = -112.85853
+AoBPRRecommender iter 42: loss = 29121.781273542554, delta_loss = 169.35071
+AoBPRRecommender iter 43: loss = 29202.566410839027, delta_loss = -80.78514
+AoBPRRecommender iter 44: loss = 29038.264009659815, delta_loss = 164.3024
+AoBPRRecommender iter 45: loss = 29050.967261915455, delta_loss = -12.703252
+AoBPRRecommender iter 46: loss = 29176.496072964568, delta_loss = -125.52881
+AoBPRRecommender iter 47: loss = 29155.911446672682, delta_loss = 20.584627
+AoBPRRecommender iter 48: loss = 28679.064411069583, delta_loss = 476.84705
+AoBPRRecommender iter 49: loss = 28878.48450993389, delta_loss = -199.4201
+AoBPRRecommender iter 50: loss = 28824.079736437863, delta_loss = 54.404774
+Job Train completed.
+Job End.
+Evaluator info:AverageReciprocalHitRankEvaluator is 0.0931352993654161
+Result path is result/movielens-aobpr-output/aobpr
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.txt]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80019
+Data size of testing is 19981
+Job Setup completed.
+AoBPRRecommender iter 1: loss = 65632.62471826152, delta_loss = -65632.625
+AoBPRRecommender iter 2: loss = 65568.74866663115, delta_loss = 63.876053
+AoBPRRecommender iter 3: loss = 65454.56160842087, delta_loss = 114.18706
+AoBPRRecommender iter 4: loss = 65151.51324245412, delta_loss = 303.04837
+AoBPRRecommender iter 5: loss = 64187.78020886665, delta_loss = 963.73303
+AoBPRRecommender iter 6: loss = 61265.057574487975, delta_loss = 2922.7227
+AoBPRRecommender iter 7: loss = 55266.70234339404, delta_loss = 5998.3555
+AoBPRRecommender iter 8: loss = 48578.66643444206, delta_loss = 6688.036
+AoBPRRecommender iter 9: loss = 43857.18016481673, delta_loss = 4721.4863
+AoBPRRecommender iter 10: loss = 41183.1577830813, delta_loss = 2674.0225
+AoBPRRecommender iter 11: loss = 39670.159847740164, delta_loss = 1512.9979
+AoBPRRecommender iter 12: loss = 38214.80819643015, delta_loss = 1455.3517
+AoBPRRecommender iter 13: loss = 37436.695629297465, delta_loss = 778.11255
+AoBPRRecommender iter 14: loss = 36622.802893620974, delta_loss = 813.89276
+AoBPRRecommender iter 15: loss = 36011.11086062055, delta_loss = 611.692
+AoBPRRecommender iter 16: loss = 35682.142331828334, delta_loss = 328.96854
+AoBPRRecommender iter 17: loss = 35128.6886467598, delta_loss = 553.4537
+AoBPRRecommender iter 18: loss = 34642.05100157232, delta_loss = 486.63763
+AoBPRRecommender iter 19: loss = 34260.11241972829, delta_loss = 381.93857
+AoBPRRecommender iter 20: loss = 33626.55362874381, delta_loss = 633.5588
+AoBPRRecommender iter 21: loss = 33228.72430000921, delta_loss = 397.8293
+AoBPRRecommender iter 22: loss = 33024.036511882834, delta_loss = 204.68779
+AoBPRRecommender iter 23: loss = 32738.58385061949, delta_loss = 285.45267
+AoBPRRecommender iter 24: loss = 32126.871675021306, delta_loss = 611.71216
+AoBPRRecommender iter 25: loss = 31904.043765502247, delta_loss = 222.82791
+AoBPRRecommender iter 26: loss = 31562.479109944048, delta_loss = 341.56467
+AoBPRRecommender iter 27: loss = 31333.176213030358, delta_loss = 229.3029
+AoBPRRecommender iter 28: loss = 31410.110745985712, delta_loss = -76.93453
+AoBPRRecommender iter 29: loss = 31080.327023467336, delta_loss = 329.78372
+AoBPRRecommender iter 30: loss = 30690.22803102621, delta_loss = 390.099
+AoBPRRecommender iter 31: loss = 30636.88113910979, delta_loss = 53.346893
+AoBPRRecommender iter 32: loss = 30486.14819618602, delta_loss = 150.73294
+AoBPRRecommender iter 33: loss = 30244.22150861049, delta_loss = 241.92668
+AoBPRRecommender iter 34: loss = 29813.838428462597, delta_loss = 430.3831
+AoBPRRecommender iter 35: loss = 30052.058222430966, delta_loss = -238.21979
+AoBPRRecommender iter 36: loss = 29750.159763449807, delta_loss = 301.89847
+AoBPRRecommender iter 37: loss = 29809.701591694906, delta_loss = -59.54183
+AoBPRRecommender iter 38: loss = 29369.205234376124, delta_loss = 440.49637
+AoBPRRecommender iter 39: loss = 29313.34054509835, delta_loss = 55.86469
+AoBPRRecommender iter 40: loss = 29178.27344953577, delta_loss = 135.0671
+AoBPRRecommender iter 41: loss = 29291.131981311366, delta_loss = -112.85853
+AoBPRRecommender iter 42: loss = 29121.781273542554, delta_loss = 169.35071
+AoBPRRecommender iter 43: loss = 29202.566410839027, delta_loss = -80.78514
+AoBPRRecommender iter 44: loss = 29038.264009659815, delta_loss = 164.3024
+AoBPRRecommender iter 45: loss = 29050.967261915455, delta_loss = -12.703252
+AoBPRRecommender iter 46: loss = 29176.496072964568, delta_loss = -125.52881
+AoBPRRecommender iter 47: loss = 29155.911446672682, delta_loss = 20.584627
+AoBPRRecommender iter 48: loss = 28679.064411069583, delta_loss = 476.84705
+AoBPRRecommender iter 49: loss = 28878.48450993389, delta_loss = -199.4201
+AoBPRRecommender iter 50: loss = 28824.079736437863, delta_loss = 54.404774
+Job Train completed.
+Job End.
+Evaluator info:AverageReciprocalHitRankEvaluator is 0.0931352993654161
+Result path is result/movielens-aobpr-output/aobpr
