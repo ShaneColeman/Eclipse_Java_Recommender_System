@@ -10,7 +10,9 @@ import net.librec.math.algorithm.Randoms;
 public class RecSysConfigDriver 
 {
 	//public static String CONFIGURATION_FILE = "conf/UserKNN-CF.properties";
-	public static String CONFIGURATION_FILE = "conf/ItemKNN-CF.properties";
+	//public static String CONFIGURATION_FILE = "conf/ItemKNN-CF.properties";
+	
+	public static String CONFIGURATION_FILE = "conf/AoBPR-CF-Ranking.properties";
 	
 	public static void main(String[] args) throws Exception
 	{
@@ -35,6 +37,10 @@ public class RecSysConfigDriver
 		else if(configurationFilePath.equals("conf/ItemKNN-CF.properties"))
 		{
 			System.out.println("Item KNN Recommender\n");
+		}
+		else if(configurationFilePath.equals("conf/AoBPR-CF-Ranking.properties"))
+		{
+			System.out.println("AoBPR Recommender\n");
 		}
 		
 		Randoms.seed(20171025); 
