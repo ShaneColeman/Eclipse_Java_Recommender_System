@@ -9,10 +9,39 @@ import net.librec.math.algorithm.Randoms;
 
 public class RecSysConfigDriver 
 {
-	//public static String CONFIGURATION_FILE = "conf/UserKNN-CF.properties";
-	//public static String CONFIGURATION_FILE = "conf/ItemKNN-CF.properties";
+	/*
+	 * AbstractRecommender
+	 * Baseline
+	 * UserClusterRecommender
+	 * ItemClusterRecommender
+	 */
+	//public static String CONFIGURATION_FILE = "conf/UserCluster-Baseline.properties";
+	//public static String CONFIGURATION_FILE = "conf/ItemCluster-Baseline.properties";
 	
-	public static String CONFIGURATION_FILE = "conf/AoBPR-CF-Ranking.properties";
+	/*
+	 * AbstractRecommender
+	 * Collaborative Filtering 
+	 * UserKNNRecommender
+	 * ItemKNNRecommender 
+	 */
+	//public static String CONFIGURATION_FILE = "conf/UserKNN-CF.properties";
+	public static String CONFIGURATION_FILE = "conf/ItemKNN-CF.properties";
+	
+	/*
+	 * MatrixFactorizationRecommender 
+	 * Collaborative Filtering - Ranking
+	 * AoBPRRecommender
+	 * RankALSRecommender
+	 */
+	//public static String CONFIGURATION_FILE = "conf/AoBPR-CF-Ranking.properties";
+	//public static String CONFIGURATION_FILE = "conf/RankALS-CF-Ranking.properties";
+	
+	/*
+	 * BiasedMFRecommender -> MatrixFactorizationRecommender
+	 * Collaborative Filtering - Rating
+	 * SVDPlusPlusRecommender
+	 */
+	//public static String CONFIGURATION_FILE = "conf/SVDPlusPlus-CF-Rating.properties";
 	
 	public static void main(String[] args) throws Exception
 	{
@@ -30,7 +59,15 @@ public class RecSysConfigDriver
 			configuration.set(name, properties.getProperty(name));
 		}
 		
-		if(configurationFilePath.equals("conf/UserKNN-CF.properties"))
+		if(configurationFilePath.equals("conf/UserCluster-Baseline.properties"))
+		{
+			System.out.println("User Cluster Recommender\n");
+		}
+		else if(configurationFilePath.equals("conf/ItemCluster-Baseline.properties"))
+		{
+			System.out.println("Item Cluster Recommender\n");
+		}
+		else if(configurationFilePath.equals("conf/UserKNN-CF.properties"))
 		{
 			System.out.println("User KNN Recommender\n");
 		}
@@ -41,6 +78,14 @@ public class RecSysConfigDriver
 		else if(configurationFilePath.equals("conf/AoBPR-CF-Ranking.properties"))
 		{
 			System.out.println("AoBPR Recommender\n");
+		}
+		else if(configurationFilePath.equals("conf/RankALS-CF-Ranking.properties"))
+		{
+			System.out.println("Rank ALS Recommender\n");
+		}
+		else if(configurationFilePath.equals("conf/SVDPlusPlus-CF-Rating.properties"))
+		{
+			System.out.println("SVD Plus Plus Recommender\n");
 		}
 		
 		Randoms.seed(20171025); 
