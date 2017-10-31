@@ -6380,3 +6380,835 @@ Job Train completed.
 Job End.
 Evaluator info:AverageReciprocalHitRankEvaluator is 0.0931352993654161
 Result path is result/movielens-aobpr-output/aobpr
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.txt]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80019
+Data size of testing is 19981
+Job Setup completed.
+AoBPRRecommender iter 1: loss = 65632.62471826152, delta_loss = -65632.625
+AoBPRRecommender iter 2: loss = 65568.74866663115, delta_loss = 63.876053
+AoBPRRecommender iter 3: loss = 65454.56160842087, delta_loss = 114.18706
+AoBPRRecommender iter 4: loss = 65151.51324245412, delta_loss = 303.04837
+AoBPRRecommender iter 5: loss = 64187.78020886665, delta_loss = 963.73303
+AoBPRRecommender iter 6: loss = 61265.057574487975, delta_loss = 2922.7227
+AoBPRRecommender iter 7: loss = 55266.70234339404, delta_loss = 5998.3555
+AoBPRRecommender iter 8: loss = 48578.66643444206, delta_loss = 6688.036
+AoBPRRecommender iter 9: loss = 43857.18016481673, delta_loss = 4721.4863
+AoBPRRecommender iter 10: loss = 41183.1577830813, delta_loss = 2674.0225
+AoBPRRecommender iter 11: loss = 39670.159847740164, delta_loss = 1512.9979
+AoBPRRecommender iter 12: loss = 38214.80819643015, delta_loss = 1455.3517
+AoBPRRecommender iter 13: loss = 37436.695629297465, delta_loss = 778.11255
+AoBPRRecommender iter 14: loss = 36622.802893620974, delta_loss = 813.89276
+AoBPRRecommender iter 15: loss = 36011.11086062055, delta_loss = 611.692
+AoBPRRecommender iter 16: loss = 35682.142331828334, delta_loss = 328.96854
+AoBPRRecommender iter 17: loss = 35128.6886467598, delta_loss = 553.4537
+AoBPRRecommender iter 18: loss = 34642.05100157232, delta_loss = 486.63763
+AoBPRRecommender iter 19: loss = 34260.11241972829, delta_loss = 381.93857
+AoBPRRecommender iter 20: loss = 33626.55362874381, delta_loss = 633.5588
+AoBPRRecommender iter 21: loss = 33228.72430000921, delta_loss = 397.8293
+AoBPRRecommender iter 22: loss = 33024.036511882834, delta_loss = 204.68779
+AoBPRRecommender iter 23: loss = 32738.58385061949, delta_loss = 285.45267
+AoBPRRecommender iter 24: loss = 32126.871675021306, delta_loss = 611.71216
+AoBPRRecommender iter 25: loss = 31904.043765502247, delta_loss = 222.82791
+AoBPRRecommender iter 26: loss = 31562.479109944048, delta_loss = 341.56467
+AoBPRRecommender iter 27: loss = 31333.176213030358, delta_loss = 229.3029
+AoBPRRecommender iter 28: loss = 31410.110745985712, delta_loss = -76.93453
+AoBPRRecommender iter 29: loss = 31080.327023467336, delta_loss = 329.78372
+AoBPRRecommender iter 30: loss = 30690.22803102621, delta_loss = 390.099
+AoBPRRecommender iter 31: loss = 30636.88113910979, delta_loss = 53.346893
+AoBPRRecommender iter 32: loss = 30486.14819618602, delta_loss = 150.73294
+AoBPRRecommender iter 33: loss = 30244.22150861049, delta_loss = 241.92668
+AoBPRRecommender iter 34: loss = 29813.838428462597, delta_loss = 430.3831
+AoBPRRecommender iter 35: loss = 30052.058222430966, delta_loss = -238.21979
+AoBPRRecommender iter 36: loss = 29750.159763449807, delta_loss = 301.89847
+AoBPRRecommender iter 37: loss = 29809.701591694906, delta_loss = -59.54183
+AoBPRRecommender iter 38: loss = 29369.205234376124, delta_loss = 440.49637
+AoBPRRecommender iter 39: loss = 29313.34054509835, delta_loss = 55.86469
+AoBPRRecommender iter 40: loss = 29178.27344953577, delta_loss = 135.0671
+AoBPRRecommender iter 41: loss = 29291.131981311366, delta_loss = -112.85853
+AoBPRRecommender iter 42: loss = 29121.781273542554, delta_loss = 169.35071
+AoBPRRecommender iter 43: loss = 29202.566410839027, delta_loss = -80.78514
+AoBPRRecommender iter 44: loss = 29038.264009659815, delta_loss = 164.3024
+AoBPRRecommender iter 45: loss = 29050.967261915455, delta_loss = -12.703252
+AoBPRRecommender iter 46: loss = 29176.496072964568, delta_loss = -125.52881
+AoBPRRecommender iter 47: loss = 29155.911446672682, delta_loss = 20.584627
+AoBPRRecommender iter 48: loss = 28679.064411069583, delta_loss = 476.84705
+AoBPRRecommender iter 49: loss = 28878.48450993389, delta_loss = -199.4201
+AoBPRRecommender iter 50: loss = 28824.079736437863, delta_loss = 54.404774
+Job Train completed.
+Job End.
+Evaluator info:AverageReciprocalHitRankEvaluator is 0.0931352993654161
+Result path is result/movielens-aobpr-output/aobpr
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.txt]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80019
+Data size of testing is 19981
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:AUCEvaluator is 0.8780024434899132
+Result path is result/movielens-rankals-output/rankals
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.txt]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80019
+Data size of testing is 19981
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:AverageReciprocalHitRankEvaluator is 0.08395487215741725
+Result path is result/movielens-rankals-output/rankals
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.txt]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80019
+Data size of testing is 19981
+Job Setup completed.
+AoBPRRecommender iter 1: loss = 65632.62471826152, delta_loss = -65632.625
+AoBPRRecommender iter 2: loss = 65568.74866663115, delta_loss = 63.876053
+AoBPRRecommender iter 3: loss = 65454.56160842087, delta_loss = 114.18706
+AoBPRRecommender iter 4: loss = 65151.51324245412, delta_loss = 303.04837
+AoBPRRecommender iter 5: loss = 64187.78020886665, delta_loss = 963.73303
+AoBPRRecommender iter 6: loss = 61265.057574487975, delta_loss = 2922.7227
+AoBPRRecommender iter 7: loss = 55266.70234339404, delta_loss = 5998.3555
+AoBPRRecommender iter 8: loss = 48578.66643444206, delta_loss = 6688.036
+AoBPRRecommender iter 9: loss = 43857.18016481673, delta_loss = 4721.4863
+AoBPRRecommender iter 10: loss = 41183.1577830813, delta_loss = 2674.0225
+AoBPRRecommender iter 11: loss = 39670.159847740164, delta_loss = 1512.9979
+AoBPRRecommender iter 12: loss = 38214.80819643015, delta_loss = 1455.3517
+AoBPRRecommender iter 13: loss = 37436.695629297465, delta_loss = 778.11255
+AoBPRRecommender iter 14: loss = 36622.802893620974, delta_loss = 813.89276
+AoBPRRecommender iter 15: loss = 36011.11086062055, delta_loss = 611.692
+AoBPRRecommender iter 16: loss = 35682.142331828334, delta_loss = 328.96854
+AoBPRRecommender iter 17: loss = 35128.6886467598, delta_loss = 553.4537
+AoBPRRecommender iter 18: loss = 34642.05100157232, delta_loss = 486.63763
+AoBPRRecommender iter 19: loss = 34260.11241972829, delta_loss = 381.93857
+AoBPRRecommender iter 20: loss = 33626.55362874381, delta_loss = 633.5588
+AoBPRRecommender iter 21: loss = 33228.72430000921, delta_loss = 397.8293
+AoBPRRecommender iter 22: loss = 33024.036511882834, delta_loss = 204.68779
+AoBPRRecommender iter 23: loss = 32738.58385061949, delta_loss = 285.45267
+AoBPRRecommender iter 24: loss = 32126.871675021306, delta_loss = 611.71216
+AoBPRRecommender iter 25: loss = 31904.043765502247, delta_loss = 222.82791
+AoBPRRecommender iter 26: loss = 31562.479109944048, delta_loss = 341.56467
+AoBPRRecommender iter 27: loss = 31333.176213030358, delta_loss = 229.3029
+AoBPRRecommender iter 28: loss = 31410.110745985712, delta_loss = -76.93453
+AoBPRRecommender iter 29: loss = 31080.327023467336, delta_loss = 329.78372
+AoBPRRecommender iter 30: loss = 30690.22803102621, delta_loss = 390.099
+AoBPRRecommender iter 31: loss = 30636.88113910979, delta_loss = 53.346893
+AoBPRRecommender iter 32: loss = 30486.14819618602, delta_loss = 150.73294
+AoBPRRecommender iter 33: loss = 30244.22150861049, delta_loss = 241.92668
+AoBPRRecommender iter 34: loss = 29813.838428462597, delta_loss = 430.3831
+AoBPRRecommender iter 35: loss = 30052.058222430966, delta_loss = -238.21979
+AoBPRRecommender iter 36: loss = 29750.159763449807, delta_loss = 301.89847
+AoBPRRecommender iter 37: loss = 29809.701591694906, delta_loss = -59.54183
+AoBPRRecommender iter 38: loss = 29369.205234376124, delta_loss = 440.49637
+AoBPRRecommender iter 39: loss = 29313.34054509835, delta_loss = 55.86469
+AoBPRRecommender iter 40: loss = 29178.27344953577, delta_loss = 135.0671
+AoBPRRecommender iter 41: loss = 29291.131981311366, delta_loss = -112.85853
+AoBPRRecommender iter 42: loss = 29121.781273542554, delta_loss = 169.35071
+AoBPRRecommender iter 43: loss = 29202.566410839027, delta_loss = -80.78514
+AoBPRRecommender iter 44: loss = 29038.264009659815, delta_loss = 164.3024
+AoBPRRecommender iter 45: loss = 29050.967261915455, delta_loss = -12.703252
+AoBPRRecommender iter 46: loss = 29176.496072964568, delta_loss = -125.52881
+AoBPRRecommender iter 47: loss = 29155.911446672682, delta_loss = 20.584627
+AoBPRRecommender iter 48: loss = 28679.064411069583, delta_loss = 476.84705
+AoBPRRecommender iter 49: loss = 28878.48450993389, delta_loss = -199.4201
+AoBPRRecommender iter 50: loss = 28824.079736437863, delta_loss = 54.404774
+Job Train completed.
+Job End.
+Evaluator info:AverageReciprocalHitRankEvaluator is 0.0931352993654161
+Result path is result/movielens-aobpr-output/aobpr
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.txt]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80019
+Data size of testing is 19981
+Job Setup completed.
+AoBPRRecommender iter 1: loss = 65632.62471826152, delta_loss = -65632.625
+AoBPRRecommender iter 2: loss = 65568.74866663115, delta_loss = 63.876053
+AoBPRRecommender iter 3: loss = 65454.56160842087, delta_loss = 114.18706
+AoBPRRecommender iter 4: loss = 65151.51324245412, delta_loss = 303.04837
+AoBPRRecommender iter 5: loss = 64187.78020886665, delta_loss = 963.73303
+AoBPRRecommender iter 6: loss = 61265.057574487975, delta_loss = 2922.7227
+AoBPRRecommender iter 7: loss = 55266.70234339404, delta_loss = 5998.3555
+AoBPRRecommender iter 8: loss = 48578.66643444206, delta_loss = 6688.036
+AoBPRRecommender iter 9: loss = 43857.18016481673, delta_loss = 4721.4863
+AoBPRRecommender iter 10: loss = 41183.1577830813, delta_loss = 2674.0225
+AoBPRRecommender iter 11: loss = 39670.159847740164, delta_loss = 1512.9979
+AoBPRRecommender iter 12: loss = 38214.80819643015, delta_loss = 1455.3517
+AoBPRRecommender iter 13: loss = 37436.695629297465, delta_loss = 778.11255
+AoBPRRecommender iter 14: loss = 36622.802893620974, delta_loss = 813.89276
+AoBPRRecommender iter 15: loss = 36011.11086062055, delta_loss = 611.692
+AoBPRRecommender iter 16: loss = 35682.142331828334, delta_loss = 328.96854
+AoBPRRecommender iter 17: loss = 35128.6886467598, delta_loss = 553.4537
+AoBPRRecommender iter 18: loss = 34642.05100157232, delta_loss = 486.63763
+AoBPRRecommender iter 19: loss = 34260.11241972829, delta_loss = 381.93857
+AoBPRRecommender iter 20: loss = 33626.55362874381, delta_loss = 633.5588
+AoBPRRecommender iter 21: loss = 33228.72430000921, delta_loss = 397.8293
+AoBPRRecommender iter 22: loss = 33024.036511882834, delta_loss = 204.68779
+AoBPRRecommender iter 23: loss = 32738.58385061949, delta_loss = 285.45267
+AoBPRRecommender iter 24: loss = 32126.871675021306, delta_loss = 611.71216
+AoBPRRecommender iter 25: loss = 31904.043765502247, delta_loss = 222.82791
+AoBPRRecommender iter 26: loss = 31562.479109944048, delta_loss = 341.56467
+AoBPRRecommender iter 27: loss = 31333.176213030358, delta_loss = 229.3029
+AoBPRRecommender iter 28: loss = 31410.110745985712, delta_loss = -76.93453
+AoBPRRecommender iter 29: loss = 31080.327023467336, delta_loss = 329.78372
+AoBPRRecommender iter 30: loss = 30690.22803102621, delta_loss = 390.099
+AoBPRRecommender iter 31: loss = 30636.88113910979, delta_loss = 53.346893
+AoBPRRecommender iter 32: loss = 30486.14819618602, delta_loss = 150.73294
+AoBPRRecommender iter 33: loss = 30244.22150861049, delta_loss = 241.92668
+AoBPRRecommender iter 34: loss = 29813.838428462597, delta_loss = 430.3831
+AoBPRRecommender iter 35: loss = 30052.058222430966, delta_loss = -238.21979
+AoBPRRecommender iter 36: loss = 29750.159763449807, delta_loss = 301.89847
+AoBPRRecommender iter 37: loss = 29809.701591694906, delta_loss = -59.54183
+AoBPRRecommender iter 38: loss = 29369.205234376124, delta_loss = 440.49637
+AoBPRRecommender iter 39: loss = 29313.34054509835, delta_loss = 55.86469
+AoBPRRecommender iter 40: loss = 29178.27344953577, delta_loss = 135.0671
+AoBPRRecommender iter 41: loss = 29291.131981311366, delta_loss = -112.85853
+AoBPRRecommender iter 42: loss = 29121.781273542554, delta_loss = 169.35071
+AoBPRRecommender iter 43: loss = 29202.566410839027, delta_loss = -80.78514
+AoBPRRecommender iter 44: loss = 29038.264009659815, delta_loss = 164.3024
+AoBPRRecommender iter 45: loss = 29050.967261915455, delta_loss = -12.703252
+AoBPRRecommender iter 46: loss = 29176.496072964568, delta_loss = -125.52881
+AoBPRRecommender iter 47: loss = 29155.911446672682, delta_loss = 20.584627
+AoBPRRecommender iter 48: loss = 28679.064411069583, delta_loss = 476.84705
+AoBPRRecommender iter 49: loss = 28878.48450993389, delta_loss = -199.4201
+AoBPRRecommender iter 50: loss = 28824.079736437863, delta_loss = 54.404774
+Job Train completed.
+Job End.
+Evaluator info:AverageReciprocalHitRankEvaluator is 0.0931352993654161
+Result path is result/movielens-aobpr-output/aobpr
+Dataset: data/filmtrust/rating
+All dataset files [data\filmtrust\rating\ratings_0.txt, data\filmtrust\rating\ratings_1.txt, data\filmtrust\rating\ratings_2.txt, data\filmtrust\rating\ratings_3.txt]
+All dataset files size 411942
+Now loading dataset file ratings_0
+Now loading dataset file ratings_1
+Now loading dataset file ratings_2
+Now loading dataset file ratings_3
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 28408
+Data size of testing is 7086
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:AverageReciprocalHitRankEvaluator is 0.18901166359729873
+Result path is result/filmtrust/rating-rankals-output/rankals
+Dataset: data/filmtrust/rating
+All dataset files [data\filmtrust\rating\ratings_0.txt, data\filmtrust\rating\ratings_1.txt, data\filmtrust\rating\ratings_2.txt, data\filmtrust\rating\ratings_3.txt]
+All dataset files size 411942
+Now loading dataset file ratings_0
+Now loading dataset file ratings_1
+Now loading dataset file ratings_2
+Now loading dataset file ratings_3
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 28408
+Data size of testing is 7086
+Job Setup completed.
+SVDPlusPlusRecommender iter 1: loss = 11541.827961982804, delta_loss = -11541.828
+SVDPlusPlusRecommender iter 2: loss = 10120.878863714404, delta_loss = 1420.9491
+SVDPlusPlusRecommender iter 3: loss = 9469.813698348196, delta_loss = 651.0652
+SVDPlusPlusRecommender iter 4: loss = 9084.518683721337, delta_loss = 385.295
+SVDPlusPlusRecommender iter 5: loss = 8826.138804198512, delta_loss = 258.37988
+SVDPlusPlusRecommender iter 6: loss = 8630.450108748817, delta_loss = 195.68869
+SVDPlusPlusRecommender iter 7: loss = 8464.726159600901, delta_loss = 165.72395
+SVDPlusPlusRecommender iter 8: loss = 8310.674519122904, delta_loss = 154.05164
+SVDPlusPlusRecommender iter 9: loss = 8157.017714939009, delta_loss = 153.6568
+SVDPlusPlusRecommender iter 10: loss = 7996.466713663997, delta_loss = 160.551
+SVDPlusPlusRecommender iter 11: loss = 7824.8356419696665, delta_loss = 171.63107
+SVDPlusPlusRecommender iter 12: loss = 7641.044883688912, delta_loss = 183.79076
+SVDPlusPlusRecommender iter 13: loss = 7447.035529866017, delta_loss = 194.00935
+Job Train completed.
+Job End.
+Evaluator info:MAEEvaluator is 0.618792586679019
+Result path is result/filmtrust/rating-svdpp-output/svdpp
+Dataset: data/filmtrust/rating
+All dataset files [data\filmtrust\rating\ratings_0.txt, data\filmtrust\rating\ratings_1.txt, data\filmtrust\rating\ratings_2.txt, data\filmtrust\rating\ratings_3.txt]
+All dataset files size 411942
+Now loading dataset file ratings_0
+Now loading dataset file ratings_1
+Now loading dataset file ratings_2
+Now loading dataset file ratings_3
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 28408
+Data size of testing is 7086
+Job Setup completed.
+SVDPlusPlusRecommender iter 1: loss = 11541.827961982804, delta_loss = -11541.828
+SVDPlusPlusRecommender iter 2: loss = 10120.878863714404, delta_loss = 1420.9491
+SVDPlusPlusRecommender iter 3: loss = 9469.813698348196, delta_loss = 651.0652
+SVDPlusPlusRecommender iter 4: loss = 9084.518683721337, delta_loss = 385.295
+SVDPlusPlusRecommender iter 5: loss = 8826.138804198512, delta_loss = 258.37988
+SVDPlusPlusRecommender iter 6: loss = 8630.450108748817, delta_loss = 195.68869
+SVDPlusPlusRecommender iter 7: loss = 8464.726159600901, delta_loss = 165.72395
+SVDPlusPlusRecommender iter 8: loss = 8310.674519122904, delta_loss = 154.05164
+SVDPlusPlusRecommender iter 9: loss = 8157.017714939009, delta_loss = 153.6568
+SVDPlusPlusRecommender iter 10: loss = 7996.466713663997, delta_loss = 160.551
+SVDPlusPlusRecommender iter 11: loss = 7824.8356419696665, delta_loss = 171.63107
+SVDPlusPlusRecommender iter 12: loss = 7641.044883688912, delta_loss = 183.79076
+SVDPlusPlusRecommender iter 13: loss = 7447.035529866017, delta_loss = 194.00935
+Job Train completed.
+Job End.
+Evaluator value:RECALL top 10 is 0.011838101853721713
+Evaluator value:AUC top 10 is 0.5276145570861452
+Evaluator value:NDCG top 10 is 0.00818589977751925
+Evaluator value:PRECISION top 10 is 0.006708760852407252
+Evaluator value:AP top 10 is 0.0028368178660864783
+Evaluator value:RR top 10 is 0.01332606707508049
+Result path is result/filmtrust/rating-svdpp-output/svdpp
+Dataset: data/filmtrust/rating
+All dataset files [data\filmtrust\rating\ratings_0.txt, data\filmtrust\rating\ratings_1.txt, data\filmtrust\rating\ratings_2.txt, data\filmtrust\rating\ratings_3.txt]
+All dataset files size 411942
+Now loading dataset file ratings_0
+Now loading dataset file ratings_1
+Now loading dataset file ratings_2
+Now loading dataset file ratings_3
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 28408
+Data size of testing is 7086
+Job Setup completed.
+SVDPlusPlusRecommender iter 1: loss = 11541.827961982804, delta_loss = -11541.828
+SVDPlusPlusRecommender iter 2: loss = 10120.878863714404, delta_loss = 1420.9491
+SVDPlusPlusRecommender iter 3: loss = 9469.813698348196, delta_loss = 651.0652
+SVDPlusPlusRecommender iter 4: loss = 9084.518683721337, delta_loss = 385.295
+SVDPlusPlusRecommender iter 5: loss = 8826.138804198512, delta_loss = 258.37988
+SVDPlusPlusRecommender iter 6: loss = 8630.450108748817, delta_loss = 195.68869
+SVDPlusPlusRecommender iter 7: loss = 8464.726159600901, delta_loss = 165.72395
+SVDPlusPlusRecommender iter 8: loss = 8310.674519122904, delta_loss = 154.05164
+SVDPlusPlusRecommender iter 9: loss = 8157.017714939009, delta_loss = 153.6568
+SVDPlusPlusRecommender iter 10: loss = 7996.466713663997, delta_loss = 160.551
+SVDPlusPlusRecommender iter 11: loss = 7824.8356419696665, delta_loss = 171.63107
+SVDPlusPlusRecommender iter 12: loss = 7641.044883688912, delta_loss = 183.79076
+SVDPlusPlusRecommender iter 13: loss = 7447.035529866017, delta_loss = 194.00935
+Job Train completed.
+Job End.
+Evaluator info:RMSEEvaluator is 0.8032397113014813
+Result path is result/filmtrust/rating-svdpp-output/svdpp
+Dataset: data/filmtrust/rating
+All dataset files [data\filmtrust\rating\ratings_0.txt, data\filmtrust\rating\ratings_1.txt, data\filmtrust\rating\ratings_2.txt, data\filmtrust\rating\ratings_3.txt]
+All dataset files size 411942
+Now loading dataset file ratings_0
+Now loading dataset file ratings_1
+Now loading dataset file ratings_2
+Now loading dataset file ratings_3
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 28408
+Data size of testing is 7086
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:MSEEvaluator is 0.686075844052425
+Result path is result/filmtrust/rating-usercluster-output/usercluster
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.txt]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80019
+Data size of testing is 19981
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.txt]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80019
+Data size of testing is 19981
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:AUCEvaluator is 0.7526569680521573
+Result path is result/movielens-itemknn-output/itemknn
+Dataset: data/filmtrust/rating
+All dataset files [data\filmtrust\rating\ratings_0.txt, data\filmtrust\rating\ratings_1.txt, data\filmtrust\rating\ratings_2.txt, data\filmtrust\rating\ratings_3.txt]
+All dataset files size 411942
+Now loading dataset file ratings_0
+Now loading dataset file ratings_1
+Now loading dataset file ratings_2
+Now loading dataset file ratings_3
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 28408
+Data size of testing is 7086
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:MSEEvaluator is 0.686075844052425
+Result path is result/filmtrust/rating-usercluster-output/usercluster
+Dataset: data/filmtrust/rating
+All dataset files [data\filmtrust\rating\ratings_0.txt, data\filmtrust\rating\ratings_1.txt, data\filmtrust\rating\ratings_2.txt, data\filmtrust\rating\ratings_3.txt]
+All dataset files size 411942
+Now loading dataset file ratings_0
+Now loading dataset file ratings_1
+Now loading dataset file ratings_2
+Now loading dataset file ratings_3
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 28408
+Data size of testing is 7086
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:MSEEvaluator is 0.686075844052425
+Result path is result/filmtrust/rating-usercluster-output/usercluster
+Dataset: data/filmtrust/rating
+All dataset files [data\filmtrust\rating\ratings_0.txt, data\filmtrust\rating\ratings_1.txt, data\filmtrust\rating\ratings_2.txt, data\filmtrust\rating\ratings_3.txt]
+All dataset files size 411942
+Now loading dataset file ratings_0
+Now loading dataset file ratings_1
+Now loading dataset file ratings_2
+Now loading dataset file ratings_3
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 28408
+Data size of testing is 7086
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:MAEEvaluator is 0.6443215241920306
+Result path is result/filmtrust/rating-usercluster-output/usercluster
+Dataset: data/filmtrust/rating
+All dataset files [data\filmtrust\rating\ratings_0.txt, data\filmtrust\rating\ratings_1.txt, data\filmtrust\rating\ratings_2.txt, data\filmtrust\rating\ratings_3.txt]
+All dataset files size 411942
+Now loading dataset file ratings_0
+Now loading dataset file ratings_1
+Now loading dataset file ratings_2
+Now loading dataset file ratings_3
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 28408
+Data size of testing is 7086
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:RMSEEvaluator is 0.8282969540282187
+Result path is result/filmtrust/rating-usercluster-output/usercluster
+Dataset: data/filmtrust/rating
+All dataset files [data\filmtrust\rating\ratings_0.txt, data\filmtrust\rating\ratings_1.txt, data\filmtrust\rating\ratings_2.txt, data\filmtrust\rating\ratings_3.txt]
+All dataset files size 411942
+Now loading dataset file ratings_0
+Now loading dataset file ratings_1
+Now loading dataset file ratings_2
+Now loading dataset file ratings_3
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 28408
+Data size of testing is 7086
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:RMSEEvaluator is 0.9041149226626618
+Result path is result/filmtrust/rating-itemcluster-output/itemcluster
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.txt]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80019
+Data size of testing is 19981
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator value:RMSE is 1.0174874956006006
+Evaluator value:MPE is 0.9965967669285821
+Evaluator value:MSE is 1.035280803703582
+Evaluator value:MAE is 0.8169010214140731
+Result path is result/movielens-itemcluster-output/itemcluster
+Dataset: data/filmtrust/rating
+All dataset files [data\filmtrust\rating\ratings_0.txt, data\filmtrust\rating\ratings_1.txt, data\filmtrust\rating\ratings_2.txt, data\filmtrust\rating\ratings_3.txt]
+All dataset files size 411942
+Now loading dataset file ratings_0
+Now loading dataset file ratings_1
+Now loading dataset file ratings_2
+Now loading dataset file ratings_3
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 28408
+Data size of testing is 7086
+Job Setup completed.
+SVDPlusPlusRecommender iter 1: loss = 11541.827961982804, delta_loss = -11541.828
+SVDPlusPlusRecommender iter 2: loss = 10120.878863714404, delta_loss = 1420.9491
+SVDPlusPlusRecommender iter 3: loss = 9469.813698348196, delta_loss = 651.0652
+SVDPlusPlusRecommender iter 4: loss = 9084.518683721337, delta_loss = 385.295
+SVDPlusPlusRecommender iter 5: loss = 8826.138804198512, delta_loss = 258.37988
+SVDPlusPlusRecommender iter 6: loss = 8630.450108748817, delta_loss = 195.68869
+SVDPlusPlusRecommender iter 7: loss = 8464.726159600901, delta_loss = 165.72395
+SVDPlusPlusRecommender iter 8: loss = 8310.674519122904, delta_loss = 154.05164
+SVDPlusPlusRecommender iter 9: loss = 8157.017714939009, delta_loss = 153.6568
+SVDPlusPlusRecommender iter 10: loss = 7996.466713663997, delta_loss = 160.551
+SVDPlusPlusRecommender iter 11: loss = 7824.8356419696665, delta_loss = 171.63107
+SVDPlusPlusRecommender iter 12: loss = 7641.044883688912, delta_loss = 183.79076
+SVDPlusPlusRecommender iter 13: loss = 7447.035529866017, delta_loss = 194.00935
+Job Train completed.
+Job End.
+Evaluator info:RMSEEvaluator is 0.8032397113014813
+Result path is result/filmtrust/rating-svdpp-output/svdpp
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.txt]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80019
+Data size of testing is 19981
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:AverageReciprocalHitRankEvaluator is 0.021131057583867758
+Result path is result/movielens-itemknn-output/itemknn
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.txt]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80019
+Data size of testing is 19981
+Job Setup completed.
+AoBPRRecommender iter 1: loss = 65632.62471826152, delta_loss = -65632.625
+AoBPRRecommender iter 2: loss = 65568.74866663115, delta_loss = 63.876053
+AoBPRRecommender iter 3: loss = 65454.56160842087, delta_loss = 114.18706
+AoBPRRecommender iter 4: loss = 65151.51324245412, delta_loss = 303.04837
+AoBPRRecommender iter 5: loss = 64187.78020886665, delta_loss = 963.73303
+AoBPRRecommender iter 6: loss = 61265.057574487975, delta_loss = 2922.7227
+AoBPRRecommender iter 7: loss = 55266.70234339404, delta_loss = 5998.3555
+AoBPRRecommender iter 8: loss = 48578.66643444206, delta_loss = 6688.036
+AoBPRRecommender iter 9: loss = 43857.18016481673, delta_loss = 4721.4863
+AoBPRRecommender iter 10: loss = 41183.1577830813, delta_loss = 2674.0225
+AoBPRRecommender iter 11: loss = 39670.159847740164, delta_loss = 1512.9979
+AoBPRRecommender iter 12: loss = 38214.80819643015, delta_loss = 1455.3517
+AoBPRRecommender iter 13: loss = 37436.695629297465, delta_loss = 778.11255
+Job Train completed.
+Job End.
+Evaluator info:AverageReciprocalHitRankEvaluator is 0.08279090710161763
+Result path is result/movielens-aobpr-output/aobpr
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.txt]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80019
+Data size of testing is 19981
+Job Setup completed.
+AoBPRRecommender iter 1: loss = 65632.62471826152, delta_loss = -65632.625
+AoBPRRecommender iter 2: loss = 65568.74866663115, delta_loss = 63.876053
+AoBPRRecommender iter 3: loss = 65454.56160842087, delta_loss = 114.18706
+AoBPRRecommender iter 4: loss = 65151.51324245412, delta_loss = 303.04837
+AoBPRRecommender iter 5: loss = 64187.78020886665, delta_loss = 963.73303
+AoBPRRecommender iter 6: loss = 61265.057574487975, delta_loss = 2922.7227
+AoBPRRecommender iter 7: loss = 55266.70234339404, delta_loss = 5998.3555
+AoBPRRecommender iter 8: loss = 48578.66643444206, delta_loss = 6688.036
+AoBPRRecommender iter 9: loss = 43857.18016481673, delta_loss = 4721.4863
+AoBPRRecommender iter 10: loss = 41183.1577830813, delta_loss = 2674.0225
+AoBPRRecommender iter 11: loss = 39670.159847740164, delta_loss = 1512.9979
+AoBPRRecommender iter 12: loss = 38214.80819643015, delta_loss = 1455.3517
+AoBPRRecommender iter 13: loss = 37436.695629297465, delta_loss = 778.11255
+Job Train completed.
+Job End.
+Evaluator info:AverageReciprocalHitRankEvaluator is 0.08279090710161763
+Result path is result/movielens-aobpr-output/aobpr
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.txt]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80019
+Data size of testing is 19981
+Job Setup completed.
+AoBPRRecommender iter 1: loss = 65632.62471826152, delta_loss = -65632.625
+AoBPRRecommender iter 2: loss = 65568.74866663115, delta_loss = 63.876053
+AoBPRRecommender iter 3: loss = 65454.56160842087, delta_loss = 114.18706
+AoBPRRecommender iter 4: loss = 65151.51324245412, delta_loss = 303.04837
+AoBPRRecommender iter 5: loss = 64187.78020886665, delta_loss = 963.73303
+AoBPRRecommender iter 6: loss = 61265.057574487975, delta_loss = 2922.7227
+AoBPRRecommender iter 7: loss = 55266.70234339404, delta_loss = 5998.3555
+AoBPRRecommender iter 8: loss = 48578.66643444206, delta_loss = 6688.036
+AoBPRRecommender iter 9: loss = 43857.18016481673, delta_loss = 4721.4863
+AoBPRRecommender iter 10: loss = 41183.1577830813, delta_loss = 2674.0225
+AoBPRRecommender iter 11: loss = 39670.159847740164, delta_loss = 1512.9979
+AoBPRRecommender iter 12: loss = 38214.80819643015, delta_loss = 1455.3517
+AoBPRRecommender iter 13: loss = 37436.695629297465, delta_loss = 778.11255
+AoBPRRecommender iter 14: loss = 36622.802893620974, delta_loss = 813.89276
+AoBPRRecommender iter 15: loss = 36011.11086062055, delta_loss = 611.692
+AoBPRRecommender iter 16: loss = 35682.142331828334, delta_loss = 328.96854
+AoBPRRecommender iter 17: loss = 35128.6886467598, delta_loss = 553.4537
+AoBPRRecommender iter 18: loss = 34642.05100157232, delta_loss = 486.63763
+AoBPRRecommender iter 19: loss = 34260.11241972829, delta_loss = 381.93857
+AoBPRRecommender iter 20: loss = 33626.55362874381, delta_loss = 633.5588
+AoBPRRecommender iter 21: loss = 33228.72430000921, delta_loss = 397.8293
+AoBPRRecommender iter 22: loss = 33024.036511882834, delta_loss = 204.68779
+AoBPRRecommender iter 23: loss = 32738.58385061949, delta_loss = 285.45267
+AoBPRRecommender iter 24: loss = 32126.871675021306, delta_loss = 611.71216
+AoBPRRecommender iter 25: loss = 31904.043765502247, delta_loss = 222.82791
+AoBPRRecommender iter 26: loss = 31562.479109944048, delta_loss = 341.56467
+AoBPRRecommender iter 27: loss = 31333.176213030358, delta_loss = 229.3029
+AoBPRRecommender iter 28: loss = 31410.110745985712, delta_loss = -76.93453
+AoBPRRecommender iter 29: loss = 31080.327023467336, delta_loss = 329.78372
+AoBPRRecommender iter 30: loss = 30690.22803102621, delta_loss = 390.099
+AoBPRRecommender iter 31: loss = 30636.88113910979, delta_loss = 53.346893
+AoBPRRecommender iter 32: loss = 30486.14819618602, delta_loss = 150.73294
+AoBPRRecommender iter 33: loss = 30244.22150861049, delta_loss = 241.92668
+AoBPRRecommender iter 34: loss = 29813.838428462597, delta_loss = 430.3831
+AoBPRRecommender iter 35: loss = 30052.058222430966, delta_loss = -238.21979
+AoBPRRecommender iter 36: loss = 29750.159763449807, delta_loss = 301.89847
+AoBPRRecommender iter 37: loss = 29809.701591694906, delta_loss = -59.54183
+AoBPRRecommender iter 38: loss = 29369.205234376124, delta_loss = 440.49637
+AoBPRRecommender iter 39: loss = 29313.34054509835, delta_loss = 55.86469
+AoBPRRecommender iter 40: loss = 29178.27344953577, delta_loss = 135.0671
+AoBPRRecommender iter 41: loss = 29291.131981311366, delta_loss = -112.85853
+AoBPRRecommender iter 42: loss = 29121.781273542554, delta_loss = 169.35071
+AoBPRRecommender iter 43: loss = 29202.566410839027, delta_loss = -80.78514
+AoBPRRecommender iter 44: loss = 29038.264009659815, delta_loss = 164.3024
+AoBPRRecommender iter 45: loss = 29050.967261915455, delta_loss = -12.703252
+AoBPRRecommender iter 46: loss = 29176.496072964568, delta_loss = -125.52881
+AoBPRRecommender iter 47: loss = 29155.911446672682, delta_loss = 20.584627
+AoBPRRecommender iter 48: loss = 28679.064411069583, delta_loss = 476.84705
+AoBPRRecommender iter 49: loss = 28878.48450993389, delta_loss = -199.4201
+AoBPRRecommender iter 50: loss = 28824.079736437863, delta_loss = 54.404774
+Job Train completed.
+Job End.
+Evaluator info:AverageReciprocalHitRankEvaluator is 0.0931352993654161
+Result path is result/movielens-aobpr-output/aobpr
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.txt]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80019
+Data size of testing is 19981
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:AverageReciprocalHitRankEvaluator is 0.019673365988318266
+Result path is result/movielens-itemknn-output/itemknn
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.txt]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80019
+Data size of testing is 19981
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:AUCEvaluator is 0.7592915175179212
+Result path is result/movielens-itemknn-output/itemknn
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.txt]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80019
+Data size of testing is 19981
+Job Setup completed.
+AoBPRRecommender iter 1: loss = 65632.62471826152, delta_loss = -65632.625
+AoBPRRecommender iter 2: loss = 65568.74866663115, delta_loss = 63.876053
+AoBPRRecommender iter 3: loss = 65454.56160842087, delta_loss = 114.18706
+AoBPRRecommender iter 4: loss = 65151.51324245412, delta_loss = 303.04837
+AoBPRRecommender iter 5: loss = 64187.78020886665, delta_loss = 963.73303
+AoBPRRecommender iter 6: loss = 61265.057574487975, delta_loss = 2922.7227
+AoBPRRecommender iter 7: loss = 55266.70234339404, delta_loss = 5998.3555
+AoBPRRecommender iter 8: loss = 48578.66643444206, delta_loss = 6688.036
+AoBPRRecommender iter 9: loss = 43857.18016481673, delta_loss = 4721.4863
+AoBPRRecommender iter 10: loss = 41183.1577830813, delta_loss = 2674.0225
+AoBPRRecommender iter 11: loss = 39670.159847740164, delta_loss = 1512.9979
+AoBPRRecommender iter 12: loss = 38214.80819643015, delta_loss = 1455.3517
+AoBPRRecommender iter 13: loss = 37436.695629297465, delta_loss = 778.11255
+AoBPRRecommender iter 14: loss = 36622.802893620974, delta_loss = 813.89276
+AoBPRRecommender iter 15: loss = 36011.11086062055, delta_loss = 611.692
+AoBPRRecommender iter 16: loss = 35682.142331828334, delta_loss = 328.96854
+AoBPRRecommender iter 17: loss = 35128.6886467598, delta_loss = 553.4537
+AoBPRRecommender iter 18: loss = 34642.05100157232, delta_loss = 486.63763
+AoBPRRecommender iter 19: loss = 34260.11241972829, delta_loss = 381.93857
+AoBPRRecommender iter 20: loss = 33626.55362874381, delta_loss = 633.5588
+AoBPRRecommender iter 21: loss = 33228.72430000921, delta_loss = 397.8293
+AoBPRRecommender iter 22: loss = 33024.036511882834, delta_loss = 204.68779
+AoBPRRecommender iter 23: loss = 32738.58385061949, delta_loss = 285.45267
+AoBPRRecommender iter 24: loss = 32126.871675021306, delta_loss = 611.71216
+AoBPRRecommender iter 25: loss = 31904.043765502247, delta_loss = 222.82791
+AoBPRRecommender iter 26: loss = 31562.479109944048, delta_loss = 341.56467
+AoBPRRecommender iter 27: loss = 31333.176213030358, delta_loss = 229.3029
+AoBPRRecommender iter 28: loss = 31410.110745985712, delta_loss = -76.93453
+AoBPRRecommender iter 29: loss = 31080.327023467336, delta_loss = 329.78372
+AoBPRRecommender iter 30: loss = 30690.22803102621, delta_loss = 390.099
+AoBPRRecommender iter 31: loss = 30636.88113910979, delta_loss = 53.346893
+AoBPRRecommender iter 32: loss = 30486.14819618602, delta_loss = 150.73294
+AoBPRRecommender iter 33: loss = 30244.22150861049, delta_loss = 241.92668
+AoBPRRecommender iter 34: loss = 29813.838428462597, delta_loss = 430.3831
+AoBPRRecommender iter 35: loss = 30052.058222430966, delta_loss = -238.21979
+AoBPRRecommender iter 36: loss = 29750.159763449807, delta_loss = 301.89847
+AoBPRRecommender iter 37: loss = 29809.701591694906, delta_loss = -59.54183
+AoBPRRecommender iter 38: loss = 29369.205234376124, delta_loss = 440.49637
+AoBPRRecommender iter 39: loss = 29313.34054509835, delta_loss = 55.86469
+AoBPRRecommender iter 40: loss = 29178.27344953577, delta_loss = 135.0671
+AoBPRRecommender iter 41: loss = 29291.131981311366, delta_loss = -112.85853
+AoBPRRecommender iter 42: loss = 29121.781273542554, delta_loss = 169.35071
+AoBPRRecommender iter 43: loss = 29202.566410839027, delta_loss = -80.78514
+AoBPRRecommender iter 44: loss = 29038.264009659815, delta_loss = 164.3024
+AoBPRRecommender iter 45: loss = 29050.967261915455, delta_loss = -12.703252
+AoBPRRecommender iter 46: loss = 29176.496072964568, delta_loss = -125.52881
+AoBPRRecommender iter 47: loss = 29155.911446672682, delta_loss = 20.584627
+AoBPRRecommender iter 48: loss = 28679.064411069583, delta_loss = 476.84705
+AoBPRRecommender iter 49: loss = 28878.48450993389, delta_loss = -199.4201
+AoBPRRecommender iter 50: loss = 28824.079736437863, delta_loss = 54.404774
+Job Train completed.
+Job End.
+Evaluator info:AUCEvaluator is 0.9389146266255254
+Result path is result/movielens-aobpr-output/aobpr
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 7
+Data size of testing is 5
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 7
+Data size of testing is 5
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 28411
+Data size of testing is 7086
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 28411
+Data size of testing is 7086
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 28411
+Data size of testing is 7086
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 28411
+Data size of testing is 7086
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 28411
+Data size of testing is 7086
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 28411
+Data size of testing is 7086
+Dataset: data/filmtrust/rating
+All dataset files [data\filmtrust\rating\ratings_0.txt, data\filmtrust\rating\ratings_1.txt, data\filmtrust\rating\ratings_2.txt, data\filmtrust\rating\ratings_3.txt]
+All dataset files size 411942
+Now loading dataset file ratings_0
+Now loading dataset file ratings_1
+Now loading dataset file ratings_2
+Now loading dataset file ratings_3
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 28408
+Data size of testing is 7086
+Dataset: data/filmtrust/rating
+All dataset files [data\filmtrust\rating\ratings_0.txt, data\filmtrust\rating\ratings_1.txt, data\filmtrust\rating\ratings_2.txt, data\filmtrust\rating\ratings_3.txt]
+All dataset files size 411942
+Now loading dataset file ratings_0
+Now loading dataset file ratings_1
+Now loading dataset file ratings_2
+Now loading dataset file ratings_3
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 28408
+Data size of testing is 7086
+Dataset: data/filmtrust/rating
+All dataset files [data\filmtrust\rating\ratings_0.txt, data\filmtrust\rating\ratings_1.txt, data\filmtrust\rating\ratings_2.txt, data\filmtrust\rating\ratings_3.txt]
+All dataset files size 411942
+Now loading dataset file ratings_0
+Now loading dataset file ratings_1
+Now loading dataset file ratings_2
+Now loading dataset file ratings_3
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 28408
+Data size of testing is 7086
+Dataset: data/filmtrust/rating
+All dataset files [data\filmtrust\rating\ratings_0.txt, data\filmtrust\rating\ratings_1.txt, data\filmtrust\rating\ratings_2.txt, data\filmtrust\rating\ratings_3.txt]
+All dataset files size 411942
+Now loading dataset file ratings_0
+Now loading dataset file ratings_1
+Now loading dataset file ratings_2
+Now loading dataset file ratings_3
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 28408
+Data size of testing is 7086
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:AUCEvaluator is 0.9145476418659267
+Result path is result/filmtrust/rating-itemknn-output/itemknn
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 28411
+Data size of testing is 7086
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 28411
+Data size of testing is 7086
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 28411
+Data size of testing is 7086
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 28411
+Data size of testing is 7086
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 28411
+Data size of testing is 7086
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 28411
+Data size of testing is 7086
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 7
+Data size of testing is 5
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 7
+Data size of testing is 5
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 7
+Data size of testing is 5
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.txt]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80019
+Data size of testing is 19981
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:AverageReciprocalHitRankEvaluator is 0.07373167365214034
+Result path is result/movielens-itemknn-output/itemknn
