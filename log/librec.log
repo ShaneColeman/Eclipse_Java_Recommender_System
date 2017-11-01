@@ -7212,3 +7212,819 @@ Job Train completed.
 Job End.
 Evaluator info:AverageReciprocalHitRankEvaluator is 0.07373167365214034
 Result path is result/movielens-itemknn-output/itemknn
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 7
+Data size of testing is 5
+Dataset: data/filmtrust/rating
+All dataset files [data\filmtrust\rating\ratings_0.txt, data\filmtrust\rating\ratings_1.txt, data\filmtrust\rating\ratings_2.txt, data\filmtrust\rating\ratings_3.txt]
+All dataset files size 411942
+Now loading dataset file ratings_0
+Now loading dataset file ratings_1
+Now loading dataset file ratings_2
+Now loading dataset file ratings_3
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 28408
+Data size of testing is 7086
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:AverageReciprocalHitRankEvaluator is 0.186470352413525
+Result path is result/filmtrust/rating-itemknn-output/itemknn
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 7
+Data size of testing is 5
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 7
+Data size of testing is 5
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 7
+Data size of testing is 5
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 7
+Data size of testing is 5
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 7
+Data size of testing is 5
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.txt]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80019
+Data size of testing is 19981
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:PrecisionEvaluator is 0.24082714740190778
+Result path is result/movielens-userknn-output/userknn
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.txt]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 75141
+Data size of testing is 18749
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:PrecisionEvaluator is 0.23478260869565112
+Result path is result/movielens-userknn-output/userknn
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.txt]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80019
+Data size of testing is 19981
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:RecallEvaluator is 0.171790689254875
+Result path is result/movielens-userknn-output/userknn
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.txt]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80019
+Data size of testing is 19981
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:RecallEvaluator is 0.171790689254875
+Result path is result/movielens-userknn-output/userknn
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.txt]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80019
+Data size of testing is 19981
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:PrecisionEvaluator is 0.24082714740190778
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.txt]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80019
+Data size of testing is 19981
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:PrecisionEvaluator is 0.24082714740190778
+Result path is result/movielens-userknn-output/userknn
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.txt]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80019
+Data size of testing is 19981
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:PrecisionEvaluator is 0.24082714740190778
+Result path is result/movielens-userknn-output/userknn
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.txt]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80019
+Data size of testing is 19981
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:PrecisionEvaluator is 0.24082714740190778
+Result path is result/movielens-userknn-output/userknn
+Splitter info: the index of kcv splitter times is 1
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.txt]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80000
+Data size of testing is 20000
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:AverageReciprocalHitRankEvaluator is 0.09117622252585061
+Result path is result/movielens-itemknn-output/itemknn-1
+Splitter info: the index of kcv splitter times is 2
+Split data to train Set and test Set successfully!
+Data size of training is 80000
+Data size of testing is 20000
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:AverageReciprocalHitRankEvaluator is 0.08153349189480973
+Result path is result/movielens-itemknn-output/itemknn-2
+Splitter info: the index of kcv splitter times is 3
+Split data to train Set and test Set successfully!
+Data size of training is 80000
+Data size of testing is 20000
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:AverageReciprocalHitRankEvaluator is 0.09249271995825552
+Result path is result/movielens-itemknn-output/itemknn-3
+Splitter info: the index of kcv splitter times is 4
+Split data to train Set and test Set successfully!
+Data size of training is 80000
+Data size of testing is 20000
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:AverageReciprocalHitRankEvaluator is 0.09303346294332512
+Result path is result/movielens-itemknn-output/itemknn-4
+Splitter info: the index of kcv splitter times is 5
+Split data to train Set and test Set successfully!
+Data size of training is 80000
+Data size of testing is 20000
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:AverageReciprocalHitRankEvaluator is 0.10099375571123975
+Result path is result/movielens-itemknn-output/itemknn-5
+Average Evaluation Result of Cross Validation:
+Evaluator value:AverageReciprocalHitRankEvaluator is 0.09184593060669616
+Splitter info: the index of kcv splitter times is 1
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.txt]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80000
+Data size of testing is 20000
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:AverageReciprocalHitRankEvaluator is 0.03609803822343673
+Result path is result/movielens-itemknn-output/itemknn-1
+Splitter info: the index of kcv splitter times is 2
+Split data to train Set and test Set successfully!
+Data size of training is 80000
+Data size of testing is 20000
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:AverageReciprocalHitRankEvaluator is 0.015277566924750768
+Result path is result/movielens-itemknn-output/itemknn-2
+Splitter info: the index of kcv splitter times is 3
+Split data to train Set and test Set successfully!
+Data size of training is 80000
+Data size of testing is 20000
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:AverageReciprocalHitRankEvaluator is 0.02834082378090861
+Result path is result/movielens-itemknn-output/itemknn-3
+Splitter info: the index of kcv splitter times is 4
+Split data to train Set and test Set successfully!
+Data size of training is 80000
+Data size of testing is 20000
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:AverageReciprocalHitRankEvaluator is 0.019449914996044364
+Result path is result/movielens-itemknn-output/itemknn-4
+Splitter info: the index of kcv splitter times is 5
+Split data to train Set and test Set successfully!
+Data size of training is 80000
+Data size of testing is 20000
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:AverageReciprocalHitRankEvaluator is 0.01940848478694961
+Result path is result/movielens-itemknn-output/itemknn-5
+Average Evaluation Result of Cross Validation:
+Evaluator value:AverageReciprocalHitRankEvaluator is 0.023714965742418017
+Splitter info: the index of kcv splitter times is 1
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.txt]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80000
+Data size of testing is 20000
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:AverageReciprocalHitRankEvaluator is 0.03609803822343673
+Result path is result/movielens-itemknn-output/itemknn-1
+Splitter info: the index of kcv splitter times is 2
+Split data to train Set and test Set successfully!
+Data size of training is 80000
+Data size of testing is 20000
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:AverageReciprocalHitRankEvaluator is 0.015277566924750768
+Result path is result/movielens-itemknn-output/itemknn-2
+Splitter info: the index of kcv splitter times is 3
+Split data to train Set and test Set successfully!
+Data size of training is 80000
+Data size of testing is 20000
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:AverageReciprocalHitRankEvaluator is 0.02834082378090861
+Result path is result/movielens-itemknn-output/itemknn-3
+Splitter info: the index of kcv splitter times is 4
+Split data to train Set and test Set successfully!
+Data size of training is 80000
+Data size of testing is 20000
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:AverageReciprocalHitRankEvaluator is 0.019449914996044364
+Result path is result/movielens-itemknn-output/itemknn-4
+Splitter info: the index of kcv splitter times is 5
+Split data to train Set and test Set successfully!
+Data size of training is 80000
+Data size of testing is 20000
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:AverageReciprocalHitRankEvaluator is 0.01940848478694961
+Result path is result/movielens-itemknn-output/itemknn-5
+Average Evaluation Result of Cross Validation:
+Evaluator value:AverageReciprocalHitRankEvaluator is 0.023714965742418017
+Splitter info: the index of kcv splitter times is 1
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.txt]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80000
+Data size of testing is 20000
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:AverageReciprocalHitRankEvaluator is 0.08035355835568382
+Result path is result/movielens-itemknn-output/itemknn-1
+Splitter info: the index of kcv splitter times is 2
+Split data to train Set and test Set successfully!
+Data size of training is 80000
+Data size of testing is 20000
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:AverageReciprocalHitRankEvaluator is 0.08120877823322036
+Result path is result/movielens-itemknn-output/itemknn-2
+Splitter info: the index of kcv splitter times is 3
+Split data to train Set and test Set successfully!
+Data size of training is 80000
+Data size of testing is 20000
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:AverageReciprocalHitRankEvaluator is 0.08147418741268166
+Result path is result/movielens-itemknn-output/itemknn-3
+Splitter info: the index of kcv splitter times is 4
+Split data to train Set and test Set successfully!
+Data size of training is 80000
+Data size of testing is 20000
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:AverageReciprocalHitRankEvaluator is 0.09064746082243437
+Result path is result/movielens-itemknn-output/itemknn-4
+Splitter info: the index of kcv splitter times is 5
+Split data to train Set and test Set successfully!
+Data size of training is 80000
+Data size of testing is 20000
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:AverageReciprocalHitRankEvaluator is 0.09276576302162658
+Result path is result/movielens-itemknn-output/itemknn-5
+Average Evaluation Result of Cross Validation:
+Evaluator value:AverageReciprocalHitRankEvaluator is 0.08528994956912936
+Splitter info: the index of loocv splitter times is 1
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.txt]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 99057
+Data size of testing is 943
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:HitRateEvaluator is 0.13149522799575822
+Result path is result/movielens-itemknn-output/itemknn-1
+Splitter info: the index of loocv splitter times is 2
+Split data to train Set and test Set successfully!
+Data size of training is 99057
+Data size of testing is 943
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:HitRateEvaluator is 0.12407211028632026
+Result path is result/movielens-itemknn-output/itemknn-2
+Splitter info: the index of loocv splitter times is 3
+Split data to train Set and test Set successfully!
+Data size of training is 99057
+Data size of testing is 943
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:HitRateEvaluator is 0.1474019088016967
+Result path is result/movielens-itemknn-output/itemknn-3
+Splitter info: the index of loocv splitter times is 4
+Split data to train Set and test Set successfully!
+Data size of training is 99057
+Data size of testing is 943
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:HitRateEvaluator is 0.12937433722163308
+Result path is result/movielens-itemknn-output/itemknn-4
+Splitter info: the index of loocv splitter times is 5
+Split data to train Set and test Set successfully!
+Data size of training is 99057
+Data size of testing is 943
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:HitRateEvaluator is 0.14316012725344646
+Result path is result/movielens-itemknn-output/itemknn-5
+Average Evaluation Result of Cross Validation:
+Evaluator value:HitRateEvaluator is 0.13510074231177094
+Splitter info: the index of loocv splitter times is 1
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.txt]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 99057
+Data size of testing is 943
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:HitRateEvaluator is 0.18769883351007424
+Result path is result/movielens-itemknn-output/itemknn-1
+Splitter info: the index of loocv splitter times is 2
+Split data to train Set and test Set successfully!
+Data size of training is 99057
+Data size of testing is 943
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:HitRateEvaluator is 0.1855779427359491
+Result path is result/movielens-itemknn-output/itemknn-2
+Splitter info: the index of loocv splitter times is 3
+Split data to train Set and test Set successfully!
+Data size of training is 99057
+Data size of testing is 943
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:HitRateEvaluator is 0.2014846235418876
+Result path is result/movielens-itemknn-output/itemknn-3
+Splitter info: the index of loocv splitter times is 4
+Split data to train Set and test Set successfully!
+Data size of training is 99057
+Data size of testing is 943
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:HitRateEvaluator is 0.17815482502651114
+Result path is result/movielens-itemknn-output/itemknn-4
+Splitter info: the index of loocv splitter times is 5
+Split data to train Set and test Set successfully!
+Data size of training is 99057
+Data size of testing is 943
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:HitRateEvaluator is 0.1855779427359491
+Result path is result/movielens-itemknn-output/itemknn-5
+Average Evaluation Result of Cross Validation:
+Evaluator value:HitRateEvaluator is 0.18769883351007424
+Splitter info: the index of loocv splitter times is 1
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.txt]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 99057
+Data size of testing is 943
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:HitRateEvaluator is 0.18769883351007424
+Result path is result/movielens-itemknn-output/itemknn-1
+Splitter info: the index of loocv splitter times is 2
+Split data to train Set and test Set successfully!
+Data size of training is 99057
+Data size of testing is 943
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:HitRateEvaluator is 0.1855779427359491
+Result path is result/movielens-itemknn-output/itemknn-2
+Splitter info: the index of loocv splitter times is 3
+Split data to train Set and test Set successfully!
+Data size of training is 99057
+Data size of testing is 943
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:HitRateEvaluator is 0.2014846235418876
+Result path is result/movielens-itemknn-output/itemknn-3
+Splitter info: the index of loocv splitter times is 4
+Split data to train Set and test Set successfully!
+Data size of training is 99057
+Data size of testing is 943
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:HitRateEvaluator is 0.17815482502651114
+Result path is result/movielens-itemknn-output/itemknn-4
+Splitter info: the index of loocv splitter times is 5
+Split data to train Set and test Set successfully!
+Data size of training is 99057
+Data size of testing is 943
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:HitRateEvaluator is 0.1855779427359491
+Result path is result/movielens-itemknn-output/itemknn-5
+Average Evaluation Result of Cross Validation:
+Evaluator value:HitRateEvaluator is 0.18769883351007424
+Splitter info: the index of loocv splitter times is 1
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.txt]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 99057
+Data size of testing is 943
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:HitRateEvaluator is 0.04559915164369035
+Result path is result/movielens-itemknn-output/itemknn-1
+Splitter info: the index of loocv splitter times is 2
+Split data to train Set and test Set successfully!
+Data size of training is 99057
+Data size of testing is 943
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:HitRateEvaluator is 0.04772004241781548
+Result path is result/movielens-itemknn-output/itemknn-2
+Splitter info: the index of loocv splitter times is 3
+Split data to train Set and test Set successfully!
+Data size of training is 99057
+Data size of testing is 943
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:HitRateEvaluator is 0.044538706256627786
+Result path is result/movielens-itemknn-output/itemknn-3
+Splitter info: the index of loocv splitter times is 4
+Split data to train Set and test Set successfully!
+Data size of training is 99057
+Data size of testing is 943
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:HitRateEvaluator is 0.051961823966065745
+Result path is result/movielens-itemknn-output/itemknn-4
+Splitter info: the index of loocv splitter times is 5
+Split data to train Set and test Set successfully!
+Data size of training is 99057
+Data size of testing is 943
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:HitRateEvaluator is 0.05514316012725345
+Result path is result/movielens-itemknn-output/itemknn-5
+Average Evaluation Result of Cross Validation:
+Evaluator value:HitRateEvaluator is 0.04899257688229056
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.txt]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80019
+Data size of testing is 19981
+Job Setup completed.
+SLIMRecommender iter 1: loss = 3.12422825532152E7, delta_loss = -3.12422825532152E7
+SLIMRecommender iter 2: loss = 1.3524604418312855E7, delta_loss = 1.7717678134902343E7
+SLIMRecommender iter 3: loss = 8254357.124850159, delta_loss = 5270247.2934626965
+SLIMRecommender iter 4: loss = 5916953.278480171, delta_loss = 2337403.8463699874
+SLIMRecommender iter 5: loss = 4608677.270667315, delta_loss = 1308276.0078128558
+SLIMRecommender iter 6: loss = 3772424.079556471, delta_loss = 836253.1911108443
+SLIMRecommender iter 7: loss = 3180701.7671319665, delta_loss = 591722.3124245047
+SLIMRecommender iter 8: loss = 2726274.21688995, delta_loss = 454427.55024201656
+SLIMRecommender iter 9: loss = 2356043.052643754, delta_loss = 370231.1642461959
+SLIMRecommender iter 10: loss = 2046161.7972867112, delta_loss = 309881.2553570429
+SLIMRecommender iter 11: loss = 1784916.2204667726, delta_loss = 261245.5768199386
+SLIMRecommender iter 12: loss = 1564302.3557958477, delta_loss = 220613.86467092484
+SLIMRecommender iter 13: loss = 1375826.959241633, delta_loss = 188475.39655421465
+SLIMRecommender iter 14: loss = 1210958.7097402872, delta_loss = 164868.2495013459
+SLIMRecommender iter 15: loss = 1064392.210312412, delta_loss = 146566.49942787527
+SLIMRecommender iter 16: loss = 934862.9793735485, delta_loss = 129529.23093886336
+SLIMRecommender iter 17: loss = 822242.7949020213, delta_loss = 112620.18447152723
+SLIMRecommender iter 18: loss = 726143.7424716019, delta_loss = 96099.05243041937
+SLIMRecommender iter 19: loss = 643924.8090556926, delta_loss = 82218.9334159093
+SLIMRecommender iter 20: loss = 572715.1843085316, delta_loss = 71209.62474716105
+SLIMRecommender iter 21: loss = 510404.46145594545, delta_loss = 62310.72285258613
+SLIMRecommender iter 22: loss = 455643.45706979104, delta_loss = 54761.00438615441
+SLIMRecommender iter 23: loss = 407086.458518624, delta_loss = 48556.998551167024
+SLIMRecommender iter 24: loss = 363595.121257188, delta_loss = 43491.33726143604
+SLIMRecommender iter 25: loss = 324368.3571935211, delta_loss = 39226.764063666866
+SLIMRecommender iter 26: loss = 289068.1132683629, delta_loss = 35300.243925158225
+SLIMRecommender iter 27: loss = 257571.85195840726, delta_loss = 31496.26130995562
+SLIMRecommender iter 28: loss = 229477.72394239565, delta_loss = 28094.128016011615
+SLIMRecommender iter 29: loss = 204629.32215499377, delta_loss = 24848.401787401875
+SLIMRecommender iter 30: loss = 183065.38950308613, delta_loss = 21563.932651907642
+SLIMRecommender iter 31: loss = 164568.1486211709, delta_loss = 18497.240881915233
+SLIMRecommender iter 32: loss = 148892.38677083107, delta_loss = 15675.761850339826
+SLIMRecommender iter 33: loss = 135727.96473771532, delta_loss = 13164.422033115756
+SLIMRecommender iter 34: loss = 124784.25249464904, delta_loss = 10943.712243066271
+SLIMRecommender iter 35: loss = 115744.97453057427, delta_loss = 9039.277964074776
+SLIMRecommender iter 36: loss = 108162.7453699286, delta_loss = 7582.229160645671
+SLIMRecommender iter 37: loss = 101802.89640219058, delta_loss = 6359.848967738013
+SLIMRecommender iter 38: loss = 96617.27059638668, delta_loss = 5185.625805803909
+SLIMRecommender iter 39: loss = 92490.78446267328, delta_loss = 4126.486133713392
+SLIMRecommender iter 40: loss = 89260.282934009, delta_loss = 3230.5015286642883
+Job Train completed.
+Job End.
+Evaluator info:AverageReciprocalHitRankEvaluator is 0.10461125418707595
+Result path is result/movielens-slim-output/slim
+Splitter info: the index of loocv splitter times is 1
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.txt]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 99057
+Data size of testing is 943
+Job Setup completed.
+SLIMRecommender iter 1: loss = 594522.0150755538, delta_loss = -594522.0150755538
+SLIMRecommender iter 2: loss = 197961.21707329105, delta_loss = 396560.7980022627
+SLIMRecommender iter 3: loss = 90571.14939786406, delta_loss = 107390.06767542698
+SLIMRecommender iter 4: loss = 49165.99641343845, delta_loss = 41405.152984425615
+SLIMRecommender iter 5: loss = 31610.10454286343, delta_loss = 17555.89187057502
+SLIMRecommender iter 6: loss = 24658.500004685284, delta_loss = 6951.604538178148
+SLIMRecommender iter 7: loss = 22179.276456272997, delta_loss = 2479.2235484122866
+SLIMRecommender iter 8: loss = 21373.556495846227, delta_loss = 805.7199604267698
+SLIMRecommender iter 9: loss = 21130.06334496417, delta_loss = 243.49315088205913
+SLIMRecommender iter 10: loss = 21050.050648506938, delta_loss = 80.01269645723005
+Job Train completed.
+Job End.
+Evaluator info:AverageReciprocalHitRankEvaluator is 0.11654084397986843
+Result path is result/movielens-slim-output/slim-1
+Splitter info: the index of loocv splitter times is 2
+Split data to train Set and test Set successfully!
+Data size of training is 99057
+Data size of testing is 943
+Job Setup completed.
+SLIMRecommender iter 1: loss = 584318.346087613, delta_loss = -584318.346087613
+SLIMRecommender iter 2: loss = 192589.60968676553, delta_loss = 391728.7364008475
+SLIMRecommender iter 3: loss = 88492.72377465168, delta_loss = 104096.88591211385
+SLIMRecommender iter 4: loss = 48461.82645037573, delta_loss = 40030.897324275946
+SLIMRecommender iter 5: loss = 31266.889609719296, delta_loss = 17194.936840656435
+SLIMRecommender iter 6: loss = 24471.237484689012, delta_loss = 6795.652125030283
+SLIMRecommender iter 7: loss = 22155.560305755578, delta_loss = 2315.6771789334343
+SLIMRecommender iter 8: loss = 21390.495168169466, delta_loss = 765.0651375861125
+SLIMRecommender iter 9: loss = 21163.528071209606, delta_loss = 226.9670969598592
+SLIMRecommender iter 10: loss = 21083.77738383711, delta_loss = 79.75068737249603
+Job Train completed.
+Job End.
+Evaluator info:AverageReciprocalHitRankEvaluator is 0.10399476510293054
+Result path is result/movielens-slim-output/slim-2
+Splitter info: the index of loocv splitter times is 3
+Split data to train Set and test Set successfully!
+Data size of training is 99057
+Data size of testing is 943
+Job Setup completed.
+SLIMRecommender iter 1: loss = 613713.0028676657, delta_loss = -613713.0028676657
+SLIMRecommender iter 2: loss = 204040.21535951592, delta_loss = 409672.7875081498
+SLIMRecommender iter 3: loss = 93785.99424882991, delta_loss = 110254.221110686
+SLIMRecommender iter 4: loss = 51040.01897792509, delta_loss = 42745.975270904826
+SLIMRecommender iter 5: loss = 32416.217278179123, delta_loss = 18623.801699745964
+SLIMRecommender iter 6: loss = 24882.16525208651, delta_loss = 7534.052026092613
+SLIMRecommender iter 7: loss = 22209.101932848658, delta_loss = 2673.063319237852
+SLIMRecommender iter 8: loss = 21378.79905178801, delta_loss = 830.3028810606484
+SLIMRecommender iter 9: loss = 21123.58118694226, delta_loss = 255.2178648457484
+SLIMRecommender iter 10: loss = 21047.26429577665, delta_loss = 76.31689116561029
+Job Train completed.
+Job End.
+Evaluator info:AverageReciprocalHitRankEvaluator is 0.10694465485027528
+Result path is result/movielens-slim-output/slim-3
+Splitter info: the index of loocv splitter times is 4
+Split data to train Set and test Set successfully!
+Data size of training is 99057
+Data size of testing is 943
+Job Setup completed.
+SLIMRecommender iter 1: loss = 609434.7828918146, delta_loss = -609434.7828918146
+SLIMRecommender iter 2: loss = 202397.61932356204, delta_loss = 407037.1635682526
+SLIMRecommender iter 3: loss = 92867.73854127382, delta_loss = 109529.88078228822
+SLIMRecommender iter 4: loss = 50553.2225029945, delta_loss = 42314.516038279326
+SLIMRecommender iter 5: loss = 32225.619976080518, delta_loss = 18327.60252691398
+SLIMRecommender iter 6: loss = 24816.704075154335, delta_loss = 7408.915900926182
+SLIMRecommender iter 7: loss = 22187.772439807228, delta_loss = 2628.9316353471077
+SLIMRecommender iter 8: loss = 21396.57139414199, delta_loss = 791.2010456652388
+SLIMRecommender iter 9: loss = 21160.63659403986, delta_loss = 235.93480010212807
+SLIMRecommender iter 10: loss = 21086.25299857428, delta_loss = 74.38359546558058
+Job Train completed.
+Job End.
+Evaluator info:AverageReciprocalHitRankEvaluator is 0.10392575199043919
+Result path is result/movielens-slim-output/slim-4
+Splitter info: the index of loocv splitter times is 5
+Split data to train Set and test Set successfully!
+Data size of training is 99057
+Data size of testing is 943
+Job Setup completed.
+SLIMRecommender iter 1: loss = 611606.3881317388, delta_loss = -611606.3881317388
+SLIMRecommender iter 2: loss = 202823.3913009999, delta_loss = 408782.99683073885
+SLIMRecommender iter 3: loss = 93236.96024292201, delta_loss = 109586.4310580779
+SLIMRecommender iter 4: loss = 50847.300930167614, delta_loss = 42389.6593127544
+SLIMRecommender iter 5: loss = 32405.58548075876, delta_loss = 18441.715449408854
+SLIMRecommender iter 6: loss = 24872.62813022773, delta_loss = 7532.957350531029
+SLIMRecommender iter 7: loss = 22212.7960535975, delta_loss = 2659.8320766302313
+SLIMRecommender iter 8: loss = 21338.009605580984, delta_loss = 874.7864480165154
+SLIMRecommender iter 9: loss = 21095.97419150977, delta_loss = 242.0354140712152
+SLIMRecommender iter 10: loss = 21012.900594769362, delta_loss = 83.07359674040708
+Job Train completed.
+Job End.
+Evaluator info:AverageReciprocalHitRankEvaluator is 0.10929488797993572
+Result path is result/movielens-slim-output/slim-5
+Average Evaluation Result of Cross Validation:
+Evaluator value:AverageReciprocalHitRankEvaluator is 0.10814018078068983
+Splitter info: the index of loocv splitter times is 1
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.txt]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 99057
+Data size of testing is 943
+Job Setup completed.
+SLIMRecommender iter 1: loss = 594522.0150755538, delta_loss = -594522.0150755538
+SLIMRecommender iter 2: loss = 197961.21707329105, delta_loss = 396560.7980022627
+SLIMRecommender iter 3: loss = 90571.14939786406, delta_loss = 107390.06767542698
+SLIMRecommender iter 4: loss = 49165.99641343845, delta_loss = 41405.152984425615
+SLIMRecommender iter 5: loss = 31610.10454286343, delta_loss = 17555.89187057502
+SLIMRecommender iter 6: loss = 24658.500004685284, delta_loss = 6951.604538178148
+SLIMRecommender iter 7: loss = 22179.276456272997, delta_loss = 2479.2235484122866
+SLIMRecommender iter 8: loss = 21373.556495846227, delta_loss = 805.7199604267698
+SLIMRecommender iter 9: loss = 21130.06334496417, delta_loss = 243.49315088205913
+SLIMRecommender iter 10: loss = 21050.050648506938, delta_loss = 80.01269645723005
+Job Train completed.
+Job End.
+Evaluator info:HitRateEvaluator is 0.256627783669141
+Result path is result/movielens-slim-output/slim-1
+Splitter info: the index of loocv splitter times is 2
+Split data to train Set and test Set successfully!
+Data size of training is 99057
+Data size of testing is 943
+Job Setup completed.
+SLIMRecommender iter 1: loss = 584318.346087613, delta_loss = -584318.346087613
+SLIMRecommender iter 2: loss = 192589.60968676553, delta_loss = 391728.7364008475
+SLIMRecommender iter 3: loss = 88492.72377465168, delta_loss = 104096.88591211385
+SLIMRecommender iter 4: loss = 48461.82645037573, delta_loss = 40030.897324275946
+SLIMRecommender iter 5: loss = 31266.889609719296, delta_loss = 17194.936840656435
+SLIMRecommender iter 6: loss = 24471.237484689012, delta_loss = 6795.652125030283
+SLIMRecommender iter 7: loss = 22155.560305755578, delta_loss = 2315.6771789334343
+SLIMRecommender iter 8: loss = 21390.495168169466, delta_loss = 765.0651375861125
+SLIMRecommender iter 9: loss = 21163.528071209606, delta_loss = 226.9670969598592
+SLIMRecommender iter 10: loss = 21083.77738383711, delta_loss = 79.75068737249603
+Job Train completed.
+Job End.
+Evaluator info:HitRateEvaluator is 0.24708377518557795
+Result path is result/movielens-slim-output/slim-2
+Splitter info: the index of loocv splitter times is 3
+Split data to train Set and test Set successfully!
+Data size of training is 99057
+Data size of testing is 943
+Job Setup completed.
+SLIMRecommender iter 1: loss = 613713.0028676657, delta_loss = -613713.0028676657
+SLIMRecommender iter 2: loss = 204040.21535951592, delta_loss = 409672.7875081498
+SLIMRecommender iter 3: loss = 93785.99424882991, delta_loss = 110254.221110686
+SLIMRecommender iter 4: loss = 51040.01897792509, delta_loss = 42745.975270904826
+SLIMRecommender iter 5: loss = 32416.217278179123, delta_loss = 18623.801699745964
+SLIMRecommender iter 6: loss = 24882.16525208651, delta_loss = 7534.052026092613
+SLIMRecommender iter 7: loss = 22209.101932848658, delta_loss = 2673.063319237852
+SLIMRecommender iter 8: loss = 21378.79905178801, delta_loss = 830.3028810606484
+SLIMRecommender iter 9: loss = 21123.58118694226, delta_loss = 255.2178648457484
+SLIMRecommender iter 10: loss = 21047.26429577665, delta_loss = 76.31689116561029
+Job Train completed.
+Job End.
+Evaluator info:HitRateEvaluator is 0.2492046659597031
+Result path is result/movielens-slim-output/slim-3
+Splitter info: the index of loocv splitter times is 4
+Split data to train Set and test Set successfully!
+Data size of training is 99057
+Data size of testing is 943
+Job Setup completed.
+SLIMRecommender iter 1: loss = 609434.7828918146, delta_loss = -609434.7828918146
+SLIMRecommender iter 2: loss = 202397.61932356204, delta_loss = 407037.1635682526
+SLIMRecommender iter 3: loss = 92867.73854127382, delta_loss = 109529.88078228822
+SLIMRecommender iter 4: loss = 50553.2225029945, delta_loss = 42314.516038279326
+SLIMRecommender iter 5: loss = 32225.619976080518, delta_loss = 18327.60252691398
+SLIMRecommender iter 6: loss = 24816.704075154335, delta_loss = 7408.915900926182
+SLIMRecommender iter 7: loss = 22187.772439807228, delta_loss = 2628.9316353471077
+SLIMRecommender iter 8: loss = 21396.57139414199, delta_loss = 791.2010456652388
+SLIMRecommender iter 9: loss = 21160.63659403986, delta_loss = 235.93480010212807
+SLIMRecommender iter 10: loss = 21086.25299857428, delta_loss = 74.38359546558058
+Job Train completed.
+Job End.
+Evaluator info:HitRateEvaluator is 0.23647932131495228
+Result path is result/movielens-slim-output/slim-4
+Splitter info: the index of loocv splitter times is 5
+Split data to train Set and test Set successfully!
+Data size of training is 99057
+Data size of testing is 943
+Job Setup completed.
+SLIMRecommender iter 1: loss = 611606.3881317388, delta_loss = -611606.3881317388
+SLIMRecommender iter 2: loss = 202823.3913009999, delta_loss = 408782.99683073885
+SLIMRecommender iter 3: loss = 93236.96024292201, delta_loss = 109586.4310580779
+SLIMRecommender iter 4: loss = 50847.300930167614, delta_loss = 42389.6593127544
+SLIMRecommender iter 5: loss = 32405.58548075876, delta_loss = 18441.715449408854
+SLIMRecommender iter 6: loss = 24872.62813022773, delta_loss = 7532.957350531029
+SLIMRecommender iter 7: loss = 22212.7960535975, delta_loss = 2659.8320766302313
+SLIMRecommender iter 8: loss = 21338.009605580984, delta_loss = 874.7864480165154
+SLIMRecommender iter 9: loss = 21095.97419150977, delta_loss = 242.0354140712152
+SLIMRecommender iter 10: loss = 21012.900594769362, delta_loss = 83.07359674040708
+Job Train completed.
+Job End.
+Evaluator info:HitRateEvaluator is 0.24284199363732767
+Result path is result/movielens-slim-output/slim-5
+Average Evaluation Result of Cross Validation:
+Evaluator value:HitRateEvaluator is 0.24644750795334042
