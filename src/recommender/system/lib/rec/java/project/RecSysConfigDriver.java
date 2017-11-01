@@ -25,7 +25,14 @@ public class RecSysConfigDriver
 	 * ItemKNNRecommender 
 	 */
 	//public static String CONFIGURATION_FILE = "conf/UserKNN-CF.properties";
-	public static String CONFIGURATION_FILE = "conf/ItemKNN-CF.properties";
+	//public static String CONFIGURATION_FILE = "conf/ItemKNN-CF.properties";
+	
+	/*
+	 * AbstractRecommender
+	 * Collaborative Filtering - Ranking
+	 * SLIMRecommender
+	 */
+	public static String CONFIGURATION_FILE = "conf/SLIM-CF-Ranking.properties";
 	
 	/*
 	 * MatrixFactorizationRecommender 
@@ -74,6 +81,10 @@ public class RecSysConfigDriver
 		else if(configurationFilePath.equals("conf/ItemKNN-CF.properties"))
 		{
 			System.out.println("Item KNN Recommender\n");
+		}
+		else if(configurationFilePath.equals("conf/SLIM-CF-Ranking.properties"))
+		{
+			System.out.println("SLIM Recommender\n");
 		}
 		else if(configurationFilePath.equals("conf/AoBPR-CF-Ranking.properties"))
 		{
