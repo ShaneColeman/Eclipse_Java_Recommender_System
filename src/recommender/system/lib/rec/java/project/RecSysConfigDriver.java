@@ -25,7 +25,7 @@ public class RecSysConfigDriver
 	 * ItemKNNRecommender 
 	 */
 	//public static String CONFIGURATION_FILE = "conf/UserKNN-CF.properties";
-	public static String CONFIGURATION_FILE = "conf/ItemKNN-CF.properties";
+	//public static String CONFIGURATION_FILE = "conf/ItemKNN-CF.properties";
 	
 	/*
 	 * AbstractRecommender
@@ -54,7 +54,7 @@ public class RecSysConfigDriver
 	 * AoBPRRecommender
 	 * RankALSRecommender
 	 */
-	//public static String CONFIGURATION_FILE = "conf/AoBPR-CF-Ranking.properties";
+	public static String CONFIGURATION_FILE = "conf/AoBPR-CF-Ranking.properties";
 	//public static String CONFIGURATION_FILE = "conf/RankALS-CF-Ranking.properties";
 	
 	/*
