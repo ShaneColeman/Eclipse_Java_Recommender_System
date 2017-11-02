@@ -32,7 +32,21 @@ public class RecSysConfigDriver
 	 * Collaborative Filtering - Ranking
 	 * SLIMRecommender
 	 */
-	public static String CONFIGURATION_FILE = "conf/SLIM-CF-Ranking.properties";
+	//public static String CONFIGURATION_FILE = "conf/SLIM-CF-Ranking.properties";
+	
+	/*
+	 * AbstractRecommender
+	 * EXT
+	 * AssociationRuleRecommender
+	 */
+	public static String CONFIGURATION_FILE = "conf/AssociationRule-EXT.properties";
+	
+	/*
+	 * AbstractRecommender
+	 * Hybrid
+	 * HybridRecommender
+	 */
+	//public static String CONFIGURATION_FILE = "conf/Hybrid.properties";
 	
 	/*
 	 * MatrixFactorizationRecommender 
@@ -85,6 +99,14 @@ public class RecSysConfigDriver
 		else if(configurationFilePath.equals("conf/SLIM-CF-Ranking.properties"))
 		{
 			System.out.println("SLIM Recommender\n");
+		}
+		else if(configurationFilePath.equals("conf/AssociationRule-EXT.properties"))
+		{
+			System.out.println("Association Rule Recommender\n");
+		}
+		else if(configurationFilePath.equals("conf/Hybrid.properties"))
+		{
+			System.out.println("Hybrid Recommender\n");
 		}
 		else if(configurationFilePath.equals("conf/AoBPR-CF-Ranking.properties"))
 		{
