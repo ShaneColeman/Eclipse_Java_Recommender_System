@@ -132,7 +132,6 @@ public class RecSysConfigDriver
 		System.out.println("Similarity Class: " + job.getSimilarityClass());
 		System.out.println("Filter Class: " + job.getFilterClass());
 		
-		
 		if(configurationFilePath.equals("conf/UserKNN-CF.properties") || configurationFilePath.equals("conf/ItemKNN-CF.properties"))
 		{
 			System.out.println("Number of KNN Neighbours: " + configuration.get("rec.neighbors.knn.number"));
