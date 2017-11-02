@@ -8136,3 +8136,19 @@ Job Train completed.
 Job End.
 Evaluator info:AverageReciprocalHitRankEvaluator is 0.020684155599319968
 Result path is result/movielens-itemknn-output/itemknn
+Dataset: data/filmtrust/rating
+All dataset files [data\filmtrust\rating\ratings_0.txt, data\filmtrust\rating\ratings_1.txt, data\filmtrust\rating\ratings_2.txt, data\filmtrust\rating\ratings_3.txt]
+All dataset files size 411942
+Now loading dataset file ratings_0
+Now loading dataset file ratings_1
+Now loading dataset file ratings_2
+Now loading dataset file ratings_3
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 28408
+Data size of testing is 7086
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:RMSEEvaluator is 0.8224136127774416
+Result path is result/filmtrust/rating-itemknn-output/itemknn
