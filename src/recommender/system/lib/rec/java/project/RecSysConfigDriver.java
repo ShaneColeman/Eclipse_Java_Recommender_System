@@ -39,7 +39,7 @@ public class RecSysConfigDriver
 	 * EXT
 	 * AssociationRuleRecommender
 	 */
-	//public static String CONFIGURATION_FILE = "conf/AssociationRule-EXT.properties";
+	public static String CONFIGURATION_FILE = "conf/AssociationRule-EXT.properties";
 	
 	/*
 	 * AbstractRecommender
@@ -54,7 +54,7 @@ public class RecSysConfigDriver
 	 * AoBPRRecommender
 	 * RankALSRecommender
 	 */
-	public static String CONFIGURATION_FILE = "conf/AoBPR-CF-Ranking.properties";
+	//public static String CONFIGURATION_FILE = "conf/AoBPR-CF-Ranking.properties";
 	//public static String CONFIGURATION_FILE = "conf/RankALS-CF-Ranking.properties";
 	
 	/*
