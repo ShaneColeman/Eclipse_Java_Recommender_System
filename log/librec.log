@@ -8028,3 +8028,85 @@ Evaluator info:HitRateEvaluator is 0.24284199363732767
 Result path is result/movielens-slim-output/slim-5
 Average Evaluation Result of Cross Validation:
 Evaluator value:HitRateEvaluator is 0.24644750795334042
+Dataset: data/filmtrust/rating
+All dataset files [data\filmtrust\rating\ratings_0.txt, data\filmtrust\rating\ratings_1.txt, data\filmtrust\rating\ratings_2.txt, data\filmtrust\rating\ratings_3.txt]
+All dataset files size 411942
+Now loading dataset file ratings_0
+Now loading dataset file ratings_1
+Now loading dataset file ratings_2
+Now loading dataset file ratings_3
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 28408
+Data size of testing is 7086
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:RMSEEvaluator is 1.470069849391745
+Result path is result/filmtrust/rating-associationrule-output/associationrule
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.txt]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80019
+Data size of testing is 19981
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:RMSEEvaluator is 1.8331186124412657
+Result path is result/movielens-associationrule-output/associationrule
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.txt]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80019
+Data size of testing is 19981
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.txt]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80019
+Data size of testing is 19981
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.txt]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80019
+Data size of testing is 19981
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.txt]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80019
+Data size of testing is 19981
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.txt]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80019
+Data size of testing is 19981
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.txt]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80019
+Data size of testing is 19981
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:RMSEEvaluator is 1.8331186124412657
+Result path is result/movielens-associationrule-output/associationrule
