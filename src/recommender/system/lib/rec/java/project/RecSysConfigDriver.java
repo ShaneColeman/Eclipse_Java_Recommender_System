@@ -25,7 +25,7 @@ public class RecSysConfigDriver
 	 * ItemKNNRecommender 
 	 */
 	//public static String CONFIGURATION_FILE = "conf/UserKNN-CF.properties";
-	//public static String CONFIGURATION_FILE = "conf/ItemKNN-CF.properties";
+	public static String CONFIGURATION_FILE = "conf/ItemKNN-CF.properties";
 	
 	/*
 	 * AbstractRecommender
@@ -39,7 +39,7 @@ public class RecSysConfigDriver
 	 * EXT
 	 * AssociationRuleRecommender
 	 */
-	public static String CONFIGURATION_FILE = "conf/AssociationRule-EXT.properties";
+	//public static String CONFIGURATION_FILE = "conf/AssociationRule-EXT.properties";
 	
 	/*
 	 * AbstractRecommender
