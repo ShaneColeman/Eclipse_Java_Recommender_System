@@ -8152,3 +8152,52 @@ Job Train completed.
 Job End.
 Evaluator info:RMSEEvaluator is 0.8224136127774416
 Result path is result/filmtrust/rating-itemknn-output/itemknn
+Dataset: data/filmtrust/rating
+All dataset files [data\filmtrust\rating\ratings_0.txt, data\filmtrust\rating\ratings_1.txt, data\filmtrust\rating\ratings_2.txt, data\filmtrust\rating\ratings_3.txt]
+All dataset files size 411942
+Now loading dataset file ratings_0
+Now loading dataset file ratings_1
+Now loading dataset file ratings_2
+Now loading dataset file ratings_3
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 28408
+Data size of testing is 7086
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:RMSEEvaluator is 0.8224136127774416
+Result path is result/filmtrust/rating-itemknn-output/itemknn
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.txt]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80019
+Data size of testing is 19981
+Job Setup completed.
+AoBPRRecommender iter 1: loss = 65632.62471826152, delta_loss = -65632.625
+AoBPRRecommender iter 2: loss = 65568.74866663115, delta_loss = 63.876053
+AoBPRRecommender iter 3: loss = 65454.56160842087, delta_loss = 114.18706
+AoBPRRecommender iter 4: loss = 65151.51324245412, delta_loss = 303.04837
+AoBPRRecommender iter 5: loss = 64187.78020886665, delta_loss = 963.73303
+AoBPRRecommender iter 6: loss = 61265.057574487975, delta_loss = 2922.7227
+AoBPRRecommender iter 7: loss = 55266.70234339404, delta_loss = 5998.3555
+AoBPRRecommender iter 8: loss = 48578.66643444206, delta_loss = 6688.036
+AoBPRRecommender iter 9: loss = 43857.18016481673, delta_loss = 4721.4863
+AoBPRRecommender iter 10: loss = 41183.1577830813, delta_loss = 2674.0225
+AoBPRRecommender iter 11: loss = 39670.159847740164, delta_loss = 1512.9979
+AoBPRRecommender iter 12: loss = 38214.80819643015, delta_loss = 1455.3517
+AoBPRRecommender iter 13: loss = 37436.695629297465, delta_loss = 778.11255
+AoBPRRecommender iter 14: loss = 36622.802893620974, delta_loss = 813.89276
+AoBPRRecommender iter 15: loss = 36011.11086062055, delta_loss = 611.692
+AoBPRRecommender iter 16: loss = 35682.142331828334, delta_loss = 328.96854
+AoBPRRecommender iter 17: loss = 35128.6886467598, delta_loss = 553.4537
+AoBPRRecommender iter 18: loss = 34642.05100157232, delta_loss = 486.63763
+AoBPRRecommender iter 19: loss = 34260.11241972829, delta_loss = 381.93857
+AoBPRRecommender iter 20: loss = 33626.55362874381, delta_loss = 633.5588
+Job Train completed.
+Job End.
+Evaluator info:AUCEvaluator is 0.905009213409643
+Result path is result/movielens-aobpr-output/aobpr
