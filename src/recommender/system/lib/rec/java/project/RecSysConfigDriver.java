@@ -70,7 +70,9 @@ public class RecSysConfigDriver
 		 * To fix log4j:WARN error
 		 * https://stackoverflow.com/questions/12532339/no-appenders-could-be-found-for-loggerlog4j
 		 */
-
+		
+		System.out.println("Configuration File Path: " + CONFIGURATION_FILE.toString() + "\n");
+		
 		Configuration configuration = new Configuration();
 		String configurationFilePath = CONFIGURATION_FILE;
 		Properties properties = new Properties();
