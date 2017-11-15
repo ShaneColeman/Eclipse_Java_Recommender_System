@@ -8503,3 +8503,20 @@ Job Train completed.
 Job End.
 Evaluator info:RMSEEvaluator is 1.4278074039346862
 Result path is result/movielens-rbm-output/rbm
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 7
+Data size of testing is 5
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.txt]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80019
+Data size of testing is 19981
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:RMSEEvaluator is 0.9435571863240075
+Result path is result/movielens-itemknn-output/itemknn
