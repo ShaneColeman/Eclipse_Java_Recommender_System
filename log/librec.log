@@ -11008,3 +11008,41 @@ Job Train completed.
 Job End.
 Evaluator info:RMSEEvaluator is 5.519975743466
 Result path is result/arfftest/data.arff-fmsgd-output/fmsgd
+Transform data to Convertor successfully!
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 28411
+Data size of testing is 7086
+Job Setup completed.
+original:85269.50480090495
+after 0-way:0.03001283751480499
+after 1-way:1.2243935761180325E-4
+after 2-way:-52.74030509885576
+FMALSRecommender iter 0: loss = 283764.0665850232, delta_loss = -283764.06
+original:-52.74030509885576
+after 0-way:0.029994263533105636
+after 1-way:2.154572938571908E-4
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 28411
+Data size of testing is 7086
+Job Setup completed.
+original:85269.50480090495
+after 0-way:0.03001283751480499
+after 1-way:1.2243935761180325E-4
+after 2-way:-52.74030509885576
+FMALSRecommender iter 0: loss = 283764.0665850232, delta_loss = -283764.06
+original:-52.74030509885576
+after 0-way:0.029994263533105636
+after 1-way:2.154572938571908E-4
+after 2-way:-41.49813686804443
+FMALSRecommender iter 1: loss = 14347.092931455794, delta_loss = -14347.093
+original:-41.49813686804443
+after 0-way:0.02997964689999255
+after 1-way:1.9939633206389473E-4
+after 2-way:-5.390686966648917
+FMALSRecommender iter 2: loss = 13376.749943198296, delta_loss = -13376.75
+Job Train completed.
+Job End.
+Evaluator info:MAEEvaluator is 0.6486573041930267
+Result path is result/arfftest/ratings.arff-fmals-output/fmals
