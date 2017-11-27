@@ -72,7 +72,8 @@ public class RecSysConfigDriver
 	 * FMALSRecommender
 	 * FMSGDRecommender
 	 */
-	public static String CONFIGURATION_FILE = "conf/FMALS-CF-Rating.properties";
+	//public static String CONFIGURATION_FILE = "conf/FMALS-CF-Rating.properties";
+	public static String CONFIGURATION_FILE = "conf/FMSGD-CF-Rating.properties";
 	
 	public static void main(String[] args) throws Exception
 	{
@@ -139,6 +140,10 @@ public class RecSysConfigDriver
 		else if(configurationFilePath.equals("conf/FMALS-CF-Rating.properties"))
 		{
 			System.out.println("FMALS Recommender\n");
+		}
+		else if(configurationFilePath.equals("conf/FMSGD-CF-Rating.properties"))
+		{
+			System.out.println("FMSGD Recommender\n");
 		}
 		
 		Randoms.seed(20171025); 
