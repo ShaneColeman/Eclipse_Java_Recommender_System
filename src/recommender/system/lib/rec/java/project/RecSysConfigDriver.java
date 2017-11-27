@@ -25,7 +25,7 @@ public class RecSysConfigDriver
 	 * ItemKNNRecommender 
 	 */
 	//public static String CONFIGURATION_FILE = "conf/UserKNN-CF.properties";
-	public static String CONFIGURATION_FILE = "conf/ItemKNN-CF.properties";
+	//public static String CONFIGURATION_FILE = "conf/ItemKNN-CF.properties";
 	
 	/*
 	 * AbstractRecommender
@@ -65,6 +65,14 @@ public class RecSysConfigDriver
 	 */
 	//public static String CONFIGURATION_FILE = "conf/SVDPlusPlus-CF-Rating.properties";
 	//public static String CONFIGURATION_FILE = "conf/RBM-CF-Rating.properties";
+	
+	/*
+	 * FactorizationMachineRecommender
+	 * Collaborative Filtering - Rating
+	 * FMALSRecommender
+	 * FMSGDRecommender
+	 */
+	public static String CONFIGURATION_FILE = "conf/FMALS-CF-Rating.properties";
 	
 	public static void main(String[] args) throws Exception
 	{
@@ -127,6 +135,10 @@ public class RecSysConfigDriver
 		else if(configurationFilePath.equals("conf/RBM-CF-Rating.properties"))
 		{
 			System.out.println("RBM Recommender\n");
+		}
+		else if(configurationFilePath.equals("conf/FMALS-CF-Rating.properties"))
+		{
+			System.out.println("FMALS Recommender\n");
 		}
 		
 		Randoms.seed(20171025); 
