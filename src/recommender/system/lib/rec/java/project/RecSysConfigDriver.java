@@ -50,6 +50,13 @@ public class RecSysConfigDriver
 	
 	/*
 	 * MatrixFactorizationRecommender 
+	 * Collaborative Filtering - Rating
+	 * BiasedMFRecommender
+	 */
+	public static String CONFIGURATION_FILE = "conf/BiasedMF-CF-Rating.properties";
+	
+	/*
+	 * MatrixFactorizationRecommender 
 	 * Collaborative Filtering - Ranking
 	 * AoBPRRecommender
 	 * RankALSRecommender
@@ -72,7 +79,7 @@ public class RecSysConfigDriver
 	 * FMALSRecommender
 	 * FMSGDRecommender
 	 */
-	public static String CONFIGURATION_FILE = "conf/FMALS-CF-Rating.properties";
+	//public static String CONFIGURATION_FILE = "conf/FMALS-CF-Rating.properties";
 	//public static String CONFIGURATION_FILE = "conf/FMSGD-CF-Rating.properties";
 	
 	/*
@@ -129,6 +136,10 @@ public class RecSysConfigDriver
 		else if(configurationFilePath.equals("conf/Hybrid.properties"))
 		{
 			System.out.println("Hybrid Recommender\n");
+		}
+		else if(configurationFilePath.equals("conf/BiasedMF-CF-Rating.properties"))
+		{
+			System.out.println("Biased MF Recommender\n");
 		}
 		else if(configurationFilePath.equals("conf/AoBPR-CF-Ranking.properties"))
 		{
