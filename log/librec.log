@@ -11046,3 +11046,32 @@ Job Train completed.
 Job End.
 Evaluator info:MAEEvaluator is 0.6486573041930267
 Result path is result/arfftest/ratings.arff-fmals-output/fmals
+Transform data to Convertor successfully!
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 7
+Data size of testing is 5
+Transform data to Convertor successfully!
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 7
+Data size of testing is 5
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 7
+Data size of testing is 5
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 7
+Data size of testing is 5
+Dataset: data/filmtrust/rating
+All dataset files [data\filmtrust\rating\ratings_0.txt, data\filmtrust\rating\ratings_1.txt, data\filmtrust\rating\ratings_2.txt, data\filmtrust\rating\ratings_3.txt]
+All dataset files size 411942
+Now loading dataset file ratings_0
+Now loading dataset file ratings_1
+Now loading dataset file ratings_2
+Now loading dataset file ratings_3
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 28408
+Data size of testing is 7086
