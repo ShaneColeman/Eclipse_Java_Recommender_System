@@ -73,7 +73,7 @@ public class RecSysConfigDriver
 	 * FMSGDRecommender
 	 */
 	//public static String CONFIGURATION_FILE = "conf/FMALS-CF-Rating.properties";
-	//public static String CONFIGURATION_FILE = "conf/FMSGD-CF-Rating.properties";
+	public static String CONFIGURATION_FILE = "conf/FMSGD-CF-Rating.properties";
 	
 	/*
 	 * TensorRecommender
@@ -81,7 +81,7 @@ public class RecSysConfigDriver
 	 * BPTFRecommender
 	 * PITFRecommender
 	 */
-	public static String CONFIGURATION_FILE = "conf/BPTF-Context-Rating.properties";
+	//public static String CONFIGURATION_FILE = "conf/BPTF-Context-Rating.properties";
 	//public static String CONFIGURATION_FILE = "conf/PITF-Context-Rating.properties";
 	
 	public static void main(String[] args) throws Exception
