@@ -12202,3 +12202,171 @@ Job Train completed.
 Job End.
 Evaluator info:RMSEEvaluator is 5.519975743466
 Result path is result/arfftest/data.arff-fmsgd-output/fmsgd
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 7
+Data size of testing is 5
+Job Setup completed.
+FMSGDRecommender iter 0: loss = 200.24709631000923, delta_loss = -200.2471
+FMSGDRecommender iter 1: loss = 194.31383168073955, delta_loss = -194.31383
+FMSGDRecommender iter 2: loss = 188.65375395958134, delta_loss = -188.65375
+FMSGDRecommender iter 3: loss = 183.24933832175174, delta_loss = -183.24934
+FMSGDRecommender iter 4: loss = 178.08471283714172, delta_loss = -178.08472
+FMSGDRecommender iter 5: loss = 173.14544615747695, delta_loss = -173.14545
+FMSGDRecommender iter 6: loss = 168.4183674378969, delta_loss = -168.41837
+FMSGDRecommender iter 7: loss = 163.89141313800855, delta_loss = -163.89142
+FMSGDRecommender iter 8: loss = 159.55349630616587, delta_loss = -159.5535
+FMSGDRecommender iter 9: loss = 155.39439472398473, delta_loss = -155.3944
+FMSGDRecommender iter 10: loss = 151.4046549145682, delta_loss = -151.40465
+FMSGDRecommender iter 11: loss = 147.5755095276538, delta_loss = -147.57552
+FMSGDRecommender iter 12: loss = 143.8988060313413, delta_loss = -143.8988
+FMSGDRecommender iter 13: loss = 140.36694498161987, delta_loss = -140.36694
+FMSGDRecommender iter 14: loss = 136.97282642212167, delta_loss = -136.97282
+FMSGDRecommender iter 15: loss = 133.70980319887357, delta_loss = -133.70981
+FMSGDRecommender iter 16: loss = 130.57164016746907, delta_loss = -130.57164
+FMSGDRecommender iter 17: loss = 127.55247843032762, delta_loss = -127.552475
+FMSGDRecommender iter 18: loss = 124.64680387544935, delta_loss = -124.646805
+FMSGDRecommender iter 19: loss = 121.84941939998774, delta_loss = -121.84942
+FMSGDRecommender iter 20: loss = 119.15542029591312, delta_loss = -119.15542
+FMSGDRecommender iter 21: loss = 116.5601723540749, delta_loss = -116.56017
+FMSGDRecommender iter 22: loss = 114.05929230964337, delta_loss = -114.059296
+FMSGDRecommender iter 23: loss = 111.64863030825995, delta_loss = -111.64863
+FMSGDRecommender iter 24: loss = 109.32425411993559, delta_loss = -109.32426
+FMSGDRecommender iter 25: loss = 107.08243486820507, delta_loss = -107.082436
+FMSGDRecommender iter 26: loss = 104.91963407640515, delta_loss = -104.91963
+FMSGDRecommender iter 27: loss = 102.83249186215815, delta_loss = -102.83249
+FMSGDRecommender iter 28: loss = 100.81781613598484, delta_loss = -100.81782
+FMSGDRecommender iter 29: loss = 98.87257268112091, delta_loss = -98.872574
+FMSGDRecommender iter 30: loss = 96.99387600960378, delta_loss = -96.99387
+FMSGDRecommender iter 31: loss = 95.17898090501528, delta_loss = -95.17898
+FMSGDRecommender iter 32: loss = 93.42527457529175, delta_loss = -93.42528
+FMSGDRecommender iter 33: loss = 91.73026935008863, delta_loss = -91.73027
+FMSGDRecommender iter 34: loss = 90.0915958665941, delta_loss = -90.0916
+FMSGDRecommender iter 35: loss = 88.50699669566741, delta_loss = -88.506996
+FMSGDRecommender iter 36: loss = 86.97432036693925, delta_loss = -86.97432
+FMSGDRecommender iter 37: loss = 85.49151575723991, delta_loss = -85.491516
+FMSGDRecommender iter 38: loss = 84.05662681155151, delta_loss = -84.056625
+FMSGDRecommender iter 39: loss = 82.66778756976757, delta_loss = -82.667786
+FMSGDRecommender iter 40: loss = 81.32321747597886, delta_loss = -81.32322
+FMSGDRecommender iter 41: loss = 80.0212169498995, delta_loss = -80.02122
+FMSGDRecommender iter 42: loss = 78.76016320247858, delta_loss = -78.76016
+FMSGDRecommender iter 43: loss = 77.5385062797863, delta_loss = -77.538506
+FMSGDRecommender iter 44: loss = 76.35476532097553, delta_loss = -76.35477
+FMSGDRecommender iter 45: loss = 75.20752501756185, delta_loss = -75.20753
+FMSGDRecommender iter 46: loss = 74.09543226247052, delta_loss = -74.09543
+FMSGDRecommender iter 47: loss = 73.01719297831899, delta_loss = -73.0172
+FMSGDRecommender iter 48: loss = 71.97156911525934, delta_loss = -71.97157
+FMSGDRecommender iter 49: loss = 70.95737580943498, delta_loss = -70.957375
+FMSGDRecommender iter 50: loss = 69.97347869372314, delta_loss = -69.97348
+FMSGDRecommender iter 51: loss = 69.01879135296639, delta_loss = -69.01879
+FMSGDRecommender iter 52: loss = 68.09227291635813, delta_loss = -68.09227
+FMSGDRecommender iter 53: loss = 67.19292578004605, delta_loss = -67.192924
+FMSGDRecommender iter 54: loss = 66.31979345337457, delta_loss = -66.31979
+FMSGDRecommender iter 55: loss = 65.47195852250475, delta_loss = -65.47196
+FMSGDRecommender iter 56: loss = 64.64854072543767, delta_loss = -64.648544
+FMSGDRecommender iter 57: loss = 63.84869513273334, delta_loss = -63.848694
+FMSGDRecommender iter 58: loss = 63.07161042845978, delta_loss = -63.07161
+FMSGDRecommender iter 59: loss = 62.31650728614135, delta_loss = -62.316505
+FMSGDRecommender iter 60: loss = 61.582636834693126, delta_loss = -61.582638
+FMSGDRecommender iter 61: loss = 60.86927920953582, delta_loss = -60.869278
+FMSGDRecommender iter 62: loss = 60.17574218429174, delta_loss = -60.175743
+FMSGDRecommender iter 63: loss = 59.50135987865345, delta_loss = -59.501358
+FMSGDRecommender iter 64: loss = 58.84549153820974, delta_loss = -58.845493
+FMSGDRecommender iter 65: loss = 58.20752038219867, delta_loss = -58.20752
+FMSGDRecommender iter 66: loss = 57.58685251533585, delta_loss = -57.586853
+FMSGDRecommender iter 67: loss = 56.982915900045334, delta_loss = -56.982918
+FMSGDRecommender iter 68: loss = 56.395159385592486, delta_loss = -56.39516
+FMSGDRecommender iter 69: loss = 55.823051790784554, delta_loss = -55.82305
+FMSGDRecommender iter 70: loss = 55.266081037071245, delta_loss = -55.266083
+FMSGDRecommender iter 71: loss = 54.7237533290364, delta_loss = -54.723755
+FMSGDRecommender iter 72: loss = 54.19559237942712, delta_loss = -54.19559
+FMSGDRecommender iter 73: loss = 53.68113867601794, delta_loss = -53.681137
+FMSGDRecommender iter 74: loss = 53.17994878775342, delta_loss = -53.179947
+FMSGDRecommender iter 75: loss = 52.69159470775317, delta_loss = -52.691593
+FMSGDRecommender iter 76: loss = 52.21566323090192, delta_loss = -52.215664
+FMSGDRecommender iter 77: loss = 51.751755363874786, delta_loss = -51.751755
+FMSGDRecommender iter 78: loss = 51.299485765577344, delta_loss = -51.299484
+FMSGDRecommender iter 79: loss = 50.85848221609837, delta_loss = -50.858482
+FMSGDRecommender iter 80: loss = 50.428385112391055, delta_loss = -50.428387
+FMSGDRecommender iter 81: loss = 50.008846989006706, delta_loss = -50.008846
+FMSGDRecommender iter 82: loss = 49.59953206231157, delta_loss = -49.599533
+FMSGDRecommender iter 83: loss = 49.20011579671803, delta_loss = -49.200115
+FMSGDRecommender iter 84: loss = 48.81028449155428, delta_loss = -48.810284
+FMSGDRecommender iter 85: loss = 48.42973488729005, delta_loss = -48.429733
+FMSGDRecommender iter 86: loss = 48.058173789917404, delta_loss = -48.058174
+FMSGDRecommender iter 87: loss = 47.69531771236979, delta_loss = -47.695316
+FMSGDRecommender iter 88: loss = 47.34089253193595, delta_loss = -47.340893
+FMSGDRecommender iter 89: loss = 46.99463316269818, delta_loss = -46.994633
+FMSGDRecommender iter 90: loss = 46.656283242090645, delta_loss = -46.656284
+FMSGDRecommender iter 91: loss = 46.32559483073718, delta_loss = -46.325596
+FMSGDRecommender iter 92: loss = 46.00232812478714, delta_loss = -46.002327
+FMSGDRecommender iter 93: loss = 45.68625118002251, delta_loss = -45.686253
+FMSGDRecommender iter 94: loss = 45.377139647061135, delta_loss = -45.37714
+FMSGDRecommender iter 95: loss = 45.07477651703022, delta_loss = -45.074776
+FMSGDRecommender iter 96: loss = 44.778951877127774, delta_loss = -44.778954
+FMSGDRecommender iter 97: loss = 44.48946267553127, delta_loss = -44.489464
+FMSGDRecommender iter 98: loss = 44.20611249515307, delta_loss = -44.206112
+FMSGDRecommender iter 99: loss = 43.92871133577712, delta_loss = -43.92871
+Job Train completed.
+Job End.
+Evaluator info:RMSEEvaluator is 5.519975743466
+Result path is result/arfftest/data.arff-fmsgd-output/fmsgd
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 7
+Data size of testing is 5
+Job Setup completed.
+FMSGDRecommender iter 0: loss = 200.24709631000923, delta_loss = -200.2471
+FMSGDRecommender iter 1: loss = 194.31383168073955, delta_loss = -194.31383
+FMSGDRecommender iter 2: loss = 188.65375395958134, delta_loss = -188.65375
+FMSGDRecommender iter 3: loss = 183.24933832175174, delta_loss = -183.24934
+FMSGDRecommender iter 4: loss = 178.08471283714172, delta_loss = -178.08472
+FMSGDRecommender iter 5: loss = 173.14544615747695, delta_loss = -173.14545
+FMSGDRecommender iter 6: loss = 168.4183674378969, delta_loss = -168.41837
+FMSGDRecommender iter 7: loss = 163.89141313800855, delta_loss = -163.89142
+FMSGDRecommender iter 8: loss = 159.55349630616587, delta_loss = -159.5535
+FMSGDRecommender iter 9: loss = 155.39439472398473, delta_loss = -155.3944
+FMSGDRecommender iter 10: loss = 151.4046549145682, delta_loss = -151.40465
+FMSGDRecommender iter 11: loss = 147.5755095276538, delta_loss = -147.57552
+FMSGDRecommender iter 12: loss = 143.8988060313413, delta_loss = -143.8988
+FMSGDRecommender iter 13: loss = 140.36694498161987, delta_loss = -140.36694
+FMSGDRecommender iter 14: loss = 136.97282642212167, delta_loss = -136.97282
+FMSGDRecommender iter 15: loss = 133.70980319887357, delta_loss = -133.70981
+FMSGDRecommender iter 16: loss = 130.57164016746907, delta_loss = -130.57164
+FMSGDRecommender iter 17: loss = 127.55247843032762, delta_loss = -127.552475
+FMSGDRecommender iter 18: loss = 124.64680387544935, delta_loss = -124.646805
+FMSGDRecommender iter 19: loss = 121.84941939998774, delta_loss = -121.84942
+FMSGDRecommender iter 20: loss = 119.15542029591312, delta_loss = -119.15542
+FMSGDRecommender iter 21: loss = 116.5601723540749, delta_loss = -116.56017
+FMSGDRecommender iter 22: loss = 114.05929230964337, delta_loss = -114.059296
+FMSGDRecommender iter 23: loss = 111.64863030825995, delta_loss = -111.64863
+FMSGDRecommender iter 24: loss = 109.32425411993559, delta_loss = -109.32426
+FMSGDRecommender iter 25: loss = 107.08243486820507, delta_loss = -107.082436
+FMSGDRecommender iter 26: loss = 104.91963407640515, delta_loss = -104.91963
+FMSGDRecommender iter 27: loss = 102.83249186215815, delta_loss = -102.83249
+FMSGDRecommender iter 28: loss = 100.81781613598484, delta_loss = -100.81782
+FMSGDRecommender iter 29: loss = 98.87257268112091, delta_loss = -98.872574
+FMSGDRecommender iter 30: loss = 96.99387600960378, delta_loss = -96.99387
+FMSGDRecommender iter 31: loss = 95.17898090501528, delta_loss = -95.17898
+FMSGDRecommender iter 32: loss = 93.42527457529175, delta_loss = -93.42528
+FMSGDRecommender iter 33: loss = 91.73026935008863, delta_loss = -91.73027
+FMSGDRecommender iter 34: loss = 90.0915958665941, delta_loss = -90.0916
+FMSGDRecommender iter 35: loss = 88.50699669566741, delta_loss = -88.506996
+FMSGDRecommender iter 36: loss = 86.97432036693925, delta_loss = -86.97432
+FMSGDRecommender iter 37: loss = 85.49151575723991, delta_loss = -85.491516
+FMSGDRecommender iter 38: loss = 84.05662681155151, delta_loss = -84.056625
+FMSGDRecommender iter 39: loss = 82.66778756976757, delta_loss = -82.667786
+FMSGDRecommender iter 40: loss = 81.32321747597886, delta_loss = -81.32322
+FMSGDRecommender iter 41: loss = 80.0212169498995, delta_loss = -80.02122
+FMSGDRecommender iter 42: loss = 78.76016320247858, delta_loss = -78.76016
+FMSGDRecommender iter 43: loss = 77.5385062797863, delta_loss = -77.538506
+FMSGDRecommender iter 44: loss = 76.35476532097553, delta_loss = -76.35477
+FMSGDRecommender iter 45: loss = 75.20752501756185, delta_loss = -75.20753
+FMSGDRecommender iter 46: loss = 74.09543226247052, delta_loss = -74.09543
+FMSGDRecommender iter 47: loss = 73.01719297831899, delta_loss = -73.0172
+FMSGDRecommender iter 48: loss = 71.97156911525934, delta_loss = -71.97157
+FMSGDRecommender iter 49: loss = 70.95737580943498, delta_loss = -70.957375
+Job Train completed.
+Job End.
+Evaluator info:RMSEEvaluator is 5.970474471646582
+Result path is result/arfftest/data.arff-fmsgd-output/fmsgd
