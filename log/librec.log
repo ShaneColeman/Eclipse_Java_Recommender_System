@@ -12988,3 +12988,2510 @@ Job Train completed.
 Job End.
 Evaluator info:MAEEvaluator is 5.806212447568049
 Result path is result/arfftest/data.arff-fmals-output/fmals
+Dataset: data/filmtrust/rating
+All dataset files [data\filmtrust\rating\ratings_0.txt, data\filmtrust\rating\ratings_1.txt, data\filmtrust\rating\ratings_2.txt, data\filmtrust\rating\ratings_3.txt]
+All dataset files size 411942
+Now loading dataset file ratings_0
+Now loading dataset file ratings_1
+Now loading dataset file ratings_2
+Now loading dataset file ratings_3
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 28408
+Data size of testing is 7086
+Job Setup completed.
+BiasedMFRecommender iter 1: loss = 11154.163122673073, delta_loss = -11154.163
+Job Train completed.
+Job End.
+Evaluator info:RMSEEvaluator is 0.863463939117424
+Result path is result/filmtrust/rating-biasedmf-output/biasedmf
+Dataset: data/filmtrust/rating
+All dataset files [data\filmtrust\rating\ratings_0.txt, data\filmtrust\rating\ratings_1.txt, data\filmtrust\rating\ratings_2.txt, data\filmtrust\rating\ratings_3.txt]
+All dataset files size 411942
+Now loading dataset file ratings_0
+Now loading dataset file ratings_1
+Now loading dataset file ratings_2
+Now loading dataset file ratings_3
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 28408
+Data size of testing is 7086
+Job Setup completed.
+BiasedMFRecommender iter 1: loss = 11154.163122673073, delta_loss = -11154.163
+BiasedMFRecommender iter 2: loss = 9896.648697772836, delta_loss = 1257.5144
+BiasedMFRecommender iter 3: loss = 9279.889790057458, delta_loss = 616.7589
+BiasedMFRecommender iter 4: loss = 8921.100226279908, delta_loss = 358.78955
+BiasedMFRecommender iter 5: loss = 8686.08291317353, delta_loss = 235.01732
+BiasedMFRecommender iter 6: loss = 8512.540851579099, delta_loss = 173.54207
+BiasedMFRecommender iter 7: loss = 8369.080657374197, delta_loss = 143.46019
+BiasedMFRecommender iter 8: loss = 8238.35036124075, delta_loss = 130.7303
+BiasedMFRecommender iter 9: loss = 8109.628163183739, delta_loss = 128.7222
+BiasedMFRecommender iter 10: loss = 7975.650226776455, delta_loss = 133.97794
+BiasedMFRecommender iter 11: loss = 7831.534183388224, delta_loss = 144.11604
+BiasedMFRecommender iter 12: loss = 7674.756036138933, delta_loss = 156.77815
+BiasedMFRecommender iter 13: loss = 7505.405437240177, delta_loss = 169.3506
+BiasedMFRecommender iter 14: loss = 7325.997673258091, delta_loss = 179.40776
+BiasedMFRecommender iter 15: loss = 7140.50915027255, delta_loss = 185.48853
+BiasedMFRecommender iter 16: loss = 6953.063171181233, delta_loss = 187.44598
+BiasedMFRecommender iter 17: loss = 6767.064684564265, delta_loss = 185.99849
+BiasedMFRecommender iter 18: loss = 6585.075560917546, delta_loss = 181.98912
+BiasedMFRecommender iter 19: loss = 6409.049744045284, delta_loss = 176.02582
+BiasedMFRecommender iter 20: loss = 6240.504554263334, delta_loss = 168.5452
+BiasedMFRecommender iter 21: loss = 6080.548647108269, delta_loss = 159.9559
+BiasedMFRecommender iter 22: loss = 5929.872570850318, delta_loss = 150.67607
+BiasedMFRecommender iter 23: loss = 5788.77232644381, delta_loss = 141.10025
+BiasedMFRecommender iter 24: loss = 5657.206763058379, delta_loss = 131.56557
+BiasedMFRecommender iter 25: loss = 5534.868921798684, delta_loss = 122.337845
+BiasedMFRecommender iter 26: loss = 5421.258515880209, delta_loss = 113.610405
+BiasedMFRecommender iter 27: loss = 5315.750290872902, delta_loss = 105.508224
+BiasedMFRecommender iter 28: loss = 5217.6552389802255, delta_loss = 98.095055
+BiasedMFRecommender iter 29: loss = 5126.27183852404, delta_loss = 91.3834
+BiasedMFRecommender iter 30: loss = 5040.9251526990965, delta_loss = 85.34669
+BiasedMFRecommender iter 31: loss = 4960.99306792103, delta_loss = 79.93208
+BiasedMFRecommender iter 32: loss = 4885.920596466352, delta_loss = 75.07247
+BiasedMFRecommender iter 33: loss = 4815.224427568264, delta_loss = 70.69617
+BiasedMFRecommender iter 34: loss = 4748.490502478869, delta_loss = 66.733925
+BiasedMFRecommender iter 35: loss = 4685.367337163285, delta_loss = 63.123165
+BiasedMFRecommender iter 36: loss = 4625.557338112571, delta_loss = 59.809998
+BiasedMFRecommender iter 37: loss = 4568.807712239847, delta_loss = 56.749626
+BiasedMFRecommender iter 38: loss = 4514.901958167355, delta_loss = 53.905754
+BiasedMFRecommender iter 39: loss = 4463.652443697425, delta_loss = 51.249516
+BiasedMFRecommender iter 40: loss = 4414.894244333785, delta_loss = 48.758198
+BiasedMFRecommender iter 41: loss = 4368.480218431631, delta_loss = 46.414024
+BiasedMFRecommender iter 42: loss = 4324.277189996036, delta_loss = 44.20303
+BiasedMFRecommender iter 43: loss = 4282.163066869543, delta_loss = 42.114124
+BiasedMFRecommender iter 44: loss = 4242.024715007182, delta_loss = 40.13835
+BiasedMFRecommender iter 45: loss = 4203.756422019874, delta_loss = 38.26829
+BiasedMFRecommender iter 46: loss = 4167.2588048955095, delta_loss = 36.497616
+BiasedMFRecommender iter 47: loss = 4132.438041721605, delta_loss = 34.820763
+BiasedMFRecommender iter 48: loss = 4099.205331807781, delta_loss = 33.23271
+BiasedMFRecommender iter 49: loss = 4067.4765109672694, delta_loss = 31.72882
+BiasedMFRecommender iter 50: loss = 4037.1717679044864, delta_loss = 30.304743
+Job Train completed.
+Job End.
+Evaluator info:RMSEEvaluator is 0.8604184539647288
+Result path is result/filmtrust/rating-biasedmf-output/biasedmf
+Dataset: data/filmtrust/rating
+All dataset files [data\filmtrust\rating\ratings_0.txt, data\filmtrust\rating\ratings_1.txt, data\filmtrust\rating\ratings_2.txt, data\filmtrust\rating\ratings_3.txt]
+All dataset files size 411942
+Now loading dataset file ratings_0
+Now loading dataset file ratings_1
+Now loading dataset file ratings_2
+Now loading dataset file ratings_3
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 28408
+Data size of testing is 7086
+Job Setup completed.
+BiasedMFRecommender iter 1: loss = 11154.163122673073, delta_loss = -11154.163
+BiasedMFRecommender iter 2: loss = 9896.648697772836, delta_loss = 1257.5144
+BiasedMFRecommender iter 3: loss = 9279.889790057458, delta_loss = 616.7589
+BiasedMFRecommender iter 4: loss = 8921.100226279908, delta_loss = 358.78955
+BiasedMFRecommender iter 5: loss = 8686.08291317353, delta_loss = 235.01732
+BiasedMFRecommender iter 6: loss = 8512.540851579099, delta_loss = 173.54207
+BiasedMFRecommender iter 7: loss = 8369.080657374197, delta_loss = 143.46019
+BiasedMFRecommender iter 8: loss = 8238.35036124075, delta_loss = 130.7303
+BiasedMFRecommender iter 9: loss = 8109.628163183739, delta_loss = 128.7222
+BiasedMFRecommender iter 10: loss = 7975.650226776455, delta_loss = 133.97794
+BiasedMFRecommender iter 11: loss = 7831.534183388224, delta_loss = 144.11604
+BiasedMFRecommender iter 12: loss = 7674.756036138933, delta_loss = 156.77815
+BiasedMFRecommender iter 13: loss = 7505.405437240177, delta_loss = 169.3506
+BiasedMFRecommender iter 14: loss = 7325.997673258091, delta_loss = 179.40776
+BiasedMFRecommender iter 15: loss = 7140.50915027255, delta_loss = 185.48853
+BiasedMFRecommender iter 16: loss = 6953.063171181233, delta_loss = 187.44598
+BiasedMFRecommender iter 17: loss = 6767.064684564265, delta_loss = 185.99849
+BiasedMFRecommender iter 18: loss = 6585.075560917546, delta_loss = 181.98912
+BiasedMFRecommender iter 19: loss = 6409.049744045284, delta_loss = 176.02582
+BiasedMFRecommender iter 20: loss = 6240.504554263334, delta_loss = 168.5452
+BiasedMFRecommender iter 21: loss = 6080.548647108269, delta_loss = 159.9559
+BiasedMFRecommender iter 22: loss = 5929.872570850318, delta_loss = 150.67607
+BiasedMFRecommender iter 23: loss = 5788.77232644381, delta_loss = 141.10025
+BiasedMFRecommender iter 24: loss = 5657.206763058379, delta_loss = 131.56557
+BiasedMFRecommender iter 25: loss = 5534.868921798684, delta_loss = 122.337845
+BiasedMFRecommender iter 26: loss = 5421.258515880209, delta_loss = 113.610405
+BiasedMFRecommender iter 27: loss = 5315.750290872902, delta_loss = 105.508224
+BiasedMFRecommender iter 28: loss = 5217.6552389802255, delta_loss = 98.095055
+BiasedMFRecommender iter 29: loss = 5126.27183852404, delta_loss = 91.3834
+BiasedMFRecommender iter 30: loss = 5040.9251526990965, delta_loss = 85.34669
+BiasedMFRecommender iter 31: loss = 4960.99306792103, delta_loss = 79.93208
+BiasedMFRecommender iter 32: loss = 4885.920596466352, delta_loss = 75.07247
+BiasedMFRecommender iter 33: loss = 4815.224427568264, delta_loss = 70.69617
+BiasedMFRecommender iter 34: loss = 4748.490502478869, delta_loss = 66.733925
+BiasedMFRecommender iter 35: loss = 4685.367337163285, delta_loss = 63.123165
+BiasedMFRecommender iter 36: loss = 4625.557338112571, delta_loss = 59.809998
+BiasedMFRecommender iter 37: loss = 4568.807712239847, delta_loss = 56.749626
+BiasedMFRecommender iter 38: loss = 4514.901958167355, delta_loss = 53.905754
+BiasedMFRecommender iter 39: loss = 4463.652443697425, delta_loss = 51.249516
+BiasedMFRecommender iter 40: loss = 4414.894244333785, delta_loss = 48.758198
+BiasedMFRecommender iter 41: loss = 4368.480218431631, delta_loss = 46.414024
+BiasedMFRecommender iter 42: loss = 4324.277189996036, delta_loss = 44.20303
+BiasedMFRecommender iter 43: loss = 4282.163066869543, delta_loss = 42.114124
+BiasedMFRecommender iter 44: loss = 4242.024715007182, delta_loss = 40.13835
+BiasedMFRecommender iter 45: loss = 4203.756422019874, delta_loss = 38.26829
+BiasedMFRecommender iter 46: loss = 4167.2588048955095, delta_loss = 36.497616
+BiasedMFRecommender iter 47: loss = 4132.438041721605, delta_loss = 34.820763
+BiasedMFRecommender iter 48: loss = 4099.205331807781, delta_loss = 33.23271
+BiasedMFRecommender iter 49: loss = 4067.4765109672694, delta_loss = 31.72882
+BiasedMFRecommender iter 50: loss = 4037.1717679044864, delta_loss = 30.304743
+BiasedMFRecommender iter 51: loss = 4008.215423347179, delta_loss = 28.956345
+BiasedMFRecommender iter 52: loss = 3980.535745888327, delta_loss = 27.679678
+BiasedMFRecommender iter 53: loss = 3954.0647877456304, delta_loss = 26.470959
+BiasedMFRecommender iter 54: loss = 3928.73823032574, delta_loss = 25.326557
+BiasedMFRecommender iter 55: loss = 3904.495234051854, delta_loss = 24.242996
+BiasedMFRecommender iter 56: loss = 3881.2782898928385, delta_loss = 23.216944
+BiasedMFRecommender iter 57: loss = 3859.0330718243245, delta_loss = 22.245218
+BiasedMFRecommender iter 58: loss = 3837.708290426043, delta_loss = 21.324781
+BiasedMFRecommender iter 59: loss = 3817.2555482529474, delta_loss = 20.452742
+BiasedMFRecommender iter 60: loss = 3797.6291977255178, delta_loss = 19.62635
+BiasedMFRecommender iter 61: loss = 3778.786202214995, delta_loss = 18.842995
+BiasedMFRecommender iter 62: loss = 3760.686000862315, delta_loss = 18.1002
+BiasedMFRecommender iter 63: loss = 3743.2903775152377, delta_loss = 17.395624
+BiasedMFRecommender iter 64: loss = 3726.5633340385525, delta_loss = 16.727043
+BiasedMFRecommender iter 65: loss = 3710.47096815569, delta_loss = 16.092365
+BiasedMFRecommender iter 66: loss = 3694.981355910926, delta_loss = 15.489613
+BiasedMFRecommender iter 67: loss = 3680.064438805857, delta_loss = 14.916917
+BiasedMFRecommender iter 68: loss = 3665.691915634146, delta_loss = 14.372523
+BiasedMFRecommender iter 69: loss = 3651.8371390286293, delta_loss = 13.854776
+BiasedMFRecommender iter 70: loss = 3638.47501671866, delta_loss = 13.362123
+BiasedMFRecommender iter 71: loss = 3625.5819174810467, delta_loss = 12.893099
+BiasedMFRecommender iter 72: loss = 3613.135581756411, delta_loss = 12.446336
+BiasedMFRecommender iter 73: loss = 3601.115036877687, delta_loss = 12.020545
+BiasedMFRecommender iter 74: loss = 3589.500516838943, delta_loss = 11.61452
+BiasedMFRecommender iter 75: loss = 3578.273386514618, delta_loss = 11.22713
+BiasedMFRecommender iter 76: loss = 3567.4160702134723, delta_loss = 10.857316
+BiasedMFRecommender iter 77: loss = 3556.911984438273, delta_loss = 10.504086
+BiasedMFRecommender iter 78: loss = 3546.7454747034258, delta_loss = 10.16651
+BiasedMFRecommender iter 79: loss = 3536.9017562545887, delta_loss = 9.843719
+BiasedMFRecommender iter 80: loss = 3527.3668585195046, delta_loss = 9.534898
+BiasedMFRecommender iter 81: loss = 3518.127573117797, delta_loss = 9.239285
+BiasedMFRecommender iter 82: loss = 3509.1714052538455, delta_loss = 8.956168
+BiasedMFRecommender iter 83: loss = 3500.486528312337, delta_loss = 8.684877
+BiasedMFRecommender iter 84: loss = 3492.061741481625, delta_loss = 8.424787
+BiasedMFRecommender iter 85: loss = 3483.886430229304, delta_loss = 8.175311
+BiasedMFRecommender iter 86: loss = 3475.9505294616133, delta_loss = 7.9359007
+BiasedMFRecommender iter 87: loss = 3468.244489198157, delta_loss = 7.7060404
+BiasedMFRecommender iter 88: loss = 3460.759242607089, delta_loss = 7.4852467
+BiasedMFRecommender iter 89: loss = 3453.486176243327, delta_loss = 7.2730665
+BiasedMFRecommender iter 90: loss = 3446.417102345488, delta_loss = 7.0690737
+BiasedMFRecommender iter 91: loss = 3439.544233053864, delta_loss = 6.8728695
+BiasedMFRecommender iter 92: loss = 3432.860156412714, delta_loss = 6.684077
+BiasedMFRecommender iter 93: loss = 3426.3578140360005, delta_loss = 6.502342
+BiasedMFRecommender iter 94: loss = 3420.030480316944, delta_loss = 6.327334
+BiasedMFRecommender iter 95: loss = 3413.8717430694905, delta_loss = 6.158737
+BiasedMFRecommender iter 96: loss = 3407.8754855005823, delta_loss = 5.996258
+BiasedMFRecommender iter 97: loss = 3402.0358694120123, delta_loss = 5.8396163
+BiasedMFRecommender iter 98: loss = 3396.347319544315, delta_loss = 5.68855
+BiasedMFRecommender iter 99: loss = 3390.804508975901, delta_loss = 5.5428104
+BiasedMFRecommender iter 100: loss = 3385.4023455007064, delta_loss = 5.4021635
+Job Train completed.
+Job End.
+Evaluator info:RMSEEvaluator is 0.8875184262493557
+Result path is result/filmtrust/rating-biasedmf-output/biasedmf
+Dataset: data/movielens/ratings.csv
+All dataset files [data\movielens\ratings.csv]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80019
+Data size of testing is 19981
+Job Setup completed.
+BiasedMFRecommender iter 1: loss = 41896.82611733832, delta_loss = -41896.824
+Job Train completed.
+Job End.
+Evaluator info:RMSEEvaluator is 0.9807168269658091
+Result path is result/movielens/ratings.csv-biasedmf-output/biasedmf
+Dataset: data/movielens/ratings.csv
+All dataset files [data\movielens\ratings.csv]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80019
+Data size of testing is 19981
+Job Setup completed.
+BiasedMFRecommender iter 1: loss = 41896.82611733832, delta_loss = -41896.824
+BiasedMFRecommender iter 2: loss = 37097.85142538087, delta_loss = 4798.9746
+BiasedMFRecommender iter 3: loss = 35777.43812285778, delta_loss = 1320.4133
+BiasedMFRecommender iter 4: loss = 35053.19678570418, delta_loss = 724.24133
+BiasedMFRecommender iter 5: loss = 34544.11809407659, delta_loss = 509.0787
+BiasedMFRecommender iter 6: loss = 34112.00599010498, delta_loss = 432.1121
+BiasedMFRecommender iter 7: loss = 33681.46227546311, delta_loss = 430.5437
+BiasedMFRecommender iter 8: loss = 33201.15507585285, delta_loss = 480.3072
+BiasedMFRecommender iter 9: loss = 32638.038513670173, delta_loss = 563.1166
+BiasedMFRecommender iter 10: loss = 31985.148643545697, delta_loss = 652.8899
+BiasedMFRecommender iter 11: loss = 31266.648055073085, delta_loss = 718.5006
+BiasedMFRecommender iter 12: loss = 30524.434909732583, delta_loss = 742.21313
+BiasedMFRecommender iter 13: loss = 29794.79674458036, delta_loss = 729.6382
+BiasedMFRecommender iter 14: loss = 29098.66918514294, delta_loss = 696.12756
+BiasedMFRecommender iter 15: loss = 28446.395997195563, delta_loss = 652.2732
+BiasedMFRecommender iter 16: loss = 27843.009547164245, delta_loss = 603.3865
+BiasedMFRecommender iter 17: loss = 27289.981460720268, delta_loss = 553.0281
+BiasedMFRecommender iter 18: loss = 26785.99912846272, delta_loss = 503.98233
+BiasedMFRecommender iter 19: loss = 26327.932317629817, delta_loss = 458.0668
+BiasedMFRecommender iter 20: loss = 25911.766949053082, delta_loss = 416.16537
+BiasedMFRecommender iter 21: loss = 25533.272373632386, delta_loss = 378.49457
+BiasedMFRecommender iter 22: loss = 25188.390228388795, delta_loss = 344.88214
+BiasedMFRecommender iter 23: loss = 24873.417824780023, delta_loss = 314.9724
+BiasedMFRecommender iter 24: loss = 24585.06359722841, delta_loss = 288.35422
+BiasedMFRecommender iter 25: loss = 24320.434710211885, delta_loss = 264.62888
+Job Train completed.
+Job End.
+Evaluator info:RMSEEvaluator is 0.9487796245810224
+Result path is result/movielens/ratings.csv-biasedmf-output/biasedmf
+Dataset: data/movielens/ratings.csv
+All dataset files [data\movielens\ratings.csv]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80019
+Data size of testing is 19981
+Job Setup completed.
+BiasedMFRecommender iter 1: loss = 41896.82611733832, delta_loss = -41896.824
+BiasedMFRecommender iter 2: loss = 37097.85142538087, delta_loss = 4798.9746
+BiasedMFRecommender iter 3: loss = 35777.43812285778, delta_loss = 1320.4133
+BiasedMFRecommender iter 4: loss = 35053.19678570418, delta_loss = 724.24133
+BiasedMFRecommender iter 5: loss = 34544.11809407659, delta_loss = 509.0787
+BiasedMFRecommender iter 6: loss = 34112.00599010498, delta_loss = 432.1121
+BiasedMFRecommender iter 7: loss = 33681.46227546311, delta_loss = 430.5437
+BiasedMFRecommender iter 8: loss = 33201.15507585285, delta_loss = 480.3072
+BiasedMFRecommender iter 9: loss = 32638.038513670173, delta_loss = 563.1166
+BiasedMFRecommender iter 10: loss = 31985.148643545697, delta_loss = 652.8899
+BiasedMFRecommender iter 11: loss = 31266.648055073085, delta_loss = 718.5006
+BiasedMFRecommender iter 12: loss = 30524.434909732583, delta_loss = 742.21313
+BiasedMFRecommender iter 13: loss = 29794.79674458036, delta_loss = 729.6382
+BiasedMFRecommender iter 14: loss = 29098.66918514294, delta_loss = 696.12756
+BiasedMFRecommender iter 15: loss = 28446.395997195563, delta_loss = 652.2732
+BiasedMFRecommender iter 16: loss = 27843.009547164245, delta_loss = 603.3865
+BiasedMFRecommender iter 17: loss = 27289.981460720268, delta_loss = 553.0281
+BiasedMFRecommender iter 18: loss = 26785.99912846272, delta_loss = 503.98233
+BiasedMFRecommender iter 19: loss = 26327.932317629817, delta_loss = 458.0668
+BiasedMFRecommender iter 20: loss = 25911.766949053082, delta_loss = 416.16537
+BiasedMFRecommender iter 21: loss = 25533.272373632386, delta_loss = 378.49457
+BiasedMFRecommender iter 22: loss = 25188.390228388795, delta_loss = 344.88214
+BiasedMFRecommender iter 23: loss = 24873.417824780023, delta_loss = 314.9724
+BiasedMFRecommender iter 24: loss = 24585.06359722841, delta_loss = 288.35422
+BiasedMFRecommender iter 25: loss = 24320.434710211885, delta_loss = 264.62888
+BiasedMFRecommender iter 26: loss = 24076.996422471995, delta_loss = 243.4383
+BiasedMFRecommender iter 27: loss = 23852.525337479114, delta_loss = 224.47108
+BiasedMFRecommender iter 28: loss = 23645.066472484494, delta_loss = 207.45886
+BiasedMFRecommender iter 29: loss = 23452.897025960123, delta_loss = 192.16945
+BiasedMFRecommender iter 30: loss = 23274.496459338425, delta_loss = 178.40057
+BiasedMFRecommender iter 31: loss = 23108.521496845704, delta_loss = 165.97496
+BiasedMFRecommender iter 32: loss = 22953.78470162533, delta_loss = 154.7368
+BiasedMFRecommender iter 33: loss = 22809.235684068746, delta_loss = 144.54901
+BiasedMFRecommender iter 34: loss = 22673.944387962514, delta_loss = 135.29129
+BiasedMFRecommender iter 35: loss = 22547.08616443563, delta_loss = 126.85822
+BiasedMFRecommender iter 36: loss = 22427.928481932347, delta_loss = 119.157684
+BiasedMFRecommender iter 37: loss = 22315.819171770814, delta_loss = 112.109314
+BiasedMFRecommender iter 38: loss = 22210.17611425808, delta_loss = 105.64306
+BiasedMFRecommender iter 39: loss = 22110.478258278174, delta_loss = 99.69785
+BiasedMFRecommender iter 40: loss = 22016.257853776813, delta_loss = 94.220406
+BiasedMFRecommender iter 41: loss = 21927.093768144307, delta_loss = 89.164085
+BiasedMFRecommender iter 42: loss = 21842.605755648612, delta_loss = 84.488014
+BiasedMFRecommender iter 43: loss = 21762.449553151033, delta_loss = 80.156204
+BiasedMFRecommender iter 44: loss = 21686.312683567423, delta_loss = 76.13687
+BiasedMFRecommender iter 45: loss = 21613.91085966484, delta_loss = 72.401825
+BiasedMFRecommender iter 46: loss = 21544.98489313085, delta_loss = 68.925964
+BiasedMFRecommender iter 47: loss = 21479.298026768196, delta_loss = 65.68687
+BiasedMFRecommender iter 48: loss = 21416.633619938057, delta_loss = 62.664406
+BiasedMFRecommender iter 49: loss = 21356.793128966172, delta_loss = 59.840492
+BiasedMFRecommender iter 50: loss = 21299.594334368834, delta_loss = 57.198795
+BiasedMFRecommender iter 51: loss = 21244.86977565374, delta_loss = 54.72456
+BiasedMFRecommender iter 52: loss = 21192.4653619113, delta_loss = 52.404415
+BiasedMFRecommender iter 53: loss = 21142.239132536928, delta_loss = 50.22623
+BiasedMFRecommender iter 54: loss = 21094.06014740919, delta_loss = 48.178986
+BiasedMFRecommender iter 55: loss = 21047.807489780073, delta_loss = 46.25266
+BiasedMFRecommender iter 56: loss = 21003.369368225507, delta_loss = 44.43812
+BiasedMFRecommender iter 57: loss = 20960.6423064141, delta_loss = 42.727062
+BiasedMFRecommender iter 58: loss = 20919.530411225605, delta_loss = 41.111897
+BiasedMFRecommender iter 59: loss = 20879.944711236214, delta_loss = 39.5857
+BiasedMFRecommender iter 60: loss = 20841.802558577114, delta_loss = 38.14215
+BiasedMFRecommender iter 61: loss = 20805.027088055118, delta_loss = 36.77547
+BiasedMFRecommender iter 62: loss = 20769.546728042198, delta_loss = 35.48036
+BiasedMFRecommender iter 63: loss = 20735.294758196695, delta_loss = 34.25197
+BiasedMFRecommender iter 64: loss = 20702.208909475834, delta_loss = 33.08585
+BiasedMFRecommender iter 65: loss = 20670.231002323653, delta_loss = 31.977907
+BiasedMFRecommender iter 66: loss = 20639.306619251358, delta_loss = 30.924383
+BiasedMFRecommender iter 67: loss = 20609.384808321567, delta_loss = 29.92181
+BiasedMFRecommender iter 68: loss = 20580.41781439021, delta_loss = 28.966993
+BiasedMFRecommender iter 69: loss = 20552.36083521283, delta_loss = 28.056978
+BiasedMFRecommender iter 70: loss = 20525.171799807886, delta_loss = 27.189035
+BiasedMFRecommender iter 71: loss = 20498.81116675263, delta_loss = 26.360634
+BiasedMFRecommender iter 72: loss = 20473.241740266818, delta_loss = 25.569426
+BiasedMFRecommender iter 73: loss = 20448.428502254614, delta_loss = 24.813238
+BiasedMFRecommender iter 74: loss = 20424.33845859705, delta_loss = 24.090044
+BiasedMFRecommender iter 75: loss = 20400.940498265074, delta_loss = 23.39796
+BiasedMFRecommender iter 76: loss = 20378.20526390967, delta_loss = 22.735235
+BiasedMFRecommender iter 77: loss = 20356.105032834184, delta_loss = 22.100231
+BiasedMFRecommender iter 78: loss = 20334.613607299678, delta_loss = 21.491426
+BiasedMFRecommender iter 79: loss = 20313.7062133292, delta_loss = 20.907394
+BiasedMFRecommender iter 80: loss = 20293.359407162574, delta_loss = 20.346806
+BiasedMFRecommender iter 81: loss = 20273.550988772105, delta_loss = 19.808418
+BiasedMFRecommender iter 82: loss = 20254.25992174583, delta_loss = 19.291067
+BiasedMFRecommender iter 83: loss = 20235.466259041255, delta_loss = 18.793663
+BiasedMFRecommender iter 84: loss = 20217.151074136902, delta_loss = 18.315186
+BiasedMFRecommender iter 85: loss = 20199.296397109512, delta_loss = 17.854677
+BiasedMFRecommender iter 86: loss = 20181.885155300766, delta_loss = 17.411242
+BiasedMFRecommender iter 87: loss = 20164.901118162525, delta_loss = 16.984037
+BiasedMFRecommender iter 88: loss = 20148.32884601315, delta_loss = 16.572271
+BiasedMFRecommender iter 89: loss = 20132.153642370344, delta_loss = 16.175203
+BiasedMFRecommender iter 90: loss = 20116.36150959721, delta_loss = 15.792132
+BiasedMFRecommender iter 91: loss = 20100.93910764527, delta_loss = 15.422402
+BiasedMFRecommender iter 92: loss = 20085.873715594655, delta_loss = 15.0653925
+BiasedMFRecommender iter 93: loss = 20071.15319585691, delta_loss = 14.72052
+BiasedMFRecommender iter 94: loss = 20056.765960786466, delta_loss = 14.387235
+BiasedMFRecommender iter 95: loss = 20042.70094154664, delta_loss = 14.06502
+BiasedMFRecommender iter 96: loss = 20028.947559037962, delta_loss = 13.753383
+BiasedMFRecommender iter 97: loss = 20015.495696769274, delta_loss = 13.451862
+BiasedMFRecommender iter 98: loss = 20002.335675481365, delta_loss = 13.160021
+BiasedMFRecommender iter 99: loss = 19989.458229426185, delta_loss = 12.877446
+BiasedMFRecommender iter 100: loss = 19976.85448417708, delta_loss = 12.603745
+BiasedMFRecommender iter 101: loss = 19964.515935823638, delta_loss = 12.338549
+BiasedMFRecommender iter 102: loss = 19952.4344314873, delta_loss = 12.081504
+BiasedMFRecommender iter 103: loss = 19940.60215105284, delta_loss = 11.83228
+BiasedMFRecommender iter 104: loss = 19929.011590008085, delta_loss = 11.590561
+BiasedMFRecommender iter 105: loss = 19917.65554333574, delta_loss = 11.356047
+BiasedMFRecommender iter 106: loss = 19906.527090383774, delta_loss = 11.128453
+BiasedMFRecommender iter 107: loss = 19895.619580616578, delta_loss = 10.90751
+BiasedMFRecommender iter 108: loss = 19884.926620244216, delta_loss = 10.692961
+BiasedMFRecommender iter 109: loss = 19874.442059605153, delta_loss = 10.484561
+BiasedMFRecommender iter 110: loss = 19864.159981298028, delta_loss = 10.282079
+BiasedMFRecommender iter 111: loss = 19854.074689001052, delta_loss = 10.085292
+BiasedMFRecommender iter 112: loss = 19844.180696939664, delta_loss = 9.893992
+BiasedMFRecommender iter 113: loss = 19834.472719929363, delta_loss = 9.707977
+BiasedMFRecommender iter 114: loss = 19824.945664033272, delta_loss = 9.527056
+BiasedMFRecommender iter 115: loss = 19815.594617689905, delta_loss = 9.351047
+BiasedMFRecommender iter 116: loss = 19806.414843383776, delta_loss = 9.179774
+BiasedMFRecommender iter 117: loss = 19797.401769765627, delta_loss = 9.013074
+BiasedMFRecommender iter 118: loss = 19788.550984204205, delta_loss = 8.850785
+BiasedMFRecommender iter 119: loss = 19779.85822576798, delta_loss = 8.692759
+BiasedMFRecommender iter 120: loss = 19771.3193785693, delta_loss = 8.538847
+BiasedMFRecommender iter 121: loss = 19762.930465499066, delta_loss = 8.388913
+BiasedMFRecommender iter 122: loss = 19754.68764227703, delta_loss = 8.242824
+BiasedMFRecommender iter 123: loss = 19746.587191844686, delta_loss = 8.1004505
+BiasedMFRecommender iter 124: loss = 19738.625519041496, delta_loss = 7.961673
+BiasedMFRecommender iter 125: loss = 19730.79914557163, delta_loss = 7.8263736
+BiasedMFRecommender iter 126: loss = 19723.104705243943, delta_loss = 7.6944404
+BiasedMFRecommender iter 127: loss = 19715.538939433685, delta_loss = 7.565766
+BiasedMFRecommender iter 128: loss = 19708.098692811793, delta_loss = 7.4402466
+BiasedMFRecommender iter 129: loss = 19700.780909271183, delta_loss = 7.3177834
+BiasedMFRecommender iter 130: loss = 19693.582628062577, delta_loss = 7.1982813
+BiasedMFRecommender iter 131: loss = 19686.500980125442, delta_loss = 7.081648
+BiasedMFRecommender iter 132: loss = 19679.533184597283, delta_loss = 6.9677954
+BiasedMFRecommender iter 133: loss = 19672.676545491206, delta_loss = 6.856639
+BiasedMFRecommender iter 134: loss = 19665.928448542607, delta_loss = 6.748097
+BiasedMFRecommender iter 135: loss = 19659.286358179364, delta_loss = 6.6420903
+BiasedMFRecommender iter 136: loss = 19652.747814664195, delta_loss = 6.5385437
+BiasedMFRecommender iter 137: loss = 19646.310431350237, delta_loss = 6.437383
+BiasedMFRecommender iter 138: loss = 19639.971892052035, delta_loss = 6.338539
+BiasedMFRecommender iter 139: loss = 19633.72994855699, delta_loss = 6.2419434
+BiasedMFRecommender iter 140: loss = 19627.58241821935, delta_loss = 6.1475306
+BiasedMFRecommender iter 141: loss = 19621.527181680765, delta_loss = 6.0552363
+BiasedMFRecommender iter 142: loss = 19615.56218066528, delta_loss = 5.965001
+BiasedMFRecommender iter 143: loss = 19609.685415886546, delta_loss = 5.876765
+BiasedMFRecommender iter 144: loss = 19603.894945027725, delta_loss = 5.790471
+BiasedMFRecommender iter 145: loss = 19598.18888080812, delta_loss = 5.706064
+BiasedMFRecommender iter 146: loss = 19592.565389127372, delta_loss = 5.623492
+BiasedMFRecommender iter 147: loss = 19587.02268727737, delta_loss = 5.5427017
+BiasedMFRecommender iter 148: loss = 19581.55904223585, delta_loss = 5.463645
+BiasedMFRecommender iter 149: loss = 19576.172769013436, delta_loss = 5.3862734
+BiasedMFRecommender iter 150: loss = 19570.86222907608, delta_loss = 5.3105397
+BiasedMFRecommender iter 151: loss = 19565.625828809752, delta_loss = 5.2364
+BiasedMFRecommender iter 152: loss = 19560.462018066555, delta_loss = 5.1638107
+BiasedMFRecommender iter 153: loss = 19555.369288743976, delta_loss = 5.092729
+BiasedMFRecommender iter 154: loss = 19550.346173431215, delta_loss = 5.023115
+BiasedMFRecommender iter 155: loss = 19545.391244091486, delta_loss = 4.9549294
+BiasedMFRecommender iter 156: loss = 19540.50311081584, delta_loss = 4.888133
+BiasedMFRecommender iter 157: loss = 19535.680420589124, delta_loss = 4.82269
+BiasedMFRecommender iter 158: loss = 19530.921856133937, delta_loss = 4.7585645
+BiasedMFRecommender iter 159: loss = 19526.226134776174, delta_loss = 4.695721
+BiasedMFRecommender iter 160: loss = 19521.592007360185, delta_loss = 4.6341276
+BiasedMFRecommender iter 161: loss = 19517.018257196774, delta_loss = 4.57375
+BiasedMFRecommender iter 162: loss = 19512.5036990576, delta_loss = 4.5145583
+BiasedMFRecommender iter 163: loss = 19508.047178199464, delta_loss = 4.456521
+BiasedMFRecommender iter 164: loss = 19503.64756942072, delta_loss = 4.3996086
+BiasedMFRecommender iter 165: loss = 19499.303776165103, delta_loss = 4.3437934
+BiasedMFRecommender iter 166: loss = 19495.014729639573, delta_loss = 4.2890463
+BiasedMFRecommender iter 167: loss = 19490.779387979717, delta_loss = 4.2353415
+BiasedMFRecommender iter 168: loss = 19486.596735438558, delta_loss = 4.1826525
+BiasedMFRecommender iter 169: loss = 19482.46578159161, delta_loss = 4.130954
+BiasedMFRecommender iter 170: loss = 19478.38556059658, delta_loss = 4.080221
+BiasedMFRecommender iter 171: loss = 19474.355130461492, delta_loss = 4.0304303
+BiasedMFRecommender iter 172: loss = 19470.373572337045, delta_loss = 3.981558
+BiasedMFRecommender iter 173: loss = 19466.439989843977, delta_loss = 3.9335825
+BiasedMFRecommender iter 174: loss = 19462.55350841621, delta_loss = 3.8864815
+BiasedMFRecommender iter 175: loss = 19458.713274670314, delta_loss = 3.8402338
+BiasedMFRecommender iter 176: loss = 19454.91845580041, delta_loss = 3.7948189
+BiasedMFRecommender iter 177: loss = 19451.168238982682, delta_loss = 3.7502167
+BiasedMFRecommender iter 178: loss = 19447.461830813674, delta_loss = 3.7064083
+BiasedMFRecommender iter 179: loss = 19443.79845675874, delta_loss = 3.663374
+BiasedMFRecommender iter 180: loss = 19440.177360621336, delta_loss = 3.6210961
+BiasedMFRecommender iter 181: loss = 19436.59780403258, delta_loss = 3.5795567
+BiasedMFRecommender iter 182: loss = 19433.059065957645, delta_loss = 3.538738
+BiasedMFRecommender iter 183: loss = 19429.560442211827, delta_loss = 3.4986238
+BiasedMFRecommender iter 184: loss = 19426.101245002938, delta_loss = 3.4591973
+BiasedMFRecommender iter 185: loss = 19422.68080247664, delta_loss = 3.4204426
+BiasedMFRecommender iter 186: loss = 19419.298458291076, delta_loss = 3.3823442
+BiasedMFRecommender iter 187: loss = 19415.953571187973, delta_loss = 3.344887
+BiasedMFRecommender iter 188: loss = 19412.645514589625, delta_loss = 3.3080566
+BiasedMFRecommender iter 189: loss = 19409.373676207404, delta_loss = 3.2718384
+BiasedMFRecommender iter 190: loss = 19406.13745765078, delta_loss = 3.2362185
+BiasedMFRecommender iter 191: loss = 19402.936274066367, delta_loss = 3.2011836
+BiasedMFRecommender iter 192: loss = 19399.769553770002, delta_loss = 3.1667204
+BiasedMFRecommender iter 193: loss = 19396.636737903464, delta_loss = 3.1328158
+BiasedMFRecommender iter 194: loss = 19393.537280092132, delta_loss = 3.0994577
+BiasedMFRecommender iter 195: loss = 19390.470646110327, delta_loss = 3.066634
+BiasedMFRecommender iter 196: loss = 19387.436313575912, delta_loss = 3.0343325
+BiasedMFRecommender iter 197: loss = 19384.433771622495, delta_loss = 3.002542
+BiasedMFRecommender iter 198: loss = 19381.462520611087, delta_loss = 2.971251
+BiasedMFRecommender iter 199: loss = 19378.522071822787, delta_loss = 2.9404488
+BiasedMFRecommender iter 200: loss = 19375.611947184345, delta_loss = 2.9101245
+Job Train completed.
+Job End.
+Evaluator info:RMSEEvaluator is 1.0275243254456894
+Result path is result/movielens/ratings.csv-biasedmf-output/biasedmf
+Dataset: data/movielens/ratings.csv
+All dataset files [data\movielens\ratings.csv]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80019
+Data size of testing is 19981
+Job Setup completed.
+BiasedMFRecommender iter 1: loss = 38518.0702174335, delta_loss = -38518.07
+BiasedMFRecommender iter 2: loss = 35332.87104028247, delta_loss = 3185.1992
+BiasedMFRecommender iter 3: loss = 33939.66784583106, delta_loss = 1393.2032
+BiasedMFRecommender iter 4: loss = 33359.3531335602, delta_loss = 580.3147
+BiasedMFRecommender iter 5: loss = 32760.030416506066, delta_loss = 599.3227
+BiasedMFRecommender iter 6: loss = 32082.35272194016, delta_loss = 677.6777
+BiasedMFRecommender iter 7: loss = 31342.86904043409, delta_loss = 739.4837
+BiasedMFRecommender iter 8: loss = 30581.426244610713, delta_loss = 761.4428
+BiasedMFRecommender iter 9: loss = 29830.165004865772, delta_loss = 751.2612
+BiasedMFRecommender iter 10: loss = 29106.687210370088, delta_loss = 723.4778
+BiasedMFRecommender iter 11: loss = 28422.055228920235, delta_loss = 684.63196
+BiasedMFRecommender iter 12: loss = 27784.988078466635, delta_loss = 637.06714
+BiasedMFRecommender iter 13: loss = 27200.944235894807, delta_loss = 584.0438
+BiasedMFRecommender iter 14: loss = 26671.214431411066, delta_loss = 529.7298
+BiasedMFRecommender iter 15: loss = 26193.576918534287, delta_loss = 477.6375
+BiasedMFRecommender iter 16: loss = 25763.70053975938, delta_loss = 429.87637
+BiasedMFRecommender iter 17: loss = 25376.433897555646, delta_loss = 387.26663
+BiasedMFRecommender iter 18: loss = 25026.64988791208, delta_loss = 349.784
+BiasedMFRecommender iter 19: loss = 24709.66680118636, delta_loss = 316.9831
+BiasedMFRecommender iter 20: loss = 24421.387550254047, delta_loss = 288.27924
+BiasedMFRecommender iter 21: loss = 24158.292206493774, delta_loss = 263.09534
+BiasedMFRecommender iter 22: loss = 23917.372572292166, delta_loss = 240.91963
+BiasedMFRecommender iter 23: loss = 23696.054698881468, delta_loss = 221.31787
+BiasedMFRecommender iter 24: loss = 23492.128121070622, delta_loss = 203.92657
+BiasedMFRecommender iter 25: loss = 23303.686838797046, delta_loss = 188.44128
+BiasedMFRecommender iter 26: loss = 23129.081448987832, delta_loss = 174.6054
+BiasedMFRecommender iter 27: loss = 22966.88023179427, delta_loss = 162.20122
+BiasedMFRecommender iter 28: loss = 22815.83704331225, delta_loss = 151.04318
+BiasedMFRecommender iter 29: loss = 22674.864391096315, delta_loss = 140.97266
+BiasedMFRecommender iter 30: loss = 22543.010586474527, delta_loss = 131.8538
+BiasedMFRecommender iter 31: loss = 22419.440238315798, delta_loss = 123.57035
+BiasedMFRecommender iter 32: loss = 22303.417578715835, delta_loss = 116.02266
+BiasedMFRecommender iter 33: loss = 22194.29223586735, delta_loss = 109.12534
+BiasedMFRecommender iter 34: loss = 22091.48713613219, delta_loss = 102.8051
+BiasedMFRecommender iter 35: loss = 21994.488255522345, delta_loss = 96.99888
+BiasedMFRecommender iter 36: loss = 21902.835967028706, delta_loss = 91.65229
+BiasedMFRecommender iter 37: loss = 21816.11775293565, delta_loss = 86.718216
+BiasedMFRecommender iter 38: loss = 21733.96207335561, delta_loss = 82.15568
+BiasedMFRecommender iter 39: loss = 21656.03320498013, delta_loss = 77.92887
+BiasedMFRecommender iter 40: loss = 21582.026886927237, delta_loss = 74.00632
+BiasedMFRecommender iter 41: loss = 21511.6666332844, delta_loss = 70.36025
+BiasedMFRecommender iter 42: loss = 21444.700593601774, delta_loss = 66.96604
+BiasedMFRecommender iter 43: loss = 21380.898862634338, delta_loss = 63.80173
+BiasedMFRecommender iter 44: loss = 21320.05115867887, delta_loss = 60.847706
+BiasedMFRecommender iter 45: loss = 21261.964805455733, delta_loss = 58.086353
+BiasedMFRecommender iter 46: loss = 21206.462965686536, delta_loss = 55.50184
+BiasedMFRecommender iter 47: loss = 21153.383085377158, delta_loss = 53.07988
+BiasedMFRecommender iter 48: loss = 21102.575516445824, delta_loss = 50.807568
+BiasedMFRecommender iter 49: loss = 21053.902292161143, delta_loss = 48.673225
+BiasedMFRecommender iter 50: loss = 21007.236034953483, delta_loss = 46.666256
+Job Train completed.
+Job End.
+Evaluator info:RMSEEvaluator is 0.979435875623135
+Result path is result/movielens/ratings.csv-biasedmf-output/biasedmf
+Dataset: data/movielens/ratings.csv
+All dataset files [data\movielens\ratings.csv]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80019
+Data size of testing is 19981
+Job Setup completed.
+BiasedMFRecommender iter 1: loss = 41896.82611733832, delta_loss = -41896.824
+BiasedMFRecommender iter 2: loss = 37097.85142538087, delta_loss = 4798.9746
+BiasedMFRecommender iter 3: loss = 35777.43812285778, delta_loss = 1320.4133
+BiasedMFRecommender iter 4: loss = 35053.19678570418, delta_loss = 724.24133
+BiasedMFRecommender iter 5: loss = 34544.11809407659, delta_loss = 509.0787
+BiasedMFRecommender iter 6: loss = 34112.00599010498, delta_loss = 432.1121
+BiasedMFRecommender iter 7: loss = 33681.46227546311, delta_loss = 430.5437
+BiasedMFRecommender iter 8: loss = 33201.15507585285, delta_loss = 480.3072
+BiasedMFRecommender iter 9: loss = 32638.038513670173, delta_loss = 563.1166
+BiasedMFRecommender iter 10: loss = 31985.148643545697, delta_loss = 652.8899
+BiasedMFRecommender iter 11: loss = 31266.648055073085, delta_loss = 718.5006
+BiasedMFRecommender iter 12: loss = 30524.434909732583, delta_loss = 742.21313
+BiasedMFRecommender iter 13: loss = 29794.79674458036, delta_loss = 729.6382
+BiasedMFRecommender iter 14: loss = 29098.66918514294, delta_loss = 696.12756
+BiasedMFRecommender iter 15: loss = 28446.395997195563, delta_loss = 652.2732
+BiasedMFRecommender iter 16: loss = 27843.009547164245, delta_loss = 603.3865
+BiasedMFRecommender iter 17: loss = 27289.981460720268, delta_loss = 553.0281
+BiasedMFRecommender iter 18: loss = 26785.99912846272, delta_loss = 503.98233
+BiasedMFRecommender iter 19: loss = 26327.932317629817, delta_loss = 458.0668
+BiasedMFRecommender iter 20: loss = 25911.766949053082, delta_loss = 416.16537
+BiasedMFRecommender iter 21: loss = 25533.272373632386, delta_loss = 378.49457
+BiasedMFRecommender iter 22: loss = 25188.390228388795, delta_loss = 344.88214
+BiasedMFRecommender iter 23: loss = 24873.417824780023, delta_loss = 314.9724
+BiasedMFRecommender iter 24: loss = 24585.06359722841, delta_loss = 288.35422
+BiasedMFRecommender iter 25: loss = 24320.434710211885, delta_loss = 264.62888
+BiasedMFRecommender iter 26: loss = 24076.996422471995, delta_loss = 243.4383
+BiasedMFRecommender iter 27: loss = 23852.525337479114, delta_loss = 224.47108
+BiasedMFRecommender iter 28: loss = 23645.066472484494, delta_loss = 207.45886
+BiasedMFRecommender iter 29: loss = 23452.897025960123, delta_loss = 192.16945
+BiasedMFRecommender iter 30: loss = 23274.496459338425, delta_loss = 178.40057
+BiasedMFRecommender iter 31: loss = 23108.521496845704, delta_loss = 165.97496
+BiasedMFRecommender iter 32: loss = 22953.78470162533, delta_loss = 154.7368
+BiasedMFRecommender iter 33: loss = 22809.235684068746, delta_loss = 144.54901
+BiasedMFRecommender iter 34: loss = 22673.944387962514, delta_loss = 135.29129
+BiasedMFRecommender iter 35: loss = 22547.08616443563, delta_loss = 126.85822
+BiasedMFRecommender iter 36: loss = 22427.928481932347, delta_loss = 119.157684
+BiasedMFRecommender iter 37: loss = 22315.819171770814, delta_loss = 112.109314
+BiasedMFRecommender iter 38: loss = 22210.17611425808, delta_loss = 105.64306
+BiasedMFRecommender iter 39: loss = 22110.478258278174, delta_loss = 99.69785
+BiasedMFRecommender iter 40: loss = 22016.257853776813, delta_loss = 94.220406
+BiasedMFRecommender iter 41: loss = 21927.093768144307, delta_loss = 89.164085
+BiasedMFRecommender iter 42: loss = 21842.605755648612, delta_loss = 84.488014
+BiasedMFRecommender iter 43: loss = 21762.449553151033, delta_loss = 80.156204
+BiasedMFRecommender iter 44: loss = 21686.312683567423, delta_loss = 76.13687
+BiasedMFRecommender iter 45: loss = 21613.91085966484, delta_loss = 72.401825
+BiasedMFRecommender iter 46: loss = 21544.98489313085, delta_loss = 68.925964
+BiasedMFRecommender iter 47: loss = 21479.298026768196, delta_loss = 65.68687
+BiasedMFRecommender iter 48: loss = 21416.633619938057, delta_loss = 62.664406
+BiasedMFRecommender iter 49: loss = 21356.793128966172, delta_loss = 59.840492
+BiasedMFRecommender iter 50: loss = 21299.594334368834, delta_loss = 57.198795
+Job Train completed.
+Job End.
+Evaluator info:RMSEEvaluator is 0.9776771097170476
+Result path is result/movielens/ratings.csv-biasedmf-output/biasedmf
+Dataset: data/movielens/ratings.csv
+All dataset files [data\movielens\ratings.csv]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80019
+Data size of testing is 19981
+Job Setup completed.
+BiasedMFRecommender iter 1: loss = 41896.82611733832, delta_loss = -41896.824
+Job Train completed.
+Job End.
+Evaluator info:RMSEEvaluator is 0.9807168269658091
+Result path is result/movielens/ratings.csv-biasedmf-output/biasedmf
+Dataset: data/movielens/ratings.csv
+All dataset files [data\movielens\ratings.csv]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80019
+Data size of testing is 19981
+Dataset: data/movielens/ratings.csv
+All dataset files [data\movielens\ratings.csv]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80019
+Data size of testing is 19981
+Job Setup completed.
+BiasedMFRecommender iter 1: loss = 41896.82611733832, delta_loss = -41896.824
+Job Train completed.
+Job End.
+Evaluator info:RMSEEvaluator is 0.9807168269658091
+Result path is result/movielens/ratings.csv-biasedmf-output/biasedmf
+Dataset: data/movielens/ratings.csv
+All dataset files [data\movielens\ratings.csv]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80019
+Data size of testing is 19981
+Job Setup completed.
+BiasedMFRecommender iter 1: loss = 41896.82611733832, delta_loss = -41896.824
+Job Train completed.
+Job End.
+Evaluator info:RMSEEvaluator is 0.9807168269658091
+Result path is result/movielens/ratings.csv-biasedmf-output/biasedmf
+Dataset: data/movielens/ratings.csv
+All dataset files [data\movielens\ratings.csv]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80019
+Data size of testing is 19981
+Job Setup completed.
+BiasedMFRecommender iter 1: loss = 41896.82611733832, delta_loss = -41896.824
+BiasedMFRecommender iter 2: loss = 37097.85142538087, delta_loss = 4798.9746
+BiasedMFRecommender iter 3: loss = 35777.43812285778, delta_loss = 1320.4133
+BiasedMFRecommender iter 4: loss = 35053.19678570418, delta_loss = 724.24133
+BiasedMFRecommender iter 5: loss = 34544.11809407659, delta_loss = 509.0787
+BiasedMFRecommender iter 6: loss = 34112.00599010498, delta_loss = 432.1121
+BiasedMFRecommender iter 7: loss = 33681.46227546311, delta_loss = 430.5437
+BiasedMFRecommender iter 8: loss = 33201.15507585285, delta_loss = 480.3072
+BiasedMFRecommender iter 9: loss = 32638.038513670173, delta_loss = 563.1166
+BiasedMFRecommender iter 10: loss = 31985.148643545697, delta_loss = 652.8899
+BiasedMFRecommender iter 11: loss = 31266.648055073085, delta_loss = 718.5006
+BiasedMFRecommender iter 12: loss = 30524.434909732583, delta_loss = 742.21313
+BiasedMFRecommender iter 13: loss = 29794.79674458036, delta_loss = 729.6382
+BiasedMFRecommender iter 14: loss = 29098.66918514294, delta_loss = 696.12756
+BiasedMFRecommender iter 15: loss = 28446.395997195563, delta_loss = 652.2732
+BiasedMFRecommender iter 16: loss = 27843.009547164245, delta_loss = 603.3865
+BiasedMFRecommender iter 17: loss = 27289.981460720268, delta_loss = 553.0281
+BiasedMFRecommender iter 18: loss = 26785.99912846272, delta_loss = 503.98233
+BiasedMFRecommender iter 19: loss = 26327.932317629817, delta_loss = 458.0668
+BiasedMFRecommender iter 20: loss = 25911.766949053082, delta_loss = 416.16537
+BiasedMFRecommender iter 21: loss = 25533.272373632386, delta_loss = 378.49457
+BiasedMFRecommender iter 22: loss = 25188.390228388795, delta_loss = 344.88214
+BiasedMFRecommender iter 23: loss = 24873.417824780023, delta_loss = 314.9724
+BiasedMFRecommender iter 24: loss = 24585.06359722841, delta_loss = 288.35422
+BiasedMFRecommender iter 25: loss = 24320.434710211885, delta_loss = 264.62888
+BiasedMFRecommender iter 26: loss = 24076.996422471995, delta_loss = 243.4383
+BiasedMFRecommender iter 27: loss = 23852.525337479114, delta_loss = 224.47108
+BiasedMFRecommender iter 28: loss = 23645.066472484494, delta_loss = 207.45886
+BiasedMFRecommender iter 29: loss = 23452.897025960123, delta_loss = 192.16945
+BiasedMFRecommender iter 30: loss = 23274.496459338425, delta_loss = 178.40057
+BiasedMFRecommender iter 31: loss = 23108.521496845704, delta_loss = 165.97496
+BiasedMFRecommender iter 32: loss = 22953.78470162533, delta_loss = 154.7368
+BiasedMFRecommender iter 33: loss = 22809.235684068746, delta_loss = 144.54901
+BiasedMFRecommender iter 34: loss = 22673.944387962514, delta_loss = 135.29129
+BiasedMFRecommender iter 35: loss = 22547.08616443563, delta_loss = 126.85822
+BiasedMFRecommender iter 36: loss = 22427.928481932347, delta_loss = 119.157684
+BiasedMFRecommender iter 37: loss = 22315.819171770814, delta_loss = 112.109314
+BiasedMFRecommender iter 38: loss = 22210.17611425808, delta_loss = 105.64306
+BiasedMFRecommender iter 39: loss = 22110.478258278174, delta_loss = 99.69785
+BiasedMFRecommender iter 40: loss = 22016.257853776813, delta_loss = 94.220406
+BiasedMFRecommender iter 41: loss = 21927.093768144307, delta_loss = 89.164085
+BiasedMFRecommender iter 42: loss = 21842.605755648612, delta_loss = 84.488014
+BiasedMFRecommender iter 43: loss = 21762.449553151033, delta_loss = 80.156204
+BiasedMFRecommender iter 44: loss = 21686.312683567423, delta_loss = 76.13687
+BiasedMFRecommender iter 45: loss = 21613.91085966484, delta_loss = 72.401825
+BiasedMFRecommender iter 46: loss = 21544.98489313085, delta_loss = 68.925964
+BiasedMFRecommender iter 47: loss = 21479.298026768196, delta_loss = 65.68687
+BiasedMFRecommender iter 48: loss = 21416.633619938057, delta_loss = 62.664406
+BiasedMFRecommender iter 49: loss = 21356.793128966172, delta_loss = 59.840492
+BiasedMFRecommender iter 50: loss = 21299.594334368834, delta_loss = 57.198795
+BiasedMFRecommender iter 51: loss = 21244.86977565374, delta_loss = 54.72456
+BiasedMFRecommender iter 52: loss = 21192.4653619113, delta_loss = 52.404415
+BiasedMFRecommender iter 53: loss = 21142.239132536928, delta_loss = 50.22623
+BiasedMFRecommender iter 54: loss = 21094.06014740919, delta_loss = 48.178986
+BiasedMFRecommender iter 55: loss = 21047.807489780073, delta_loss = 46.25266
+BiasedMFRecommender iter 56: loss = 21003.369368225507, delta_loss = 44.43812
+BiasedMFRecommender iter 57: loss = 20960.6423064141, delta_loss = 42.727062
+BiasedMFRecommender iter 58: loss = 20919.530411225605, delta_loss = 41.111897
+BiasedMFRecommender iter 59: loss = 20879.944711236214, delta_loss = 39.5857
+BiasedMFRecommender iter 60: loss = 20841.802558577114, delta_loss = 38.14215
+BiasedMFRecommender iter 61: loss = 20805.027088055118, delta_loss = 36.77547
+BiasedMFRecommender iter 62: loss = 20769.546728042198, delta_loss = 35.48036
+BiasedMFRecommender iter 63: loss = 20735.294758196695, delta_loss = 34.25197
+BiasedMFRecommender iter 64: loss = 20702.208909475834, delta_loss = 33.08585
+BiasedMFRecommender iter 65: loss = 20670.231002323653, delta_loss = 31.977907
+BiasedMFRecommender iter 66: loss = 20639.306619251358, delta_loss = 30.924383
+BiasedMFRecommender iter 67: loss = 20609.384808321567, delta_loss = 29.92181
+BiasedMFRecommender iter 68: loss = 20580.41781439021, delta_loss = 28.966993
+BiasedMFRecommender iter 69: loss = 20552.36083521283, delta_loss = 28.056978
+BiasedMFRecommender iter 70: loss = 20525.171799807886, delta_loss = 27.189035
+BiasedMFRecommender iter 71: loss = 20498.81116675263, delta_loss = 26.360634
+BiasedMFRecommender iter 72: loss = 20473.241740266818, delta_loss = 25.569426
+BiasedMFRecommender iter 73: loss = 20448.428502254614, delta_loss = 24.813238
+BiasedMFRecommender iter 74: loss = 20424.33845859705, delta_loss = 24.090044
+BiasedMFRecommender iter 75: loss = 20400.940498265074, delta_loss = 23.39796
+BiasedMFRecommender iter 76: loss = 20378.20526390967, delta_loss = 22.735235
+BiasedMFRecommender iter 77: loss = 20356.105032834184, delta_loss = 22.100231
+BiasedMFRecommender iter 78: loss = 20334.613607299678, delta_loss = 21.491426
+BiasedMFRecommender iter 79: loss = 20313.7062133292, delta_loss = 20.907394
+BiasedMFRecommender iter 80: loss = 20293.359407162574, delta_loss = 20.346806
+BiasedMFRecommender iter 81: loss = 20273.550988772105, delta_loss = 19.808418
+BiasedMFRecommender iter 82: loss = 20254.25992174583, delta_loss = 19.291067
+BiasedMFRecommender iter 83: loss = 20235.466259041255, delta_loss = 18.793663
+BiasedMFRecommender iter 84: loss = 20217.151074136902, delta_loss = 18.315186
+BiasedMFRecommender iter 85: loss = 20199.296397109512, delta_loss = 17.854677
+BiasedMFRecommender iter 86: loss = 20181.885155300766, delta_loss = 17.411242
+BiasedMFRecommender iter 87: loss = 20164.901118162525, delta_loss = 16.984037
+BiasedMFRecommender iter 88: loss = 20148.32884601315, delta_loss = 16.572271
+BiasedMFRecommender iter 89: loss = 20132.153642370344, delta_loss = 16.175203
+BiasedMFRecommender iter 90: loss = 20116.36150959721, delta_loss = 15.792132
+BiasedMFRecommender iter 91: loss = 20100.93910764527, delta_loss = 15.422402
+BiasedMFRecommender iter 92: loss = 20085.873715594655, delta_loss = 15.0653925
+BiasedMFRecommender iter 93: loss = 20071.15319585691, delta_loss = 14.72052
+BiasedMFRecommender iter 94: loss = 20056.765960786466, delta_loss = 14.387235
+BiasedMFRecommender iter 95: loss = 20042.70094154664, delta_loss = 14.06502
+BiasedMFRecommender iter 96: loss = 20028.947559037962, delta_loss = 13.753383
+BiasedMFRecommender iter 97: loss = 20015.495696769274, delta_loss = 13.451862
+BiasedMFRecommender iter 98: loss = 20002.335675481365, delta_loss = 13.160021
+BiasedMFRecommender iter 99: loss = 19989.458229426185, delta_loss = 12.877446
+BiasedMFRecommender iter 100: loss = 19976.85448417708, delta_loss = 12.603745
+Job Train completed.
+Job End.
+Evaluator info:RMSEEvaluator is 1.0053114667318934
+Result path is result/movielens/ratings.csv-biasedmf-output/biasedmf
+Dataset: data/movielens/ratings.csv
+All dataset files [data\movielens\ratings.csv]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80019
+Data size of testing is 19981
+Job Setup completed.
+BiasedMFRecommender iter 1: loss = 41896.82611733832, delta_loss = -41896.824
+BiasedMFRecommender iter 2: loss = 37097.85142538087, delta_loss = 4798.9746
+BiasedMFRecommender iter 3: loss = 35777.43812285778, delta_loss = 1320.4133
+BiasedMFRecommender iter 4: loss = 35053.19678570418, delta_loss = 724.24133
+BiasedMFRecommender iter 5: loss = 34544.11809407659, delta_loss = 509.0787
+BiasedMFRecommender iter 6: loss = 34112.00599010498, delta_loss = 432.1121
+BiasedMFRecommender iter 7: loss = 33681.46227546311, delta_loss = 430.5437
+BiasedMFRecommender iter 8: loss = 33201.15507585285, delta_loss = 480.3072
+BiasedMFRecommender iter 9: loss = 32638.038513670173, delta_loss = 563.1166
+BiasedMFRecommender iter 10: loss = 31985.148643545697, delta_loss = 652.8899
+Job Train completed.
+Job End.
+Evaluator info:RMSEEvaluator is 0.9336282647360871
+Result path is result/movielens/ratings.csv-biasedmf-output/biasedmf
+Dataset: data/movielens/ratings.txt
+All dataset files [data\movielens\ratings.txt]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80019
+Data size of testing is 19981
+Job Setup completed.
+BiasedMFRecommender iter 1: loss = 41896.82611733832, delta_loss = -41896.824
+BiasedMFRecommender iter 2: loss = 37097.85142538087, delta_loss = 4798.9746
+BiasedMFRecommender iter 3: loss = 35777.43812285778, delta_loss = 1320.4133
+BiasedMFRecommender iter 4: loss = 35053.19678570418, delta_loss = 724.24133
+BiasedMFRecommender iter 5: loss = 34544.11809407659, delta_loss = 509.0787
+BiasedMFRecommender iter 6: loss = 34112.00599010498, delta_loss = 432.1121
+BiasedMFRecommender iter 7: loss = 33681.46227546311, delta_loss = 430.5437
+BiasedMFRecommender iter 8: loss = 33201.15507585285, delta_loss = 480.3072
+BiasedMFRecommender iter 9: loss = 32638.038513670173, delta_loss = 563.1166
+BiasedMFRecommender iter 10: loss = 31985.148643545697, delta_loss = 652.8899
+Job Train completed.
+Job End.
+Evaluator info:RMSEEvaluator is 0.9336282647360871
+Result path is result/movielens/ratings.txt-biasedmf-output/biasedmf
+Dataset: data/filmtrust/rating
+All dataset files [data\filmtrust\rating\ratings_0.txt, data\filmtrust\rating\ratings_1.txt, data\filmtrust\rating\ratings_2.txt, data\filmtrust\rating\ratings_3.txt]
+All dataset files size 411942
+Now loading dataset file ratings_0
+Now loading dataset file ratings_1
+Now loading dataset file ratings_2
+Now loading dataset file ratings_3
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 28408
+Data size of testing is 7086
+Job Setup completed.
+BiasedMFRecommender iter 1: loss = 11154.163122673073, delta_loss = -11154.163
+BiasedMFRecommender iter 2: loss = 9896.648697772836, delta_loss = 1257.5144
+BiasedMFRecommender iter 3: loss = 9279.889790057458, delta_loss = 616.7589
+BiasedMFRecommender iter 4: loss = 8921.100226279908, delta_loss = 358.78955
+BiasedMFRecommender iter 5: loss = 8686.08291317353, delta_loss = 235.01732
+BiasedMFRecommender iter 6: loss = 8512.540851579099, delta_loss = 173.54207
+BiasedMFRecommender iter 7: loss = 8369.080657374197, delta_loss = 143.46019
+BiasedMFRecommender iter 8: loss = 8238.35036124075, delta_loss = 130.7303
+BiasedMFRecommender iter 9: loss = 8109.628163183739, delta_loss = 128.7222
+BiasedMFRecommender iter 10: loss = 7975.650226776455, delta_loss = 133.97794
+Job Train completed.
+Job End.
+Evaluator info:RMSEEvaluator is 0.8050027688967699
+Result path is result/filmtrust/rating-biasedmf-output/biasedmf
+Dataset: data/filmtrust/rating
+All dataset files [data\filmtrust\rating\ratings_0.txt, data\filmtrust\rating\ratings_1.txt, data\filmtrust\rating\ratings_2.txt, data\filmtrust\rating\ratings_3.txt]
+All dataset files size 411942
+Now loading dataset file ratings_0
+Now loading dataset file ratings_1
+Now loading dataset file ratings_2
+Now loading dataset file ratings_3
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 28408
+Data size of testing is 7086
+Job Setup completed.
+BiasedMFRecommender iter 1: loss = 11154.163122673073, delta_loss = -11154.163
+BiasedMFRecommender iter 2: loss = 9896.648697772836, delta_loss = 1257.5144
+BiasedMFRecommender iter 3: loss = 9279.889790057458, delta_loss = 616.7589
+BiasedMFRecommender iter 4: loss = 8921.100226279908, delta_loss = 358.78955
+BiasedMFRecommender iter 5: loss = 8686.08291317353, delta_loss = 235.01732
+BiasedMFRecommender iter 6: loss = 8512.540851579099, delta_loss = 173.54207
+BiasedMFRecommender iter 7: loss = 8369.080657374197, delta_loss = 143.46019
+BiasedMFRecommender iter 8: loss = 8238.35036124075, delta_loss = 130.7303
+BiasedMFRecommender iter 9: loss = 8109.628163183739, delta_loss = 128.7222
+BiasedMFRecommender iter 10: loss = 7975.650226776455, delta_loss = 133.97794
+BiasedMFRecommender iter 11: loss = 7831.534183388224, delta_loss = 144.11604
+BiasedMFRecommender iter 12: loss = 7674.756036138933, delta_loss = 156.77815
+BiasedMFRecommender iter 13: loss = 7505.405437240177, delta_loss = 169.3506
+BiasedMFRecommender iter 14: loss = 7325.997673258091, delta_loss = 179.40776
+BiasedMFRecommender iter 15: loss = 7140.50915027255, delta_loss = 185.48853
+BiasedMFRecommender iter 16: loss = 6953.063171181233, delta_loss = 187.44598
+BiasedMFRecommender iter 17: loss = 6767.064684564265, delta_loss = 185.99849
+BiasedMFRecommender iter 18: loss = 6585.075560917546, delta_loss = 181.98912
+BiasedMFRecommender iter 19: loss = 6409.049744045284, delta_loss = 176.02582
+BiasedMFRecommender iter 20: loss = 6240.504554263334, delta_loss = 168.5452
+BiasedMFRecommender iter 21: loss = 6080.548647108269, delta_loss = 159.9559
+BiasedMFRecommender iter 22: loss = 5929.872570850318, delta_loss = 150.67607
+BiasedMFRecommender iter 23: loss = 5788.77232644381, delta_loss = 141.10025
+BiasedMFRecommender iter 24: loss = 5657.206763058379, delta_loss = 131.56557
+BiasedMFRecommender iter 25: loss = 5534.868921798684, delta_loss = 122.337845
+BiasedMFRecommender iter 26: loss = 5421.258515880209, delta_loss = 113.610405
+BiasedMFRecommender iter 27: loss = 5315.750290872902, delta_loss = 105.508224
+BiasedMFRecommender iter 28: loss = 5217.6552389802255, delta_loss = 98.095055
+BiasedMFRecommender iter 29: loss = 5126.27183852404, delta_loss = 91.3834
+BiasedMFRecommender iter 30: loss = 5040.9251526990965, delta_loss = 85.34669
+BiasedMFRecommender iter 31: loss = 4960.99306792103, delta_loss = 79.93208
+BiasedMFRecommender iter 32: loss = 4885.920596466352, delta_loss = 75.07247
+BiasedMFRecommender iter 33: loss = 4815.224427568264, delta_loss = 70.69617
+BiasedMFRecommender iter 34: loss = 4748.490502478869, delta_loss = 66.733925
+BiasedMFRecommender iter 35: loss = 4685.367337163285, delta_loss = 63.123165
+BiasedMFRecommender iter 36: loss = 4625.557338112571, delta_loss = 59.809998
+BiasedMFRecommender iter 37: loss = 4568.807712239847, delta_loss = 56.749626
+BiasedMFRecommender iter 38: loss = 4514.901958167355, delta_loss = 53.905754
+BiasedMFRecommender iter 39: loss = 4463.652443697425, delta_loss = 51.249516
+BiasedMFRecommender iter 40: loss = 4414.894244333785, delta_loss = 48.758198
+BiasedMFRecommender iter 41: loss = 4368.480218431631, delta_loss = 46.414024
+BiasedMFRecommender iter 42: loss = 4324.277189996036, delta_loss = 44.20303
+BiasedMFRecommender iter 43: loss = 4282.163066869543, delta_loss = 42.114124
+BiasedMFRecommender iter 44: loss = 4242.024715007182, delta_loss = 40.13835
+BiasedMFRecommender iter 45: loss = 4203.756422019874, delta_loss = 38.26829
+BiasedMFRecommender iter 46: loss = 4167.2588048955095, delta_loss = 36.497616
+BiasedMFRecommender iter 47: loss = 4132.438041721605, delta_loss = 34.820763
+BiasedMFRecommender iter 48: loss = 4099.205331807781, delta_loss = 33.23271
+BiasedMFRecommender iter 49: loss = 4067.4765109672694, delta_loss = 31.72882
+BiasedMFRecommender iter 50: loss = 4037.1717679044864, delta_loss = 30.304743
+Job Train completed.
+Job End.
+Evaluator info:RMSEEvaluator is 0.8604184539647288
+Result path is result/filmtrust/rating-biasedmf-output/biasedmf
+Dataset: data/filmtrust/rating
+All dataset files [data\filmtrust\rating\ratings_0.txt, data\filmtrust\rating\ratings_1.txt, data\filmtrust\rating\ratings_2.txt, data\filmtrust\rating\ratings_3.txt]
+All dataset files size 411942
+Now loading dataset file ratings_0
+Now loading dataset file ratings_1
+Now loading dataset file ratings_2
+Now loading dataset file ratings_3
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 28408
+Data size of testing is 7086
+Job Setup completed.
+BiasedMFRecommender iter 1: loss = 11154.163122673073, delta_loss = -11154.163
+BiasedMFRecommender iter 2: loss = 9896.648697772836, delta_loss = 1257.5144
+BiasedMFRecommender iter 3: loss = 9279.889790057458, delta_loss = 616.7589
+BiasedMFRecommender iter 4: loss = 8921.100226279908, delta_loss = 358.78955
+BiasedMFRecommender iter 5: loss = 8686.08291317353, delta_loss = 235.01732
+BiasedMFRecommender iter 6: loss = 8512.540851579099, delta_loss = 173.54207
+BiasedMFRecommender iter 7: loss = 8369.080657374197, delta_loss = 143.46019
+BiasedMFRecommender iter 8: loss = 8238.35036124075, delta_loss = 130.7303
+BiasedMFRecommender iter 9: loss = 8109.628163183739, delta_loss = 128.7222
+BiasedMFRecommender iter 10: loss = 7975.650226776455, delta_loss = 133.97794
+BiasedMFRecommender iter 11: loss = 7831.534183388224, delta_loss = 144.11604
+BiasedMFRecommender iter 12: loss = 7674.756036138933, delta_loss = 156.77815
+BiasedMFRecommender iter 13: loss = 7505.405437240177, delta_loss = 169.3506
+BiasedMFRecommender iter 14: loss = 7325.997673258091, delta_loss = 179.40776
+BiasedMFRecommender iter 15: loss = 7140.50915027255, delta_loss = 185.48853
+BiasedMFRecommender iter 16: loss = 6953.063171181233, delta_loss = 187.44598
+BiasedMFRecommender iter 17: loss = 6767.064684564265, delta_loss = 185.99849
+BiasedMFRecommender iter 18: loss = 6585.075560917546, delta_loss = 181.98912
+BiasedMFRecommender iter 19: loss = 6409.049744045284, delta_loss = 176.02582
+BiasedMFRecommender iter 20: loss = 6240.504554263334, delta_loss = 168.5452
+BiasedMFRecommender iter 21: loss = 6080.548647108269, delta_loss = 159.9559
+BiasedMFRecommender iter 22: loss = 5929.872570850318, delta_loss = 150.67607
+BiasedMFRecommender iter 23: loss = 5788.77232644381, delta_loss = 141.10025
+BiasedMFRecommender iter 24: loss = 5657.206763058379, delta_loss = 131.56557
+BiasedMFRecommender iter 25: loss = 5534.868921798684, delta_loss = 122.337845
+BiasedMFRecommender iter 26: loss = 5421.258515880209, delta_loss = 113.610405
+BiasedMFRecommender iter 27: loss = 5315.750290872902, delta_loss = 105.508224
+BiasedMFRecommender iter 28: loss = 5217.6552389802255, delta_loss = 98.095055
+BiasedMFRecommender iter 29: loss = 5126.27183852404, delta_loss = 91.3834
+BiasedMFRecommender iter 30: loss = 5040.9251526990965, delta_loss = 85.34669
+BiasedMFRecommender iter 31: loss = 4960.99306792103, delta_loss = 79.93208
+BiasedMFRecommender iter 32: loss = 4885.920596466352, delta_loss = 75.07247
+BiasedMFRecommender iter 33: loss = 4815.224427568264, delta_loss = 70.69617
+BiasedMFRecommender iter 34: loss = 4748.490502478869, delta_loss = 66.733925
+BiasedMFRecommender iter 35: loss = 4685.367337163285, delta_loss = 63.123165
+BiasedMFRecommender iter 36: loss = 4625.557338112571, delta_loss = 59.809998
+BiasedMFRecommender iter 37: loss = 4568.807712239847, delta_loss = 56.749626
+BiasedMFRecommender iter 38: loss = 4514.901958167355, delta_loss = 53.905754
+BiasedMFRecommender iter 39: loss = 4463.652443697425, delta_loss = 51.249516
+BiasedMFRecommender iter 40: loss = 4414.894244333785, delta_loss = 48.758198
+BiasedMFRecommender iter 41: loss = 4368.480218431631, delta_loss = 46.414024
+BiasedMFRecommender iter 42: loss = 4324.277189996036, delta_loss = 44.20303
+BiasedMFRecommender iter 43: loss = 4282.163066869543, delta_loss = 42.114124
+BiasedMFRecommender iter 44: loss = 4242.024715007182, delta_loss = 40.13835
+BiasedMFRecommender iter 45: loss = 4203.756422019874, delta_loss = 38.26829
+BiasedMFRecommender iter 46: loss = 4167.2588048955095, delta_loss = 36.497616
+BiasedMFRecommender iter 47: loss = 4132.438041721605, delta_loss = 34.820763
+BiasedMFRecommender iter 48: loss = 4099.205331807781, delta_loss = 33.23271
+BiasedMFRecommender iter 49: loss = 4067.4765109672694, delta_loss = 31.72882
+BiasedMFRecommender iter 50: loss = 4037.1717679044864, delta_loss = 30.304743
+Job Train completed.
+Job End.
+Evaluator info:RMSEEvaluator is 0.8604184539647288
+Result path is result/filmtrust/rating-biasedmf-output/biasedmf
+Dataset: data/filmtrust/rating
+All dataset files [data\filmtrust\rating\ratings_0.txt, data\filmtrust\rating\ratings_1.txt, data\filmtrust\rating\ratings_2.txt, data\filmtrust\rating\ratings_3.txt]
+All dataset files size 411942
+Now loading dataset file ratings_0
+Now loading dataset file ratings_1
+Now loading dataset file ratings_2
+Now loading dataset file ratings_3
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 28408
+Data size of testing is 7086
+Job Setup completed.
+BiasedMFRecommender iter 1: loss = 11154.163122673073, delta_loss = -11154.163
+BiasedMFRecommender iter 2: loss = 9896.648697772836, delta_loss = 1257.5144
+BiasedMFRecommender iter 3: loss = 9279.889790057458, delta_loss = 616.7589
+BiasedMFRecommender iter 4: loss = 8921.100226279908, delta_loss = 358.78955
+BiasedMFRecommender iter 5: loss = 8686.08291317353, delta_loss = 235.01732
+BiasedMFRecommender iter 6: loss = 8512.540851579099, delta_loss = 173.54207
+BiasedMFRecommender iter 7: loss = 8369.080657374197, delta_loss = 143.46019
+BiasedMFRecommender iter 8: loss = 8238.35036124075, delta_loss = 130.7303
+BiasedMFRecommender iter 9: loss = 8109.628163183739, delta_loss = 128.7222
+BiasedMFRecommender iter 10: loss = 7975.650226776455, delta_loss = 133.97794
+BiasedMFRecommender iter 11: loss = 7831.534183388224, delta_loss = 144.11604
+BiasedMFRecommender iter 12: loss = 7674.756036138933, delta_loss = 156.77815
+BiasedMFRecommender iter 13: loss = 7505.405437240177, delta_loss = 169.3506
+BiasedMFRecommender iter 14: loss = 7325.997673258091, delta_loss = 179.40776
+BiasedMFRecommender iter 15: loss = 7140.50915027255, delta_loss = 185.48853
+BiasedMFRecommender iter 16: loss = 6953.063171181233, delta_loss = 187.44598
+BiasedMFRecommender iter 17: loss = 6767.064684564265, delta_loss = 185.99849
+BiasedMFRecommender iter 18: loss = 6585.075560917546, delta_loss = 181.98912
+BiasedMFRecommender iter 19: loss = 6409.049744045284, delta_loss = 176.02582
+BiasedMFRecommender iter 20: loss = 6240.504554263334, delta_loss = 168.5452
+BiasedMFRecommender iter 21: loss = 6080.548647108269, delta_loss = 159.9559
+BiasedMFRecommender iter 22: loss = 5929.872570850318, delta_loss = 150.67607
+BiasedMFRecommender iter 23: loss = 5788.77232644381, delta_loss = 141.10025
+BiasedMFRecommender iter 24: loss = 5657.206763058379, delta_loss = 131.56557
+BiasedMFRecommender iter 25: loss = 5534.868921798684, delta_loss = 122.337845
+BiasedMFRecommender iter 26: loss = 5421.258515880209, delta_loss = 113.610405
+BiasedMFRecommender iter 27: loss = 5315.750290872902, delta_loss = 105.508224
+BiasedMFRecommender iter 28: loss = 5217.6552389802255, delta_loss = 98.095055
+BiasedMFRecommender iter 29: loss = 5126.27183852404, delta_loss = 91.3834
+BiasedMFRecommender iter 30: loss = 5040.9251526990965, delta_loss = 85.34669
+BiasedMFRecommender iter 31: loss = 4960.99306792103, delta_loss = 79.93208
+BiasedMFRecommender iter 32: loss = 4885.920596466352, delta_loss = 75.07247
+BiasedMFRecommender iter 33: loss = 4815.224427568264, delta_loss = 70.69617
+BiasedMFRecommender iter 34: loss = 4748.490502478869, delta_loss = 66.733925
+BiasedMFRecommender iter 35: loss = 4685.367337163285, delta_loss = 63.123165
+BiasedMFRecommender iter 36: loss = 4625.557338112571, delta_loss = 59.809998
+BiasedMFRecommender iter 37: loss = 4568.807712239847, delta_loss = 56.749626
+BiasedMFRecommender iter 38: loss = 4514.901958167355, delta_loss = 53.905754
+BiasedMFRecommender iter 39: loss = 4463.652443697425, delta_loss = 51.249516
+BiasedMFRecommender iter 40: loss = 4414.894244333785, delta_loss = 48.758198
+BiasedMFRecommender iter 41: loss = 4368.480218431631, delta_loss = 46.414024
+BiasedMFRecommender iter 42: loss = 4324.277189996036, delta_loss = 44.20303
+BiasedMFRecommender iter 43: loss = 4282.163066869543, delta_loss = 42.114124
+BiasedMFRecommender iter 44: loss = 4242.024715007182, delta_loss = 40.13835
+BiasedMFRecommender iter 45: loss = 4203.756422019874, delta_loss = 38.26829
+BiasedMFRecommender iter 46: loss = 4167.2588048955095, delta_loss = 36.497616
+BiasedMFRecommender iter 47: loss = 4132.438041721605, delta_loss = 34.820763
+BiasedMFRecommender iter 48: loss = 4099.205331807781, delta_loss = 33.23271
+BiasedMFRecommender iter 49: loss = 4067.4765109672694, delta_loss = 31.72882
+BiasedMFRecommender iter 50: loss = 4037.1717679044864, delta_loss = 30.304743
+Job Train completed.
+Job End.
+Evaluator info:RMSEEvaluator is 0.8604184539647288
+Result path is result/filmtrust/rating-biasedmf-output/biasedmf
+Dataset: data/filmtrust/rating
+All dataset files [data\filmtrust\rating\ratings_0.txt, data\filmtrust\rating\ratings_1.txt, data\filmtrust\rating\ratings_2.txt, data\filmtrust\rating\ratings_3.txt]
+All dataset files size 411942
+Now loading dataset file ratings_0
+Now loading dataset file ratings_1
+Now loading dataset file ratings_2
+Now loading dataset file ratings_3
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 28408
+Data size of testing is 7086
+Job Setup completed.
+BiasedMFRecommender iter 1: loss = 10241.431137868978, delta_loss = -10241.431
+BiasedMFRecommender iter 2: loss = 8886.58794392867, delta_loss = 1354.8431
+BiasedMFRecommender iter 3: loss = 8728.948732487155, delta_loss = 157.6392
+BiasedMFRecommender iter 4: loss = 8649.161344938113, delta_loss = 79.787384
+BiasedMFRecommender iter 5: loss = 8590.943834954887, delta_loss = 58.21751
+BiasedMFRecommender iter 6: loss = 8543.895478459888, delta_loss = 47.048355
+BiasedMFRecommender iter 7: loss = 8503.658283422186, delta_loss = 40.237194
+BiasedMFRecommender iter 8: loss = 8468.060303714885, delta_loss = 35.59798
+BiasedMFRecommender iter 9: loss = 8435.87475572104, delta_loss = 32.185547
+BiasedMFRecommender iter 10: loss = 8406.333512098097, delta_loss = 29.541245
+BiasedMFRecommender iter 11: loss = 8378.913222403606, delta_loss = 27.42029
+BiasedMFRecommender iter 12: loss = 8353.232297636878, delta_loss = 25.680925
+BiasedMFRecommender iter 13: loss = 8328.997109382346, delta_loss = 24.235188
+BiasedMFRecommender iter 14: loss = 8305.971747756468, delta_loss = 23.025362
+BiasedMFRecommender iter 15: loss = 8283.959873022763, delta_loss = 22.011875
+BiasedMFRecommender iter 16: loss = 8262.793202928242, delta_loss = 21.16667
+BiasedMFRecommender iter 17: loss = 8242.323881498292, delta_loss = 20.469322
+BiasedMFRecommender iter 18: loss = 8222.419264057433, delta_loss = 19.904617
+BiasedMFRecommender iter 19: loss = 8202.95830354514, delta_loss = 19.46096
+BiasedMFRecommender iter 20: loss = 8183.829069868637, delta_loss = 19.129234
+BiasedMFRecommender iter 21: loss = 8164.9271281752, delta_loss = 18.901941
+BiasedMFRecommender iter 22: loss = 8146.154614264537, delta_loss = 18.772514
+BiasedMFRecommender iter 23: loss = 8127.419909759323, delta_loss = 18.734705
+BiasedMFRecommender iter 24: loss = 8108.637852432565, delta_loss = 18.782057
+BiasedMFRecommender iter 25: loss = 8089.730425935335, delta_loss = 18.907427
+BiasedMFRecommender iter 26: loss = 8070.627861998273, delta_loss = 19.102564
+BiasedMFRecommender iter 27: loss = 8051.270060049019, delta_loss = 19.357801
+BiasedMFRecommender iter 28: loss = 8031.608188603302, delta_loss = 19.661871
+BiasedMFRecommender iter 29: loss = 8011.606287393025, delta_loss = 20.001902
+BiasedMFRecommender iter 30: loss = 7991.242650368802, delta_loss = 20.363638
+BiasedMFRecommender iter 31: loss = 7970.51075177323, delta_loss = 20.7319
+BiasedMFRecommender iter 32: loss = 7949.419494495761, delta_loss = 21.091257
+BiasedMFRecommender iter 33: loss = 7927.992620890906, delta_loss = 21.426874
+BiasedMFRecommender iter 34: loss = 7906.267229626115, delta_loss = 21.725391
+BiasedMFRecommender iter 35: loss = 7884.291472738528, delta_loss = 21.975758
+BiasedMFRecommender iter 36: loss = 7862.121637546849, delta_loss = 22.169836
+BiasedMFRecommender iter 37: loss = 7839.818916283026, delta_loss = 22.302721
+BiasedMFRecommender iter 38: loss = 7817.446206428478, delta_loss = 22.37271
+BiasedMFRecommender iter 39: loss = 7795.065257122711, delta_loss = 22.380949
+BiasedMFRecommender iter 40: loss = 7772.7343921538495, delta_loss = 22.330866
+BiasedMFRecommender iter 41: loss = 7750.506924024194, delta_loss = 22.227468
+BiasedMFRecommender iter 42: loss = 7728.430257840076, delta_loss = 22.076666
+BiasedMFRecommender iter 43: loss = 7706.545593808206, delta_loss = 21.884665
+BiasedMFRecommender iter 44: loss = 7684.888085792452, delta_loss = 21.657509
+BiasedMFRecommender iter 45: loss = 7663.4873002295935, delta_loss = 21.400785
+BiasedMFRecommender iter 46: loss = 7642.367835124727, delta_loss = 21.119465
+BiasedMFRecommender iter 47: loss = 7621.549989924554, delta_loss = 20.817844
+BiasedMFRecommender iter 48: loss = 7601.050412303673, delta_loss = 20.499578
+BiasedMFRecommender iter 49: loss = 7580.882679493831, delta_loss = 20.167732
+BiasedMFRecommender iter 50: loss = 7561.057796045532, delta_loss = 19.824883
+BiasedMFRecommender iter 51: loss = 7541.584606141898, delta_loss = 19.47319
+BiasedMFRecommender iter 52: loss = 7522.470127887207, delta_loss = 19.11448
+BiasedMFRecommender iter 53: loss = 7503.719821194358, delta_loss = 18.750307
+BiasedMFRecommender iter 54: loss = 7485.337801739526, delta_loss = 18.382019
+BiasedMFRecommender iter 55: loss = 7467.327012446312, delta_loss = 18.01079
+BiasedMFRecommender iter 56: loss = 7449.689362114365, delta_loss = 17.63765
+BiasedMFRecommender iter 57: loss = 7432.42583879378, delta_loss = 17.263523
+BiasedMFRecommender iter 58: loss = 7415.536603681626, delta_loss = 16.889235
+BiasedMFRecommender iter 59: loss = 7399.0210698451365, delta_loss = 16.515533
+BiasedMFRecommender iter 60: loss = 7382.8779689824405, delta_loss = 16.1431
+BiasedMFRecommender iter 61: loss = 7367.1054086685845, delta_loss = 15.77256
+BiasedMFRecommender iter 62: loss = 7351.700922025228, delta_loss = 15.404487
+BiasedMFRecommender iter 63: loss = 7336.661511430438, delta_loss = 15.039411
+BiasedMFRecommender iter 64: loss = 7321.983687645918, delta_loss = 14.677824
+BiasedMFRecommender iter 65: loss = 7307.663505566767, delta_loss = 14.320182
+BiasedMFRecommender iter 66: loss = 7293.696597623605, delta_loss = 13.9669075
+BiasedMFRecommender iter 67: loss = 7280.078205698326, delta_loss = 13.618392
+BiasedMFRecommender iter 68: loss = 7266.803212235529, delta_loss = 13.274994
+BiasedMFRecommender iter 69: loss = 7253.866171045023, delta_loss = 12.937041
+BiasedMFRecommender iter 70: loss = 7241.261338110347, delta_loss = 12.604833
+BiasedMFRecommender iter 71: loss = 7228.982702561177, delta_loss = 12.278636
+BiasedMFRecommender iter 72: loss = 7217.0240178195845, delta_loss = 11.958685
+BiasedMFRecommender iter 73: loss = 7205.378832815191, delta_loss = 11.645185
+BiasedMFRecommender iter 74: loss = 7194.0405230881715, delta_loss = 11.338309
+BiasedMFRecommender iter 75: loss = 7183.002321538187, delta_loss = 11.038201
+BiasedMFRecommender iter 76: loss = 7172.257348550367, delta_loss = 10.744973
+BiasedMFRecommender iter 77: loss = 7161.798641224418, delta_loss = 10.458707
+BiasedMFRecommender iter 78: loss = 7151.619181452401, delta_loss = 10.17946
+BiasedMFRecommender iter 79: loss = 7141.71192260502, delta_loss = 9.907259
+BiasedMFRecommender iter 80: loss = 7132.06981463006, delta_loss = 9.642108
+BiasedMFRecommender iter 81: loss = 7122.685827407544, delta_loss = 9.383987
+BiasedMFRecommender iter 82: loss = 7113.552972242666, delta_loss = 9.132855
+BiasedMFRecommender iter 83: loss = 7104.664321424638, delta_loss = 8.888651
+BiasedMFRecommender iter 84: loss = 7096.013025812879, delta_loss = 8.651296
+BiasedMFRecommender iter 85: loss = 7087.592330456352, delta_loss = 8.420695
+BiasedMFRecommender iter 86: loss = 7079.395588273774, delta_loss = 8.196742
+BiasedMFRecommender iter 87: loss = 7071.416271855687, delta_loss = 7.979316
+BiasedMFRecommender iter 88: loss = 7063.647983467958, delta_loss = 7.7682886
+BiasedMFRecommender iter 89: loss = 7056.084463355111, delta_loss = 7.56352
+BiasedMFRecommender iter 90: loss = 7048.719596452523, delta_loss = 7.3648667
+BiasedMFRecommender iter 91: loss = 7041.547417627722, delta_loss = 7.1721787
+BiasedMFRecommender iter 92: loss = 7034.562115574001, delta_loss = 6.985302
+BiasedMFRecommender iter 93: loss = 7027.7580354832535, delta_loss = 6.80408
+BiasedMFRecommender iter 94: loss = 7021.12968062183, delta_loss = 6.628355
+BiasedMFRecommender iter 95: loss = 7014.671712934323, delta_loss = 6.4579678
+BiasedMFRecommender iter 96: loss = 7008.3789527905765, delta_loss = 6.2927604
+BiasedMFRecommender iter 97: loss = 7002.246377987973, delta_loss = 6.132575
+BiasedMFRecommender iter 98: loss = 6996.269122116822, delta_loss = 5.977256
+BiasedMFRecommender iter 99: loss = 6990.442472380333, delta_loss = 5.8266497
+BiasedMFRecommender iter 100: loss = 6984.761866962659, delta_loss = 5.6806054
+Job Train completed.
+Job End.
+Evaluator info:RMSEEvaluator is 0.8073166334623204
+Result path is result/filmtrust/rating-biasedmf-output/biasedmf
+Dataset: data/filmtrust/rating
+All dataset files [data\filmtrust\rating\ratings_0.txt, data\filmtrust\rating\ratings_1.txt, data\filmtrust\rating\ratings_2.txt, data\filmtrust\rating\ratings_3.txt]
+All dataset files size 411942
+Now loading dataset file ratings_0
+Now loading dataset file ratings_1
+Now loading dataset file ratings_2
+Now loading dataset file ratings_3
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 28408
+Data size of testing is 7086
+Job Setup completed.
+BiasedMFRecommender iter 1: loss = 10241.431137868978, delta_loss = -10241.431
+BiasedMFRecommender iter 2: loss = 9292.515796780743, delta_loss = 948.91534
+BiasedMFRecommender iter 3: loss = 9044.137164176547, delta_loss = 248.37863
+BiasedMFRecommender iter 4: loss = 8888.618896201366, delta_loss = 155.51826
+BiasedMFRecommender iter 5: loss = 8766.470145843305, delta_loss = 122.14875
+BiasedMFRecommender iter 6: loss = 8650.96259863097, delta_loss = 115.507545
+BiasedMFRecommender iter 7: loss = 8528.990762410705, delta_loss = 121.97184
+BiasedMFRecommender iter 8: loss = 8401.525521836078, delta_loss = 127.46524
+BiasedMFRecommender iter 9: loss = 8277.274437428317, delta_loss = 124.25108
+BiasedMFRecommender iter 10: loss = 8162.921812821691, delta_loss = 114.35262
+BiasedMFRecommender iter 11: loss = 8061.437665379191, delta_loss = 101.484146
+BiasedMFRecommender iter 12: loss = 7973.737565489706, delta_loss = 87.700096
+BiasedMFRecommender iter 13: loss = 7899.342426659786, delta_loss = 74.39514
+BiasedMFRecommender iter 14: loss = 7836.80416324948, delta_loss = 62.538265
+BiasedMFRecommender iter 15: loss = 7784.300975883007, delta_loss = 52.50319
+BiasedMFRecommender iter 16: loss = 7740.0851067641115, delta_loss = 44.21587
+BiasedMFRecommender iter 17: loss = 7702.665251581585, delta_loss = 37.419857
+BiasedMFRecommender iter 18: loss = 7670.8255880750485, delta_loss = 31.839664
+BiasedMFRecommender iter 19: loss = 7643.587009061726, delta_loss = 27.238579
+BiasedMFRecommender iter 20: loss = 7620.160818995928, delta_loss = 23.42619
+BiasedMFRecommender iter 21: loss = 7599.909313547848, delta_loss = 20.251505
+BiasedMFRecommender iter 22: loss = 7582.314486134918, delta_loss = 17.594828
+BiasedMFRecommender iter 23: loss = 7566.953436661876, delta_loss = 15.36105
+BiasedMFRecommender iter 24: loss = 7553.479055903805, delta_loss = 13.4743805
+BiasedMFRecommender iter 25: loss = 7541.604855991704, delta_loss = 11.8742
+BiasedMFRecommender iter 26: loss = 7531.093084855542, delta_loss = 10.511771
+BiasedMFRecommender iter 27: loss = 7521.745453050336, delta_loss = 9.347631
+BiasedMFRecommender iter 28: loss = 7513.395908914174, delta_loss = 8.349545
+BiasedMFRecommender iter 29: loss = 7505.904970949158, delta_loss = 7.490938
+BiasedMFRecommender iter 30: loss = 7499.155211250607, delta_loss = 6.7497597
+BiasedMFRecommender iter 31: loss = 7493.047585736428, delta_loss = 6.1076255
+BiasedMFRecommender iter 32: loss = 7487.498403692677, delta_loss = 5.549182
+BiasedMFRecommender iter 33: loss = 7482.43680161665, delta_loss = 5.061602
+BiasedMFRecommender iter 34: loss = 7477.802630967292, delta_loss = 4.6341705
+BiasedMFRecommender iter 35: loss = 7473.544693496428, delta_loss = 4.2579374
+BiasedMFRecommender iter 36: loss = 7469.619270574897, delta_loss = 3.925423
+BiasedMFRecommender iter 37: loss = 7465.988900749347, delta_loss = 3.63037
+BiasedMFRecommender iter 38: loss = 7462.621365812983, delta_loss = 3.3675349
+BiasedMFRecommender iter 39: loss = 7459.48885100666, delta_loss = 3.1325147
+BiasedMFRecommender iter 40: loss = 7456.567249849477, delta_loss = 2.921601
+BiasedMFRecommender iter 41: loss = 7453.835588529157, delta_loss = 2.7316613
+BiasedMFRecommender iter 42: loss = 7451.275548733384, delta_loss = 2.5600398
+BiasedMFRecommender iter 43: loss = 7448.87107132453, delta_loss = 2.4044774
+BiasedMFRecommender iter 44: loss = 7446.608026295428, delta_loss = 2.263045
+BiasedMFRecommender iter 45: loss = 7444.473937069538, delta_loss = 2.1340892
+BiasedMFRecommender iter 46: loss = 7442.457749397347, delta_loss = 2.0161877
+BiasedMFRecommender iter 47: loss = 7440.549636937962, delta_loss = 1.9081124
+BiasedMFRecommender iter 48: loss = 7438.740837085039, delta_loss = 1.8087999
+BiasedMFRecommender iter 49: loss = 7437.02351182261, delta_loss = 1.7173252
+BiasedMFRecommender iter 50: loss = 7435.390629358614, delta_loss = 1.6328825
+BiasedMFRecommender iter 51: loss = 7433.835863078157, delta_loss = 1.5547663
+BiasedMFRecommender iter 52: loss = 7432.353504989732, delta_loss = 1.4823581
+BiasedMFRecommender iter 53: loss = 7430.938391356068, delta_loss = 1.4151137
+BiasedMFRecommender iter 54: loss = 7429.58583861035, delta_loss = 1.3525528
+BiasedMFRecommender iter 55: loss = 7428.291588004644, delta_loss = 1.2942506
+BiasedMFRecommender iter 56: loss = 7427.051757690549, delta_loss = 1.2398303
+BiasedMFRecommender iter 57: loss = 7425.862801165402, delta_loss = 1.1889565
+BiasedMFRecommender iter 58: loss = 7424.721471172352, delta_loss = 1.14133
+BiasedMFRecommender iter 59: loss = 7423.6247882906655, delta_loss = 1.0966829
+BiasedMFRecommender iter 60: loss = 7422.570013562174, delta_loss = 1.0547748
+BiasedMFRecommender iter 61: loss = 7421.554624582263, delta_loss = 1.015389
+BiasedMFRecommender iter 62: loss = 7420.576294570181, delta_loss = 0.97833
+BiasedMFRecommender iter 63: loss = 7419.632873990966, delta_loss = 0.9434206
+BiasedMFRecommender iter 64: loss = 7418.7223743611175, delta_loss = 0.91049963
+BiasedMFRecommender iter 65: loss = 7417.84295391817, delta_loss = 0.87942046
+BiasedMFRecommender iter 66: loss = 7416.992904885168, delta_loss = 0.850049
+BiasedMFRecommender iter 67: loss = 7416.170642096334, delta_loss = 0.82226276
+BiasedMFRecommender iter 68: loss = 7415.374692788584, delta_loss = 0.7959493
+BiasedMFRecommender iter 69: loss = 7414.603687400348, delta_loss = 0.7710054
+BiasedMFRecommender iter 70: loss = 7413.856351239309, delta_loss = 0.74733615
+BiasedMFRecommender iter 71: loss = 7413.131496911811, delta_loss = 0.72485435
+BiasedMFRecommender iter 72: loss = 7412.428017420526, delta_loss = 0.70347947
+BiasedMFRecommender iter 73: loss = 7411.744879860034, delta_loss = 0.68313754
+BiasedMFRecommender iter 74: loss = 7411.081119642487, delta_loss = 0.66376024
+BiasedMFRecommender iter 75: loss = 7410.435835210292, delta_loss = 0.6452844
+BiasedMFRecommender iter 76: loss = 7409.808183180311, delta_loss = 0.62765205
+BiasedMFRecommender iter 77: loss = 7409.197373895297, delta_loss = 0.61080927
+BiasedMFRecommender iter 78: loss = 7408.6026673382785, delta_loss = 0.59470654
+BiasedMFRecommender iter 79: loss = 7408.02336938471, delta_loss = 0.57929796
+BiasedMFRecommender iter 80: loss = 7407.458828365676, delta_loss = 0.56454104
+BiasedMFRecommender iter 81: loss = 7406.9084319146405, delta_loss = 0.55039644
+BiasedMFRecommender iter 82: loss = 7406.371604077131, delta_loss = 0.53682786
+BiasedMFRecommender iter 83: loss = 7405.847802660131, delta_loss = 0.52380145
+BiasedMFRecommender iter 84: loss = 7405.336516801442, delta_loss = 0.51128584
+BiasedMFRecommender iter 85: loss = 7404.837264740113, delta_loss = 0.49925205
+BiasedMFRecommender iter 86: loss = 7404.349591771376, delta_loss = 0.48767295
+BiasedMFRecommender iter 87: loss = 7403.873068368204, delta_loss = 0.4765234
+BiasedMFRecommender iter 88: loss = 7403.407288457298, delta_loss = 0.4657799
+BiasedMFRecommender iter 89: loss = 7402.951867832174, delta_loss = 0.4554206
+BiasedMFRecommender iter 90: loss = 7402.506442692637, delta_loss = 0.44542515
+BiasedMFRecommender iter 91: loss = 7402.070668300745, delta_loss = 0.4357744
+BiasedMFRecommender iter 92: loss = 7401.644217739243, delta_loss = 0.42645055
+BiasedMFRecommender iter 93: loss = 7401.226780766045, delta_loss = 0.417437
+BiasedMFRecommender iter 94: loss = 7400.81806275332, delta_loss = 0.40871802
+BiasedMFRecommender iter 95: loss = 7400.417783706259, delta_loss = 0.40027905
+BiasedMFRecommender iter 96: loss = 7400.025677353801, delta_loss = 0.39210635
+BiasedMFRecommender iter 97: loss = 7399.641490301768, delta_loss = 0.38418704
+BiasedMFRecommender iter 98: loss = 7399.264981248305, delta_loss = 0.37650904
+BiasedMFRecommender iter 99: loss = 7398.895920252687, delta_loss = 0.369061
+BiasedMFRecommender iter 100: loss = 7398.534088053818, delta_loss = 0.3618322
+Job Train completed.
+Job End.
+Evaluator info:RMSEEvaluator is 0.83023331109108
+Result path is result/filmtrust/rating-biasedmf-output/biasedmf
+Dataset: data/movielens/ratings.csv
+All dataset files [data\movielens\ratings.csv]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80019
+Data size of testing is 19981
+Job Setup completed.
+BiasedMFRecommender iter 1: loss = 39851.55802284414, delta_loss = -39851.56
+BiasedMFRecommender iter 2: loss = 38363.925653265134, delta_loss = 1487.6323
+BiasedMFRecommender iter 3: loss = 37992.33066332422, delta_loss = 371.595
+BiasedMFRecommender iter 4: loss = 37563.34844018347, delta_loss = 428.9822
+BiasedMFRecommender iter 5: loss = 37153.86668528954, delta_loss = 409.48175
+BiasedMFRecommender iter 6: loss = 36857.645674490166, delta_loss = 296.221
+BiasedMFRecommender iter 7: loss = 36635.28896754976, delta_loss = 222.3567
+BiasedMFRecommender iter 8: loss = 36472.81566261608, delta_loss = 162.47331
+BiasedMFRecommender iter 9: loss = 36356.854411758, delta_loss = 115.96125
+BiasedMFRecommender iter 10: loss = 36273.225926280604, delta_loss = 83.62849
+BiasedMFRecommender iter 11: loss = 36211.38306067184, delta_loss = 61.842865
+BiasedMFRecommender iter 12: loss = 36164.29035135908, delta_loss = 47.09271
+BiasedMFRecommender iter 13: loss = 36127.382823715045, delta_loss = 36.907528
+BiasedMFRecommender iter 14: loss = 36097.7106326387, delta_loss = 29.672192
+BiasedMFRecommender iter 15: loss = 36073.327517828664, delta_loss = 24.383114
+BiasedMFRecommender iter 16: loss = 36052.90578466235, delta_loss = 20.421734
+BiasedMFRecommender iter 17: loss = 36035.51351106315, delta_loss = 17.392273
+BiasedMFRecommender iter 18: loss = 36020.48550719837, delta_loss = 15.028004
+BiasedMFRecommender iter 19: loss = 36007.34277526161, delta_loss = 13.142732
+BiasedMFRecommender iter 20: loss = 35995.737531846855, delta_loss = 11.605244
+BiasedMFRecommender iter 21: loss = 35985.413735427166, delta_loss = 10.323796
+BiasedMFRecommender iter 22: loss = 35976.17857978592, delta_loss = 9.235156
+BiasedMFRecommender iter 23: loss = 35967.882373321896, delta_loss = 8.296206
+BiasedMFRecommender iter 24: loss = 35960.40487663324, delta_loss = 7.4774966
+BiasedMFRecommender iter 25: loss = 35953.646425984385, delta_loss = 6.7584505
+BiasedMFRecommender iter 26: loss = 35947.52237496723, delta_loss = 6.124051
+BiasedMFRecommender iter 27: loss = 35941.959660677174, delta_loss = 5.562714
+BiasedMFRecommender iter 28: loss = 35936.89462881412, delta_loss = 5.065032
+BiasedMFRecommender iter 29: loss = 35932.27156219072, delta_loss = 4.6230664
+BiasedMFRecommender iter 30: loss = 35928.04159375688, delta_loss = 4.2299685
+BiasedMFRecommender iter 31: loss = 35924.16183658505, delta_loss = 3.8797572
+BiasedMFRecommender iter 32: loss = 35920.59464760193, delta_loss = 3.567189
+BiasedMFRecommender iter 33: loss = 35917.306984566014, delta_loss = 3.287663
+BiasedMFRecommender iter 34: loss = 35914.26983608061, delta_loss = 3.0371485
+BiasedMFRecommender iter 35: loss = 35911.45771421279, delta_loss = 2.8121219
+BiasedMFRecommender iter 36: loss = 35908.8482034608, delta_loss = 2.6095107
+BiasedMFRecommender iter 37: loss = 35906.42156172984, delta_loss = 2.4266417
+BiasedMFRecommender iter 38: loss = 35904.16036942566, delta_loss = 2.2611923
+BiasedMFRecommender iter 39: loss = 35902.04922271293, delta_loss = 2.1111467
+BiasedMFRecommender iter 40: loss = 35900.07446696036, delta_loss = 1.9747558
+BiasedMFRecommender iter 41: loss = 35898.22396608191, delta_loss = 1.8505008
+BiasedMFRecommender iter 42: loss = 35896.48690375051, delta_loss = 1.7370623
+BiasedMFRecommender iter 43: loss = 35894.85361245759, delta_loss = 1.6332912
+BiasedMFRecommender iter 44: loss = 35893.315426742316, delta_loss = 1.5381857
+BiasedMFRecommender iter 45: loss = 35891.86455729687, delta_loss = 1.4508694
+BiasedMFRecommender iter 46: loss = 35890.49398293717, delta_loss = 1.3705744
+BiasedMFRecommender iter 47: loss = 35889.197357889454, delta_loss = 1.296625
+BiasedMFRecommender iter 48: loss = 35887.96893209379, delta_loss = 1.2284257
+BiasedMFRecommender iter 49: loss = 35886.80348263561, delta_loss = 1.1654495
+BiasedMFRecommender iter 50: loss = 35885.69625462167, delta_loss = 1.107228
+BiasedMFRecommender iter 51: loss = 35884.64291008872, delta_loss = 1.0533445
+BiasedMFRecommender iter 52: loss = 35883.63948374076, delta_loss = 1.0034263
+BiasedMFRecommender iter 53: loss = 35882.6823445039, delta_loss = 0.95713925
+BiasedMFRecommender iter 54: loss = 35881.76816199296, delta_loss = 0.9141825
+BiasedMFRecommender iter 55: loss = 35880.89387719929, delta_loss = 0.8742848
+BiasedMFRecommender iter 56: loss = 35880.056676738575, delta_loss = 0.83720046
+BiasedMFRecommender iter 57: loss = 35879.2539701406, delta_loss = 0.8027066
+BiasedMFRecommender iter 58: loss = 35878.48336976637, delta_loss = 0.7706004
+BiasedMFRecommender iter 59: loss = 35877.742672937835, delta_loss = 0.74069685
+BiasedMFRecommender iter 60: loss = 35877.02984600698, delta_loss = 0.7128269
+BiasedMFRecommender iter 61: loss = 35876.34301006958, delta_loss = 0.68683594
+BiasedMFRecommender iter 62: loss = 35875.6804281421, delta_loss = 0.6625819
+BiasedMFRecommender iter 63: loss = 35875.0404935779, delta_loss = 0.63993454
+BiasedMFRecommender iter 64: loss = 35874.4217195828, delta_loss = 0.618774
+BiasedMFRecommender iter 65: loss = 35873.822729722364, delta_loss = 0.59898984
+BiasedMFRecommender iter 66: loss = 35873.242249251154, delta_loss = 0.58048046
+BiasedMFRecommender iter 67: loss = 35872.67909722461, delta_loss = 0.563152
+BiasedMFRecommender iter 68: loss = 35872.1321792767, delta_loss = 0.546918
+BiasedMFRecommender iter 69: loss = 35871.60048099161, delta_loss = 0.5316983
+BiasedMFRecommender iter 70: loss = 35871.083061826095, delta_loss = 0.51741916
+BiasedMFRecommender iter 71: loss = 35870.57904951579, delta_loss = 0.5040123
+BiasedMFRecommender iter 72: loss = 35870.08763490192, delta_loss = 0.4914146
+BiasedMFRecommender iter 73: loss = 35869.608067180954, delta_loss = 0.4795677
+BiasedMFRecommender iter 74: loss = 35869.13964948112, delta_loss = 0.4684177
+BiasedMFRecommender iter 75: loss = 35868.681734793245, delta_loss = 0.45791468
+BiasedMFRecommender iter 76: loss = 35868.233722187455, delta_loss = 0.44801262
+BiasedMFRecommender iter 77: loss = 35867.79505331002, delta_loss = 0.43866888
+BiasedMFRecommender iter 78: loss = 35867.365209147494, delta_loss = 0.42984417
+BiasedMFRecommender iter 79: loss = 35866.943707010716, delta_loss = 0.42150214
+BiasedMFRecommender iter 80: loss = 35866.5300977594, delta_loss = 0.41360924
+BiasedMFRecommender iter 81: loss = 35866.123963231905, delta_loss = 0.40613452
+BiasedMFRecommender iter 82: loss = 35865.72491387987, delta_loss = 0.39904934
+BiasedMFRecommender iter 83: loss = 35865.33258658353, delta_loss = 0.3923273
+BiasedMFRecommender iter 84: loss = 35864.946642654606, delta_loss = 0.38594392
+BiasedMFRecommender iter 85: loss = 35864.56676600914, delta_loss = 0.37987664
+BiasedMFRecommender iter 86: loss = 35864.192661503395, delta_loss = 0.3741045
+BiasedMFRecommender iter 87: loss = 35863.824053431024, delta_loss = 0.36860806
+BiasedMFRecommender iter 88: loss = 35863.46068414957, delta_loss = 0.3633693
+BiasedMFRecommender iter 89: loss = 35863.10231287034, delta_loss = 0.3583713
+BiasedMFRecommender iter 90: loss = 35862.748714572095, delta_loss = 0.3535983
+BiasedMFRecommender iter 91: loss = 35862.399679016155, delta_loss = 0.34903556
+BiasedMFRecommender iter 92: loss = 35862.055009920005, delta_loss = 0.3446691
+BiasedMFRecommender iter 93: loss = 35861.71452418765, delta_loss = 0.34048572
+BiasedMFRecommender iter 94: loss = 35861.37805125593, delta_loss = 0.33647293
+BiasedMFRecommender iter 95: loss = 35861.045432538594, delta_loss = 0.3326187
+BiasedMFRecommender iter 96: loss = 35860.716520909955, delta_loss = 0.32891163
+BiasedMFRecommender iter 97: loss = 35860.391180280894, delta_loss = 0.32534063
+BiasedMFRecommender iter 98: loss = 35860.06928520684, delta_loss = 0.32189506
+BiasedMFRecommender iter 99: loss = 35859.75072054739, delta_loss = 0.31856465
+BiasedMFRecommender iter 100: loss = 35859.43538115233, delta_loss = 0.3153394
+Job Train completed.
+Job End.
+Evaluator info:RMSEEvaluator is 0.9495225338582496
+Result path is result/movielens/ratings.csv-biasedmf-output/biasedmf
+Dataset: data/movielens/ratings.csv
+All dataset files [data\movielens\ratings.csv]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80019
+Data size of testing is 19981
+Job Setup completed.
+BiasedMFRecommender iter 1: loss = 39851.55802284414, delta_loss = -39851.56
+BiasedMFRecommender iter 2: loss = 37521.47146459482, delta_loss = 2330.0867
+BiasedMFRecommender iter 3: loss = 36111.60390916521, delta_loss = 1409.8676
+BiasedMFRecommender iter 4: loss = 35898.9423013771, delta_loss = 212.6616
+BiasedMFRecommender iter 5: loss = 35793.13219661886, delta_loss = 105.810104
+BiasedMFRecommender iter 6: loss = 35717.39013740441, delta_loss = 75.74206
+BiasedMFRecommender iter 7: loss = 35653.178631013914, delta_loss = 64.21151
+BiasedMFRecommender iter 8: loss = 35592.78685323669, delta_loss = 60.391777
+BiasedMFRecommender iter 9: loss = 35531.606786289216, delta_loss = 61.180065
+BiasedMFRecommender iter 10: loss = 35466.14955970459, delta_loss = 65.45723
+BiasedMFRecommender iter 11: loss = 35393.49213907418, delta_loss = 72.65742
+BiasedMFRecommender iter 12: loss = 35311.29558451676, delta_loss = 82.196556
+BiasedMFRecommender iter 13: loss = 35218.148146552994, delta_loss = 93.14744
+BiasedMFRecommender iter 14: loss = 35114.04018265947, delta_loss = 104.10796
+BiasedMFRecommender iter 15: loss = 35000.67670995401, delta_loss = 113.36347
+BiasedMFRecommender iter 16: loss = 34881.29833069072, delta_loss = 119.37838
+BiasedMFRecommender iter 17: loss = 34759.90074162938, delta_loss = 121.39759
+BiasedMFRecommender iter 18: loss = 34640.16236158657, delta_loss = 119.73838
+BiasedMFRecommender iter 19: loss = 34524.63380229624, delta_loss = 115.52856
+BiasedMFRecommender iter 20: loss = 34414.53202786654, delta_loss = 110.101776
+BiasedMFRecommender iter 21: loss = 34310.04053448112, delta_loss = 104.49149
+BiasedMFRecommender iter 22: loss = 34210.77977766853, delta_loss = 99.26076
+BiasedMFRecommender iter 23: loss = 34116.187678739, delta_loss = 94.5921
+BiasedMFRecommender iter 24: loss = 34025.73290987197, delta_loss = 90.454765
+BiasedMFRecommender iter 25: loss = 33938.99705614825, delta_loss = 86.735855
+BiasedMFRecommender iter 26: loss = 33855.68540450864, delta_loss = 83.31165
+BiasedMFRecommender iter 27: loss = 33775.608870707045, delta_loss = 80.07653
+BiasedMFRecommender iter 28: loss = 33698.658490018235, delta_loss = 76.95038
+BiasedMFRecommender iter 29: loss = 33624.78074141942, delta_loss = 73.87775
+BiasedMFRecommender iter 30: loss = 33553.956048180014, delta_loss = 70.82469
+BiasedMFRecommender iter 31: loss = 33486.18085529325, delta_loss = 67.77519
+BiasedMFRecommender iter 32: loss = 33421.45332636052, delta_loss = 64.72753
+BiasedMFRecommender iter 33: loss = 33359.76270615666, delta_loss = 61.69062
+BiasedMFRecommender iter 34: loss = 33301.082314960826, delta_loss = 58.68039
+BiasedMFRecommender iter 35: loss = 33245.36592697601, delta_loss = 55.71639
+BiasedMFRecommender iter 36: loss = 33192.54703362003, delta_loss = 52.818893
+BiasedMFRecommender iter 37: loss = 33142.54030691032, delta_loss = 50.006725
+BiasedMFRecommender iter 38: loss = 33095.24451150278, delta_loss = 47.295795
+BiasedMFRecommender iter 39: loss = 33050.54616478356, delta_loss = 44.698345
+BiasedMFRecommender iter 40: loss = 33008.3233758107, delta_loss = 42.22279
+BiasedMFRecommender iter 41: loss = 32968.44945940407, delta_loss = 39.873917
+BiasedMFRecommender iter 42: loss = 32930.7960825731, delta_loss = 37.653378
+BiasedMFRecommender iter 43: loss = 32895.235833139195, delta_loss = 35.56025
+BiasedMFRecommender iter 44: loss = 32861.64419602659, delta_loss = 33.591637
+BiasedMFRecommender iter 45: loss = 32829.900982742045, delta_loss = 31.743214
+BiasedMFRecommender iter 46: loss = 32799.89129073044, delta_loss = 30.009691
+BiasedMFRecommender iter 47: loss = 32771.50608005563, delta_loss = 28.38521
+BiasedMFRecommender iter 48: loss = 32744.64245264058, delta_loss = 26.863626
+BiasedMFRecommender iter 49: loss = 32719.203710182086, delta_loss = 25.438742
+BiasedMFRecommender iter 50: loss = 32695.0992546175, delta_loss = 24.104456
+BiasedMFRecommender iter 51: loss = 32672.244382556615, delta_loss = 22.854872
+BiasedMFRecommender iter 52: loss = 32650.560013339185, delta_loss = 21.68437
+BiasedMFRecommender iter 53: loss = 32629.972380442967, delta_loss = 20.587633
+BiasedMFRecommender iter 54: loss = 32610.41270757819, delta_loss = 19.559673
+BiasedMFRecommender iter 55: loss = 32591.816884253152, delta_loss = 18.595823
+BiasedMFRecommender iter 56: loss = 32574.125150485015, delta_loss = 17.691734
+BiasedMFRecommender iter 57: loss = 32557.281796505522, delta_loss = 16.843353
+BiasedMFRecommender iter 58: loss = 32541.234880542183, delta_loss = 16.046915
+BiasedMFRecommender iter 59: loss = 32525.935965846707, delta_loss = 15.298915
+BiasedMFRecommender iter 60: loss = 32511.339876829785, delta_loss = 14.596089
+BiasedMFRecommender iter 61: loss = 32497.404473413284, delta_loss = 13.935404
+BiasedMFRecommender iter 62: loss = 32484.090442260585, delta_loss = 13.314032
+BiasedMFRecommender iter 63: loss = 32471.361103431565, delta_loss = 12.729339
+BiasedMFRecommender iter 64: loss = 32459.18223091508, delta_loss = 12.178872
+BiasedMFRecommender iter 65: loss = 32447.52188572977, delta_loss = 11.660345
+BiasedMFRecommender iter 66: loss = 32436.350260310795, delta_loss = 11.171625
+BiasedMFRecommender iter 67: loss = 32425.639533146565, delta_loss = 10.710727
+BiasedMFRecommender iter 68: loss = 32415.363732810736, delta_loss = 10.275801
+BiasedMFRecommender iter 69: loss = 32405.498610623108, delta_loss = 9.865122
+BiasedMFRecommender iter 70: loss = 32396.021521375562, delta_loss = 9.477089
+BiasedMFRecommender iter 71: loss = 32386.911311590902, delta_loss = 9.110209
+BiasedMFRecommender iter 72: loss = 32378.148214921282, delta_loss = 8.763097
+BiasedMFRecommender iter 73: loss = 32369.713754291464, delta_loss = 8.434461
+BiasedMFRecommender iter 74: loss = 32361.59065048092, delta_loss = 8.123104
+BiasedMFRecommender iter 75: loss = 32353.762736806373, delta_loss = 7.8279138
+BiasedMFRecommender iter 76: loss = 32346.214879633782, delta_loss = 7.5478573
+BiasedMFRecommender iter 77: loss = 32338.93290439939, delta_loss = 7.2819753
+BiasedMFRecommender iter 78: loss = 32331.903526900358, delta_loss = 7.0293775
+BiasedMFRecommender iter 79: loss = 32325.114289504054, delta_loss = 6.7892375
+BiasedMFRecommender iter 80: loss = 32318.553502061808, delta_loss = 6.5607877
+BiasedMFRecommender iter 81: loss = 32312.210187187564, delta_loss = 6.3433146
+BiasedMFRecommender iter 82: loss = 32306.074029671472, delta_loss = 6.1361575
+BiasedMFRecommender iter 83: loss = 32300.13532972017, delta_loss = 5.9386997
+BiasedMFRecommender iter 84: loss = 32294.384959792817, delta_loss = 5.75037
+BiasedMFRecommender iter 85: loss = 32288.814324747058, delta_loss = 5.570635
+BiasedMFRecommender iter 86: loss = 32283.41532508716, delta_loss = 5.3989997
+BiasedMFRecommender iter 87: loss = 32278.180323045475, delta_loss = 5.235002
+BiasedMFRecommender iter 88: loss = 32273.10211130592, delta_loss = 5.078212
+BiasedMFRecommender iter 89: loss = 32268.173884144122, delta_loss = 4.928227
+BiasedMFRecommender iter 90: loss = 32263.389210813726, delta_loss = 4.784673
+BiasedMFRecommender iter 91: loss = 32258.742010950693, delta_loss = 4.6471996
+BiasedMFRecommender iter 92: loss = 32254.2265318881, delta_loss = 4.515479
+BiasedMFRecommender iter 93: loss = 32249.83732768124, delta_loss = 4.389204
+BiasedMFRecommender iter 94: loss = 32245.569239709926, delta_loss = 4.268088
+BiasedMFRecommender iter 95: loss = 32241.417378733615, delta_loss = 4.151861
+BiasedMFRecommender iter 96: loss = 32237.377108269862, delta_loss = 4.0402703
+BiasedMFRecommender iter 97: loss = 32233.444029184444, delta_loss = 3.933079
+BiasedMFRecommender iter 98: loss = 32229.6139654009, delta_loss = 3.8300638
+BiasedMFRecommender iter 99: loss = 32225.882950612868, delta_loss = 3.7310147
+BiasedMFRecommender iter 100: loss = 32222.247215943433, delta_loss = 3.6357346
+Job Train completed.
+Job End.
+Evaluator info:RMSEEvaluator is 0.915378257198502
+Result path is result/movielens/ratings.csv-biasedmf-output/biasedmf
+Dataset: data/movielens/ratings.csv
+All dataset files [data\movielens\ratings.csv]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80019
+Data size of testing is 19981
+Job Setup completed.
+BiasedMFRecommender iter 1: loss = 54885.0774716691, delta_loss = -54885.08
+BiasedMFRecommender iter 2: loss = 40051.72821897336, delta_loss = 14833.35
+BiasedMFRecommender iter 3: loss = 37561.71244262176, delta_loss = 2490.0159
+BiasedMFRecommender iter 4: loss = 36645.50528217174, delta_loss = 916.20715
+BiasedMFRecommender iter 5: loss = 35992.229096437666, delta_loss = 653.2762
+BiasedMFRecommender iter 6: loss = 35464.86802472146, delta_loss = 527.3611
+BiasedMFRecommender iter 7: loss = 35017.180147608975, delta_loss = 447.68787
+BiasedMFRecommender iter 8: loss = 34626.70688272563, delta_loss = 390.47327
+BiasedMFRecommender iter 9: loss = 34280.3324834022, delta_loss = 346.3744
+BiasedMFRecommender iter 10: loss = 33969.53299456651, delta_loss = 310.7995
+BiasedMFRecommender iter 11: loss = 33688.38516373915, delta_loss = 281.14783
+BiasedMFRecommender iter 12: loss = 33432.56517433431, delta_loss = 255.81999
+BiasedMFRecommender iter 13: loss = 33198.77953361518, delta_loss = 233.78564
+BiasedMFRecommender iter 14: loss = 32984.42039812649, delta_loss = 214.35913
+BiasedMFRecommender iter 15: loss = 32787.35125253699, delta_loss = 197.06915
+BiasedMFRecommender iter 16: loss = 32605.77214291181, delta_loss = 181.57912
+BiasedMFRecommender iter 17: loss = 32438.134082117667, delta_loss = 167.63806
+BiasedMFRecommender iter 18: loss = 32283.08374733993, delta_loss = 155.05034
+BiasedMFRecommender iter 19: loss = 32139.42668691329, delta_loss = 143.65706
+BiasedMFRecommender iter 20: loss = 32006.10176313013, delta_loss = 133.32492
+BiasedMFRecommender iter 21: loss = 31882.162420478828, delta_loss = 123.93935
+BiasedMFRecommender iter 22: loss = 31766.76216056576, delta_loss = 115.40026
+BiasedMFRecommender iter 23: loss = 31659.142701183573, delta_loss = 107.61946
+BiasedMFRecommender iter 24: loss = 31558.62395023303, delta_loss = 100.51875
+BiasedMFRecommender iter 25: loss = 31464.595301740334, delta_loss = 94.02865
+BiasedMFRecommender iter 26: loss = 31376.507970468047, delta_loss = 88.08733
+BiasedMFRecommender iter 27: loss = 31293.86819450159, delta_loss = 82.63978
+BiasedMFRecommender iter 28: loss = 31216.231192512056, delta_loss = 77.637
+BiasedMFRecommender iter 29: loss = 31143.195791734408, delta_loss = 73.0354
+BiasedMFRecommender iter 30: loss = 31074.39965725963, delta_loss = 68.796135
+BiasedMFRecommender iter 31: loss = 31009.515060785176, delta_loss = 64.8846
+BiasedMFRecommender iter 32: loss = 30948.245132574593, delta_loss = 61.269928
+BiasedMFRecommender iter 33: loss = 30890.320544438404, delta_loss = 57.924587
+BiasedMFRecommender iter 34: loss = 30835.4965757161, delta_loss = 54.823967
+BiasedMFRecommender iter 35: loss = 30783.550518494772, delta_loss = 51.946056
+BiasedMFRecommender iter 36: loss = 30734.279382389723, delta_loss = 49.271137
+BiasedMFRecommender iter 37: loss = 30687.497863228808, delta_loss = 46.78152
+BiasedMFRecommender iter 38: loss = 30643.036544191193, delta_loss = 44.46132
+BiasedMFRecommender iter 39: loss = 30600.74030103516, delta_loss = 42.29624
+BiasedMFRecommender iter 40: loss = 30560.4668869602, delta_loss = 40.273415
+BiasedMFRecommender iter 41: loss = 30522.085675093225, delta_loss = 38.38121
+BiasedMFRecommender iter 42: loss = 30485.476539803614, delta_loss = 36.609135
+BiasedMFRecommender iter 43: loss = 30450.52886004841, delta_loss = 34.94768
+BiasedMFRecommender iter 44: loss = 30417.140630017133, delta_loss = 33.38823
+BiasedMFRecommender iter 45: loss = 30385.21766479114, delta_loss = 31.922966
+BiasedMFRecommender iter 46: loss = 30354.67288926841, delta_loss = 30.544775
+BiasedMFRecommender iter 47: loss = 30325.42570116193, delta_loss = 29.247189
+BiasedMFRecommender iter 48: loss = 30297.40139923824, delta_loss = 28.024302
+BiasedMFRecommender iter 49: loss = 30270.53066944569, delta_loss = 26.87073
+BiasedMFRecommender iter 50: loss = 30244.749122426878, delta_loss = 25.781548
+BiasedMFRecommender iter 51: loss = 30219.99687657055, delta_loss = 24.752245
+BiasedMFRecommender iter 52: loss = 30196.218181746077, delta_loss = 23.778694
+BiasedMFRecommender iter 53: loss = 30173.361079123057, delta_loss = 22.857103
+BiasedMFRecommender iter 54: loss = 30151.37709330993, delta_loss = 21.983986
+BiasedMFRecommender iter 55: loss = 30130.220953264146, delta_loss = 21.15614
+BiasedMFRecommender iter 56: loss = 30109.850339050237, delta_loss = 20.370615
+BiasedMFRecommender iter 57: loss = 30090.225651693225, delta_loss = 19.624687
+BiasedMFRecommender iter 58: loss = 30071.309803746117, delta_loss = 18.915848
+BiasedMFRecommender iter 59: loss = 30053.068028511123, delta_loss = 18.241776
+BiasedMFRecommender iter 60: loss = 30035.467706058516, delta_loss = 17.600323
+BiasedMFRecommender iter 61: loss = 30018.478204265717, delta_loss = 16.989502
+BiasedMFRecommender iter 62: loss = 30002.07073356761, delta_loss = 16.40747
+BiasedMFRecommender iter 63: loss = 29986.218213969394, delta_loss = 15.85252
+BiasedMFRecommender iter 64: loss = 29970.895153144884, delta_loss = 15.323061
+BiasedMFRecommender iter 65: loss = 29956.077534721837, delta_loss = 14.817618
+BiasedMFRecommender iter 66: loss = 29941.742715575714, delta_loss = 14.334819
+BiasedMFRecommender iter 67: loss = 29927.869331520953, delta_loss = 13.873384
+BiasedMFRecommender iter 68: loss = 29914.43721039249, delta_loss = 13.432121
+BiasedMFRecommender iter 69: loss = 29901.427292197553, delta_loss = 13.009918
+BiasedMFRecommender iter 70: loss = 29888.821555222334, delta_loss = 12.605737
+BiasedMFRecommender iter 71: loss = 29876.602948084346, delta_loss = 12.218607
+BiasedMFRecommender iter 72: loss = 29864.755326842835, delta_loss = 11.847621
+BiasedMFRecommender iter 73: loss = 29853.26339680724, delta_loss = 11.49193
+BiasedMFRecommender iter 74: loss = 29842.112658824695, delta_loss = 11.150738
+BiasedMFRecommender iter 75: loss = 29831.289359410002, delta_loss = 10.823299
+BiasedMFRecommender iter 76: loss = 29820.780444582633, delta_loss = 10.508915
+BiasedMFRecommender iter 77: loss = 29810.57351698195, delta_loss = 10.206927
+BiasedMFRecommender iter 78: loss = 29800.65679608354, delta_loss = 9.916721
+BiasedMFRecommender iter 79: loss = 29791.019081223356, delta_loss = 9.637714
+BiasedMFRecommender iter 80: loss = 29781.64971718749, delta_loss = 9.369364
+BiasedMFRecommender iter 81: loss = 29772.538562203987, delta_loss = 9.111155
+BiasedMFRecommender iter 82: loss = 29763.675958138447, delta_loss = 8.862604
+BiasedMFRecommender iter 83: loss = 29755.0527026255, delta_loss = 8.623256
+BiasedMFRecommender iter 84: loss = 29746.660023211818, delta_loss = 8.392679
+BiasedMFRecommender iter 85: loss = 29738.489553100568, delta_loss = 8.17047
+BiasedMFRecommender iter 86: loss = 29730.533308533475, delta_loss = 7.9562445
+BiasedMFRecommender iter 87: loss = 29722.7836676709, delta_loss = 7.749641
+BiasedMFRecommender iter 88: loss = 29715.23335075542, delta_loss = 7.550317
+BiasedMFRecommender iter 89: loss = 29707.87540163228, delta_loss = 7.3579493
+BiasedMFRecommender iter 90: loss = 29700.703170422705, delta_loss = 7.172231
+BiasedMFRecommender iter 91: loss = 29693.710297201964, delta_loss = 6.992873
+BiasedMFRecommender iter 92: loss = 29686.890696806477, delta_loss = 6.8196006
+BiasedMFRecommender iter 93: loss = 29680.238544479835, delta_loss = 6.6521525
+BiasedMFRecommender iter 94: loss = 29673.748262435623, delta_loss = 6.490282
+BiasedMFRecommender iter 95: loss = 29667.414507269328, delta_loss = 6.333755
+BiasedMFRecommender iter 96: loss = 29661.232158018196, delta_loss = 6.182349
+BiasedMFRecommender iter 97: loss = 29655.19630506352, delta_loss = 6.035853
+BiasedMFRecommender iter 98: loss = 29649.30223953431, delta_loss = 5.8940654
+BiasedMFRecommender iter 99: loss = 29643.54544345087, delta_loss = 5.756796
+BiasedMFRecommender iter 100: loss = 29637.921580435162, delta_loss = 5.623863
+BiasedMFRecommender iter 101: loss = 29632.426486819542, delta_loss = 5.495094
+BiasedMFRecommender iter 102: loss = 29627.056163394667, delta_loss = 5.3703237
+BiasedMFRecommender iter 103: loss = 29621.806767613463, delta_loss = 5.249396
+BiasedMFRecommender iter 104: loss = 29616.67460612608, delta_loss = 5.1321616
+BiasedMFRecommender iter 105: loss = 29611.65612781492, delta_loss = 5.0184784
+BiasedMFRecommender iter 106: loss = 29606.747917239732, delta_loss = 4.9082108
+BiasedMFRecommender iter 107: loss = 29601.94668831541, delta_loss = 4.801229
+BiasedMFRecommender iter 108: loss = 29597.249278453284, delta_loss = 4.6974096
+BiasedMFRecommender iter 109: loss = 29592.652642962807, delta_loss = 4.5966353
+BiasedMFRecommender iter 110: loss = 29588.153849704075, delta_loss = 4.498793
+BiasedMFRecommender iter 111: loss = 29583.750074167263, delta_loss = 4.4037757
+BiasedMFRecommender iter 112: loss = 29579.43859461702, delta_loss = 4.3114796
+BiasedMFRecommender iter 113: loss = 29575.21678762464, delta_loss = 4.221807
+BiasedMFRecommender iter 114: loss = 29571.08212380687, delta_loss = 4.1346636
+BiasedMFRecommender iter 115: loss = 29567.032163727552, delta_loss = 4.04996
+BiasedMFRecommender iter 116: loss = 29563.064554064706, delta_loss = 3.9676096
+BiasedMFRecommender iter 117: loss = 29559.17702391981, delta_loss = 3.88753
+BiasedMFRecommender iter 118: loss = 29555.367381419805, delta_loss = 3.8096426
+BiasedMFRecommender iter 119: loss = 29551.6335102724, delta_loss = 3.7338712
+BiasedMFRecommender iter 120: loss = 29547.973366742714, delta_loss = 3.6601436
+BiasedMFRecommender iter 121: loss = 29544.38497660505, delta_loss = 3.58839
+BiasedMFRecommender iter 122: loss = 29540.866432277475, delta_loss = 3.5185444
+BiasedMFRecommender iter 123: loss = 29537.41589015763, delta_loss = 3.4505422
+BiasedMFRecommender iter 124: loss = 29534.0315680064, delta_loss = 3.3843222
+BiasedMFRecommender iter 125: loss = 29530.71174249241, delta_loss = 3.3198254
+BiasedMFRecommender iter 126: loss = 29527.454746850985, delta_loss = 3.2569957
+BiasedMFRecommender iter 127: loss = 29524.25896863914, delta_loss = 3.1957781
+BiasedMFRecommender iter 128: loss = 29521.12284763529, delta_loss = 3.136121
+BiasedMFRecommender iter 129: loss = 29518.044873719446, delta_loss = 3.0779738
+BiasedMFRecommender iter 130: loss = 29515.02358505459, delta_loss = 3.0212886
+BiasedMFRecommender iter 131: loss = 29512.057566133757, delta_loss = 2.966019
+BiasedMFRecommender iter 132: loss = 29509.145446036888, delta_loss = 2.91212
+BiasedMFRecommender iter 133: loss = 29506.2858967288, delta_loss = 2.8595493
+BiasedMFRecommender iter 134: loss = 29503.477631521757, delta_loss = 2.8082652
+BiasedMFRecommender iter 135: loss = 29500.719403377338, delta_loss = 2.758228
+BiasedMFRecommender iter 136: loss = 29498.010003584437, delta_loss = 2.7093997
+BiasedMFRecommender iter 137: loss = 29495.34826024115, delta_loss = 2.6617434
+BiasedMFRecommender iter 138: loss = 29492.733036936825, delta_loss = 2.6152234
+BiasedMFRecommender iter 139: loss = 29490.16323147374, delta_loss = 2.5698054
+BiasedMFRecommender iter 140: loss = 29487.63777458455, delta_loss = 2.525457
+BiasedMFRecommender iter 141: loss = 29485.15562881393, delta_loss = 2.4821458
+BiasedMFRecommender iter 142: loss = 29482.715787322886, delta_loss = 2.4398415
+BiasedMFRecommender iter 143: loss = 29480.317272772416, delta_loss = 2.3985145
+BiasedMFRecommender iter 144: loss = 29477.959136378184, delta_loss = 2.3581364
+BiasedMFRecommender iter 145: loss = 29475.640456829304, delta_loss = 2.3186796
+BiasedMFRecommender iter 146: loss = 29473.36033936706, delta_loss = 2.2801175
+BiasedMFRecommender iter 147: loss = 29471.117914827402, delta_loss = 2.2424245
+BiasedMFRecommender iter 148: loss = 29468.912338797487, delta_loss = 2.205576
+BiasedMFRecommender iter 149: loss = 29466.7427907456, delta_loss = 2.169548
+BiasedMFRecommender iter 150: loss = 29464.608473198557, delta_loss = 2.1343176
+BiasedMFRecommender iter 151: loss = 29462.508610993515, delta_loss = 2.099862
+BiasedMFRecommender iter 152: loss = 29460.44245050802, delta_loss = 2.0661604
+BiasedMFRecommender iter 153: loss = 29458.4092589095, delta_loss = 2.0331917
+BiasedMFRecommender iter 154: loss = 29456.408323499043, delta_loss = 2.0009353
+BiasedMFRecommender iter 155: loss = 29454.438951067357, delta_loss = 1.9693724
+BiasedMFRecommender iter 156: loss = 29452.500467193982, delta_loss = 1.9384838
+BiasedMFRecommender iter 157: loss = 29450.592215662724, delta_loss = 1.9082515
+BiasedMFRecommender iter 158: loss = 29448.71355786922, delta_loss = 1.8786578
+BiasedMFRecommender iter 159: loss = 29446.863872272752, delta_loss = 1.8496855
+BiasedMFRecommender iter 160: loss = 29445.042553787796, delta_loss = 1.8213185
+BiasedMFRecommender iter 161: loss = 29443.249013331948, delta_loss = 1.7935405
+BiasedMFRecommender iter 162: loss = 29441.482677253007, delta_loss = 1.7663361
+BiasedMFRecommender iter 163: loss = 29439.742986859917, delta_loss = 1.7396904
+BiasedMFRecommender iter 164: loss = 29438.02939801132, delta_loss = 1.7135888
+BiasedMFRecommender iter 165: loss = 29436.341380551, delta_loss = 1.6880175
+BiasedMFRecommender iter 166: loss = 29434.67841796409, delta_loss = 1.6629626
+BiasedMFRecommender iter 167: loss = 29433.040006898955, delta_loss = 1.638411
+BiasedMFRecommender iter 168: loss = 29431.425656815063, delta_loss = 1.6143501
+BiasedMFRecommender iter 169: loss = 29429.834889521444, delta_loss = 1.5907673
+BiasedMFRecommender iter 170: loss = 29428.26723886687, delta_loss = 1.5676507
+BiasedMFRecommender iter 171: loss = 29426.722250349827, delta_loss = 1.5449885
+BiasedMFRecommender iter 172: loss = 29425.199480745632, delta_loss = 1.5227696
+BiasedMFRecommender iter 173: loss = 29423.698497803074, delta_loss = 1.500983
+BiasedMFRecommender iter 174: loss = 29422.218879876928, delta_loss = 1.479618
+BiasedMFRecommender iter 175: loss = 29420.760215681403, delta_loss = 1.4586642
+BiasedMFRecommender iter 176: loss = 29419.322103893708, delta_loss = 1.4381118
+BiasedMFRecommender iter 177: loss = 29417.904152952004, delta_loss = 1.417951
+BiasedMFRecommender iter 178: loss = 29416.505980688504, delta_loss = 1.3981723
+BiasedMFRecommender iter 179: loss = 29415.12721412552, delta_loss = 1.3787665
+BiasedMFRecommender iter 180: loss = 29413.76748916299, delta_loss = 1.359725
+BiasedMFRecommender iter 181: loss = 29412.426450327337, delta_loss = 1.3410388
+BiasedMFRecommender iter 182: loss = 29411.103750569888, delta_loss = 1.3226998
+BiasedMFRecommender iter 183: loss = 29409.79905096285, delta_loss = 1.3046997
+BiasedMFRecommender iter 184: loss = 29408.51202051231, delta_loss = 1.2870305
+BiasedMFRecommender iter 185: loss = 29407.24233592876, delta_loss = 1.2696846
+BiasedMFRecommender iter 186: loss = 29405.98968135699, delta_loss = 1.2526546
+BiasedMFRecommender iter 187: loss = 29404.753748293606, delta_loss = 1.2359331
+BiasedMFRecommender iter 188: loss = 29403.53423524928, delta_loss = 1.219513
+BiasedMFRecommender iter 189: loss = 29402.330847594494, delta_loss = 1.2033876
+BiasedMFRecommender iter 190: loss = 29401.143297452632, delta_loss = 1.1875502
+BiasedMFRecommender iter 191: loss = 29399.971303378486, delta_loss = 1.1719941
+BiasedMFRecommender iter 192: loss = 29398.814590281745, delta_loss = 1.1567131
+BiasedMFRecommender iter 193: loss = 29397.672889240825, delta_loss = 1.141701
+BiasedMFRecommender iter 194: loss = 29396.54593728692, delta_loss = 1.1269519
+BiasedMFRecommender iter 195: loss = 29395.43347728972, delta_loss = 1.11246
+BiasedMFRecommender iter 196: loss = 29394.335257797713, delta_loss = 1.0982195
+BiasedMFRecommender iter 197: loss = 29393.25103286819, delta_loss = 1.0842249
+BiasedMFRecommender iter 198: loss = 29392.18056193387, delta_loss = 1.0704709
+BiasedMFRecommender iter 199: loss = 29391.123609655955, delta_loss = 1.0569522
+BiasedMFRecommender iter 200: loss = 29390.079945785026, delta_loss = 1.0436639
+BiasedMFRecommender iter 201: loss = 29389.04934504961, delta_loss = 1.0306008
+BiasedMFRecommender iter 202: loss = 29388.03158698633, delta_loss = 1.017758
+BiasedMFRecommender iter 203: loss = 29387.026455844276, delta_loss = 1.0051311
+BiasedMFRecommender iter 204: loss = 29386.03374045047, delta_loss = 0.9927154
+BiasedMFRecommender iter 205: loss = 29385.053234119696, delta_loss = 0.98050636
+BiasedMFRecommender iter 206: loss = 29384.084734508186, delta_loss = 0.9684996
+BiasedMFRecommender iter 207: loss = 29383.128043498513, delta_loss = 0.956691
+BiasedMFRecommender iter 208: loss = 29382.18296711201, delta_loss = 0.9450764
+BiasedMFRecommender iter 209: loss = 29381.24931542279, delta_loss = 0.9336517
+BiasedMFRecommender iter 210: loss = 29380.326902413035, delta_loss = 0.922413
+BiasedMFRecommender iter 211: loss = 29379.4155458953, delta_loss = 0.9113565
+BiasedMFRecommender iter 212: loss = 29378.51506741188, delta_loss = 0.9004785
+BiasedMFRecommender iter 213: loss = 29377.625292165834, delta_loss = 0.8897752
+BiasedMFRecommender iter 214: loss = 29376.746048898967, delta_loss = 0.87924325
+BiasedMFRecommender iter 215: loss = 29375.877169827523, delta_loss = 0.8688791
+BiasedMFRecommender iter 216: loss = 29375.01849052485, delta_loss = 0.8586793
+BiasedMFRecommender iter 217: loss = 29374.16984988886, delta_loss = 0.8486406
+BiasedMFRecommender iter 218: loss = 29373.331090022362, delta_loss = 0.83875984
+BiasedMFRecommender iter 219: loss = 29372.502056177393, delta_loss = 0.82903385
+BiasedMFRecommender iter 220: loss = 29371.68259665275, delta_loss = 0.8194595
+BiasedMFRecommender iter 221: loss = 29370.87256274446, delta_loss = 0.8100339
+BiasedMFRecommender iter 222: loss = 29370.071808684763, delta_loss = 0.8007541
+BiasedMFRecommender iter 223: loss = 29369.28019153249, delta_loss = 0.79161716
+BiasedMFRecommender iter 224: loss = 29368.497571160795, delta_loss = 0.7826204
+BiasedMFRecommender iter 225: loss = 29367.723810119118, delta_loss = 0.77376103
+BiasedMFRecommender iter 226: loss = 29366.95877363376, delta_loss = 0.76503646
+BiasedMFRecommender iter 227: loss = 29366.20232952395, delta_loss = 0.7564441
+BiasedMFRecommender iter 228: loss = 29365.454348145995, delta_loss = 0.74798137
+BiasedMFRecommender iter 229: loss = 29364.71470229876, delta_loss = 0.73964584
+BiasedMFRecommender iter 230: loss = 29363.983267224405, delta_loss = 0.73143506
+BiasedMFRecommender iter 231: loss = 29363.259920527515, delta_loss = 0.7233467
+BiasedMFRecommender iter 232: loss = 29362.544542094445, delta_loss = 0.7153784
+BiasedMFRecommender iter 233: loss = 29361.837014090645, delta_loss = 0.707528
+BiasedMFRecommender iter 234: loss = 29361.137220867353, delta_loss = 0.6997932
+BiasedMFRecommender iter 235: loss = 29360.44504893358, delta_loss = 0.69217193
+BiasedMFRecommender iter 236: loss = 29359.760386894595, delta_loss = 0.68466204
+BiasedMFRecommender iter 237: loss = 29359.083125424095, delta_loss = 0.6772615
+BiasedMFRecommender iter 238: loss = 29358.413157197854, delta_loss = 0.66996825
+BiasedMFRecommender iter 239: loss = 29357.750376878183, delta_loss = 0.66278034
+BiasedMFRecommender iter 240: loss = 29357.094681009698, delta_loss = 0.65569586
+BiasedMFRecommender iter 241: loss = 29356.44596805641, delta_loss = 0.64871293
+BiasedMFRecommender iter 242: loss = 29355.804138292096, delta_loss = 0.6418298
+BiasedMFRecommender iter 243: loss = 29355.169093816276, delta_loss = 0.63504446
+BiasedMFRecommender iter 244: loss = 29354.540738459298, delta_loss = 0.6283554
+BiasedMFRecommender iter 245: loss = 29353.918977788566, delta_loss = 0.62176067
+BiasedMFRecommender iter 246: loss = 29353.303719047784, delta_loss = 0.61525875
+BiasedMFRecommender iter 247: loss = 29352.69487114496, delta_loss = 0.6088479
+BiasedMFRecommender iter 248: loss = 29352.09234456319, delta_loss = 0.6025266
+BiasedMFRecommender iter 249: loss = 29351.49605141224, delta_loss = 0.59629315
+BiasedMFRecommender iter 250: loss = 29350.905905308784, delta_loss = 0.5901461
+BiasedMFRecommender iter 251: loss = 29350.321821374924, delta_loss = 0.5840839
+BiasedMFRecommender iter 252: loss = 29349.743716245353, delta_loss = 0.57810515
+BiasedMFRecommender iter 253: loss = 29349.17150797645, delta_loss = 0.5722083
+BiasedMFRecommender iter 254: loss = 29348.605116044277, delta_loss = 0.56639194
+BiasedMFRecommender iter 255: loss = 29348.04446132779, delta_loss = 0.5606547
+BiasedMFRecommender iter 256: loss = 29347.4894660479, delta_loss = 0.5549953
+BiasedMFRecommender iter 257: loss = 29346.940053757764, delta_loss = 0.5494123
+BiasedMFRecommender iter 258: loss = 29346.396149321517, delta_loss = 0.5439044
+BiasedMFRecommender iter 259: loss = 29345.85767887658, delta_loss = 0.53847045
+BiasedMFRecommender iter 260: loss = 29345.324569807133, delta_loss = 0.53310907
+BiasedMFRecommender iter 261: loss = 29344.79675071613, delta_loss = 0.5278191
+BiasedMFRecommender iter 262: loss = 29344.274151415273, delta_loss = 0.5225993
+BiasedMFRecommender iter 263: loss = 29343.756702881477, delta_loss = 0.51744854
+BiasedMFRecommender iter 264: loss = 29343.24433725345, delta_loss = 0.51236564
+BiasedMFRecommender iter 265: loss = 29342.73698777977, delta_loss = 0.5073495
+BiasedMFRecommender iter 266: loss = 29342.234588844913, delta_loss = 0.5023989
+BiasedMFRecommender iter 267: loss = 29341.73707588252, delta_loss = 0.49751297
+BiasedMFRecommender iter 268: loss = 29341.244385424805, delta_loss = 0.49269044
+BiasedMFRecommender iter 269: loss = 29340.756454982824, delta_loss = 0.48793045
+BiasedMFRecommender iter 270: loss = 29340.2732231557, delta_loss = 0.4832318
+BiasedMFRecommender iter 271: loss = 29339.794629497486, delta_loss = 0.47859365
+BiasedMFRecommender iter 272: loss = 29339.320614561293, delta_loss = 0.47401494
+BiasedMFRecommender iter 273: loss = 29338.851119854633, delta_loss = 0.4694947
+BiasedMFRecommender iter 274: loss = 29338.386087821043, delta_loss = 0.46503204
+BiasedMFRecommender iter 275: loss = 29337.925461840892, delta_loss = 0.46062598
+BiasedMFRecommender iter 276: loss = 29337.469186181817, delta_loss = 0.45627567
+BiasedMFRecommender iter 277: loss = 29337.017206017932, delta_loss = 0.45198017
+BiasedMFRecommender iter 278: loss = 29336.569467397552, delta_loss = 0.44773862
+BiasedMFRecommender iter 279: loss = 29336.125917168854, delta_loss = 0.44355023
+BiasedMFRecommender iter 280: loss = 29335.68650309639, delta_loss = 0.43941408
+BiasedMFRecommender iter 281: loss = 29335.251173728262, delta_loss = 0.43532938
+BiasedMFRecommender iter 282: loss = 29334.81987839535, delta_loss = 0.43129534
+BiasedMFRecommender iter 283: loss = 29334.39256725299, delta_loss = 0.42731115
+BiasedMFRecommender iter 284: loss = 29333.96919123928, delta_loss = 0.42337602
+BiasedMFRecommender iter 285: loss = 29333.549702016928, delta_loss = 0.41948923
+BiasedMFRecommender iter 286: loss = 29333.134052031077, delta_loss = 0.41564998
+BiasedMFRecommender iter 287: loss = 29332.722194424878, delta_loss = 0.4118576
+BiasedMFRecommender iter 288: loss = 29332.314083095367, delta_loss = 0.40811133
+BiasedMFRecommender iter 289: loss = 29331.909672615315, delta_loss = 0.40441048
+BiasedMFRecommender iter 290: loss = 29331.50891827471, delta_loss = 0.40075433
+BiasedMFRecommender iter 291: loss = 29331.11177602451, delta_loss = 0.39714226
+BiasedMFRecommender iter 292: loss = 29330.718202514596, delta_loss = 0.39357352
+BiasedMFRecommender iter 293: loss = 29330.32815499, delta_loss = 0.39004752
+BiasedMFRecommender iter 294: loss = 29329.941591399078, delta_loss = 0.3865636
+BiasedMFRecommender iter 295: loss = 29329.55847030127, delta_loss = 0.3831211
+BiasedMFRecommender iter 296: loss = 29329.178750865267, delta_loss = 0.37971944
+BiasedMFRecommender iter 297: loss = 29328.802392875885, delta_loss = 0.376358
+BiasedMFRecommender iter 298: loss = 29328.429356722787, delta_loss = 0.37303615
+BiasedMFRecommender iter 299: loss = 29328.05960336633, delta_loss = 0.36975336
+BiasedMFRecommender iter 300: loss = 29327.693094367678, delta_loss = 0.366509
+BiasedMFRecommender iter 301: loss = 29327.32979182977, delta_loss = 0.36330253
+BiasedMFRecommender iter 302: loss = 29326.969658415575, delta_loss = 0.3601334
+BiasedMFRecommender iter 303: loss = 29326.61265735963, delta_loss = 0.35700107
+BiasedMFRecommender iter 304: loss = 29326.258752400743, delta_loss = 0.35390496
+BiasedMFRecommender iter 305: loss = 29325.907907819714, delta_loss = 0.3508446
+BiasedMFRecommender iter 306: loss = 29325.560088426817, delta_loss = 0.3478194
+BiasedMFRecommender iter 307: loss = 29325.21525950602, delta_loss = 0.34482893
+BiasedMFRecommender iter 308: loss = 29324.873386866162, delta_loss = 0.34187263
+BiasedMFRecommender iter 309: loss = 29324.534436845515, delta_loss = 0.33895
+BiasedMFRecommender iter 310: loss = 29324.19837615887, delta_loss = 0.33606067
+BiasedMFRecommender iter 311: loss = 29323.865172092206, delta_loss = 0.33320406
+BiasedMFRecommender iter 312: loss = 29323.53479238392, delta_loss = 0.3303797
+BiasedMFRecommender iter 313: loss = 29323.20720518291, delta_loss = 0.3275872
+BiasedMFRecommender iter 314: loss = 29322.882379130697, delta_loss = 0.32482606
+BiasedMFRecommender iter 315: loss = 29322.560283286282, delta_loss = 0.32209584
+BiasedMFRecommender iter 316: loss = 29322.24088717905, delta_loss = 0.3193961
+BiasedMFRecommender iter 317: loss = 29321.924160725262, delta_loss = 0.31672645
+BiasedMFRecommender iter 318: loss = 29321.610074284017, delta_loss = 0.31408644
+BiasedMFRecommender iter 319: loss = 29321.29859862083, delta_loss = 0.31147566
+BiasedMFRecommender iter 320: loss = 29320.989704888554, delta_loss = 0.30889374
+BiasedMFRecommender iter 321: loss = 29320.683364698223, delta_loss = 0.3063402
+BiasedMFRecommender iter 322: loss = 29320.37954999098, delta_loss = 0.3038147
+BiasedMFRecommender iter 323: loss = 29320.07823313463, delta_loss = 0.30131686
+BiasedMFRecommender iter 324: loss = 29319.779386836613, delta_loss = 0.2988463
+BiasedMFRecommender iter 325: loss = 29319.4829842213, delta_loss = 0.2964026
+BiasedMFRecommender iter 326: loss = 29319.188998761543, delta_loss = 0.29398546
+BiasedMFRecommender iter 327: loss = 29318.897404265987, delta_loss = 0.2915945
+BiasedMFRecommender iter 328: loss = 29318.608174954945, delta_loss = 0.2892293
+BiasedMFRecommender iter 329: loss = 29318.321285343165, delta_loss = 0.2868896
+BiasedMFRecommender iter 330: loss = 29318.03671032615, delta_loss = 0.28457502
+BiasedMFRecommender iter 331: loss = 29317.75442511509, delta_loss = 0.2822852
+BiasedMFRecommender iter 332: loss = 29317.474405264522, delta_loss = 0.28001985
+BiasedMFRecommender iter 333: loss = 29317.19662666915, delta_loss = 0.2777786
+BiasedMFRecommender iter 334: loss = 29316.92106550462, delta_loss = 0.27556115
+BiasedMFRecommender iter 335: loss = 29316.647698311546, delta_loss = 0.2733672
+BiasedMFRecommender iter 336: loss = 29316.376501901646, delta_loss = 0.2711964
+BiasedMFRecommender iter 337: loss = 29316.10745342192, delta_loss = 0.26904848
+BiasedMFRecommender iter 338: loss = 29315.840530307247, delta_loss = 0.26692313
+BiasedMFRecommender iter 339: loss = 29315.575710302666, delta_loss = 0.26482
+BiasedMFRecommender iter 340: loss = 29315.31297141337, delta_loss = 0.26273888
+BiasedMFRecommender iter 341: loss = 29315.052291986718, delta_loss = 0.26067942
+BiasedMFRecommender iter 342: loss = 29314.79365059343, delta_loss = 0.2586414
+BiasedMFRecommender iter 343: loss = 29314.53702611316, delta_loss = 0.2566245
+BiasedMFRecommender iter 344: loss = 29314.28239771989, delta_loss = 0.2546284
+BiasedMFRecommender iter 345: loss = 29314.02974481876, delta_loss = 0.2526529
+BiasedMFRecommender iter 346: loss = 29313.77904708808, delta_loss = 0.25069773
+BiasedMFRecommender iter 347: loss = 29313.530284485867, delta_loss = 0.24876261
+BiasedMFRecommender iter 348: loss = 29313.283437219245, delta_loss = 0.24684727
+BiasedMFRecommender iter 349: loss = 29313.038485736633, delta_loss = 0.24495149
+BiasedMFRecommender iter 350: loss = 29312.79541076688, delta_loss = 0.24307497
+BiasedMFRecommender iter 351: loss = 29312.554193247182, delta_loss = 0.24121752
+BiasedMFRecommender iter 352: loss = 29312.31481437466, delta_loss = 0.23937887
+BiasedMFRecommender iter 353: loss = 29312.077255590146, delta_loss = 0.23755878
+BiasedMFRecommender iter 354: loss = 29311.84149856272, delta_loss = 0.23575702
+BiasedMFRecommender iter 355: loss = 29311.60752519087, delta_loss = 0.23397337
+BiasedMFRecommender iter 356: loss = 29311.375317611684, delta_loss = 0.23220758
+BiasedMFRecommender iter 357: loss = 29311.14485815153, delta_loss = 0.23045947
+BiasedMFRecommender iter 358: loss = 29310.916129411304, delta_loss = 0.22872874
+BiasedMFRecommender iter 359: loss = 29310.689114172106, delta_loss = 0.22701524
+BiasedMFRecommender iter 360: loss = 29310.463795431653, delta_loss = 0.22531874
+BiasedMFRecommender iter 361: loss = 29310.240156402546, delta_loss = 0.22363903
+BiasedMFRecommender iter 362: loss = 29310.018180528714, delta_loss = 0.22197588
+BiasedMFRecommender iter 363: loss = 29309.79785140372, delta_loss = 0.22032912
+BiasedMFRecommender iter 364: loss = 29309.579152887352, delta_loss = 0.21869852
+BiasedMFRecommender iter 365: loss = 29309.36206898762, delta_loss = 0.2170839
+BiasedMFRecommender iter 366: loss = 29309.146583937185, delta_loss = 0.21548505
+BiasedMFRecommender iter 367: loss = 29308.932682151502, delta_loss = 0.21390179
+BiasedMFRecommender iter 368: loss = 29308.720348227325, delta_loss = 0.21233392
+BiasedMFRecommender iter 369: loss = 29308.509566975503, delta_loss = 0.21078125
+BiasedMFRecommender iter 370: loss = 29308.300323356965, delta_loss = 0.20924363
+BiasedMFRecommender iter 371: loss = 29308.092602526383, delta_loss = 0.20772083
+BiasedMFRecommender iter 372: loss = 29307.886389833042, delta_loss = 0.2062127
+BiasedMFRecommender iter 373: loss = 29307.68167078919, delta_loss = 0.20471904
+BiasedMFRecommender iter 374: loss = 29307.47843108893, delta_loss = 0.2032397
+BiasedMFRecommender iter 375: loss = 29307.276656580478, delta_loss = 0.20177451
+BiasedMFRecommender iter 376: loss = 29307.076333300574, delta_loss = 0.20032328
+BiasedMFRecommender iter 377: loss = 29306.87744743691, delta_loss = 0.19888586
+BiasedMFRecommender iter 378: loss = 29306.67998536256, delta_loss = 0.19746207
+BiasedMFRecommender iter 379: loss = 29306.483933575266, delta_loss = 0.19605179
+BiasedMFRecommender iter 380: loss = 29306.28927876777, delta_loss = 0.1946548
+BiasedMFRecommender iter 381: loss = 29306.09600778712, delta_loss = 0.19327098
+BiasedMFRecommender iter 382: loss = 29305.90410760376, delta_loss = 0.19190018
+BiasedMFRecommender iter 383: loss = 29305.71356538376, delta_loss = 0.19054222
+BiasedMFRecommender iter 384: loss = 29305.52436840721, delta_loss = 0.18919697
+BiasedMFRecommender iter 385: loss = 29305.33650411834, delta_loss = 0.18786429
+BiasedMFRecommender iter 386: loss = 29305.14996012187, delta_loss = 0.186544
+BiasedMFRecommender iter 387: loss = 29304.96472413225, delta_loss = 0.18523599
+BiasedMFRecommender iter 388: loss = 29304.78078404197, delta_loss = 0.1839401
+BiasedMFRecommender iter 389: loss = 29304.598127866342, delta_loss = 0.18265617
+BiasedMFRecommender iter 390: loss = 29304.416743756985, delta_loss = 0.18138412
+BiasedMFRecommender iter 391: loss = 29304.23662001186, delta_loss = 0.18012375
+BiasedMFRecommender iter 392: loss = 29304.05774502984, delta_loss = 0.17887498
+BiasedMFRecommender iter 393: loss = 29303.880107410634, delta_loss = 0.17763762
+BiasedMFRecommender iter 394: loss = 29303.703695812186, delta_loss = 0.1764116
+BiasedMFRecommender iter 395: loss = 29303.528499070726, delta_loss = 0.17519674
+BiasedMFRecommender iter 396: loss = 29303.354506118005, delta_loss = 0.17399295
+BiasedMFRecommender iter 397: loss = 29303.181706040294, delta_loss = 0.17280008
+BiasedMFRecommender iter 398: loss = 29303.010088028306, delta_loss = 0.17161801
+BiasedMFRecommender iter 399: loss = 29302.83964139523, delta_loss = 0.17044663
+BiasedMFRecommender iter 400: loss = 29302.670355574388, delta_loss = 0.16928582
+BiasedMFRecommender iter 401: loss = 29302.502220130937, delta_loss = 0.16813545
+BiasedMFRecommender iter 402: loss = 29302.335224738483, delta_loss = 0.16699539
+BiasedMFRecommender iter 403: loss = 29302.169359181946, delta_loss = 0.16586556
+BiasedMFRecommender iter 404: loss = 29302.00461337202, delta_loss = 0.16474581
+BiasedMFRecommender iter 405: loss = 29301.84097731853, delta_loss = 0.16363606
+BiasedMFRecommender iter 406: loss = 29301.678441142205, delta_loss = 0.16253617
+BiasedMFRecommender iter 407: loss = 29301.51699510229, delta_loss = 0.16144603
+BiasedMFRecommender iter 408: loss = 29301.356629508435, delta_loss = 0.1603656
+BiasedMFRecommender iter 409: loss = 29301.197334841792, delta_loss = 0.15929466
+BiasedMFRecommender iter 410: loss = 29301.039101654387, delta_loss = 0.15823318
+BiasedMFRecommender iter 411: loss = 29300.88192058675, delta_loss = 0.15718107
+BiasedMFRecommender iter 412: loss = 29300.72578241563, delta_loss = 0.15613817
+BiasedMFRecommender iter 413: loss = 29300.570678014796, delta_loss = 0.1551044
+BiasedMFRecommender iter 414: loss = 29300.416598333384, delta_loss = 0.15407968
+BiasedMFRecommender iter 415: loss = 29300.26353443145, delta_loss = 0.15306391
+BiasedMFRecommender iter 416: loss = 29300.111477487266, delta_loss = 0.15205695
+BiasedMFRecommender iter 417: loss = 29299.960418727434, delta_loss = 0.15105876
+BiasedMFRecommender iter 418: loss = 29299.81034952248, delta_loss = 0.1500692
+BiasedMFRecommender iter 419: loss = 29299.661261315883, delta_loss = 0.1490882
+BiasedMFRecommender iter 420: loss = 29299.513145631154, delta_loss = 0.14811568
+BiasedMFRecommender iter 421: loss = 29299.365994102303, delta_loss = 0.14715153
+BiasedMFRecommender iter 422: loss = 29299.219798442988, delta_loss = 0.14619567
+BiasedMFRecommender iter 423: loss = 29299.07455047146, delta_loss = 0.14524797
+BiasedMFRecommender iter 424: loss = 29298.930242059385, delta_loss = 0.14430842
+BiasedMFRecommender iter 425: loss = 29298.78686518659, delta_loss = 0.14337687
+BiasedMFRecommender iter 426: loss = 29298.644411928977, delta_loss = 0.14245325
+BiasedMFRecommender iter 427: loss = 29298.5028744346, delta_loss = 0.14153749
+BiasedMFRecommender iter 428: loss = 29298.362244931257, delta_loss = 0.1406295
+BiasedMFRecommender iter 429: loss = 29298.222515735357, delta_loss = 0.1397292
+BiasedMFRecommender iter 430: loss = 29298.08367922906, delta_loss = 0.1388365
+BiasedMFRecommender iter 431: loss = 29297.945727898415, delta_loss = 0.13795133
+BiasedMFRecommender iter 432: loss = 29297.80865431066, delta_loss = 0.13707359
+BiasedMFRecommender iter 433: loss = 29297.67245107011, delta_loss = 0.13620324
+BiasedMFRecommender iter 434: loss = 29297.537110895937, delta_loss = 0.13534017
+BiasedMFRecommender iter 435: loss = 29297.40262658558, delta_loss = 0.1344843
+BiasedMFRecommender iter 436: loss = 29297.268990978413, delta_loss = 0.13363561
+BiasedMFRecommender iter 437: loss = 29297.13619702757, delta_loss = 0.13279395
+BiasedMFRecommender iter 438: loss = 29297.00423772064, delta_loss = 0.1319593
+BiasedMFRecommender iter 439: loss = 29296.873106152143, delta_loss = 0.13113157
+BiasedMFRecommender iter 440: loss = 29296.742795467162, delta_loss = 0.13031068
+BiasedMFRecommender iter 441: loss = 29296.613298885604, delta_loss = 0.12949657
+BiasedMFRecommender iter 442: loss = 29296.48460971043, delta_loss = 0.12868917
+BiasedMFRecommender iter 443: loss = 29296.356721289725, delta_loss = 0.12788843
+BiasedMFRecommender iter 444: loss = 29296.2296270642, delta_loss = 0.12709422
+BiasedMFRecommender iter 445: loss = 29296.10332051169, delta_loss = 0.12630655
+BiasedMFRecommender iter 446: loss = 29295.97779519947, delta_loss = 0.12552531
+BiasedMFRecommender iter 447: loss = 29295.85304476701, delta_loss = 0.124750435
+BiasedMFRecommender iter 448: loss = 29295.729062894658, delta_loss = 0.12398187
+BiasedMFRecommender iter 449: loss = 29295.605843349076, delta_loss = 0.12321954
+BiasedMFRecommender iter 450: loss = 29295.48337991677, delta_loss = 0.122463435
+BiasedMFRecommender iter 451: loss = 29295.36166652201, delta_loss = 0.12171339
+BiasedMFRecommender iter 452: loss = 29295.24069708058, delta_loss = 0.120969445
+BiasedMFRecommender iter 453: loss = 29295.120465616325, delta_loss = 0.120231465
+BiasedMFRecommender iter 454: loss = 29295.00096616701, delta_loss = 0.11949945
+BiasedMFRecommender iter 455: loss = 29294.882192866902, delta_loss = 0.1187733
+BiasedMFRecommender iter 456: loss = 29294.764139918872, delta_loss = 0.118052945
+BiasedMFRecommender iter 457: loss = 29294.64680153424, delta_loss = 0.11733838
+BiasedMFRecommender iter 458: loss = 29294.53017202128, delta_loss = 0.11662951
+BiasedMFRecommender iter 459: loss = 29294.414245728756, delta_loss = 0.115926296
+BiasedMFRecommender iter 460: loss = 29294.299017081696, delta_loss = 0.115228646
+BiasedMFRecommender iter 461: loss = 29294.184480532764, delta_loss = 0.114536546
+BiasedMFRecommender iter 462: loss = 29294.0706306056, delta_loss = 0.11384993
+BiasedMFRecommender iter 463: loss = 29293.957461861795, delta_loss = 0.113168746
+BiasedMFRecommender iter 464: loss = 29293.84496895649, delta_loss = 0.112492904
+BiasedMFRecommender iter 465: loss = 29293.73314653565, delta_loss = 0.11182242
+BiasedMFRecommender iter 466: loss = 29293.621989370044, delta_loss = 0.111157164
+BiasedMFRecommender iter 467: loss = 29293.511492192698, delta_loss = 0.11049718
+BiasedMFRecommender iter 468: loss = 29293.401649877484, delta_loss = 0.109842315
+BiasedMFRecommender iter 469: loss = 29293.292457298754, delta_loss = 0.10919258
+BiasedMFRecommender iter 470: loss = 29293.183909397674, delta_loss = 0.1085479
+BiasedMFRecommender iter 471: loss = 29293.07600113916, delta_loss = 0.10790826
+BiasedMFRecommender iter 472: loss = 29292.968727568594, delta_loss = 0.10727357
+BiasedMFRecommender iter 473: loss = 29292.862083766482, delta_loss = 0.1066438
+BiasedMFRecommender iter 474: loss = 29292.756064850753, delta_loss = 0.106018916
+BiasedMFRecommender iter 475: loss = 29292.650666008743, delta_loss = 0.10539884
+BiasedMFRecommender iter 476: loss = 29292.545882443115, delta_loss = 0.104783565
+BiasedMFRecommender iter 477: loss = 29292.441709438433, delta_loss = 0.104173005
+BiasedMFRecommender iter 478: loss = 29292.338142300796, delta_loss = 0.10356714
+BiasedMFRecommender iter 479: loss = 29292.235176387665, delta_loss = 0.10296591
+BiasedMFRecommender iter 480: loss = 29292.132807093127, delta_loss = 0.10236929
+BiasedMFRecommender iter 481: loss = 29292.03102986874, delta_loss = 0.101777226
+BiasedMFRecommender iter 482: loss = 29291.929840193377, delta_loss = 0.10118967
+BiasedMFRecommender iter 483: loss = 29291.829233609267, delta_loss = 0.10060658
+BiasedMFRecommender iter 484: loss = 29291.729205684816, delta_loss = 0.100027926
+BiasedMFRecommender iter 485: loss = 29291.629752034514, delta_loss = 0.09945365
+BiasedMFRecommender iter 486: loss = 29291.530868305465, delta_loss = 0.098883726
+BiasedMFRecommender iter 487: loss = 29291.43255020923, delta_loss = 0.09831809
+BiasedMFRecommender iter 488: loss = 29291.33479347003, delta_loss = 0.097756736
+BiasedMFRecommender iter 489: loss = 29291.237593870894, delta_loss = 0.0971996
+BiasedMFRecommender iter 490: loss = 29291.140947233846, delta_loss = 0.09664664
+BiasedMFRecommender iter 491: loss = 29291.04484941018, delta_loss = 0.09609783
+BiasedMFRecommender iter 492: loss = 29290.94929628425, delta_loss = 0.09555312
+BiasedMFRecommender iter 493: loss = 29290.854283792072, delta_loss = 0.09501249
+BiasedMFRecommender iter 494: loss = 29290.75980791579, delta_loss = 0.09447587
+BiasedMFRecommender iter 495: loss = 29290.665864666153, delta_loss = 0.09394325
+BiasedMFRecommender iter 496: loss = 29290.572450069016, delta_loss = 0.0934146
+BiasedMFRecommender iter 497: loss = 29290.47956021698, delta_loss = 0.09288985
+BiasedMFRecommender iter 498: loss = 29290.38719122237, delta_loss = 0.092369
+BiasedMFRecommender iter 499: loss = 29290.29533924515, delta_loss = 0.09185198
+BiasedMFRecommender iter 500: loss = 29290.20400044695, delta_loss = 0.0913388
+Job Train completed.
+Job End.
+Evaluator info:RMSEEvaluator is 0.9101973886020758
+Result path is result/movielens/ratings.csv-biasedmf-output/biasedmf
+Dataset: data/movielens/ratings.csv
+All dataset files [data\movielens\ratings.csv]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80019
+Data size of testing is 19981
+Job Setup completed.
+BiasedMFRecommender iter 1: loss = 54885.0774716691, delta_loss = -54885.08
+BiasedMFRecommender iter 2: loss = 40051.72821897336, delta_loss = 14833.35
+BiasedMFRecommender iter 3: loss = 37561.71244262176, delta_loss = 2490.0159
+BiasedMFRecommender iter 4: loss = 36645.50528217174, delta_loss = 916.20715
+BiasedMFRecommender iter 5: loss = 35992.229096437666, delta_loss = 653.2762
+BiasedMFRecommender iter 6: loss = 35464.86802472146, delta_loss = 527.3611
+BiasedMFRecommender iter 7: loss = 35017.180147608975, delta_loss = 447.68787
+BiasedMFRecommender iter 8: loss = 34626.70688272563, delta_loss = 390.47327
+BiasedMFRecommender iter 9: loss = 34280.3324834022, delta_loss = 346.3744
+BiasedMFRecommender iter 10: loss = 33969.53299456651, delta_loss = 310.7995
+BiasedMFRecommender iter 11: loss = 33688.38516373915, delta_loss = 281.14783
+BiasedMFRecommender iter 12: loss = 33432.56517433431, delta_loss = 255.81999
+BiasedMFRecommender iter 13: loss = 33198.77953361518, delta_loss = 233.78564
+BiasedMFRecommender iter 14: loss = 32984.42039812649, delta_loss = 214.35913
+BiasedMFRecommender iter 15: loss = 32787.35125253699, delta_loss = 197.06915
+BiasedMFRecommender iter 16: loss = 32605.77214291181, delta_loss = 181.57912
+BiasedMFRecommender iter 17: loss = 32438.134082117667, delta_loss = 167.63806
+BiasedMFRecommender iter 18: loss = 32283.08374733993, delta_loss = 155.05034
+BiasedMFRecommender iter 19: loss = 32139.42668691329, delta_loss = 143.65706
+BiasedMFRecommender iter 20: loss = 32006.10176313013, delta_loss = 133.32492
+BiasedMFRecommender iter 21: loss = 31882.162420478828, delta_loss = 123.93935
+BiasedMFRecommender iter 22: loss = 31766.76216056576, delta_loss = 115.40026
+BiasedMFRecommender iter 23: loss = 31659.142701183573, delta_loss = 107.61946
+BiasedMFRecommender iter 24: loss = 31558.62395023303, delta_loss = 100.51875
+BiasedMFRecommender iter 25: loss = 31464.595301740334, delta_loss = 94.02865
+BiasedMFRecommender iter 26: loss = 31376.507970468047, delta_loss = 88.08733
+BiasedMFRecommender iter 27: loss = 31293.86819450159, delta_loss = 82.63978
+BiasedMFRecommender iter 28: loss = 31216.231192512056, delta_loss = 77.637
+BiasedMFRecommender iter 29: loss = 31143.195791734408, delta_loss = 73.0354
+BiasedMFRecommender iter 30: loss = 31074.39965725963, delta_loss = 68.796135
+BiasedMFRecommender iter 31: loss = 31009.515060785176, delta_loss = 64.8846
+BiasedMFRecommender iter 32: loss = 30948.245132574593, delta_loss = 61.269928
+BiasedMFRecommender iter 33: loss = 30890.320544438404, delta_loss = 57.924587
+BiasedMFRecommender iter 34: loss = 30835.4965757161, delta_loss = 54.823967
+BiasedMFRecommender iter 35: loss = 30783.550518494772, delta_loss = 51.946056
+BiasedMFRecommender iter 36: loss = 30734.279382389723, delta_loss = 49.271137
+BiasedMFRecommender iter 37: loss = 30687.497863228808, delta_loss = 46.78152
+BiasedMFRecommender iter 38: loss = 30643.036544191193, delta_loss = 44.46132
+BiasedMFRecommender iter 39: loss = 30600.74030103516, delta_loss = 42.29624
+BiasedMFRecommender iter 40: loss = 30560.4668869602, delta_loss = 40.273415
+BiasedMFRecommender iter 41: loss = 30522.085675093225, delta_loss = 38.38121
+BiasedMFRecommender iter 42: loss = 30485.476539803614, delta_loss = 36.609135
+BiasedMFRecommender iter 43: loss = 30450.52886004841, delta_loss = 34.94768
+BiasedMFRecommender iter 44: loss = 30417.140630017133, delta_loss = 33.38823
+BiasedMFRecommender iter 45: loss = 30385.21766479114, delta_loss = 31.922966
+BiasedMFRecommender iter 46: loss = 30354.67288926841, delta_loss = 30.544775
+BiasedMFRecommender iter 47: loss = 30325.42570116193, delta_loss = 29.247189
+BiasedMFRecommender iter 48: loss = 30297.40139923824, delta_loss = 28.024302
+BiasedMFRecommender iter 49: loss = 30270.53066944569, delta_loss = 26.87073
+BiasedMFRecommender iter 50: loss = 30244.749122426878, delta_loss = 25.781548
+BiasedMFRecommender iter 51: loss = 30219.99687657055, delta_loss = 24.752245
+BiasedMFRecommender iter 52: loss = 30196.218181746077, delta_loss = 23.778694
+BiasedMFRecommender iter 53: loss = 30173.361079123057, delta_loss = 22.857103
+BiasedMFRecommender iter 54: loss = 30151.37709330993, delta_loss = 21.983986
+BiasedMFRecommender iter 55: loss = 30130.220953264146, delta_loss = 21.15614
+BiasedMFRecommender iter 56: loss = 30109.850339050237, delta_loss = 20.370615
+BiasedMFRecommender iter 57: loss = 30090.225651693225, delta_loss = 19.624687
+BiasedMFRecommender iter 58: loss = 30071.309803746117, delta_loss = 18.915848
+BiasedMFRecommender iter 59: loss = 30053.068028511123, delta_loss = 18.241776
+BiasedMFRecommender iter 60: loss = 30035.467706058516, delta_loss = 17.600323
+BiasedMFRecommender iter 61: loss = 30018.478204265717, delta_loss = 16.989502
+BiasedMFRecommender iter 62: loss = 30002.07073356761, delta_loss = 16.40747
+BiasedMFRecommender iter 63: loss = 29986.218213969394, delta_loss = 15.85252
+BiasedMFRecommender iter 64: loss = 29970.895153144884, delta_loss = 15.323061
+BiasedMFRecommender iter 65: loss = 29956.077534721837, delta_loss = 14.817618
+BiasedMFRecommender iter 66: loss = 29941.742715575714, delta_loss = 14.334819
+BiasedMFRecommender iter 67: loss = 29927.869331520953, delta_loss = 13.873384
+BiasedMFRecommender iter 68: loss = 29914.43721039249, delta_loss = 13.432121
+BiasedMFRecommender iter 69: loss = 29901.427292197553, delta_loss = 13.009918
+BiasedMFRecommender iter 70: loss = 29888.821555222334, delta_loss = 12.605737
+BiasedMFRecommender iter 71: loss = 29876.602948084346, delta_loss = 12.218607
+BiasedMFRecommender iter 72: loss = 29864.755326842835, delta_loss = 11.847621
+BiasedMFRecommender iter 73: loss = 29853.26339680724, delta_loss = 11.49193
+BiasedMFRecommender iter 74: loss = 29842.112658824695, delta_loss = 11.150738
+BiasedMFRecommender iter 75: loss = 29831.289359410002, delta_loss = 10.823299
+BiasedMFRecommender iter 76: loss = 29820.780444582633, delta_loss = 10.508915
+BiasedMFRecommender iter 77: loss = 29810.57351698195, delta_loss = 10.206927
+BiasedMFRecommender iter 78: loss = 29800.65679608354, delta_loss = 9.916721
+BiasedMFRecommender iter 79: loss = 29791.019081223356, delta_loss = 9.637714
+BiasedMFRecommender iter 80: loss = 29781.64971718749, delta_loss = 9.369364
+BiasedMFRecommender iter 81: loss = 29772.538562203987, delta_loss = 9.111155
+BiasedMFRecommender iter 82: loss = 29763.675958138447, delta_loss = 8.862604
+BiasedMFRecommender iter 83: loss = 29755.0527026255, delta_loss = 8.623256
+BiasedMFRecommender iter 84: loss = 29746.660023211818, delta_loss = 8.392679
+BiasedMFRecommender iter 85: loss = 29738.489553100568, delta_loss = 8.17047
+BiasedMFRecommender iter 86: loss = 29730.533308533475, delta_loss = 7.9562445
+BiasedMFRecommender iter 87: loss = 29722.7836676709, delta_loss = 7.749641
+BiasedMFRecommender iter 88: loss = 29715.23335075542, delta_loss = 7.550317
+BiasedMFRecommender iter 89: loss = 29707.87540163228, delta_loss = 7.3579493
+BiasedMFRecommender iter 90: loss = 29700.703170422705, delta_loss = 7.172231
+BiasedMFRecommender iter 91: loss = 29693.710297201964, delta_loss = 6.992873
+BiasedMFRecommender iter 92: loss = 29686.890696806477, delta_loss = 6.8196006
+BiasedMFRecommender iter 93: loss = 29680.238544479835, delta_loss = 6.6521525
+BiasedMFRecommender iter 94: loss = 29673.748262435623, delta_loss = 6.490282
+BiasedMFRecommender iter 95: loss = 29667.414507269328, delta_loss = 6.333755
+BiasedMFRecommender iter 96: loss = 29661.232158018196, delta_loss = 6.182349
+BiasedMFRecommender iter 97: loss = 29655.19630506352, delta_loss = 6.035853
+BiasedMFRecommender iter 98: loss = 29649.30223953431, delta_loss = 5.8940654
+BiasedMFRecommender iter 99: loss = 29643.54544345087, delta_loss = 5.756796
+BiasedMFRecommender iter 100: loss = 29637.921580435162, delta_loss = 5.623863
+BiasedMFRecommender iter 101: loss = 29632.426486819542, delta_loss = 5.495094
+BiasedMFRecommender iter 102: loss = 29627.056163394667, delta_loss = 5.3703237
+BiasedMFRecommender iter 103: loss = 29621.806767613463, delta_loss = 5.249396
+BiasedMFRecommender iter 104: loss = 29616.67460612608, delta_loss = 5.1321616
+BiasedMFRecommender iter 105: loss = 29611.65612781492, delta_loss = 5.0184784
+BiasedMFRecommender iter 106: loss = 29606.747917239732, delta_loss = 4.9082108
+BiasedMFRecommender iter 107: loss = 29601.94668831541, delta_loss = 4.801229
+BiasedMFRecommender iter 108: loss = 29597.249278453284, delta_loss = 4.6974096
+BiasedMFRecommender iter 109: loss = 29592.652642962807, delta_loss = 4.5966353
+BiasedMFRecommender iter 110: loss = 29588.153849704075, delta_loss = 4.498793
+BiasedMFRecommender iter 111: loss = 29583.750074167263, delta_loss = 4.4037757
+BiasedMFRecommender iter 112: loss = 29579.43859461702, delta_loss = 4.3114796
+BiasedMFRecommender iter 113: loss = 29575.21678762464, delta_loss = 4.221807
+BiasedMFRecommender iter 114: loss = 29571.08212380687, delta_loss = 4.1346636
+BiasedMFRecommender iter 115: loss = 29567.032163727552, delta_loss = 4.04996
+BiasedMFRecommender iter 116: loss = 29563.064554064706, delta_loss = 3.9676096
+BiasedMFRecommender iter 117: loss = 29559.17702391981, delta_loss = 3.88753
+BiasedMFRecommender iter 118: loss = 29555.367381419805, delta_loss = 3.8096426
+BiasedMFRecommender iter 119: loss = 29551.6335102724, delta_loss = 3.7338712
+BiasedMFRecommender iter 120: loss = 29547.973366742714, delta_loss = 3.6601436
+BiasedMFRecommender iter 121: loss = 29544.38497660505, delta_loss = 3.58839
+BiasedMFRecommender iter 122: loss = 29540.866432277475, delta_loss = 3.5185444
+BiasedMFRecommender iter 123: loss = 29537.41589015763, delta_loss = 3.4505422
+BiasedMFRecommender iter 124: loss = 29534.0315680064, delta_loss = 3.3843222
+BiasedMFRecommender iter 125: loss = 29530.71174249241, delta_loss = 3.3198254
+BiasedMFRecommender iter 126: loss = 29527.454746850985, delta_loss = 3.2569957
+BiasedMFRecommender iter 127: loss = 29524.25896863914, delta_loss = 3.1957781
+BiasedMFRecommender iter 128: loss = 29521.12284763529, delta_loss = 3.136121
+BiasedMFRecommender iter 129: loss = 29518.044873719446, delta_loss = 3.0779738
+BiasedMFRecommender iter 130: loss = 29515.02358505459, delta_loss = 3.0212886
+BiasedMFRecommender iter 131: loss = 29512.057566133757, delta_loss = 2.966019
+BiasedMFRecommender iter 132: loss = 29509.145446036888, delta_loss = 2.91212
+BiasedMFRecommender iter 133: loss = 29506.2858967288, delta_loss = 2.8595493
+BiasedMFRecommender iter 134: loss = 29503.477631521757, delta_loss = 2.8082652
+BiasedMFRecommender iter 135: loss = 29500.719403377338, delta_loss = 2.758228
+BiasedMFRecommender iter 136: loss = 29498.010003584437, delta_loss = 2.7093997
+BiasedMFRecommender iter 137: loss = 29495.34826024115, delta_loss = 2.6617434
+BiasedMFRecommender iter 138: loss = 29492.733036936825, delta_loss = 2.6152234
+BiasedMFRecommender iter 139: loss = 29490.16323147374, delta_loss = 2.5698054
+BiasedMFRecommender iter 140: loss = 29487.63777458455, delta_loss = 2.525457
+BiasedMFRecommender iter 141: loss = 29485.15562881393, delta_loss = 2.4821458
+BiasedMFRecommender iter 142: loss = 29482.715787322886, delta_loss = 2.4398415
+BiasedMFRecommender iter 143: loss = 29480.317272772416, delta_loss = 2.3985145
+BiasedMFRecommender iter 144: loss = 29477.959136378184, delta_loss = 2.3581364
+BiasedMFRecommender iter 145: loss = 29475.640456829304, delta_loss = 2.3186796
+BiasedMFRecommender iter 146: loss = 29473.36033936706, delta_loss = 2.2801175
+BiasedMFRecommender iter 147: loss = 29471.117914827402, delta_loss = 2.2424245
+BiasedMFRecommender iter 148: loss = 29468.912338797487, delta_loss = 2.205576
+BiasedMFRecommender iter 149: loss = 29466.7427907456, delta_loss = 2.169548
+BiasedMFRecommender iter 150: loss = 29464.608473198557, delta_loss = 2.1343176
+BiasedMFRecommender iter 151: loss = 29462.508610993515, delta_loss = 2.099862
+BiasedMFRecommender iter 152: loss = 29460.44245050802, delta_loss = 2.0661604
+BiasedMFRecommender iter 153: loss = 29458.4092589095, delta_loss = 2.0331917
+BiasedMFRecommender iter 154: loss = 29456.408323499043, delta_loss = 2.0009353
+BiasedMFRecommender iter 155: loss = 29454.438951067357, delta_loss = 1.9693724
+BiasedMFRecommender iter 156: loss = 29452.500467193982, delta_loss = 1.9384838
+BiasedMFRecommender iter 157: loss = 29450.592215662724, delta_loss = 1.9082515
+BiasedMFRecommender iter 158: loss = 29448.71355786922, delta_loss = 1.8786578
+BiasedMFRecommender iter 159: loss = 29446.863872272752, delta_loss = 1.8496855
+BiasedMFRecommender iter 160: loss = 29445.042553787796, delta_loss = 1.8213185
+BiasedMFRecommender iter 161: loss = 29443.249013331948, delta_loss = 1.7935405
+BiasedMFRecommender iter 162: loss = 29441.482677253007, delta_loss = 1.7663361
+BiasedMFRecommender iter 163: loss = 29439.742986859917, delta_loss = 1.7396904
+BiasedMFRecommender iter 164: loss = 29438.02939801132, delta_loss = 1.7135888
+BiasedMFRecommender iter 165: loss = 29436.341380551, delta_loss = 1.6880175
+BiasedMFRecommender iter 166: loss = 29434.67841796409, delta_loss = 1.6629626
+BiasedMFRecommender iter 167: loss = 29433.040006898955, delta_loss = 1.638411
+BiasedMFRecommender iter 168: loss = 29431.425656815063, delta_loss = 1.6143501
+BiasedMFRecommender iter 169: loss = 29429.834889521444, delta_loss = 1.5907673
+BiasedMFRecommender iter 170: loss = 29428.26723886687, delta_loss = 1.5676507
+BiasedMFRecommender iter 171: loss = 29426.722250349827, delta_loss = 1.5449885
+BiasedMFRecommender iter 172: loss = 29425.199480745632, delta_loss = 1.5227696
+BiasedMFRecommender iter 173: loss = 29423.698497803074, delta_loss = 1.500983
+BiasedMFRecommender iter 174: loss = 29422.218879876928, delta_loss = 1.479618
+BiasedMFRecommender iter 175: loss = 29420.760215681403, delta_loss = 1.4586642
+BiasedMFRecommender iter 176: loss = 29419.322103893708, delta_loss = 1.4381118
+BiasedMFRecommender iter 177: loss = 29417.904152952004, delta_loss = 1.417951
+BiasedMFRecommender iter 178: loss = 29416.505980688504, delta_loss = 1.3981723
+BiasedMFRecommender iter 179: loss = 29415.12721412552, delta_loss = 1.3787665
+BiasedMFRecommender iter 180: loss = 29413.76748916299, delta_loss = 1.359725
+BiasedMFRecommender iter 181: loss = 29412.426450327337, delta_loss = 1.3410388
+BiasedMFRecommender iter 182: loss = 29411.103750569888, delta_loss = 1.3226998
+BiasedMFRecommender iter 183: loss = 29409.79905096285, delta_loss = 1.3046997
+BiasedMFRecommender iter 184: loss = 29408.51202051231, delta_loss = 1.2870305
+BiasedMFRecommender iter 185: loss = 29407.24233592876, delta_loss = 1.2696846
+BiasedMFRecommender iter 186: loss = 29405.98968135699, delta_loss = 1.2526546
+BiasedMFRecommender iter 187: loss = 29404.753748293606, delta_loss = 1.2359331
+BiasedMFRecommender iter 188: loss = 29403.53423524928, delta_loss = 1.219513
+BiasedMFRecommender iter 189: loss = 29402.330847594494, delta_loss = 1.2033876
+BiasedMFRecommender iter 190: loss = 29401.143297452632, delta_loss = 1.1875502
+BiasedMFRecommender iter 191: loss = 29399.971303378486, delta_loss = 1.1719941
+BiasedMFRecommender iter 192: loss = 29398.814590281745, delta_loss = 1.1567131
+BiasedMFRecommender iter 193: loss = 29397.672889240825, delta_loss = 1.141701
+BiasedMFRecommender iter 194: loss = 29396.54593728692, delta_loss = 1.1269519
+BiasedMFRecommender iter 195: loss = 29395.43347728972, delta_loss = 1.11246
+BiasedMFRecommender iter 196: loss = 29394.335257797713, delta_loss = 1.0982195
+BiasedMFRecommender iter 197: loss = 29393.25103286819, delta_loss = 1.0842249
+BiasedMFRecommender iter 198: loss = 29392.18056193387, delta_loss = 1.0704709
+BiasedMFRecommender iter 199: loss = 29391.123609655955, delta_loss = 1.0569522
+BiasedMFRecommender iter 200: loss = 29390.079945785026, delta_loss = 1.0436639
+BiasedMFRecommender iter 201: loss = 29389.04934504961, delta_loss = 1.0306008
+BiasedMFRecommender iter 202: loss = 29388.03158698633, delta_loss = 1.017758
+BiasedMFRecommender iter 203: loss = 29387.026455844276, delta_loss = 1.0051311
+BiasedMFRecommender iter 204: loss = 29386.03374045047, delta_loss = 0.9927154
+BiasedMFRecommender iter 205: loss = 29385.053234119696, delta_loss = 0.98050636
+BiasedMFRecommender iter 206: loss = 29384.084734508186, delta_loss = 0.9684996
+BiasedMFRecommender iter 207: loss = 29383.128043498513, delta_loss = 0.956691
+BiasedMFRecommender iter 208: loss = 29382.18296711201, delta_loss = 0.9450764
+BiasedMFRecommender iter 209: loss = 29381.24931542279, delta_loss = 0.9336517
+BiasedMFRecommender iter 210: loss = 29380.326902413035, delta_loss = 0.922413
+BiasedMFRecommender iter 211: loss = 29379.4155458953, delta_loss = 0.9113565
+BiasedMFRecommender iter 212: loss = 29378.51506741188, delta_loss = 0.9004785
+BiasedMFRecommender iter 213: loss = 29377.625292165834, delta_loss = 0.8897752
+BiasedMFRecommender iter 214: loss = 29376.746048898967, delta_loss = 0.87924325
+BiasedMFRecommender iter 215: loss = 29375.877169827523, delta_loss = 0.8688791
+BiasedMFRecommender iter 216: loss = 29375.01849052485, delta_loss = 0.8586793
+BiasedMFRecommender iter 217: loss = 29374.16984988886, delta_loss = 0.8486406
+BiasedMFRecommender iter 218: loss = 29373.331090022362, delta_loss = 0.83875984
+BiasedMFRecommender iter 219: loss = 29372.502056177393, delta_loss = 0.82903385
+BiasedMFRecommender iter 220: loss = 29371.68259665275, delta_loss = 0.8194595
+BiasedMFRecommender iter 221: loss = 29370.87256274446, delta_loss = 0.8100339
+BiasedMFRecommender iter 222: loss = 29370.071808684763, delta_loss = 0.8007541
+BiasedMFRecommender iter 223: loss = 29369.28019153249, delta_loss = 0.79161716
+BiasedMFRecommender iter 224: loss = 29368.497571160795, delta_loss = 0.7826204
+BiasedMFRecommender iter 225: loss = 29367.723810119118, delta_loss = 0.77376103
+BiasedMFRecommender iter 226: loss = 29366.95877363376, delta_loss = 0.76503646
+BiasedMFRecommender iter 227: loss = 29366.20232952395, delta_loss = 0.7564441
+BiasedMFRecommender iter 228: loss = 29365.454348145995, delta_loss = 0.74798137
+BiasedMFRecommender iter 229: loss = 29364.71470229876, delta_loss = 0.73964584
+BiasedMFRecommender iter 230: loss = 29363.983267224405, delta_loss = 0.73143506
+BiasedMFRecommender iter 231: loss = 29363.259920527515, delta_loss = 0.7233467
+BiasedMFRecommender iter 232: loss = 29362.544542094445, delta_loss = 0.7153784
+BiasedMFRecommender iter 233: loss = 29361.837014090645, delta_loss = 0.707528
+BiasedMFRecommender iter 234: loss = 29361.137220867353, delta_loss = 0.6997932
+BiasedMFRecommender iter 235: loss = 29360.44504893358, delta_loss = 0.69217193
+BiasedMFRecommender iter 236: loss = 29359.760386894595, delta_loss = 0.68466204
+BiasedMFRecommender iter 237: loss = 29359.083125424095, delta_loss = 0.6772615
+BiasedMFRecommender iter 238: loss = 29358.413157197854, delta_loss = 0.66996825
+BiasedMFRecommender iter 239: loss = 29357.750376878183, delta_loss = 0.66278034
+BiasedMFRecommender iter 240: loss = 29357.094681009698, delta_loss = 0.65569586
+BiasedMFRecommender iter 241: loss = 29356.44596805641, delta_loss = 0.64871293
+BiasedMFRecommender iter 242: loss = 29355.804138292096, delta_loss = 0.6418298
+BiasedMFRecommender iter 243: loss = 29355.169093816276, delta_loss = 0.63504446
+BiasedMFRecommender iter 244: loss = 29354.540738459298, delta_loss = 0.6283554
+BiasedMFRecommender iter 245: loss = 29353.918977788566, delta_loss = 0.62176067
+BiasedMFRecommender iter 246: loss = 29353.303719047784, delta_loss = 0.61525875
+BiasedMFRecommender iter 247: loss = 29352.69487114496, delta_loss = 0.6088479
+BiasedMFRecommender iter 248: loss = 29352.09234456319, delta_loss = 0.6025266
+BiasedMFRecommender iter 249: loss = 29351.49605141224, delta_loss = 0.59629315
+BiasedMFRecommender iter 250: loss = 29350.905905308784, delta_loss = 0.5901461
+BiasedMFRecommender iter 251: loss = 29350.321821374924, delta_loss = 0.5840839
+BiasedMFRecommender iter 252: loss = 29349.743716245353, delta_loss = 0.57810515
+BiasedMFRecommender iter 253: loss = 29349.17150797645, delta_loss = 0.5722083
+BiasedMFRecommender iter 254: loss = 29348.605116044277, delta_loss = 0.56639194
+BiasedMFRecommender iter 255: loss = 29348.04446132779, delta_loss = 0.5606547
+BiasedMFRecommender iter 256: loss = 29347.4894660479, delta_loss = 0.5549953
+BiasedMFRecommender iter 257: loss = 29346.940053757764, delta_loss = 0.5494123
+BiasedMFRecommender iter 258: loss = 29346.396149321517, delta_loss = 0.5439044
+BiasedMFRecommender iter 259: loss = 29345.85767887658, delta_loss = 0.53847045
+BiasedMFRecommender iter 260: loss = 29345.324569807133, delta_loss = 0.53310907
+BiasedMFRecommender iter 261: loss = 29344.79675071613, delta_loss = 0.5278191
+BiasedMFRecommender iter 262: loss = 29344.274151415273, delta_loss = 0.5225993
+BiasedMFRecommender iter 263: loss = 29343.756702881477, delta_loss = 0.51744854
+BiasedMFRecommender iter 264: loss = 29343.24433725345, delta_loss = 0.51236564
+BiasedMFRecommender iter 265: loss = 29342.73698777977, delta_loss = 0.5073495
+BiasedMFRecommender iter 266: loss = 29342.234588844913, delta_loss = 0.5023989
+BiasedMFRecommender iter 267: loss = 29341.73707588252, delta_loss = 0.49751297
+BiasedMFRecommender iter 268: loss = 29341.244385424805, delta_loss = 0.49269044
+BiasedMFRecommender iter 269: loss = 29340.756454982824, delta_loss = 0.48793045
+BiasedMFRecommender iter 270: loss = 29340.2732231557, delta_loss = 0.4832318
+BiasedMFRecommender iter 271: loss = 29339.794629497486, delta_loss = 0.47859365
+BiasedMFRecommender iter 272: loss = 29339.320614561293, delta_loss = 0.47401494
+BiasedMFRecommender iter 273: loss = 29338.851119854633, delta_loss = 0.4694947
+BiasedMFRecommender iter 274: loss = 29338.386087821043, delta_loss = 0.46503204
+BiasedMFRecommender iter 275: loss = 29337.925461840892, delta_loss = 0.46062598
+BiasedMFRecommender iter 276: loss = 29337.469186181817, delta_loss = 0.45627567
+BiasedMFRecommender iter 277: loss = 29337.017206017932, delta_loss = 0.45198017
+BiasedMFRecommender iter 278: loss = 29336.569467397552, delta_loss = 0.44773862
+BiasedMFRecommender iter 279: loss = 29336.125917168854, delta_loss = 0.44355023
+BiasedMFRecommender iter 280: loss = 29335.68650309639, delta_loss = 0.43941408
+BiasedMFRecommender iter 281: loss = 29335.251173728262, delta_loss = 0.43532938
+BiasedMFRecommender iter 282: loss = 29334.81987839535, delta_loss = 0.43129534
+BiasedMFRecommender iter 283: loss = 29334.39256725299, delta_loss = 0.42731115
+BiasedMFRecommender iter 284: loss = 29333.96919123928, delta_loss = 0.42337602
+BiasedMFRecommender iter 285: loss = 29333.549702016928, delta_loss = 0.41948923
+BiasedMFRecommender iter 286: loss = 29333.134052031077, delta_loss = 0.41564998
+BiasedMFRecommender iter 287: loss = 29332.722194424878, delta_loss = 0.4118576
+BiasedMFRecommender iter 288: loss = 29332.314083095367, delta_loss = 0.40811133
+BiasedMFRecommender iter 289: loss = 29331.909672615315, delta_loss = 0.40441048
+BiasedMFRecommender iter 290: loss = 29331.50891827471, delta_loss = 0.40075433
+BiasedMFRecommender iter 291: loss = 29331.11177602451, delta_loss = 0.39714226
+BiasedMFRecommender iter 292: loss = 29330.718202514596, delta_loss = 0.39357352
+BiasedMFRecommender iter 293: loss = 29330.32815499, delta_loss = 0.39004752
+BiasedMFRecommender iter 294: loss = 29329.941591399078, delta_loss = 0.3865636
+BiasedMFRecommender iter 295: loss = 29329.55847030127, delta_loss = 0.3831211
+BiasedMFRecommender iter 296: loss = 29329.178750865267, delta_loss = 0.37971944
+BiasedMFRecommender iter 297: loss = 29328.802392875885, delta_loss = 0.376358
+BiasedMFRecommender iter 298: loss = 29328.429356722787, delta_loss = 0.37303615
+BiasedMFRecommender iter 299: loss = 29328.05960336633, delta_loss = 0.36975336
+BiasedMFRecommender iter 300: loss = 29327.693094367678, delta_loss = 0.366509
+BiasedMFRecommender iter 301: loss = 29327.32979182977, delta_loss = 0.36330253
+BiasedMFRecommender iter 302: loss = 29326.969658415575, delta_loss = 0.3601334
+BiasedMFRecommender iter 303: loss = 29326.61265735963, delta_loss = 0.35700107
+BiasedMFRecommender iter 304: loss = 29326.258752400743, delta_loss = 0.35390496
+BiasedMFRecommender iter 305: loss = 29325.907907819714, delta_loss = 0.3508446
+BiasedMFRecommender iter 306: loss = 29325.560088426817, delta_loss = 0.3478194
+BiasedMFRecommender iter 307: loss = 29325.21525950602, delta_loss = 0.34482893
+BiasedMFRecommender iter 308: loss = 29324.873386866162, delta_loss = 0.34187263
+BiasedMFRecommender iter 309: loss = 29324.534436845515, delta_loss = 0.33895
+BiasedMFRecommender iter 310: loss = 29324.19837615887, delta_loss = 0.33606067
+BiasedMFRecommender iter 311: loss = 29323.865172092206, delta_loss = 0.33320406
+BiasedMFRecommender iter 312: loss = 29323.53479238392, delta_loss = 0.3303797
+BiasedMFRecommender iter 313: loss = 29323.20720518291, delta_loss = 0.3275872
+BiasedMFRecommender iter 314: loss = 29322.882379130697, delta_loss = 0.32482606
+BiasedMFRecommender iter 315: loss = 29322.560283286282, delta_loss = 0.32209584
+BiasedMFRecommender iter 316: loss = 29322.24088717905, delta_loss = 0.3193961
+BiasedMFRecommender iter 317: loss = 29321.924160725262, delta_loss = 0.31672645
+BiasedMFRecommender iter 318: loss = 29321.610074284017, delta_loss = 0.31408644
+BiasedMFRecommender iter 319: loss = 29321.29859862083, delta_loss = 0.31147566
+BiasedMFRecommender iter 320: loss = 29320.989704888554, delta_loss = 0.30889374
+BiasedMFRecommender iter 321: loss = 29320.683364698223, delta_loss = 0.3063402
+BiasedMFRecommender iter 322: loss = 29320.37954999098, delta_loss = 0.3038147
+BiasedMFRecommender iter 323: loss = 29320.07823313463, delta_loss = 0.30131686
+BiasedMFRecommender iter 324: loss = 29319.779386836613, delta_loss = 0.2988463
+BiasedMFRecommender iter 325: loss = 29319.4829842213, delta_loss = 0.2964026
+BiasedMFRecommender iter 326: loss = 29319.188998761543, delta_loss = 0.29398546
+BiasedMFRecommender iter 327: loss = 29318.897404265987, delta_loss = 0.2915945
+BiasedMFRecommender iter 328: loss = 29318.608174954945, delta_loss = 0.2892293
+BiasedMFRecommender iter 329: loss = 29318.321285343165, delta_loss = 0.2868896
+BiasedMFRecommender iter 330: loss = 29318.03671032615, delta_loss = 0.28457502
+BiasedMFRecommender iter 331: loss = 29317.75442511509, delta_loss = 0.2822852
+BiasedMFRecommender iter 332: loss = 29317.474405264522, delta_loss = 0.28001985
+BiasedMFRecommender iter 333: loss = 29317.19662666915, delta_loss = 0.2777786
+BiasedMFRecommender iter 334: loss = 29316.92106550462, delta_loss = 0.27556115
+BiasedMFRecommender iter 335: loss = 29316.647698311546, delta_loss = 0.2733672
+BiasedMFRecommender iter 336: loss = 29316.376501901646, delta_loss = 0.2711964
+BiasedMFRecommender iter 337: loss = 29316.10745342192, delta_loss = 0.26904848
+BiasedMFRecommender iter 338: loss = 29315.840530307247, delta_loss = 0.26692313
+BiasedMFRecommender iter 339: loss = 29315.575710302666, delta_loss = 0.26482
+BiasedMFRecommender iter 340: loss = 29315.31297141337, delta_loss = 0.26273888
+BiasedMFRecommender iter 341: loss = 29315.052291986718, delta_loss = 0.26067942
+BiasedMFRecommender iter 342: loss = 29314.79365059343, delta_loss = 0.2586414
+BiasedMFRecommender iter 343: loss = 29314.53702611316, delta_loss = 0.2566245
+BiasedMFRecommender iter 344: loss = 29314.28239771989, delta_loss = 0.2546284
+BiasedMFRecommender iter 345: loss = 29314.02974481876, delta_loss = 0.2526529
+BiasedMFRecommender iter 346: loss = 29313.77904708808, delta_loss = 0.25069773
+BiasedMFRecommender iter 347: loss = 29313.530284485867, delta_loss = 0.24876261
+BiasedMFRecommender iter 348: loss = 29313.283437219245, delta_loss = 0.24684727
+BiasedMFRecommender iter 349: loss = 29313.038485736633, delta_loss = 0.24495149
+BiasedMFRecommender iter 350: loss = 29312.79541076688, delta_loss = 0.24307497
+BiasedMFRecommender iter 351: loss = 29312.554193247182, delta_loss = 0.24121752
+BiasedMFRecommender iter 352: loss = 29312.31481437466, delta_loss = 0.23937887
+BiasedMFRecommender iter 353: loss = 29312.077255590146, delta_loss = 0.23755878
+BiasedMFRecommender iter 354: loss = 29311.84149856272, delta_loss = 0.23575702
+BiasedMFRecommender iter 355: loss = 29311.60752519087, delta_loss = 0.23397337
+BiasedMFRecommender iter 356: loss = 29311.375317611684, delta_loss = 0.23220758
+BiasedMFRecommender iter 357: loss = 29311.14485815153, delta_loss = 0.23045947
+BiasedMFRecommender iter 358: loss = 29310.916129411304, delta_loss = 0.22872874
+BiasedMFRecommender iter 359: loss = 29310.689114172106, delta_loss = 0.22701524
+BiasedMFRecommender iter 360: loss = 29310.463795431653, delta_loss = 0.22531874
+BiasedMFRecommender iter 361: loss = 29310.240156402546, delta_loss = 0.22363903
+BiasedMFRecommender iter 362: loss = 29310.018180528714, delta_loss = 0.22197588
+BiasedMFRecommender iter 363: loss = 29309.79785140372, delta_loss = 0.22032912
+BiasedMFRecommender iter 364: loss = 29309.579152887352, delta_loss = 0.21869852
+BiasedMFRecommender iter 365: loss = 29309.36206898762, delta_loss = 0.2170839
+BiasedMFRecommender iter 366: loss = 29309.146583937185, delta_loss = 0.21548505
+BiasedMFRecommender iter 367: loss = 29308.932682151502, delta_loss = 0.21390179
+BiasedMFRecommender iter 368: loss = 29308.720348227325, delta_loss = 0.21233392
+BiasedMFRecommender iter 369: loss = 29308.509566975503, delta_loss = 0.21078125
+BiasedMFRecommender iter 370: loss = 29308.300323356965, delta_loss = 0.20924363
+BiasedMFRecommender iter 371: loss = 29308.092602526383, delta_loss = 0.20772083
+BiasedMFRecommender iter 372: loss = 29307.886389833042, delta_loss = 0.2062127
+BiasedMFRecommender iter 373: loss = 29307.68167078919, delta_loss = 0.20471904
+BiasedMFRecommender iter 374: loss = 29307.47843108893, delta_loss = 0.2032397
+BiasedMFRecommender iter 375: loss = 29307.276656580478, delta_loss = 0.20177451
+BiasedMFRecommender iter 376: loss = 29307.076333300574, delta_loss = 0.20032328
+BiasedMFRecommender iter 377: loss = 29306.87744743691, delta_loss = 0.19888586
+BiasedMFRecommender iter 378: loss = 29306.67998536256, delta_loss = 0.19746207
+BiasedMFRecommender iter 379: loss = 29306.483933575266, delta_loss = 0.19605179
+BiasedMFRecommender iter 380: loss = 29306.28927876777, delta_loss = 0.1946548
+BiasedMFRecommender iter 381: loss = 29306.09600778712, delta_loss = 0.19327098
+BiasedMFRecommender iter 382: loss = 29305.90410760376, delta_loss = 0.19190018
+BiasedMFRecommender iter 383: loss = 29305.71356538376, delta_loss = 0.19054222
+BiasedMFRecommender iter 384: loss = 29305.52436840721, delta_loss = 0.18919697
+BiasedMFRecommender iter 385: loss = 29305.33650411834, delta_loss = 0.18786429
+BiasedMFRecommender iter 386: loss = 29305.14996012187, delta_loss = 0.186544
+BiasedMFRecommender iter 387: loss = 29304.96472413225, delta_loss = 0.18523599
+BiasedMFRecommender iter 388: loss = 29304.78078404197, delta_loss = 0.1839401
+BiasedMFRecommender iter 389: loss = 29304.598127866342, delta_loss = 0.18265617
+BiasedMFRecommender iter 390: loss = 29304.416743756985, delta_loss = 0.18138412
+BiasedMFRecommender iter 391: loss = 29304.23662001186, delta_loss = 0.18012375
+BiasedMFRecommender iter 392: loss = 29304.05774502984, delta_loss = 0.17887498
+BiasedMFRecommender iter 393: loss = 29303.880107410634, delta_loss = 0.17763762
+BiasedMFRecommender iter 394: loss = 29303.703695812186, delta_loss = 0.1764116
+BiasedMFRecommender iter 395: loss = 29303.528499070726, delta_loss = 0.17519674
+BiasedMFRecommender iter 396: loss = 29303.354506118005, delta_loss = 0.17399295
+BiasedMFRecommender iter 397: loss = 29303.181706040294, delta_loss = 0.17280008
+BiasedMFRecommender iter 398: loss = 29303.010088028306, delta_loss = 0.17161801
+BiasedMFRecommender iter 399: loss = 29302.83964139523, delta_loss = 0.17044663
+BiasedMFRecommender iter 400: loss = 29302.670355574388, delta_loss = 0.16928582
+BiasedMFRecommender iter 401: loss = 29302.502220130937, delta_loss = 0.16813545
+BiasedMFRecommender iter 402: loss = 29302.335224738483, delta_loss = 0.16699539
+BiasedMFRecommender iter 403: loss = 29302.169359181946, delta_loss = 0.16586556
+BiasedMFRecommender iter 404: loss = 29302.00461337202, delta_loss = 0.16474581
+BiasedMFRecommender iter 405: loss = 29301.84097731853, delta_loss = 0.16363606
+BiasedMFRecommender iter 406: loss = 29301.678441142205, delta_loss = 0.16253617
+BiasedMFRecommender iter 407: loss = 29301.51699510229, delta_loss = 0.16144603
+BiasedMFRecommender iter 408: loss = 29301.356629508435, delta_loss = 0.1603656
+BiasedMFRecommender iter 409: loss = 29301.197334841792, delta_loss = 0.15929466
+BiasedMFRecommender iter 410: loss = 29301.039101654387, delta_loss = 0.15823318
+BiasedMFRecommender iter 411: loss = 29300.88192058675, delta_loss = 0.15718107
+BiasedMFRecommender iter 412: loss = 29300.72578241563, delta_loss = 0.15613817
+BiasedMFRecommender iter 413: loss = 29300.570678014796, delta_loss = 0.1551044
+BiasedMFRecommender iter 414: loss = 29300.416598333384, delta_loss = 0.15407968
+BiasedMFRecommender iter 415: loss = 29300.26353443145, delta_loss = 0.15306391
+BiasedMFRecommender iter 416: loss = 29300.111477487266, delta_loss = 0.15205695
+BiasedMFRecommender iter 417: loss = 29299.960418727434, delta_loss = 0.15105876
+BiasedMFRecommender iter 418: loss = 29299.81034952248, delta_loss = 0.1500692
+BiasedMFRecommender iter 419: loss = 29299.661261315883, delta_loss = 0.1490882
+BiasedMFRecommender iter 420: loss = 29299.513145631154, delta_loss = 0.14811568
+BiasedMFRecommender iter 421: loss = 29299.365994102303, delta_loss = 0.14715153
+BiasedMFRecommender iter 422: loss = 29299.219798442988, delta_loss = 0.14619567
+BiasedMFRecommender iter 423: loss = 29299.07455047146, delta_loss = 0.14524797
+BiasedMFRecommender iter 424: loss = 29298.930242059385, delta_loss = 0.14430842
+BiasedMFRecommender iter 425: loss = 29298.78686518659, delta_loss = 0.14337687
+BiasedMFRecommender iter 426: loss = 29298.644411928977, delta_loss = 0.14245325
+BiasedMFRecommender iter 427: loss = 29298.5028744346, delta_loss = 0.14153749
+BiasedMFRecommender iter 428: loss = 29298.362244931257, delta_loss = 0.1406295
+BiasedMFRecommender iter 429: loss = 29298.222515735357, delta_loss = 0.1397292
+BiasedMFRecommender iter 430: loss = 29298.08367922906, delta_loss = 0.1388365
+BiasedMFRecommender iter 431: loss = 29297.945727898415, delta_loss = 0.13795133
+BiasedMFRecommender iter 432: loss = 29297.80865431066, delta_loss = 0.13707359
+BiasedMFRecommender iter 433: loss = 29297.67245107011, delta_loss = 0.13620324
+BiasedMFRecommender iter 434: loss = 29297.537110895937, delta_loss = 0.13534017
+BiasedMFRecommender iter 435: loss = 29297.40262658558, delta_loss = 0.1344843
+BiasedMFRecommender iter 436: loss = 29297.268990978413, delta_loss = 0.13363561
+BiasedMFRecommender iter 437: loss = 29297.13619702757, delta_loss = 0.13279395
+BiasedMFRecommender iter 438: loss = 29297.00423772064, delta_loss = 0.1319593
+BiasedMFRecommender iter 439: loss = 29296.873106152143, delta_loss = 0.13113157
+BiasedMFRecommender iter 440: loss = 29296.742795467162, delta_loss = 0.13031068
+BiasedMFRecommender iter 441: loss = 29296.613298885604, delta_loss = 0.12949657
+BiasedMFRecommender iter 442: loss = 29296.48460971043, delta_loss = 0.12868917
+BiasedMFRecommender iter 443: loss = 29296.356721289725, delta_loss = 0.12788843
+BiasedMFRecommender iter 444: loss = 29296.2296270642, delta_loss = 0.12709422
+BiasedMFRecommender iter 445: loss = 29296.10332051169, delta_loss = 0.12630655
+BiasedMFRecommender iter 446: loss = 29295.97779519947, delta_loss = 0.12552531
+BiasedMFRecommender iter 447: loss = 29295.85304476701, delta_loss = 0.124750435
+BiasedMFRecommender iter 448: loss = 29295.729062894658, delta_loss = 0.12398187
+BiasedMFRecommender iter 449: loss = 29295.605843349076, delta_loss = 0.12321954
+BiasedMFRecommender iter 450: loss = 29295.48337991677, delta_loss = 0.122463435
+BiasedMFRecommender iter 451: loss = 29295.36166652201, delta_loss = 0.12171339
+BiasedMFRecommender iter 452: loss = 29295.24069708058, delta_loss = 0.120969445
+BiasedMFRecommender iter 453: loss = 29295.120465616325, delta_loss = 0.120231465
+BiasedMFRecommender iter 454: loss = 29295.00096616701, delta_loss = 0.11949945
+BiasedMFRecommender iter 455: loss = 29294.882192866902, delta_loss = 0.1187733
+BiasedMFRecommender iter 456: loss = 29294.764139918872, delta_loss = 0.118052945
+BiasedMFRecommender iter 457: loss = 29294.64680153424, delta_loss = 0.11733838
+BiasedMFRecommender iter 458: loss = 29294.53017202128, delta_loss = 0.11662951
+BiasedMFRecommender iter 459: loss = 29294.414245728756, delta_loss = 0.115926296
+BiasedMFRecommender iter 460: loss = 29294.299017081696, delta_loss = 0.115228646
+BiasedMFRecommender iter 461: loss = 29294.184480532764, delta_loss = 0.114536546
+BiasedMFRecommender iter 462: loss = 29294.0706306056, delta_loss = 0.11384993
+BiasedMFRecommender iter 463: loss = 29293.957461861795, delta_loss = 0.113168746
+BiasedMFRecommender iter 464: loss = 29293.84496895649, delta_loss = 0.112492904
+BiasedMFRecommender iter 465: loss = 29293.73314653565, delta_loss = 0.11182242
+BiasedMFRecommender iter 466: loss = 29293.621989370044, delta_loss = 0.111157164
+BiasedMFRecommender iter 467: loss = 29293.511492192698, delta_loss = 0.11049718
+BiasedMFRecommender iter 468: loss = 29293.401649877484, delta_loss = 0.109842315
+BiasedMFRecommender iter 469: loss = 29293.292457298754, delta_loss = 0.10919258
+BiasedMFRecommender iter 470: loss = 29293.183909397674, delta_loss = 0.1085479
+BiasedMFRecommender iter 471: loss = 29293.07600113916, delta_loss = 0.10790826
+BiasedMFRecommender iter 472: loss = 29292.968727568594, delta_loss = 0.10727357
+BiasedMFRecommender iter 473: loss = 29292.862083766482, delta_loss = 0.1066438
+BiasedMFRecommender iter 474: loss = 29292.756064850753, delta_loss = 0.106018916
+BiasedMFRecommender iter 475: loss = 29292.650666008743, delta_loss = 0.10539884
+BiasedMFRecommender iter 476: loss = 29292.545882443115, delta_loss = 0.104783565
+BiasedMFRecommender iter 477: loss = 29292.441709438433, delta_loss = 0.104173005
+BiasedMFRecommender iter 478: loss = 29292.338142300796, delta_loss = 0.10356714
+BiasedMFRecommender iter 479: loss = 29292.235176387665, delta_loss = 0.10296591
+BiasedMFRecommender iter 480: loss = 29292.132807093127, delta_loss = 0.10236929
+BiasedMFRecommender iter 481: loss = 29292.03102986874, delta_loss = 0.101777226
+BiasedMFRecommender iter 482: loss = 29291.929840193377, delta_loss = 0.10118967
+BiasedMFRecommender iter 483: loss = 29291.829233609267, delta_loss = 0.10060658
+BiasedMFRecommender iter 484: loss = 29291.729205684816, delta_loss = 0.100027926
+BiasedMFRecommender iter 485: loss = 29291.629752034514, delta_loss = 0.09945365
+BiasedMFRecommender iter 486: loss = 29291.530868305465, delta_loss = 0.098883726
+BiasedMFRecommender iter 487: loss = 29291.43255020923, delta_loss = 0.09831809
+BiasedMFRecommender iter 488: loss = 29291.33479347003, delta_loss = 0.097756736
+BiasedMFRecommender iter 489: loss = 29291.237593870894, delta_loss = 0.0971996
+BiasedMFRecommender iter 490: loss = 29291.140947233846, delta_loss = 0.09664664
+BiasedMFRecommender iter 491: loss = 29291.04484941018, delta_loss = 0.09609783
+BiasedMFRecommender iter 492: loss = 29290.94929628425, delta_loss = 0.09555312
+BiasedMFRecommender iter 493: loss = 29290.854283792072, delta_loss = 0.09501249
+BiasedMFRecommender iter 494: loss = 29290.75980791579, delta_loss = 0.09447587
+BiasedMFRecommender iter 495: loss = 29290.665864666153, delta_loss = 0.09394325
+BiasedMFRecommender iter 496: loss = 29290.572450069016, delta_loss = 0.0934146
+BiasedMFRecommender iter 497: loss = 29290.47956021698, delta_loss = 0.09288985
+BiasedMFRecommender iter 498: loss = 29290.38719122237, delta_loss = 0.092369
+BiasedMFRecommender iter 499: loss = 29290.29533924515, delta_loss = 0.09185198
+BiasedMFRecommender iter 500: loss = 29290.20400044695, delta_loss = 0.0913388
+Job Train completed.
+Job End.
+Evaluator info:MAEEvaluator is 0.7195487691755662
+Result path is result/movielens/ratings.csv-biasedmf-output/biasedmf
