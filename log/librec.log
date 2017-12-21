@@ -15495,3 +15495,16 @@ Job Train completed.
 Job End.
 Evaluator info:MAEEvaluator is 0.7195487691755662
 Result path is result/movielens/ratings.csv-biasedmf-output/biasedmf
+Dataset: data/movielens/ratings.txt
+All dataset files [data\movielens\ratings.txt]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80019
+Data size of testing is 19981
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator info:RMSEEvaluator is 0.9279211522435342
+Result path is result/movielens/ratings.txt-itemknn-output/itemknn
