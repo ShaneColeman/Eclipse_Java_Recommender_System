@@ -16232,3 +16232,304 @@ Evaluator value:MPE is 0.9926386013342535
 Evaluator value:MSE is 3.383356476089391
 Evaluator value:MAE is 1.487639154643981
 Result path is result/nvd/csv-itemcluster-output/itemcluster
+Splitter info: the index of kcv splitter times is 1
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.csv, data\movielens\ratings.txt]
+All dataset files size 4158346
+Now loading dataset file ratings
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80000
+Data size of testing is 20000
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator value:MSE is 1.54695
+Evaluator value:MAE is 1.00525
+Evaluator value:MPE is 0.7344
+Evaluator value:RMSE is 1.2437644471522733
+Result path is result/movielens-constantguess-output/constantguess-1
+Splitter info: the index of kcv splitter times is 2
+Split data to train Set and test Set successfully!
+Data size of training is 80000
+Data size of testing is 20000
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator value:MSE is 1.5517
+Evaluator value:MAE is 1.0015
+Evaluator value:MPE is 0.7264
+Evaluator value:RMSE is 1.245672509129105
+Result path is result/movielens-constantguess-output/constantguess-2
+Splitter info: the index of kcv splitter times is 3
+Split data to train Set and test Set successfully!
+Data size of training is 80000
+Data size of testing is 20000
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator value:MSE is 1.55355
+Evaluator value:MAE is 1.00245
+Evaluator value:MPE is 0.7269
+Evaluator value:RMSE is 1.2464148587047572
+Result path is result/movielens-constantguess-output/constantguess-3
+Splitter info: the index of kcv splitter times is 4
+Split data to train Set and test Set successfully!
+Data size of training is 80000
+Data size of testing is 20000
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator value:MSE is 1.5559
+Evaluator value:MAE is 1.0048
+Evaluator value:MPE is 0.72925
+Evaluator value:RMSE is 1.2473572062564917
+Result path is result/movielens-constantguess-output/constantguess-4
+Splitter info: the index of kcv splitter times is 5
+Split data to train Set and test Set successfully!
+Data size of training is 80000
+Data size of testing is 20000
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator value:MSE is 1.5313
+Evaluator value:MAE is 0.9943
+Evaluator value:MPE is 0.7258
+Evaluator value:RMSE is 1.237457069962429
+Result path is result/movielens-constantguess-output/constantguess-5
+Average Evaluation Result of Cross Validation:
+Evaluator value:MAE is 1.00166
+Evaluator value:MPE is 0.72855
+Evaluator value:RMSE is 1.2441332182410112
+Evaluator value:MSE is 1.5478800000000001
+Splitter info: the index of kcv splitter times is 1
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.csv, data\movielens\ratings.txt]
+All dataset files size 4158346
+Now loading dataset file ratings
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80000
+Data size of testing is 20000
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator value:MSE is 1.2634574789064126
+Evaluator value:MAE is 0.9432262949999993
+Evaluator value:MPE is 1.0
+Evaluator value:RMSE is 1.1240362444807608
+Result path is result/movielens-globalaverage-output/globalaverage-1
+Splitter info: the index of kcv splitter times is 2
+Split data to train Set and test Set successfully!
+Data size of training is 80000
+Data size of testing is 20000
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator value:MSE is 1.2705881406248016
+Evaluator value:MAE is 0.9468801974999951
+Evaluator value:MPE is 1.0
+Evaluator value:RMSE is 1.1272036819602753
+Result path is result/movielens-globalaverage-output/globalaverage-2
+Splitter info: the index of kcv splitter times is 3
+Split data to train Set and test Set successfully!
+Data size of training is 80000
+Data size of testing is 20000
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator value:MSE is 1.2697404876562395
+Evaluator value:MAE is 0.9460439424999888
+Evaluator value:MPE is 1.0
+Evaluator value:RMSE is 1.1268276210921702
+Result path is result/movielens-globalaverage-output/globalaverage-3
+Splitter info: the index of kcv splitter times is 4
+Split data to train Set and test Set successfully!
+Data size of training is 80000
+Data size of testing is 20000
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator value:MSE is 1.275848040625271
+Evaluator value:MAE is 0.9465502524999975
+Evaluator value:MPE is 1.0
+Evaluator value:RMSE is 1.1295344353428411
+Result path is result/movielens-globalaverage-output/globalaverage-4
+Splitter info: the index of kcv splitter times is 5
+Split data to train Set and test Set successfully!
+Data size of training is 80000
+Data size of testing is 20000
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator value:MSE is 1.2560315125001313
+Evaluator value:MAE is 0.9408131950000054
+Evaluator value:MPE is 1.0
+Evaluator value:RMSE is 1.1207281171185683
+Result path is result/movielens-globalaverage-output/globalaverage-5
+Average Evaluation Result of Cross Validation:
+Evaluator value:MAE is 0.9447027764999973
+Evaluator value:MPE is 1.0
+Evaluator value:RMSE is 1.125666019998923
+Evaluator value:MSE is 1.2671331320625712
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.csv, data\movielens\ratings.txt]
+All dataset files size 4158346
+Now loading dataset file ratings
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80019
+Data size of testing is 19981
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator value:MAE is 0.8364253337015202
+Evaluator value:MPE is 0.9921925829538061
+Evaluator value:RMSE is 1.0415420242739775
+Evaluator value:MSE is 1.0848097883287349
+Result path is result/movielens-useraverage-output/useraverage
+Splitter info: the index of kcv splitter times is 1
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.csv, data\movielens\ratings.txt]
+All dataset files size 4158346
+Now loading dataset file ratings
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80000
+Data size of testing is 20000
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator value:MSE is 1.0824463687704382
+Evaluator value:MAE is 0.8341520312926768
+Evaluator value:MPE is 0.9939
+Evaluator value:RMSE is 1.0404068284908736
+Result path is result/movielens-useraverage-output/useraverage-1
+Splitter info: the index of kcv splitter times is 2
+Split data to train Set and test Set successfully!
+Data size of training is 80000
+Data size of testing is 20000
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator value:MSE is 1.0804351847243896
+Evaluator value:MAE is 0.8349362018841002
+Evaluator value:MPE is 0.9913
+Evaluator value:RMSE is 1.03943984180153
+Result path is result/movielens-useraverage-output/useraverage-2
+Splitter info: the index of kcv splitter times is 3
+Split data to train Set and test Set successfully!
+Data size of training is 80000
+Data size of testing is 20000
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator value:MSE is 1.084372063172741
+Evaluator value:MAE is 0.8346276511152766
+Evaluator value:MPE is 0.9917
+Evaluator value:RMSE is 1.041331869853574
+Result path is result/movielens-useraverage-output/useraverage-3
+Splitter info: the index of kcv splitter times is 4
+Split data to train Set and test Set successfully!
+Data size of training is 80000
+Data size of testing is 20000
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator value:MSE is 1.0938063339630366
+Evaluator value:MAE is 0.8364997683092812
+Evaluator value:MPE is 0.98765
+Evaluator value:RMSE is 1.0458519656065273
+Result path is result/movielens-useraverage-output/useraverage-4
+Splitter info: the index of kcv splitter times is 5
+Split data to train Set and test Set successfully!
+Data size of training is 80000
+Data size of testing is 20000
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator value:MSE is 1.0832269200248617
+Evaluator value:MAE is 0.8333716345078305
+Evaluator value:MPE is 0.9884
+Evaluator value:RMSE is 1.0407818791777947
+Result path is result/movielens-useraverage-output/useraverage-5
+Average Evaluation Result of Cross Validation:
+Evaluator value:MAE is 0.834717457421833
+Evaluator value:MPE is 0.9905899999999999
+Evaluator value:RMSE is 1.0415624769860599
+Evaluator value:MSE is 1.0848573741310932
+Splitter info: the index of kcv splitter times is 1
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.csv, data\movielens\ratings.txt]
+All dataset files size 4158346
+Now loading dataset file ratings
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80000
+Data size of testing is 20000
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator value:MSE is 1.0675307015736661
+Evaluator value:MAE is 0.8239290263282893
+Evaluator value:MPE is 0.9886
+Evaluator value:RMSE is 1.0332137734146143
+Result path is result/movielens-itemaverage-output/itemaverage-1
+Splitter info: the index of kcv splitter times is 2
+Split data to train Set and test Set successfully!
+Data size of training is 80000
+Data size of testing is 20000
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator value:MSE is 1.0484658334197612
+Evaluator value:MAE is 0.8165526777430275
+Evaluator value:MPE is 0.9887
+Evaluator value:RMSE is 1.0239462063115237
+Result path is result/movielens-itemaverage-output/itemaverage-2
+Splitter info: the index of kcv splitter times is 3
+Split data to train Set and test Set successfully!
+Data size of training is 80000
+Data size of testing is 20000
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator value:MSE is 1.046464038983878
+Evaluator value:MAE is 0.8169319453466707
+Evaluator value:MPE is 0.9878
+Evaluator value:RMSE is 1.0229682492550187
+Result path is result/movielens-itemaverage-output/itemaverage-3
+Splitter info: the index of kcv splitter times is 4
+Split data to train Set and test Set successfully!
+Data size of training is 80000
+Data size of testing is 20000
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator value:MSE is 1.0536299923567851
+Evaluator value:MAE is 0.8161573441883639
+Evaluator value:MPE is 0.9885
+Evaluator value:RMSE is 1.0264648032722725
+Result path is result/movielens-itemaverage-output/itemaverage-4
+Splitter info: the index of kcv splitter times is 5
+Split data to train Set and test Set successfully!
+Data size of training is 80000
+Data size of testing is 20000
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator value:MSE is 1.0349133858888444
+Evaluator value:MAE is 0.8133278658177043
+Evaluator value:MPE is 0.9879
+Evaluator value:RMSE is 1.0173069280649003
+Result path is result/movielens-itemaverage-output/itemaverage-5
+Average Evaluation Result of Cross Validation:
+Evaluator value:MAE is 0.8173797718848113
+Evaluator value:MPE is 0.9883000000000001
+Evaluator value:RMSE is 1.024779992063666
+Evaluator value:MSE is 1.050200790444587
