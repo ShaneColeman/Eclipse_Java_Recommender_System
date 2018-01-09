@@ -16036,3 +16036,141 @@ Evaluator value:MSE is 1.091415821187473
 Evaluator value:MAE is 0.8098908315858427
 Evaluator value:MPE is 0.97501337971635
 Result path is result/movielens-nmf-output/nmf
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.csv, data\movielens\ratings.txt]
+All dataset files size 4158346
+Now loading dataset file ratings
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 70104
+Data size of testing is 29896
+Job Setup completed.
+NMFRecommender iter 0: loss = 30051.709110820644, delta_loss = -30051.709
+NMFRecommender iter 1: loss = 28295.6324926088, delta_loss = -28295.633
+NMFRecommender iter 2: loss = 27655.839378530527, delta_loss = -27655.84
+NMFRecommender iter 3: loss = 27084.948760601786, delta_loss = -27084.95
+NMFRecommender iter 4: loss = 26533.834342328217, delta_loss = -26533.834
+NMFRecommender iter 5: loss = 25994.81448473709, delta_loss = -25994.814
+Job Train completed.
+Job End.
+Evaluator value:RMSE is 0.9587830055001588
+Evaluator value:MSE is 0.9192648516359175
+Evaluator value:MAE is 0.7558567699983186
+Evaluator value:MPE is 0.9851150655606101
+Result path is result/movielens-nmf-output/nmf
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.csv, data\movielens\ratings.txt]
+All dataset files size 4158346
+Now loading dataset file ratings
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 70104
+Data size of testing is 29896
+Job Setup completed.
+NMFRecommender iter 0: loss = 30051.709110820644, delta_loss = -30051.709
+NMFRecommender iter 1: loss = 28295.6324926088, delta_loss = -28295.633
+NMFRecommender iter 2: loss = 27655.839378530527, delta_loss = -27655.84
+NMFRecommender iter 3: loss = 27084.948760601786, delta_loss = -27084.95
+NMFRecommender iter 4: loss = 26533.834342328217, delta_loss = -26533.834
+NMFRecommender iter 5: loss = 25994.81448473709, delta_loss = -25994.814
+Job Train completed.
+Job End.
+Evaluator value:RMSE is 0.9587830055001588
+Evaluator value:MSE is 0.9192648516359175
+Evaluator value:MAE is 0.7558567699983186
+Evaluator value:MPE is 0.9851150655606101
+Result path is result/movielens-nmf-output/nmf
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.csv, data\movielens\ratings.txt]
+All dataset files size 4158346
+Now loading dataset file ratings
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 70104
+Data size of testing is 29896
+Job Setup completed.
+NMFRecommender iter 0: loss = 30051.709110820644, delta_loss = -30051.709
+NMFRecommender iter 1: loss = 28295.6324926088, delta_loss = -28295.633
+NMFRecommender iter 2: loss = 27655.839378530527, delta_loss = -27655.84
+NMFRecommender iter 3: loss = 27084.948760601786, delta_loss = -27084.95
+NMFRecommender iter 4: loss = 26533.834342328217, delta_loss = -26533.834
+NMFRecommender iter 5: loss = 25994.81448473709, delta_loss = -25994.814
+Job Train completed.
+Job End.
+Evaluator value:RMSE is 0.9587830055001588
+Evaluator value:MSE is 0.9192648516359175
+Evaluator value:MAE is 0.7558567699983186
+Evaluator value:MPE is 0.9851150655606101
+Result path is result/movielens-nmf-output/nmf
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.csv, data\movielens\ratings.txt]
+All dataset files size 4158346
+Now loading dataset file ratings
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 70104
+Data size of testing is 29896
+Job Setup completed.
+NMFRecommender iter 0: loss = 30051.709110820644, delta_loss = -30051.709
+NMFRecommender iter 1: loss = 28295.6324926088, delta_loss = -28295.633
+NMFRecommender iter 2: loss = 27655.839378530527, delta_loss = -27655.84
+NMFRecommender iter 3: loss = 27084.948760601786, delta_loss = -27084.95
+NMFRecommender iter 4: loss = 26533.834342328217, delta_loss = -26533.834
+NMFRecommender iter 5: loss = 25994.81448473709, delta_loss = -25994.814
+Job Train completed.
+Job End.
+Evaluator value:RMSE is 0.9587830055001588
+Evaluator value:MSE is 0.9192648516359175
+Evaluator value:MAE is 0.7558567699983186
+Evaluator value:MPE is 0.9851150655606101
+Result path is result/movielens-nmf-output/nmf
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.csv, data\movielens\ratings.txt]
+All dataset files size 4158346
+Now loading dataset file ratings
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 73178
+Data size of testing is 26822
+Job Setup completed.
+NMFRecommender iter 0: loss = 31513.015414198064, delta_loss = -31513.016
+NMFRecommender iter 1: loss = 29708.93279041959, delta_loss = -29708.934
+NMFRecommender iter 2: loss = 29061.936745936262, delta_loss = -29061.938
+NMFRecommender iter 3: loss = 28484.71223676209, delta_loss = -28484.713
+NMFRecommender iter 4: loss = 27927.172517965708, delta_loss = -27927.172
+NMFRecommender iter 5: loss = 27381.59019334157, delta_loss = -27381.59
+Job Train completed.
+Job End.
+Evaluator value:RMSE is 0.9555475608567217
+Evaluator value:MSE is 0.9130711410592302
+Evaluator value:MAE is 0.7535862550195467
+Evaluator value:MPE is 0.9850495861606144
+Result path is result/movielens-nmf-output/nmf
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.csv, data\movielens\ratings.txt]
+All dataset files size 4158346
+Now loading dataset file ratings
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80019
+Data size of testing is 19981
+Job Setup completed.
+NMFRecommender iter 0: loss = 34679.51557841565, delta_loss = -34679.516
+NMFRecommender iter 1: loss = 32759.06403781579, delta_loss = -32759.064
+NMFRecommender iter 2: loss = 32096.251928145142, delta_loss = -32096.252
+NMFRecommender iter 3: loss = 31507.575217283247, delta_loss = -31507.576
+NMFRecommender iter 4: loss = 30939.02324216009, delta_loss = -30939.023
+NMFRecommender iter 5: loss = 30382.654106742553, delta_loss = -30382.654
+Job Train completed.
+Job End.
+Evaluator value:RMSE is 0.9507433280847057
+Evaluator value:MSE is 0.9039128758975824
+Evaluator value:MAE is 0.7513663161816333
+Evaluator value:MPE is 0.9852359741754667
+Result path is result/movielens-nmf-output/nmf
