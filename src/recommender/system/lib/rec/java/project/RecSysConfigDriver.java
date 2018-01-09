@@ -16,7 +16,7 @@ public class RecSysConfigDriver
 	 * ItemClusterRecommender
 	 */
 	//public static String CONFIGURATION_FILE = "conf/UserCluster-Baseline.properties";
-	//public static String CONFIGURATION_FILE = "conf/ItemCluster-Baseline.properties";
+	public static String CONFIGURATION_FILE = "conf/ItemCluster-Baseline.properties";
 	
 	/*
 	 * AbstractRecommender
@@ -56,7 +56,7 @@ public class RecSysConfigDriver
 	 * RBMRecommender
 	 */
 	//public static String CONFIGURATION_FILE = "conf/BiasedMF-CF-Rating.properties";
-	public static String CONFIGURATION_FILE = "conf/NMF-CF-Rating.properties";
+	//public static String CONFIGURATION_FILE = "conf/NMF-CF-Rating.properties";
 	//public static String CONFIGURATION_FILE = "conf/RBM-CF-Rating.properties";
 	
 	/*
