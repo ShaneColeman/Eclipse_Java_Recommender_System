@@ -15508,3 +15508,531 @@ Job Train completed.
 Job End.
 Evaluator info:RMSEEvaluator is 0.9279211522435342
 Result path is result/movielens/ratings.txt-itemknn-output/itemknn
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.csv, data\movielens\ratings.txt]
+All dataset files size 4158346
+Now loading dataset file ratings
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80019
+Data size of testing is 19981
+Job Setup completed.
+NMFRecommender iter 0: loss = 39537.60576214666, delta_loss = -39537.605
+NMFRecommender iter 1: loss = 37066.47572279944, delta_loss = -37066.477
+NMFRecommender iter 2: loss = 36165.6298663571, delta_loss = -36165.63
+NMFRecommender iter 3: loss = 35440.058059287134, delta_loss = -35440.06
+NMFRecommender iter 4: loss = 34814.09474381199, delta_loss = -34814.094
+NMFRecommender iter 5: loss = 34264.167533619846, delta_loss = -34264.168
+NMFRecommender iter 6: loss = 33774.960849149946, delta_loss = -33774.96
+NMFRecommender iter 7: loss = 33335.16218187117, delta_loss = -33335.164
+NMFRecommender iter 8: loss = 32936.12124877061, delta_loss = -32936.12
+NMFRecommender iter 9: loss = 32571.097463341077, delta_loss = -32571.098
+NMFRecommender iter 10: loss = 32234.763097148745, delta_loss = -32234.764
+NMFRecommender iter 11: loss = 31922.856117499687, delta_loss = -31922.855
+NMFRecommender iter 12: loss = 31631.930388988294, delta_loss = -31631.93
+NMFRecommender iter 13: loss = 31359.172295900138, delta_loss = -31359.172
+NMFRecommender iter 14: loss = 31102.263997270464, delta_loss = -31102.264
+NMFRecommender iter 15: loss = 30859.280133174303, delta_loss = -30859.28
+NMFRecommender iter 16: loss = 30628.608955764885, delta_loss = -30628.61
+NMFRecommender iter 17: loss = 30408.891554532125, delta_loss = -30408.89
+NMFRecommender iter 18: loss = 30198.97463576029, delta_loss = -30198.975
+NMFRecommender iter 19: loss = 29997.87353777699, delta_loss = -29997.873
+NMFRecommender iter 20: loss = 29804.743021970127, delta_loss = -29804.742
+NMFRecommender iter 21: loss = 29618.85399787597, delta_loss = -29618.854
+NMFRecommender iter 22: loss = 29439.574794379252, delta_loss = -29439.574
+NMFRecommender iter 23: loss = 29266.355928296685, delta_loss = -29266.355
+NMFRecommender iter 24: loss = 29098.71758087175, delta_loss = -29098.717
+NMFRecommender iter 25: loss = 28936.23919477088, delta_loss = -28936.238
+NMFRecommender iter 26: loss = 28778.550762022005, delta_loss = -28778.55
+NMFRecommender iter 27: loss = 28625.325493182867, delta_loss = -28625.326
+NMFRecommender iter 28: loss = 28476.273643260447, delta_loss = -28476.273
+NMFRecommender iter 29: loss = 28331.137324253257, delta_loss = -28331.137
+NMFRecommender iter 30: loss = 28189.686163846814, delta_loss = -28189.686
+NMFRecommender iter 31: loss = 28051.71368297773, delta_loss = -28051.713
+NMFRecommender iter 32: loss = 27917.03427015699, delta_loss = -27917.035
+NMFRecommender iter 33: loss = 27785.4806349126, delta_loss = -27785.48
+NMFRecommender iter 34: loss = 27656.901631292814, delta_loss = -27656.902
+NMFRecommender iter 35: loss = 27531.160357893605, delta_loss = -27531.16
+NMFRecommender iter 36: loss = 27408.132463651356, delta_loss = -27408.133
+NMFRecommender iter 37: loss = 27287.704616226576, delta_loss = -27287.705
+NMFRecommender iter 38: loss = 27169.773116693148, delta_loss = -27169.773
+NMFRecommender iter 39: loss = 27054.24266347341, delta_loss = -27054.242
+NMFRecommender iter 40: loss = 26941.025275125, delta_loss = -26941.025
+NMFRecommender iter 41: loss = 26830.03937606575, delta_loss = -26830.04
+NMFRecommender iter 42: loss = 26721.20903744308, delta_loss = -26721.209
+NMFRecommender iter 43: loss = 26614.46335445546, delta_loss = -26614.463
+NMFRecommender iter 44: loss = 26509.7359363059, delta_loss = -26509.736
+NMFRecommender iter 45: loss = 26406.964485746594, delta_loss = -26406.965
+NMFRecommender iter 46: loss = 26306.09044907285, delta_loss = -26306.09
+NMFRecommender iter 47: loss = 26207.058721598478, delta_loss = -26207.059
+NMFRecommender iter 48: loss = 26109.817396693605, delta_loss = -26109.818
+NMFRecommender iter 49: loss = 26014.31754851333, delta_loss = -26014.318
+NMFRecommender iter 50: loss = 25920.51304021793, delta_loss = -25920.514
+Job Train completed.
+Job End.
+Evaluator info:MAEEvaluator is 0.7868538452403016
+Result path is result/movielens-nmf-output/nmf
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.csv, data\movielens\ratings.txt]
+All dataset files size 4158346
+Now loading dataset file ratings
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 70104
+Data size of testing is 29896
+Job Setup completed.
+NMFRecommender iter 0: loss = 34249.263594628515, delta_loss = -34249.26
+NMFRecommender iter 1: loss = 31993.277411981595, delta_loss = -31993.277
+NMFRecommender iter 2: loss = 31167.321382233557, delta_loss = -31167.322
+NMFRecommender iter 3: loss = 30500.439395658406, delta_loss = -30500.44
+NMFRecommender iter 4: loss = 29924.19106781731, delta_loss = -29924.191
+NMFRecommender iter 5: loss = 29417.02278828523, delta_loss = -29417.023
+NMFRecommender iter 6: loss = 28964.922792597354, delta_loss = -28964.922
+NMFRecommender iter 7: loss = 28557.57931757409, delta_loss = -28557.58
+NMFRecommender iter 8: loss = 28187.14455617852, delta_loss = -28187.145
+NMFRecommender iter 9: loss = 27847.53234143246, delta_loss = -27847.533
+NMFRecommender iter 10: loss = 27533.952944996723, delta_loss = -27533.953
+NMFRecommender iter 11: loss = 27242.58812595108, delta_loss = -27242.588
+NMFRecommender iter 12: loss = 26970.35787847196, delta_loss = -26970.357
+NMFRecommender iter 13: loss = 26714.750122709414, delta_loss = -26714.75
+NMFRecommender iter 14: loss = 26473.69495886784, delta_loss = -26473.695
+NMFRecommender iter 15: loss = 26245.471089194143, delta_loss = -26245.47
+NMFRecommender iter 16: loss = 26028.63564489218, delta_loss = -26028.635
+NMFRecommender iter 17: loss = 25821.971019619836, delta_loss = -25821.97
+NMFRecommender iter 18: loss = 25624.44400263261, delta_loss = -25624.443
+NMFRecommender iter 19: loss = 25435.173798797423, delta_loss = -25435.174
+NMFRecommender iter 20: loss = 25253.406521124238, delta_loss = -25253.406
+NMFRecommender iter 21: loss = 25078.494484225608, delta_loss = -25078.494
+NMFRecommender iter 22: loss = 24909.879151922407, delta_loss = -24909.879
+NMFRecommender iter 23: loss = 24747.076946955265, delta_loss = -24747.076
+NMFRecommender iter 24: loss = 24589.667365406443, delta_loss = -24589.668
+NMFRecommender iter 25: loss = 24437.282993614037, delta_loss = -24437.283
+NMFRecommender iter 26: loss = 24289.601127782495, delta_loss = -24289.602
+NMFRecommender iter 27: loss = 24146.3367611307, delta_loss = -24146.336
+NMFRecommender iter 28: loss = 24007.23673934997, delta_loss = -24007.236
+NMFRecommender iter 29: loss = 23872.074901108732, delta_loss = -23872.074
+NMFRecommender iter 30: loss = 23740.648027231746, delta_loss = -23740.648
+NMFRecommender iter 31: loss = 23612.77243206317, delta_loss = -23612.771
+NMFRecommender iter 32: loss = 23488.28105204941, delta_loss = -23488.281
+NMFRecommender iter 33: loss = 23367.020921294737, delta_loss = -23367.021
+NMFRecommender iter 34: loss = 23248.850965371505, delta_loss = -23248.852
+NMFRecommender iter 35: loss = 23133.640082439633, delta_loss = -23133.64
+NMFRecommender iter 36: loss = 23021.26550611321, delta_loss = -23021.266
+NMFRecommender iter 37: loss = 22911.611454874776, delta_loss = -22911.611
+NMFRecommender iter 38: loss = 22804.568070790825, delta_loss = -22804.568
+NMFRecommender iter 39: loss = 22700.03064009055, delta_loss = -22700.031
+NMFRecommender iter 40: loss = 22597.89907307359, delta_loss = -22597.898
+NMFRecommender iter 41: loss = 22498.07760422335, delta_loss = -22498.078
+NMFRecommender iter 42: loss = 22400.474659732987, delta_loss = -22400.475
+NMFRecommender iter 43: loss = 22305.002833564366, delta_loss = -22305.002
+NMFRecommender iter 44: loss = 22211.578916492228, delta_loss = -22211.578
+NMFRecommender iter 45: loss = 22120.12393358422, delta_loss = -22120.123
+NMFRecommender iter 46: loss = 22030.563160103186, delta_loss = -22030.562
+NMFRecommender iter 47: loss = 21942.826099698417, delta_loss = -21942.826
+NMFRecommender iter 48: loss = 21856.846419487465, delta_loss = -21856.846
+NMFRecommender iter 49: loss = 21772.561843579148, delta_loss = -21772.562
+NMFRecommender iter 50: loss = 21689.914010308577, delta_loss = -21689.914
+NMFRecommender iter 51: loss = 21608.84830008062, delta_loss = -21608.848
+NMFRecommender iter 52: loss = 21529.313641132423, delta_loss = -21529.314
+NMFRecommender iter 53: loss = 21451.26230037336, delta_loss = -21451.262
+NMFRecommender iter 54: loss = 21374.649665976758, delta_loss = -21374.65
+NMFRecommender iter 55: loss = 21299.43402770398, delta_loss = -21299.434
+NMFRecommender iter 56: loss = 21225.5763600212, delta_loss = -21225.576
+NMFRecommender iter 57: loss = 21153.04011202596, delta_loss = -21153.041
+NMFRecommender iter 58: loss = 21081.791007132186, delta_loss = -21081.791
+NMFRecommender iter 59: loss = 21011.796854539643, delta_loss = -21011.797
+NMFRecommender iter 60: loss = 20943.02737367723, delta_loss = -20943.027
+NMFRecommender iter 61: loss = 20875.454032173875, delta_loss = -20875.453
+NMFRecommender iter 62: loss = 20809.049897302, delta_loss = -20809.05
+NMFRecommender iter 63: loss = 20743.789500293107, delta_loss = -20743.79
+NMFRecommender iter 64: loss = 20679.648712411923, delta_loss = -20679.648
+NMFRecommender iter 65: loss = 20616.604631253616, delta_loss = -20616.605
+NMFRecommender iter 66: loss = 20554.635475494786, delta_loss = -20554.635
+NMFRecommender iter 67: loss = 20493.720486288596, delta_loss = -20493.72
+NMFRecommender iter 68: loss = 20433.839833699043, delta_loss = -20433.84
+NMFRecommender iter 69: loss = 20374.97452692282, delta_loss = -20374.975
+NMFRecommender iter 70: loss = 20317.10632754447, delta_loss = -20317.105
+NMFRecommender iter 71: loss = 20260.21766554688, delta_loss = -20260.217
+NMFRecommender iter 72: loss = 20204.291558251647, delta_loss = -20204.291
+NMFRecommender iter 73: loss = 20149.311532718275, delta_loss = -20149.312
+NMFRecommender iter 74: loss = 20095.261552343643, delta_loss = -20095.262
+NMFRecommender iter 75: loss = 20042.125948520297, delta_loss = -20042.125
+NMFRecommender iter 76: loss = 19989.889358240638, delta_loss = -19989.889
+NMFRecommender iter 77: loss = 19938.536668483717, delta_loss = -19938.537
+NMFRecommender iter 78: loss = 19888.052968212243, delta_loss = -19888.053
+NMFRecommender iter 79: loss = 19838.42350879486, delta_loss = -19838.424
+NMFRecommender iter 80: loss = 19789.633673774857, delta_loss = -19789.633
+NMFRecommender iter 81: loss = 19741.668959124272, delta_loss = -19741.67
+NMFRecommender iter 82: loss = 19694.51496544999, delta_loss = -19694.516
+NMFRecommender iter 83: loss = 19648.15740404886, delta_loss = -19648.158
+NMFRecommender iter 84: loss = 19602.582119099916, delta_loss = -19602.582
+NMFRecommender iter 85: loss = 19557.775128419064, delta_loss = -19557.775
+NMFRecommender iter 86: loss = 19513.72268471855, delta_loss = -19513.723
+NMFRecommender iter 87: loss = 19470.411357710655, delta_loss = -19470.412
+NMFRecommender iter 88: loss = 19427.82813421194, delta_loss = -19427.828
+NMFRecommender iter 89: loss = 19385.960528327054, delta_loss = -19385.96
+NMFRecommender iter 90: loss = 19344.79668733265, delta_loss = -19344.797
+NMFRecommender iter 91: loss = 19304.325472439108, delta_loss = -19304.326
+NMFRecommender iter 92: loss = 19264.5364898554, delta_loss = -19264.537
+NMFRecommender iter 93: loss = 19225.420049689117, delta_loss = -19225.42
+NMFRecommender iter 94: loss = 19186.96704040637, delta_loss = -19186.967
+NMFRecommender iter 95: loss = 19149.16872425664, delta_loss = -19149.168
+NMFRecommender iter 96: loss = 19112.016479700054, delta_loss = -19112.016
+NMFRecommender iter 97: loss = 19075.501533186343, delta_loss = -19075.502
+NMFRecommender iter 98: loss = 19039.614727659286, delta_loss = -19039.615
+NMFRecommender iter 99: loss = 19004.34636637462, delta_loss = -19004.346
+NMFRecommender iter 100: loss = 18969.686151179907, delta_loss = -18969.686
+Job Train completed.
+Job End.
+Evaluator info:MAEEvaluator is 0.8098908315858427
+Result path is result/movielens-nmf-output/nmf
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.csv, data\movielens\ratings.txt]
+All dataset files size 4158346
+Now loading dataset file ratings
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 70104
+Data size of testing is 29896
+Job Setup completed.
+NMFRecommender iter 0: loss = 34249.263594628515, delta_loss = -34249.26
+NMFRecommender iter 1: loss = 31993.277411981595, delta_loss = -31993.277
+NMFRecommender iter 2: loss = 31167.321382233557, delta_loss = -31167.322
+NMFRecommender iter 3: loss = 30500.439395658406, delta_loss = -30500.44
+NMFRecommender iter 4: loss = 29924.19106781731, delta_loss = -29924.191
+NMFRecommender iter 5: loss = 29417.02278828523, delta_loss = -29417.023
+NMFRecommender iter 6: loss = 28964.922792597354, delta_loss = -28964.922
+NMFRecommender iter 7: loss = 28557.57931757409, delta_loss = -28557.58
+NMFRecommender iter 8: loss = 28187.14455617852, delta_loss = -28187.145
+NMFRecommender iter 9: loss = 27847.53234143246, delta_loss = -27847.533
+NMFRecommender iter 10: loss = 27533.952944996723, delta_loss = -27533.953
+NMFRecommender iter 11: loss = 27242.58812595108, delta_loss = -27242.588
+NMFRecommender iter 12: loss = 26970.35787847196, delta_loss = -26970.357
+NMFRecommender iter 13: loss = 26714.750122709414, delta_loss = -26714.75
+NMFRecommender iter 14: loss = 26473.69495886784, delta_loss = -26473.695
+NMFRecommender iter 15: loss = 26245.471089194143, delta_loss = -26245.47
+NMFRecommender iter 16: loss = 26028.63564489218, delta_loss = -26028.635
+NMFRecommender iter 17: loss = 25821.971019619836, delta_loss = -25821.97
+NMFRecommender iter 18: loss = 25624.44400263261, delta_loss = -25624.443
+NMFRecommender iter 19: loss = 25435.173798797423, delta_loss = -25435.174
+NMFRecommender iter 20: loss = 25253.406521124238, delta_loss = -25253.406
+NMFRecommender iter 21: loss = 25078.494484225608, delta_loss = -25078.494
+NMFRecommender iter 22: loss = 24909.879151922407, delta_loss = -24909.879
+NMFRecommender iter 23: loss = 24747.076946955265, delta_loss = -24747.076
+NMFRecommender iter 24: loss = 24589.667365406443, delta_loss = -24589.668
+NMFRecommender iter 25: loss = 24437.282993614037, delta_loss = -24437.283
+NMFRecommender iter 26: loss = 24289.601127782495, delta_loss = -24289.602
+NMFRecommender iter 27: loss = 24146.3367611307, delta_loss = -24146.336
+NMFRecommender iter 28: loss = 24007.23673934997, delta_loss = -24007.236
+NMFRecommender iter 29: loss = 23872.074901108732, delta_loss = -23872.074
+NMFRecommender iter 30: loss = 23740.648027231746, delta_loss = -23740.648
+NMFRecommender iter 31: loss = 23612.77243206317, delta_loss = -23612.771
+NMFRecommender iter 32: loss = 23488.28105204941, delta_loss = -23488.281
+NMFRecommender iter 33: loss = 23367.020921294737, delta_loss = -23367.021
+NMFRecommender iter 34: loss = 23248.850965371505, delta_loss = -23248.852
+NMFRecommender iter 35: loss = 23133.640082439633, delta_loss = -23133.64
+NMFRecommender iter 36: loss = 23021.26550611321, delta_loss = -23021.266
+NMFRecommender iter 37: loss = 22911.611454874776, delta_loss = -22911.611
+NMFRecommender iter 38: loss = 22804.568070790825, delta_loss = -22804.568
+NMFRecommender iter 39: loss = 22700.03064009055, delta_loss = -22700.031
+NMFRecommender iter 40: loss = 22597.89907307359, delta_loss = -22597.898
+NMFRecommender iter 41: loss = 22498.07760422335, delta_loss = -22498.078
+NMFRecommender iter 42: loss = 22400.474659732987, delta_loss = -22400.475
+NMFRecommender iter 43: loss = 22305.002833564366, delta_loss = -22305.002
+NMFRecommender iter 44: loss = 22211.578916492228, delta_loss = -22211.578
+NMFRecommender iter 45: loss = 22120.12393358422, delta_loss = -22120.123
+NMFRecommender iter 46: loss = 22030.563160103186, delta_loss = -22030.562
+NMFRecommender iter 47: loss = 21942.826099698417, delta_loss = -21942.826
+NMFRecommender iter 48: loss = 21856.846419487465, delta_loss = -21856.846
+NMFRecommender iter 49: loss = 21772.561843579148, delta_loss = -21772.562
+NMFRecommender iter 50: loss = 21689.914010308577, delta_loss = -21689.914
+NMFRecommender iter 51: loss = 21608.84830008062, delta_loss = -21608.848
+NMFRecommender iter 52: loss = 21529.313641132423, delta_loss = -21529.314
+NMFRecommender iter 53: loss = 21451.26230037336, delta_loss = -21451.262
+NMFRecommender iter 54: loss = 21374.649665976758, delta_loss = -21374.65
+NMFRecommender iter 55: loss = 21299.43402770398, delta_loss = -21299.434
+NMFRecommender iter 56: loss = 21225.5763600212, delta_loss = -21225.576
+NMFRecommender iter 57: loss = 21153.04011202596, delta_loss = -21153.041
+NMFRecommender iter 58: loss = 21081.791007132186, delta_loss = -21081.791
+NMFRecommender iter 59: loss = 21011.796854539643, delta_loss = -21011.797
+NMFRecommender iter 60: loss = 20943.02737367723, delta_loss = -20943.027
+NMFRecommender iter 61: loss = 20875.454032173875, delta_loss = -20875.453
+NMFRecommender iter 62: loss = 20809.049897302, delta_loss = -20809.05
+NMFRecommender iter 63: loss = 20743.789500293107, delta_loss = -20743.79
+NMFRecommender iter 64: loss = 20679.648712411923, delta_loss = -20679.648
+NMFRecommender iter 65: loss = 20616.604631253616, delta_loss = -20616.605
+NMFRecommender iter 66: loss = 20554.635475494786, delta_loss = -20554.635
+NMFRecommender iter 67: loss = 20493.720486288596, delta_loss = -20493.72
+NMFRecommender iter 68: loss = 20433.839833699043, delta_loss = -20433.84
+NMFRecommender iter 69: loss = 20374.97452692282, delta_loss = -20374.975
+NMFRecommender iter 70: loss = 20317.10632754447, delta_loss = -20317.105
+NMFRecommender iter 71: loss = 20260.21766554688, delta_loss = -20260.217
+NMFRecommender iter 72: loss = 20204.291558251647, delta_loss = -20204.291
+NMFRecommender iter 73: loss = 20149.311532718275, delta_loss = -20149.312
+NMFRecommender iter 74: loss = 20095.261552343643, delta_loss = -20095.262
+NMFRecommender iter 75: loss = 20042.125948520297, delta_loss = -20042.125
+NMFRecommender iter 76: loss = 19989.889358240638, delta_loss = -19989.889
+NMFRecommender iter 77: loss = 19938.536668483717, delta_loss = -19938.537
+NMFRecommender iter 78: loss = 19888.052968212243, delta_loss = -19888.053
+NMFRecommender iter 79: loss = 19838.42350879486, delta_loss = -19838.424
+NMFRecommender iter 80: loss = 19789.633673774857, delta_loss = -19789.633
+NMFRecommender iter 81: loss = 19741.668959124272, delta_loss = -19741.67
+NMFRecommender iter 82: loss = 19694.51496544999, delta_loss = -19694.516
+NMFRecommender iter 83: loss = 19648.15740404886, delta_loss = -19648.158
+NMFRecommender iter 84: loss = 19602.582119099916, delta_loss = -19602.582
+NMFRecommender iter 85: loss = 19557.775128419064, delta_loss = -19557.775
+NMFRecommender iter 86: loss = 19513.72268471855, delta_loss = -19513.723
+NMFRecommender iter 87: loss = 19470.411357710655, delta_loss = -19470.412
+NMFRecommender iter 88: loss = 19427.82813421194, delta_loss = -19427.828
+NMFRecommender iter 89: loss = 19385.960528327054, delta_loss = -19385.96
+NMFRecommender iter 90: loss = 19344.79668733265, delta_loss = -19344.797
+NMFRecommender iter 91: loss = 19304.325472439108, delta_loss = -19304.326
+NMFRecommender iter 92: loss = 19264.5364898554, delta_loss = -19264.537
+NMFRecommender iter 93: loss = 19225.420049689117, delta_loss = -19225.42
+NMFRecommender iter 94: loss = 19186.96704040637, delta_loss = -19186.967
+NMFRecommender iter 95: loss = 19149.16872425664, delta_loss = -19149.168
+NMFRecommender iter 96: loss = 19112.016479700054, delta_loss = -19112.016
+NMFRecommender iter 97: loss = 19075.501533186343, delta_loss = -19075.502
+NMFRecommender iter 98: loss = 19039.614727659286, delta_loss = -19039.615
+NMFRecommender iter 99: loss = 19004.34636637462, delta_loss = -19004.346
+NMFRecommender iter 100: loss = 18969.686151179907, delta_loss = -18969.686
+Job Train completed.
+Job End.
+Evaluator info:MAEEvaluator is 0.8098908315858427
+Result path is result/movielens-nmf-output/nmf
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.csv, data\movielens\ratings.txt]
+All dataset files size 4158346
+Now loading dataset file ratings
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 70104
+Data size of testing is 29896
+Job Setup completed.
+NMFRecommender iter 0: loss = 34249.263594628515, delta_loss = -34249.26
+NMFRecommender iter 1: loss = 31993.277411981595, delta_loss = -31993.277
+NMFRecommender iter 2: loss = 31167.321382233557, delta_loss = -31167.322
+NMFRecommender iter 3: loss = 30500.439395658406, delta_loss = -30500.44
+NMFRecommender iter 4: loss = 29924.19106781731, delta_loss = -29924.191
+NMFRecommender iter 5: loss = 29417.02278828523, delta_loss = -29417.023
+NMFRecommender iter 6: loss = 28964.922792597354, delta_loss = -28964.922
+NMFRecommender iter 7: loss = 28557.57931757409, delta_loss = -28557.58
+NMFRecommender iter 8: loss = 28187.14455617852, delta_loss = -28187.145
+NMFRecommender iter 9: loss = 27847.53234143246, delta_loss = -27847.533
+NMFRecommender iter 10: loss = 27533.952944996723, delta_loss = -27533.953
+NMFRecommender iter 11: loss = 27242.58812595108, delta_loss = -27242.588
+NMFRecommender iter 12: loss = 26970.35787847196, delta_loss = -26970.357
+NMFRecommender iter 13: loss = 26714.750122709414, delta_loss = -26714.75
+NMFRecommender iter 14: loss = 26473.69495886784, delta_loss = -26473.695
+NMFRecommender iter 15: loss = 26245.471089194143, delta_loss = -26245.47
+NMFRecommender iter 16: loss = 26028.63564489218, delta_loss = -26028.635
+NMFRecommender iter 17: loss = 25821.971019619836, delta_loss = -25821.97
+NMFRecommender iter 18: loss = 25624.44400263261, delta_loss = -25624.443
+NMFRecommender iter 19: loss = 25435.173798797423, delta_loss = -25435.174
+NMFRecommender iter 20: loss = 25253.406521124238, delta_loss = -25253.406
+NMFRecommender iter 21: loss = 25078.494484225608, delta_loss = -25078.494
+NMFRecommender iter 22: loss = 24909.879151922407, delta_loss = -24909.879
+NMFRecommender iter 23: loss = 24747.076946955265, delta_loss = -24747.076
+NMFRecommender iter 24: loss = 24589.667365406443, delta_loss = -24589.668
+NMFRecommender iter 25: loss = 24437.282993614037, delta_loss = -24437.283
+NMFRecommender iter 26: loss = 24289.601127782495, delta_loss = -24289.602
+NMFRecommender iter 27: loss = 24146.3367611307, delta_loss = -24146.336
+NMFRecommender iter 28: loss = 24007.23673934997, delta_loss = -24007.236
+NMFRecommender iter 29: loss = 23872.074901108732, delta_loss = -23872.074
+NMFRecommender iter 30: loss = 23740.648027231746, delta_loss = -23740.648
+NMFRecommender iter 31: loss = 23612.77243206317, delta_loss = -23612.771
+NMFRecommender iter 32: loss = 23488.28105204941, delta_loss = -23488.281
+NMFRecommender iter 33: loss = 23367.020921294737, delta_loss = -23367.021
+NMFRecommender iter 34: loss = 23248.850965371505, delta_loss = -23248.852
+NMFRecommender iter 35: loss = 23133.640082439633, delta_loss = -23133.64
+NMFRecommender iter 36: loss = 23021.26550611321, delta_loss = -23021.266
+NMFRecommender iter 37: loss = 22911.611454874776, delta_loss = -22911.611
+NMFRecommender iter 38: loss = 22804.568070790825, delta_loss = -22804.568
+NMFRecommender iter 39: loss = 22700.03064009055, delta_loss = -22700.031
+NMFRecommender iter 40: loss = 22597.89907307359, delta_loss = -22597.898
+NMFRecommender iter 41: loss = 22498.07760422335, delta_loss = -22498.078
+NMFRecommender iter 42: loss = 22400.474659732987, delta_loss = -22400.475
+NMFRecommender iter 43: loss = 22305.002833564366, delta_loss = -22305.002
+NMFRecommender iter 44: loss = 22211.578916492228, delta_loss = -22211.578
+NMFRecommender iter 45: loss = 22120.12393358422, delta_loss = -22120.123
+NMFRecommender iter 46: loss = 22030.563160103186, delta_loss = -22030.562
+NMFRecommender iter 47: loss = 21942.826099698417, delta_loss = -21942.826
+NMFRecommender iter 48: loss = 21856.846419487465, delta_loss = -21856.846
+NMFRecommender iter 49: loss = 21772.561843579148, delta_loss = -21772.562
+NMFRecommender iter 50: loss = 21689.914010308577, delta_loss = -21689.914
+NMFRecommender iter 51: loss = 21608.84830008062, delta_loss = -21608.848
+NMFRecommender iter 52: loss = 21529.313641132423, delta_loss = -21529.314
+NMFRecommender iter 53: loss = 21451.26230037336, delta_loss = -21451.262
+NMFRecommender iter 54: loss = 21374.649665976758, delta_loss = -21374.65
+NMFRecommender iter 55: loss = 21299.43402770398, delta_loss = -21299.434
+NMFRecommender iter 56: loss = 21225.5763600212, delta_loss = -21225.576
+NMFRecommender iter 57: loss = 21153.04011202596, delta_loss = -21153.041
+NMFRecommender iter 58: loss = 21081.791007132186, delta_loss = -21081.791
+NMFRecommender iter 59: loss = 21011.796854539643, delta_loss = -21011.797
+NMFRecommender iter 60: loss = 20943.02737367723, delta_loss = -20943.027
+NMFRecommender iter 61: loss = 20875.454032173875, delta_loss = -20875.453
+NMFRecommender iter 62: loss = 20809.049897302, delta_loss = -20809.05
+NMFRecommender iter 63: loss = 20743.789500293107, delta_loss = -20743.79
+NMFRecommender iter 64: loss = 20679.648712411923, delta_loss = -20679.648
+NMFRecommender iter 65: loss = 20616.604631253616, delta_loss = -20616.605
+NMFRecommender iter 66: loss = 20554.635475494786, delta_loss = -20554.635
+NMFRecommender iter 67: loss = 20493.720486288596, delta_loss = -20493.72
+NMFRecommender iter 68: loss = 20433.839833699043, delta_loss = -20433.84
+NMFRecommender iter 69: loss = 20374.97452692282, delta_loss = -20374.975
+NMFRecommender iter 70: loss = 20317.10632754447, delta_loss = -20317.105
+NMFRecommender iter 71: loss = 20260.21766554688, delta_loss = -20260.217
+NMFRecommender iter 72: loss = 20204.291558251647, delta_loss = -20204.291
+NMFRecommender iter 73: loss = 20149.311532718275, delta_loss = -20149.312
+NMFRecommender iter 74: loss = 20095.261552343643, delta_loss = -20095.262
+NMFRecommender iter 75: loss = 20042.125948520297, delta_loss = -20042.125
+NMFRecommender iter 76: loss = 19989.889358240638, delta_loss = -19989.889
+NMFRecommender iter 77: loss = 19938.536668483717, delta_loss = -19938.537
+NMFRecommender iter 78: loss = 19888.052968212243, delta_loss = -19888.053
+NMFRecommender iter 79: loss = 19838.42350879486, delta_loss = -19838.424
+NMFRecommender iter 80: loss = 19789.633673774857, delta_loss = -19789.633
+NMFRecommender iter 81: loss = 19741.668959124272, delta_loss = -19741.67
+NMFRecommender iter 82: loss = 19694.51496544999, delta_loss = -19694.516
+NMFRecommender iter 83: loss = 19648.15740404886, delta_loss = -19648.158
+NMFRecommender iter 84: loss = 19602.582119099916, delta_loss = -19602.582
+NMFRecommender iter 85: loss = 19557.775128419064, delta_loss = -19557.775
+NMFRecommender iter 86: loss = 19513.72268471855, delta_loss = -19513.723
+NMFRecommender iter 87: loss = 19470.411357710655, delta_loss = -19470.412
+NMFRecommender iter 88: loss = 19427.82813421194, delta_loss = -19427.828
+NMFRecommender iter 89: loss = 19385.960528327054, delta_loss = -19385.96
+NMFRecommender iter 90: loss = 19344.79668733265, delta_loss = -19344.797
+NMFRecommender iter 91: loss = 19304.325472439108, delta_loss = -19304.326
+NMFRecommender iter 92: loss = 19264.5364898554, delta_loss = -19264.537
+NMFRecommender iter 93: loss = 19225.420049689117, delta_loss = -19225.42
+NMFRecommender iter 94: loss = 19186.96704040637, delta_loss = -19186.967
+NMFRecommender iter 95: loss = 19149.16872425664, delta_loss = -19149.168
+NMFRecommender iter 96: loss = 19112.016479700054, delta_loss = -19112.016
+NMFRecommender iter 97: loss = 19075.501533186343, delta_loss = -19075.502
+NMFRecommender iter 98: loss = 19039.614727659286, delta_loss = -19039.615
+NMFRecommender iter 99: loss = 19004.34636637462, delta_loss = -19004.346
+NMFRecommender iter 100: loss = 18969.686151179907, delta_loss = -18969.686
+Job Train completed.
+Job End.
+Evaluator info:AUCEvaluator is 0.5074544135746981
+Result path is result/movielens-nmf-output/nmf
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.csv, data\movielens\ratings.txt]
+All dataset files size 4158346
+Now loading dataset file ratings
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 70104
+Data size of testing is 29896
+Job Setup completed.
+NMFRecommender iter 0: loss = 34249.263594628515, delta_loss = -34249.26
+NMFRecommender iter 1: loss = 31993.277411981595, delta_loss = -31993.277
+NMFRecommender iter 2: loss = 31167.321382233557, delta_loss = -31167.322
+NMFRecommender iter 3: loss = 30500.439395658406, delta_loss = -30500.44
+NMFRecommender iter 4: loss = 29924.19106781731, delta_loss = -29924.191
+NMFRecommender iter 5: loss = 29417.02278828523, delta_loss = -29417.023
+NMFRecommender iter 6: loss = 28964.922792597354, delta_loss = -28964.922
+NMFRecommender iter 7: loss = 28557.57931757409, delta_loss = -28557.58
+NMFRecommender iter 8: loss = 28187.14455617852, delta_loss = -28187.145
+NMFRecommender iter 9: loss = 27847.53234143246, delta_loss = -27847.533
+NMFRecommender iter 10: loss = 27533.952944996723, delta_loss = -27533.953
+NMFRecommender iter 11: loss = 27242.58812595108, delta_loss = -27242.588
+NMFRecommender iter 12: loss = 26970.35787847196, delta_loss = -26970.357
+NMFRecommender iter 13: loss = 26714.750122709414, delta_loss = -26714.75
+NMFRecommender iter 14: loss = 26473.69495886784, delta_loss = -26473.695
+NMFRecommender iter 15: loss = 26245.471089194143, delta_loss = -26245.47
+NMFRecommender iter 16: loss = 26028.63564489218, delta_loss = -26028.635
+NMFRecommender iter 17: loss = 25821.971019619836, delta_loss = -25821.97
+NMFRecommender iter 18: loss = 25624.44400263261, delta_loss = -25624.443
+NMFRecommender iter 19: loss = 25435.173798797423, delta_loss = -25435.174
+NMFRecommender iter 20: loss = 25253.406521124238, delta_loss = -25253.406
+NMFRecommender iter 21: loss = 25078.494484225608, delta_loss = -25078.494
+NMFRecommender iter 22: loss = 24909.879151922407, delta_loss = -24909.879
+NMFRecommender iter 23: loss = 24747.076946955265, delta_loss = -24747.076
+NMFRecommender iter 24: loss = 24589.667365406443, delta_loss = -24589.668
+NMFRecommender iter 25: loss = 24437.282993614037, delta_loss = -24437.283
+NMFRecommender iter 26: loss = 24289.601127782495, delta_loss = -24289.602
+NMFRecommender iter 27: loss = 24146.3367611307, delta_loss = -24146.336
+NMFRecommender iter 28: loss = 24007.23673934997, delta_loss = -24007.236
+NMFRecommender iter 29: loss = 23872.074901108732, delta_loss = -23872.074
+NMFRecommender iter 30: loss = 23740.648027231746, delta_loss = -23740.648
+NMFRecommender iter 31: loss = 23612.77243206317, delta_loss = -23612.771
+NMFRecommender iter 32: loss = 23488.28105204941, delta_loss = -23488.281
+NMFRecommender iter 33: loss = 23367.020921294737, delta_loss = -23367.021
+NMFRecommender iter 34: loss = 23248.850965371505, delta_loss = -23248.852
+NMFRecommender iter 35: loss = 23133.640082439633, delta_loss = -23133.64
+NMFRecommender iter 36: loss = 23021.26550611321, delta_loss = -23021.266
+NMFRecommender iter 37: loss = 22911.611454874776, delta_loss = -22911.611
+NMFRecommender iter 38: loss = 22804.568070790825, delta_loss = -22804.568
+NMFRecommender iter 39: loss = 22700.03064009055, delta_loss = -22700.031
+NMFRecommender iter 40: loss = 22597.89907307359, delta_loss = -22597.898
+NMFRecommender iter 41: loss = 22498.07760422335, delta_loss = -22498.078
+NMFRecommender iter 42: loss = 22400.474659732987, delta_loss = -22400.475
+NMFRecommender iter 43: loss = 22305.002833564366, delta_loss = -22305.002
+NMFRecommender iter 44: loss = 22211.578916492228, delta_loss = -22211.578
+NMFRecommender iter 45: loss = 22120.12393358422, delta_loss = -22120.123
+NMFRecommender iter 46: loss = 22030.563160103186, delta_loss = -22030.562
+NMFRecommender iter 47: loss = 21942.826099698417, delta_loss = -21942.826
+NMFRecommender iter 48: loss = 21856.846419487465, delta_loss = -21856.846
+NMFRecommender iter 49: loss = 21772.561843579148, delta_loss = -21772.562
+NMFRecommender iter 50: loss = 21689.914010308577, delta_loss = -21689.914
+NMFRecommender iter 51: loss = 21608.84830008062, delta_loss = -21608.848
+NMFRecommender iter 52: loss = 21529.313641132423, delta_loss = -21529.314
+NMFRecommender iter 53: loss = 21451.26230037336, delta_loss = -21451.262
+NMFRecommender iter 54: loss = 21374.649665976758, delta_loss = -21374.65
+NMFRecommender iter 55: loss = 21299.43402770398, delta_loss = -21299.434
+NMFRecommender iter 56: loss = 21225.5763600212, delta_loss = -21225.576
+NMFRecommender iter 57: loss = 21153.04011202596, delta_loss = -21153.041
+NMFRecommender iter 58: loss = 21081.791007132186, delta_loss = -21081.791
+NMFRecommender iter 59: loss = 21011.796854539643, delta_loss = -21011.797
+NMFRecommender iter 60: loss = 20943.02737367723, delta_loss = -20943.027
+NMFRecommender iter 61: loss = 20875.454032173875, delta_loss = -20875.453
+NMFRecommender iter 62: loss = 20809.049897302, delta_loss = -20809.05
+NMFRecommender iter 63: loss = 20743.789500293107, delta_loss = -20743.79
+NMFRecommender iter 64: loss = 20679.648712411923, delta_loss = -20679.648
+NMFRecommender iter 65: loss = 20616.604631253616, delta_loss = -20616.605
+NMFRecommender iter 66: loss = 20554.635475494786, delta_loss = -20554.635
+NMFRecommender iter 67: loss = 20493.720486288596, delta_loss = -20493.72
+NMFRecommender iter 68: loss = 20433.839833699043, delta_loss = -20433.84
+NMFRecommender iter 69: loss = 20374.97452692282, delta_loss = -20374.975
+NMFRecommender iter 70: loss = 20317.10632754447, delta_loss = -20317.105
+NMFRecommender iter 71: loss = 20260.21766554688, delta_loss = -20260.217
+NMFRecommender iter 72: loss = 20204.291558251647, delta_loss = -20204.291
+NMFRecommender iter 73: loss = 20149.311532718275, delta_loss = -20149.312
+NMFRecommender iter 74: loss = 20095.261552343643, delta_loss = -20095.262
+NMFRecommender iter 75: loss = 20042.125948520297, delta_loss = -20042.125
+NMFRecommender iter 76: loss = 19989.889358240638, delta_loss = -19989.889
+NMFRecommender iter 77: loss = 19938.536668483717, delta_loss = -19938.537
+NMFRecommender iter 78: loss = 19888.052968212243, delta_loss = -19888.053
+NMFRecommender iter 79: loss = 19838.42350879486, delta_loss = -19838.424
+NMFRecommender iter 80: loss = 19789.633673774857, delta_loss = -19789.633
+NMFRecommender iter 81: loss = 19741.668959124272, delta_loss = -19741.67
+NMFRecommender iter 82: loss = 19694.51496544999, delta_loss = -19694.516
+NMFRecommender iter 83: loss = 19648.15740404886, delta_loss = -19648.158
+NMFRecommender iter 84: loss = 19602.582119099916, delta_loss = -19602.582
+NMFRecommender iter 85: loss = 19557.775128419064, delta_loss = -19557.775
+NMFRecommender iter 86: loss = 19513.72268471855, delta_loss = -19513.723
+NMFRecommender iter 87: loss = 19470.411357710655, delta_loss = -19470.412
+NMFRecommender iter 88: loss = 19427.82813421194, delta_loss = -19427.828
+NMFRecommender iter 89: loss = 19385.960528327054, delta_loss = -19385.96
+NMFRecommender iter 90: loss = 19344.79668733265, delta_loss = -19344.797
+NMFRecommender iter 91: loss = 19304.325472439108, delta_loss = -19304.326
+NMFRecommender iter 92: loss = 19264.5364898554, delta_loss = -19264.537
+NMFRecommender iter 93: loss = 19225.420049689117, delta_loss = -19225.42
+NMFRecommender iter 94: loss = 19186.96704040637, delta_loss = -19186.967
+NMFRecommender iter 95: loss = 19149.16872425664, delta_loss = -19149.168
+NMFRecommender iter 96: loss = 19112.016479700054, delta_loss = -19112.016
+NMFRecommender iter 97: loss = 19075.501533186343, delta_loss = -19075.502
+NMFRecommender iter 98: loss = 19039.614727659286, delta_loss = -19039.615
+NMFRecommender iter 99: loss = 19004.34636637462, delta_loss = -19004.346
+NMFRecommender iter 100: loss = 18969.686151179907, delta_loss = -18969.686
+Job Train completed.
+Job End.
+Evaluator value:RMSE is 1.0447084862235363
+Evaluator value:MSE is 1.091415821187473
+Evaluator value:MAE is 0.8098908315858427
+Evaluator value:MPE is 0.97501337971635
+Result path is result/movielens-nmf-output/nmf
