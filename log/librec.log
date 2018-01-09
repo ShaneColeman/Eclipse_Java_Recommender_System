@@ -16174,3 +16174,61 @@ Evaluator value:MSE is 0.9039128758975824
 Evaluator value:MAE is 0.7513663161816333
 Evaluator value:MPE is 0.9852359741754667
 Result path is result/movielens-nmf-output/nmf
+Dataset: data/nvd/csv
+All dataset files [data\nvd\csv\NVD_Vendor_Affected_Software_CVSS_Numeric.csv]
+All dataset files size 867228
+Now loading dataset file NVD_Vendor_Affected_Software_CVSS_Numeric
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 17166
+Data size of testing is 4347
+Job Setup completed.
+Dataset: data/movielens
+All dataset files [data\movielens\ratings.csv, data\movielens\ratings.txt]
+All dataset files size 4158346
+Now loading dataset file ratings
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80019
+Data size of testing is 19981
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator value:RMSE is 1.8331186124412657
+Evaluator value:MSE is 3.360323847278591
+Evaluator value:MPE is 0.788198788849407
+Evaluator value:MAE is 1.4520465408987375
+Result path is result/movielens-associationrule-output/associationrule
+Dataset: data/nvd/csv
+All dataset files [data\nvd\csv\NVD_Vendor_Affected_Software_CVSS_Numeric.csv]
+All dataset files size 867228
+Now loading dataset file NVD_Vendor_Affected_Software_CVSS_Numeric
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 17166
+Data size of testing is 4347
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator value:RMSE is 1.841800403554982
+Evaluator value:MPE is 0.9993098688750862
+Evaluator value:MSE is 3.392228726535295
+Evaluator value:MAE is 1.4892169555448456
+Result path is result/nvd/csv-itemcluster-output/itemcluster
+Dataset: data/nvd/csv
+All dataset files [data\nvd\csv\NVD_Vendor_Affected_Software_CVSS_Numeric.csv]
+All dataset files size 867228
+Now loading dataset file NVD_Vendor_Affected_Software_CVSS_Numeric
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 17166
+Data size of testing is 4347
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator value:RMSE is 1.8393902457307396
+Evaluator value:MPE is 0.9926386013342535
+Evaluator value:MSE is 3.383356476089391
+Evaluator value:MAE is 1.487639154643981
+Result path is result/nvd/csv-itemcluster-output/itemcluster
