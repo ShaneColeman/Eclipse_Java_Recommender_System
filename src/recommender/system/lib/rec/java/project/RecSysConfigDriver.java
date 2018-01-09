@@ -25,7 +25,7 @@ public class RecSysConfigDriver
 	 * ItemKNNRecommender 
 	 */
 	//public static String CONFIGURATION_FILE = "conf/UserKNN-CF.properties";
-	public static String CONFIGURATION_FILE = "conf/ItemKNN-CF.properties";
+	//public static String CONFIGURATION_FILE = "conf/ItemKNN-CF.properties";
 	
 	/*
 	 * AbstractRecommender
@@ -52,8 +52,12 @@ public class RecSysConfigDriver
 	 * MatrixFactorizationRecommender 
 	 * Collaborative Filtering - Rating
 	 * BiasedMFRecommender
+	 * NMFRecommender
+	 * RBMRecommender
 	 */
 	//public static String CONFIGURATION_FILE = "conf/BiasedMF-CF-Rating.properties";
+	public static String CONFIGURATION_FILE = "conf/NMF-CF-Rating.properties";
+	//public static String CONFIGURATION_FILE = "conf/RBM-CF-Rating.properties";
 	
 	/*
 	 * MatrixFactorizationRecommender 
@@ -68,10 +72,8 @@ public class RecSysConfigDriver
 	 * BiasedMFRecommender -> MatrixFactorizationRecommender
 	 * Collaborative Filtering - Rating
 	 * SVDPlusPlusRecommender
-	 * RBMRecommender
 	 */
 	//public static String CONFIGURATION_FILE = "conf/SVDPlusPlus-CF-Rating.properties";
-	//public static String CONFIGURATION_FILE = "conf/RBM-CF-Rating.properties";
 	
 	/*
 	 * FactorizationMachineRecommender
@@ -141,6 +143,10 @@ public class RecSysConfigDriver
 		{
 			System.out.println("Biased MF Recommender\n");
 		}
+		else if(configurationFilePath.equals("conf/RBM-CF-Rating.properties"))
+		{
+			System.out.println("RBM Recommender\n");
+		}
 		else if(configurationFilePath.equals("conf/AoBPR-CF-Ranking.properties"))
 		{
 			System.out.println("AoBPR Recommender\n");
@@ -152,10 +158,6 @@ public class RecSysConfigDriver
 		else if(configurationFilePath.equals("conf/SVDPlusPlus-CF-Rating.properties"))
 		{
 			System.out.println("SVD Plus Plus Recommender\n");
-		}
-		else if(configurationFilePath.equals("conf/RBM-CF-Rating.properties"))
-		{
-			System.out.println("RBM Recommender\n");
 		}
 		else if(configurationFilePath.equals("conf/FMALS-CF-Rating.properties"))
 		{
