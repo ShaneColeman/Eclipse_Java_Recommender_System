@@ -143,6 +143,10 @@ public class RecSysConfigDriver
 		{
 			System.out.println("Biased MF Recommender\n");
 		}
+		else if(configurationFilePath.equals("conf/NMF-CF-Rating.properties"))
+		{
+			System.out.println("NMF Recommender\n");
+		}
 		else if(configurationFilePath.equals("conf/RBM-CF-Rating.properties"))
 		{
 			System.out.println("RBM Recommender\n");
@@ -183,13 +187,14 @@ public class RecSysConfigDriver
 		System.out.println("\nFinished Recommendation Process\n");
 
 		System.out.println("Data Model Class: " + job.getDataModelClass());
+		System.out.println("Data Splitter Training Set Ratio: " + configuration.get("data.splitter.trainset.ratio"));
 		System.out.println("Recommender Class: " + job.getRecommenderClass());
-		System.out.println("Similarity Class: " + job.getSimilarityClass());
-		System.out.println("Filter Class: " + job.getFilterClass());
-		
+
 		if(configurationFilePath.equals("conf/UserKNN-CF.properties") || configurationFilePath.equals("conf/ItemKNN-CF.properties"))
 		{
+			System.out.println("Similarity Class: " + job.getSimilarityClass());
 			System.out.println("Number of KNN Neighbours: " + configuration.get("rec.neighbors.knn.number"));
+			System.out.println("Filter Class: " + job.getFilterClass());
 			
 			if(configuration.get("rec.recommender.isranking").equals("true"))
 				System.out.println("Number of Top-Ns (Ranking): " + configuration.get("rec.recommender.ranking.topn"));
