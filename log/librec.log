@@ -16533,3 +16533,19 @@ Evaluator value:MAE is 0.8173797718848113
 Evaluator value:MPE is 0.9883000000000001
 Evaluator value:RMSE is 1.024779992063666
 Evaluator value:MSE is 1.050200790444587
+Dataset: data/movielens/ratings.csv
+All dataset files [data\movielens\ratings.csv]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 70104
+Data size of testing is 29896
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator value:MSE is 0.8970366050026852
+Evaluator value:MAE is 0.7437806387094693
+Evaluator value:MPE is 0.9861854428686112
+Evaluator value:RMSE is 0.9471201639721779
+Result path is result/movielens/ratings.csv-itemknn-output/itemknn
