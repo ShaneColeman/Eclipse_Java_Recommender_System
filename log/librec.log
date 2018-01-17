@@ -16973,3 +16973,118 @@ Evaluator value:MAE is 0.7336815754343563
 Evaluator value:MPE is 0.9872592295345104
 Evaluator value:RMSE is 0.9324279899833567
 Result path is result/movielens/ratings.csv-itemknn-output/itemknn
+Dataset: ...v/platAffSoftCVSSPubDateNumeric.csv
+All dataset files [data\nvd\csv\platAffSoftCVSSPubDateNumeric.csv]
+All dataset files size 149026
+Now loading dataset file platAffSoftCVSSPubDateNumeric
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 5459
+Data size of testing is 602
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator value:RMSE is 1.4407765582128385
+Evaluator value:MPE is 1.0
+Evaluator value:MSE is 2.0758370906956327
+Evaluator value:MAE is 1.0226875522762
+Result path is result/nvd/csv/platAffSoftCVSSPubDateNumeric.csv-itemcluster-output/itemcluster
+Dataset: ...v/platAffSoftCVSSPubDateNumeric.csv
+All dataset files [data\nvd\csv\platAffSoftCVSSPubDateNumeric.csv]
+All dataset files size 149026
+Now loading dataset file platAffSoftCVSSPubDateNumeric
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 5459
+Data size of testing is 602
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator value:RMSE is 1.4352977541500451
+Evaluator value:MPE is 1.0
+Evaluator value:MSE is 2.060079643068163
+Evaluator value:MAE is 1.0182116427313335
+Result path is result/nvd/csv/platAffSoftCVSSPubDateNumeric.csv-itemcluster-output/itemcluster
+Dataset: ...v/platAffSoftCVSSPubDateNumeric.csv
+All dataset files [data\nvd\csv\platAffSoftCVSSPubDateNumeric.csv]
+All dataset files size 149026
+Now loading dataset file platAffSoftCVSSPubDateNumeric
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 4782
+Data size of testing is 1279
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator value:RMSE is 1.5160692540825003
+Evaluator value:MPE is 1.0
+Evaluator value:MSE is 2.2984659831742684
+Evaluator value:MAE is 1.0772670548173302
+Result path is result/nvd/csv/platAffSoftCVSSPubDateNumeric.csv-itemcluster-output/itemcluster
+Dataset: ...v/platAffSoftCVSSPubDateNumeric.csv
+All dataset files [data\nvd\csv\platAffSoftCVSSPubDateNumeric.csv]
+All dataset files size 149026
+Now loading dataset file platAffSoftCVSSPubDateNumeric
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 4782
+Data size of testing is 1279
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator value:MAE is 1.07013432244779
+Evaluator value:MPE is 0.9765441751368257
+Evaluator value:RMSE is 1.5435476389042249
+Evaluator value:MSE is 2.382539313566807
+Result path is result/nvd/csv/platAffSoftCVSSPubDateNumeric.csv-itemaverage-output/itemaverage
+Dataset: data/filmtrust/rating
+All dataset files [data\filmtrust\rating\ratings_0.txt, data\filmtrust\rating\ratings_1.txt, data\filmtrust\rating\ratings_2.txt, data\filmtrust\rating\ratings_3.txt]
+All dataset files size 411942
+Now loading dataset file ratings_0
+Now loading dataset file ratings_1
+Now loading dataset file ratings_2
+Now loading dataset file ratings_3
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 32055
+Data size of testing is 3439
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator value:MSE is 0.6910309405012699
+Evaluator value:MAE is 0.6317911500605286
+Evaluator value:MPE is 0.956673451584763
+Evaluator value:RMSE is 0.8312827079286985
+Result path is result/filmtrust/rating-itemknn-output/itemknn
+Dataset: ...v/platAffSoftCVSSPubDateNumeric.csv
+All dataset files [data\nvd\csv\platAffSoftCVSSPubDateNumeric.csv]
+All dataset files size 149026
+Now loading dataset file platAffSoftCVSSPubDateNumeric
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 5459
+Data size of testing is 602
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator value:MSE is 2.1637213084372573
+Evaluator value:MAE is 1.0331972013033728
+Evaluator value:MPE is 1.0
+Evaluator value:RMSE is 1.4709593156975
+Result path is result/nvd/csv/platAffSoftCVSSPubDateNumeric.csv-itemknn-output/itemknn
+Dataset: ...v/platAffSoftCVSSPubDateNumeric.csv
+All dataset files [data\nvd\csv\platAffSoftCVSSPubDateNumeric.csv]
+All dataset files size 149026
+Now loading dataset file platAffSoftCVSSPubDateNumeric
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 5459
+Data size of testing is 602
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator value:MAE is 1.0199993326610042
+Evaluator value:MPE is 0.9883720930232558
+Evaluator value:RMSE is 1.4629268879194837
+Evaluator value:MSE is 2.1401550793977853
+Result path is result/nvd/csv/platAffSoftCVSSPubDateNumeric.csv-itemknn-output/itemknn
