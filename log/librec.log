@@ -17136,3 +17136,57 @@ Evaluator value:MAE is 1.0331972013033728
 Evaluator value:MPE is 1.0
 Evaluator value:RMSE is 1.4709593156975
 Result path is result/nvd/csv/platAffSoftCVSSPubDateNumeric.csv-itemknn-output/itemknn
+Dataset: ...v/platAffSoftCVSSPubDateNumeric.csv
+All dataset files [data\nvd\csv\platAffSoftCVSSPubDateNumeric.csv]
+All dataset files size 149026
+Now loading dataset file platAffSoftCVSSPubDateNumeric
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 5459
+Data size of testing is 602
+Dataset: ...v/platAffSoftCVSSPubDateNumeric.csv
+All dataset files [data\nvd\csv\platAffSoftCVSSPubDateNumeric.csv]
+All dataset files size 149026
+Now loading dataset file platAffSoftCVSSPubDateNumeric
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 5459
+Data size of testing is 602
+Job Setup completed.
+Job Train completed.
+Dataset: ...v/platAffSoftCVSSPubDateNumeric.csv
+All dataset files [data\nvd\csv\platAffSoftCVSSPubDateNumeric.csv]
+All dataset files size 149026
+Now loading dataset file platAffSoftCVSSPubDateNumeric
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 5459
+Data size of testing is 602
+Job Setup completed.
+Job Train completed.
+Dataset: ...v/platAffSoftCVSSPubDateNumeric.csv
+All dataset files [data\nvd\csv\platAffSoftCVSSPubDateNumeric.csv]
+All dataset files size 149026
+Now loading dataset file platAffSoftCVSSPubDateNumeric
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 4782
+Data size of testing is 1279
+Job Setup completed.
+Job Train completed.
+Dataset: ...v/platAffSoftCVSSPubDateNumeric.csv
+All dataset files [data\nvd\csv\platAffSoftCVSSPubDateNumeric.csv]
+All dataset files size 149026
+Now loading dataset file platAffSoftCVSSPubDateNumeric
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 4782
+Data size of testing is 1279
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator value:MSE is 2.330210111664367
+Evaluator value:MAE is 1.0829007576300238
+Evaluator value:MPE is 1.0
+Evaluator value:RMSE is 1.5265025750598546
+Result path is result/nvd/csv/platAffSoftCVSSPubDateNumeric.csv-itemknn-output/itemknn
