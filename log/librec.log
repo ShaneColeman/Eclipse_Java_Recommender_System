@@ -17230,3 +17230,201 @@ Evaluator value:MPE is 0.9883720930232558
 Evaluator value:RMSE is 1.4629268879194837
 Evaluator value:MSE is 2.1401550793977853
 Result path is result/nvd/csv/platAffSoftCVSSPubDateNumeric.csv-itemknn-output/itemknn
+Dataset: ...d/csv/affSoftPlatCVSSPubDateInt.csv
+All dataset files [data\nvd\csv\affSoftPlatCVSSPubDateInt.csv]
+All dataset files size 206480
+Now loading dataset file affSoftPlatCVSSPubDateInt
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 4782
+Data size of testing is 1279
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator value:RR top 10 is 0.12380921060873497
+Evaluator value:RECALL top 10 is 0.9052880820836622
+Evaluator value:AP top 10 is 0.12325233960987503
+Evaluator value:PRECISION top 10 is 0.09123914759273698
+Evaluator value:NDCG top 10 is 0.2917391155633743
+Evaluator value:AUC top 10 is 0.7105470600880676
+Result path is result/nvd/csv/affSoftPlatCVSSPubDateInt.csv-itemknn-output/itemknn
+Dataset: ...d/csv/affSoftPlatCVSSPubDateInt.csv
+All dataset files [data\nvd\csv\affSoftPlatCVSSPubDateInt.csv]
+All dataset files size 206480
+Now loading dataset file affSoftPlatCVSSPubDateInt
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 4782
+Data size of testing is 1279
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator value:RR top 10 is 0.12424017489131717
+Evaluator value:PRECISION top 10 is 0.09084451460141893
+Evaluator value:AUC top 10 is 0.7077249475343054
+Evaluator value:NDCG top 10 is 0.29076045791105876
+Evaluator value:RECALL top 10 is 0.9005524861878453
+Evaluator value:AP top 10 is 0.12318218263364063
+Result path is result/nvd/csv/affSoftPlatCVSSPubDateInt.csv-itemknn-output/itemknn
+Dataset: ...d/csv/affSoftPlatCVSSPubDateInt.csv
+All dataset files [data\nvd\csv\affSoftPlatCVSSPubDateInt.csv]
+All dataset files size 206480
+Now loading dataset file affSoftPlatCVSSPubDateInt
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 4782
+Data size of testing is 1279
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator value:RR top 10 is 0.14270367447162752
+Evaluator value:RECALL top 10 is 0.9187056037884768
+Evaluator value:AP top 10 is 0.14175655529246417
+Evaluator value:PRECISION top 10 is 0.09273875295974558
+Evaluator value:NDCG top 10 is 0.3093187398319223
+Evaluator value:AUC top 10 is 0.7157517697284523
+Result path is result/nvd/csv/affSoftPlatCVSSPubDateInt.csv-itemknn-output/itemknn
+Dataset: ...d/csv/affSoftPlatCVSSPubDateInt.csv
+All dataset files [data\nvd\csv\affSoftPlatCVSSPubDateInt.csv]
+All dataset files size 206480
+Now loading dataset file affSoftPlatCVSSPubDateInt
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 4782
+Data size of testing is 1279
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator value:RR top 10 is 0.12617043134012132
+Evaluator value:RECALL top 10 is 0.9052880820836622
+Evaluator value:AP top 10 is 0.12582183886445705
+Evaluator value:PRECISION top 10 is 0.09123914759273698
+Evaluator value:NDCG top 10 is 0.2938229452863687
+Evaluator value:AUC top 10 is 0.7106055242349295
+Result path is result/nvd/csv/affSoftPlatCVSSPubDateInt.csv-itemknn-output/itemknn
+Dataset: ...d/csv/affSoftPlatCVSSPubDateInt.csv
+All dataset files [data\nvd\csv\affSoftPlatCVSSPubDateInt.csv]
+All dataset files size 206480
+Now loading dataset file affSoftPlatCVSSPubDateInt
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 5459
+Data size of testing is 602
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator value:NDCG top 10 is 0.29733616755334263
+Evaluator value:RECALL top 10 is 0.9148580968280468
+Evaluator value:AP top 10 is 0.12762209502610178
+Evaluator value:RR top 10 is 0.12813220446776383
+Evaluator value:PRECISION top 10 is 0.09198664440734643
+Evaluator value:AUC top 10 is 0.7133327746478914
+Result path is result/nvd/csv/affSoftPlatCVSSPubDateInt.csv-userknn-output/userknn
+Dataset: ...d/csv/affSoftPlatCVSSPubDateInt.csv
+All dataset files [data\nvd\csv\affSoftPlatCVSSPubDateInt.csv]
+All dataset files size 206480
+Now loading dataset file affSoftPlatCVSSPubDateInt
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 5459
+Data size of testing is 602
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator value:RECALL top 10 is 0.9232053422370617
+Evaluator value:AP top 10 is 0.15021066857460816
+Evaluator value:NDCG top 10 is 0.31710956201799567
+Evaluator value:RR top 10 is 0.15089964756074908
+Evaluator value:PRECISION top 10 is 0.09282136894824794
+Evaluator value:AUC top 10 is 0.7181573058330234
+Result path is result/nvd/csv/affSoftPlatCVSSPubDateInt.csv-userknn-output/userknn
+Dataset: ...d/csv/affSoftPlatCVSSPubDateInt.csv
+All dataset files [data\nvd\csv\affSoftPlatCVSSPubDateInt.csv]
+All dataset files size 206480
+Now loading dataset file affSoftPlatCVSSPubDateInt
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 5459
+Data size of testing is 602
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator value:RR top 10 is 0.12813220446776383
+Evaluator value:PRECISION top 10 is 0.09198664440734643
+Evaluator value:AUC top 10 is 0.7133327746478914
+Evaluator value:NDCG top 10 is 0.29733616755334263
+Evaluator value:RECALL top 10 is 0.9148580968280468
+Evaluator value:AP top 10 is 0.12762209502610178
+Result path is result/nvd/csv/affSoftPlatCVSSPubDateInt.csv-userknn-output/userknn
+Dataset: ...d/csv/affSoftPlatCVSSPubDateInt.csv
+All dataset files [data\nvd\csv\affSoftPlatCVSSPubDateInt.csv]
+All dataset files size 206480
+Now loading dataset file affSoftPlatCVSSPubDateInt
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 5459
+Data size of testing is 602
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator value:NDCG top 10 is 0.31664333103220765
+Evaluator value:PRECISION top 10 is 0.09282136894824794
+Evaluator value:AUC top 10 is 0.7178569816595773
+Evaluator value:RR top 10 is 0.1503312398971828
+Evaluator value:RECALL top 10 is 0.9232053422370617
+Evaluator value:AP top 10 is 0.1496422609110419
+Result path is result/nvd/csv/affSoftPlatCVSSPubDateInt.csv-userknn-output/userknn
+Dataset: ...d/csv/affSoftPlatCVSSPubDateInt.csv
+All dataset files [data\nvd\csv\affSoftPlatCVSSPubDateInt.csv]
+All dataset files size 206480
+Now loading dataset file affSoftPlatCVSSPubDateInt
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 5459
+Data size of testing is 602
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator value:NDCG top 10 is 0.31690448202496097
+Evaluator value:PRECISION top 10 is 0.09282136894824794
+Evaluator value:AUC top 10 is 0.7179188131070515
+Evaluator value:RR top 10 is 0.15066512971354343
+Evaluator value:RECALL top 10 is 0.9232053422370617
+Evaluator value:AP top 10 is 0.14997615072740247
+Result path is result/nvd/csv/affSoftPlatCVSSPubDateInt.csv-userknn-output/userknn
+Dataset: ...d/csv/affSoftPlatCVSSPubDateInt.csv
+All dataset files [data\nvd\csv\affSoftPlatCVSSPubDateInt.csv]
+All dataset files size 206480
+Now loading dataset file affSoftPlatCVSSPubDateInt
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 4192
+Data size of testing is 1869
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator value:NDCG top 10 is 0.3117191629558415
+Evaluator value:PRECISION top 10 is 0.09348887683125041
+Evaluator value:AUC top 10 is 0.71740985106992
+Evaluator value:RR top 10 is 0.14521225744773972
+Evaluator value:RECALL top 10 is 0.9226804123711341
+Evaluator value:AP top 10 is 0.14331167265241787
+Result path is result/nvd/csv/affSoftPlatCVSSPubDateInt.csv-userknn-output/userknn
+Dataset: ...d/csv/affSoftPlatCVSSPubDateInt.csv
+All dataset files [data\nvd\csv\affSoftPlatCVSSPubDateInt.csv]
+All dataset files size 206480
+Now loading dataset file affSoftPlatCVSSPubDateInt
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 4782
+Data size of testing is 1279
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator value:NDCG top 10 is 0.3128168405245209
+Evaluator value:PRECISION top 10 is 0.09297553275453642
+Evaluator value:AUC top 10 is 0.7163849171650726
+Evaluator value:RR top 10 is 0.14639443254281154
+Evaluator value:RECALL top 10 is 0.9210734017363852
+Evaluator value:AP top 10 is 0.14556006564688195
+Result path is result/nvd/csv/affSoftPlatCVSSPubDateInt.csv-userknn-output/userknn
